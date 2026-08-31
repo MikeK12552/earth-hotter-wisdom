@@ -83,9 +83,6 @@ Go to `claude.ai/code/routines`, create a routine:
 - **Repository:** your `climate-digest` repo
 - **Schedule:** weekly, Monday evening
 - **Prompt:** `Follow the instructions in routine/PROMPT.md in this repository.`
-- **Connectors:** Gmail, for the emailed copy
-- **Recipient:** put the email address in the routine configuration, not in the
-  repository. The repository is public.
 
 Keeping the real prompt in the repository rather than in the routine configuration
 means you can revise it with Claude Code, in version control, and see what changed.

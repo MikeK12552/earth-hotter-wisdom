@@ -15,7 +15,14 @@ version control.
 2. Read the most recent file in `data/digests/`. Its `continuity` object replaces the
    continuity block that used to be pasted in. It is your position marker.
 3. Read `routine/curriculum.md` for section A and `routine/watchlist.md` for section D.
-4. Establish today's date. The week is the last seven days, ending today.
+4. Establish today's date. The week runs Monday to Sunday and ends on the Sunday
+   before the run, so a Monday-morning run never covers the day it runs on. `week_end`
+   and the filename are that Sunday's date; `week_start` is the Monday six days earlier.
+
+   **Week two only, delete once `data/digests/2026-09-06.json` exists:** week one ended
+   Monday 31 August 2026, so week two covers Tuesday 1 September to Sunday 6 September
+   2026 — `week_start` 2026-09-01, `week_end` and filename 2026-09-06. From the week
+   beginning Monday 7 September the weeks are full Monday-to-Sunday.
 
 You are preparing a weekly climate security briefing used professionally to build
 durable analytical knowledge, not for news awareness. It is read by someone who follows
@@ -232,13 +239,11 @@ When it passes, commit to a branch named `claude/digest-<week_end>`:
 
 Push. The publish workflow validates again and merges to `main`.
 
-## Then send
+## Delivery
 
-Only after the push succeeds, email the briefing to the recipient named in the routine
-configuration. The address is deliberately not stored in this repository, which is
-public. Subject: "Climate security digest" plus the date range. The body
-is the full briefing as readable text, with the site link at the top. The email is the
-durable copy; do not reduce it to a summary or a bare link.
+Publishing to the site is the only delivery channel. Once the push succeeds and the
+publish workflow merges it to `main`, the digest is live and there is nothing else to
+send.
 
-If you could not produce a digest that validates, push nothing, send nothing, and email
-a short note saying what stopped you.
+If you could not produce a digest that validates, push nothing and report the reason in
+the routine's own run output.
