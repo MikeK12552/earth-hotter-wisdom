@@ -133,10 +133,10 @@ jobs:
           cp index.html sw.js manifest.webmanifest _site/
           cp -r data _site/
           touch _site/.nojekyll
-          shopt -s nullglob
-          for f in icon-*.png apple-touch-icon.png favicon.ico icon.svg; do
-            cp "$f" _site/
-          done
+          # Icons are optional: copy any that exist, never fail on a missing one.
+          find . -maxdepth 1 -type f \
+            \( -name 'icon-*.png' -o -name 'apple-touch-icon.png' -o -name 'favicon.ico' \) \
+            -exec cp {} _site/ \;
 
       - uses: actions/configure-pages@v5
 
