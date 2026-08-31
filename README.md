@@ -42,11 +42,23 @@ Settings, then Actions, then General. Under Workflow permissions choose
 
 ### 4. Install Claude Code
 
-```bash
-npm install -g @anthropic-ai/claude-code
-cd climate-digest
-claude
+The native installer needs no Node.js. On Windows, in PowerShell:
+
+```powershell
+irm https://claude.ai/install.ps1 | iex
 ```
+
+On macOS or Linux:
+
+```bash
+curl -fsSL https://claude.ai/install.sh | bash
+```
+
+Close the terminal and open a new one, then `claude --version` to check. Clone the
+repository, `cd` into it, and run `claude`.
+
+Node.js is only needed if you want to run `scripts/build.mjs` on your own machine. The
+GitHub Action installs its own copy, so validation happens whether or not you have it.
 
 It reads `CLAUDE.md` on start, so it already knows the repository's rules. Try:
 
