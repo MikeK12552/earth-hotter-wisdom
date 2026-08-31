@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Climate security weekly</title>
+<meta name="description" content="A weekly brief on climate and security, with every claim marked for how firm it is.">
+<meta name="theme-color" content="#edf0f1" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0e1418" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#edf0f1; --card:#f7f9f9; --ink:#131b21; --muted:#5d6e78;
+  --rule:#c4d0d6; --rule-soft:#dbe3e7;
+  --evidence:#1e4a52; --contested:#5b4a86; --framing:#8a6a1f; --gap:#7b7f82;
+  --serif:"Newsreader",Georgia,"Times New Roman",serif;
+  --sans:"IBM Plex Sans",system-ui,-apple-system,sans-serif;
+  --pad:20px;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --paper:#0e1418; --card:#151d22; --ink:#e2e8ea; --muted:#93a3ac;
+    --rule:#2c3940; --rule-soft:#222c32;
+    --evidence:#6fb3ab; --contested:#a99ad4; --framing:#c9a75a; --gap:#8b949a;
+  }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:var(--serif);font-size:17px;line-height:1.55;
+  font-variant-numeric:oldstyle-nums;
+  padding-bottom:calc(64px + env(safe-area-inset-bottom));
+}
+a{color:inherit;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:2px}
+a:focus-visible,button:focus-visible{outline:2px solid var(--evidence);outline-offset:2px;border-radius:2px}
+.wrap{max-width:44rem;margin:0 auto;padding:0 var(--pad)}
+p{margin:0 0 .85em}
+p:last-child{margin-bottom:0}
+
+/* masthead */
+header.top{padding:calc(env(safe-area-inset-top) + 28px) 0 18px;border-bottom:1px solid var(--rule)}
+.mast{font-size:26px;line-height:1.15;font-weight:500;letter-spacing:-.01em;margin:0}
+.mast span{display:block;font-family:var(--sans);font-size:12.5px;font-weight:500;
+  letter-spacing:.04em;color:var(--muted);margin-top:6px}
+
+/* list */
+.lead{padding:26px 0 24px;border-bottom:1px solid var(--rule)}
+.week{font-family:var(--serif);font-size:30px;line-height:1.1;font-weight:500;
+  letter-spacing:-.02em;margin:0 0 4px}
+.weekno{font-family:var(--sans);font-size:12.5px;color:var(--muted);margin:0 0 14px}
+.stand{font-size:18px;line-height:1.5;margin:0 0 18px}
+.ledger{display:flex;flex-wrap:wrap;gap:18px;font-family:var(--sans);font-size:13px;color:var(--muted)}
+.ledger b{font-family:var(--serif);font-size:19px;font-weight:500;color:var(--ink);margin-right:5px}
+.open-btn{display:inline-block;margin-top:18px;padding:9px 18px;border:1px solid var(--ink);
+  background:none;color:var(--ink);font-family:var(--sans);font-size:14px;cursor:pointer;border-radius:2px}
+.open-btn:hover{background:var(--ink);color:var(--paper)}
+
+.row{display:block;width:100%;text-align:left;background:none;border:0;border-bottom:1px solid var(--rule-soft);
+  padding:16px 0;cursor:pointer;color:inherit;font:inherit}
+.row .r-week{font-size:19px;font-weight:500}
+.row .r-stand{font-size:14.5px;color:var(--muted);line-height:1.45;margin-top:3px}
+
+/* digest */
+.back{background:none;border:0;padding:14px 0 0;font-family:var(--sans);font-size:13.5px;
+  color:var(--muted);cursor:pointer}
+.dhead{padding:8px 0 22px;border-bottom:1px solid var(--rule)}
+section.part{padding:30px 0;border-bottom:1px solid var(--rule-soft)}
+.part-name{font-family:var(--sans);font-size:12.5px;font-weight:600;color:var(--muted);
+  margin:0 0 18px;padding-bottom:6px;border-bottom:1px solid var(--rule-soft)}
+h3.item{font-size:20px;line-height:1.25;font-weight:500;margin:0 0 4px;letter-spacing:-.01em}
+.meta{font-family:var(--sans);font-size:12.5px;color:var(--muted);margin:0 0 12px}
+.item-block{margin-bottom:34px}
+.item-block:last-child{margin-bottom:0}
+
+/* the mark: how firm is this claim */
+.claim{border-left:2px solid var(--rule);padding-left:13px;margin:0 0 12px;font-size:16px;line-height:1.5}
+.claim .mark{font-family:var(--sans);font-size:12px;font-weight:600;margin-right:7px}
+.claim.evidence{border-color:var(--evidence)}
+.claim.evidence .mark{color:var(--evidence)}
+.claim.contested{border-color:var(--contested)}
+.claim.contested .mark{color:var(--contested)}
+.claim.framing{border-left-style:dotted;border-color:var(--framing)}
+.claim.framing .mark{color:var(--framing)}
+.claim.gap{border-left-style:dashed;border-color:var(--gap)}
+.claim.gap .mark{color:var(--gap)}
+
+.actor{display:block;font-family:var(--sans);font-size:11.5px;color:var(--muted);margin-top:5px}
+.aside{border-left:2px solid var(--rule);padding-left:13px;margin:14px 0;font-size:15px;color:var(--muted)}
+.aside b{font-family:var(--sans);font-size:12px;font-weight:600;color:var(--ink)}
+.pushback{background:var(--card);border:1px solid var(--rule);padding:18px;margin:24px 0;border-radius:2px}
+.pushback h4{font-family:var(--sans);font-size:13px;font-weight:600;margin:0 0 8px}
+.cite{background:var(--card);border-left:2px solid var(--evidence);padding:14px 16px;margin:0 0 14px;
+  font-size:15.5px;line-height:1.45;border-radius:0 2px 2px 0}
+.verif{font-family:var(--sans);font-size:12px;color:var(--muted);margin-top:7px;display:block}
+.verif.partial{color:var(--framing)}
+.verif.unverified{color:var(--gap)}
+.verdict{display:inline-block;font-family:var(--sans);font-size:12px;font-weight:600;
+  padding:2px 8px;border:1px solid currentColor;border-radius:2px;margin-right:8px}
+.verdict.landed{color:var(--evidence)}
+.verdict.too_early{color:var(--framing)}
+.verdict.failed{color:var(--contested)}
+ul.sources{list-style:none;margin:12px 0 0;padding:0;font-family:var(--sans);font-size:12.5px;color:var(--muted)}
+ul.sources li{margin-bottom:4px}
+ul.crit{margin:10px 0 0;padding-left:18px;font-size:15.5px;color:var(--muted)}
+ul.crit li{margin-bottom:6px}
+details{margin:16px 0}
+summary{font-family:var(--sans);font-size:13px;color:var(--muted);cursor:pointer}
+details[open] summary{margin-bottom:10px}
+.note{font-size:15px;color:var(--muted)}
+
+/* tracker */
+.lanes{overflow-x:auto;margin:0 calc(var(--pad) * -1);padding:0 var(--pad)}
+table.lane{border-collapse:collapse;font-family:var(--sans);font-size:13px;width:100%}
+table.lane th{text-align:left;font-weight:500;color:var(--muted);padding:8px 12px 8px 0;
+  border-bottom:1px solid var(--rule);white-space:nowrap}
+table.lane td{padding:10px 12px 10px 0;border-bottom:1px solid var(--rule-soft);white-space:nowrap}
+.dir{font-weight:600}
+.dir.rising{color:var(--evidence)}
+.dir.falling{color:var(--contested)}
+.dir.mixed{color:var(--framing)}
+.dir.stable,.dir.no_change{color:var(--muted)}
+.dir.gap{color:var(--gap)}
+.thread{border-left:2px solid var(--rule);padding-left:13px;margin-bottom:16px;font-size:16px}
+.thread.resolved{color:var(--muted);text-decoration:line-through;text-decoration-color:var(--rule)}
+.thread .since{display:block;font-family:var(--sans);font-size:12px;color:var(--muted);margin-top:4px;text-decoration:none}
+
+/* nav */
+nav.bar{position:fixed;left:0;right:0;bottom:0;display:flex;background:var(--card);
+  border-top:1px solid var(--rule);padding-bottom:env(safe-area-inset-bottom);z-index:10}
+nav.bar button{flex:1;background:none;border:0;padding:15px 0;font-family:var(--sans);
+  font-size:13.5px;color:var(--muted);cursor:pointer}
+nav.bar button[aria-current="true"]{color:var(--ink);font-weight:600;box-shadow:inset 0 2px 0 var(--ink)}
+
+.state{padding:60px var(--pad);text-align:center;color:var(--muted);font-size:16px}
+@media (prefers-reduced-motion:no-preference){
+  main{animation:rise .3s ease-out}
+  @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <h1 class="mast">Climate security weekly<span>Sources, and how far each one goes</span></h1>
+</div></header>
+
+<main id="app"><div class="state">Loading…</div></main>
+
+<nav class="bar">
+  <button id="nav-digests" aria-current="true">Digests</button>
+  <button id="nav-tracker">Tracker</button>
+</nav>
+
+<script>
+const DIR_WORDS = {rising:"Rising",falling:"Falling",stable:"Stable",mixed:"Mixed",no_change:"No change",gap:"Gap"};
+const VERDICTS  = {landed:"Landed",failed:"Failed",too_early:"Too early to tell"};
+const ARCS = {novel:"Novel",repeat:"Repeat","repeat-accelerating":"Repeat, accelerating",
+              acceleration:"Acceleration","standing-correction":"Standing correction"};
+const ATTRIB = {study_exists:"Attribution study exists",no_study:"No attribution study",
+                none_claimed:"No attribution claimed",natural_variability:"Attributed to natural variability",
+                not_applicable:"Attribution not applicable"};
+const MARKS = {evidence:"Evidence",contested:"Contested",framing:"Framing",gap:"Gap"};
+const ACTORS = {government:"Government",defence:"Defence",public_opinion:"Public opinion",private_sector:"Private sector",other:"Other"};
+
+const app = document.getElementById("app");
+let index = null, cache = {}, view = "list", current = null;
+
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+// Minimal markdown: paragraphs, bold, italic, code, links.
+function md(text){
+  if(!text) return "";
+  return esc(text).split(/\n{2,}/).map(p =>
+    "<p>" + p.replace(/\n/g,"<br>")
+      .replace(/\[([^\]]+)\]\(([^)\s]+)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>')
+      .replace(/\*\*([^*]+)\*\*/g,"<strong>$1</strong>")
+      .replace(/(^|[^*])\*([^*\n]+)\*/g,"$1<em>$2</em>")
+      .replace(/`([^`]+)`/g,"<code>$1</code>") + "</p>"
+  ).join("");
+}
+
+const fmtDate = iso => {
+  const d = new Date(iso + "T00:00:00");
+  return isNaN(d) ? esc(iso) : d.toLocaleDateString("en-GB",{day:"numeric",month:"long"});
+};
+const fmtRange = (a,b) => {
+  const s = new Date(a+"T00:00:00"), e = new Date(b+"T00:00:00");
+  if(isNaN(s)||isNaN(e)) return esc(a+" to "+b);
+  const sameMonth = s.getMonth()===e.getMonth();
+  return s.toLocaleDateString("en-GB",{day:"numeric",month:sameMonth?undefined:"long"}) +
+    " to " + e.toLocaleDateString("en-GB",{day:"numeric",month:"long",year:"numeric"});
+};
+
+const claims = list => (list||[]).map(c =>
+  `<div class="claim ${esc(c.label)}"><span class="mark">${MARKS[c.label]||esc(c.label)}</span>${md(c.text).replace(/^<p>|<\/p>$/g,"")}${
+    c.source ? sourceLink(c.source) : ""}</div>`).join("");
+
+const sourceLink = s => s.url
+  ? ` <a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>`
+  : ` ${esc(s.title)}`;
+
+const sources = list => !list?.length ? "" :
+  `<ul class="sources">${list.map(s=>`<li>${s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>`:esc(s.title)}${
+    s.publisher?`, ${esc(s.publisher)}`:""}</li>`).join("")}</ul>`;
+
+async function load(){
+  try{
+    index = await (await fetch("data/index.json",{cache:"no-cache"})).json();
+    render();
+  }catch(e){
+    app.innerHTML = `<div class="state">The digest list could not be loaded. Check your connection and reload.</div>`;
+  }
+}
+
+async function getDigest(id){
+  if(cache[id]) return cache[id];
+  cache[id] = await (await fetch(`data/digests/${id}.json`,{cache:"no-cache"})).json();
+  return cache[id];
+}
+
+function render(){
+  if(view === "list") return renderList();
+  if(view === "tracker") return renderTracker();
+}
+
+function renderList(){
+  const ds = index.digests;
+  if(!ds.length){ app.innerHTML = `<div class="state">No digests yet. The first one arrives on Monday.</div>`; return; }
+  const [latest, ...rest] = ds;
+  app.innerHTML = `<div class="wrap">
+    <div class="lead">
+      <h2 class="week">${fmtRange(latest.week_start, latest.week_end)}</h2>
+      <p class="weekno">Week ${latest.week_number}</p>
+      <p class="stand">${esc(latest.standfirst)}</p>
+      <div class="ledger">
+        <span><b>${latest.counts.developments}</b>developments</span>
+        <span><b>${latest.counts.moves}</b>player moves</span>
+        <span><b>${latest.counts.open_threads}</b>open threads</span>
+      </div>
+      <button class="open-btn" data-id="${latest.id}">Read this week</button>
+    </div>
+    ${rest.map(d=>`<button class="row" data-id="${d.id}">
+      <span class="r-week">${fmtRange(d.week_start,d.week_end)}</span>
+      <span class="r-stand">${esc(d.standfirst)}</span>
+    </button>`).join("")}
+  </div>`;
+  app.querySelectorAll("[data-id]").forEach(el =>
+    el.addEventListener("click", () => openDigest(el.dataset.id)));
+}
+
+async function openDigest(id){
+  app.innerHTML = `<div class="state">Loading…</div>`;
+  let d;
+  try{ d = await getDigest(id); }
+  catch(e){ app.innerHTML = `<div class="state">That digest could not be loaded. Go back and try again.</div>`; return; }
+  current = d; view = "digest"; setNav();
+  window.scrollTo(0,0);
+
+  app.innerHTML = `<div class="wrap">
+    <button class="back">Back to all digests</button>
+    <div class="dhead">
+      <h2 class="week">${fmtRange(d.week_start,d.week_end)}</h2>
+      <p class="weekno">Week ${d.week_number}</p>
+      <p class="stand">${esc(d.standfirst)}</p>
+    </div>
+
+    ${d.orientation ? `<details ${localStorage.getItem("seen-orientation")?"":"open"} id="orient">
+      <summary>How to read this</summary><div class="note">${md(d.orientation)}</div></details>` : ""}
+
+    ${d.pushback ? `<div class="pushback"><h4>Pushback: ${esc(d.pushback.target)}</h4>${md(d.pushback.text)}</div>` : ""}
+
+    ${d.foundational?.length ? `<section class="part">
+      <h3 class="part-name">A. Foundational reading</h3>
+      ${d.foundational.map(f => {
+        const c = f.citation;
+        return `<div class="item-block">
+          <p class="meta">Phase ${esc(f.phase)}${f.kind?`, ${esc(f.kind)}`:""}</p>
+          <div class="cite">
+            ${esc(c.author)} (${c.year}). ${c.url?`<a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.title)}</a>`:esc(c.title)}.
+            ${c.venue?`<em>${esc(c.venue)}</em>`:""} ${esc(c.locator||"")}
+            <span class="verif ${esc(c.verification)}">${c.verification==="verified"?"Verified":c.verification==="partial"?"Partly verified":"Not verified"}${
+              c.verification_note?`. ${esc(c.verification_note)}`:""}</span>
+          </div>
+          ${md(f.summary)}
+          ${f.critiques?.length?`<ul class="crit">${f.critiques.map(x=>`<li>${md(x).replace(/^<p>|<\/p>$/g,"")}</li>`).join("")}</ul>`:""}
+        </div>`;
+      }).join("")}
+    </section>` : ""}
+
+    ${d.developments?.length ? `<section class="part">
+      <h3 class="part-name">B. Developments this week</h3>
+      ${d.developments.map(b => `<div class="item-block">
+        <h3 class="item">${b.n}. ${esc(b.title)}</h3>
+        <p class="meta">${fmtDate(b.date)}${b.place?`, ${esc(b.place)}`:""} &nbsp;&nbsp; ${esc(b.scope)}</p>
+        ${md(b.body)}
+        ${b.arc?`<div class="aside"><b>Arc</b> ${ARCS[b.arc]||esc(b.arc)}${b.arc_note?`. ${esc(b.arc_note)}`:""}</div>`:""}
+        ${b.attribution?`<div class="aside"><b>Attribution</b> ${ATTRIB[b.attribution.status]||""}${
+          b.attribution.note?`. ${esc(b.attribution.note)}`:""}</div>`:""}
+        ${claims(b.claims)}
+        ${b.nl_eu?`<div class="aside"><b>Dutch and EU relevance</b> ${b.nl_eu.level==="none"?"None":b.nl_eu.level==="direct"?"Direct":"Indirect"}${
+          b.nl_eu.note?`. ${esc(b.nl_eu.note)}`:""}</div>`:""}
+        ${b.dropped?`<div class="aside"><b>Dropped</b> ${esc(b.dropped)}</div>`:""}
+        ${sources(b.sources)}
+      </div>`).join("")}
+    </section>` : ""}
+
+    ${d.salience?.length ? `<section class="part">
+      <h3 class="part-name">C. Where the political will sits</h3>
+      ${d.salience.map(s => `<div class="item-block">
+        <h3 class="item">${esc(s.jurisdiction)}</h3>
+        <p class="meta"><span class="dir ${esc(s.direction)}">${DIR_WORDS[s.direction]||esc(s.direction)}</span>${
+          s.direction_note?` &nbsp; ${esc(s.direction_note)}`:""}</p>
+        ${claims(s.claims)}
+        ${s.method_note?`<div class="aside"><b>Method note</b> ${esc(s.method_note)}</div>`:""}
+        ${s.rests_on?.length?`<div class="aside"><b>Rests on</b> ${s.rests_on.map(esc).join(", ")}</div>`:""}
+      </div>`).join("")}
+    </section>` : ""}
+
+    ${d.moves?.length ? `<section class="part">
+      <h3 class="part-name">D. Player moves</h3>
+      ${d.moves.map(m => `<div class="item-block">
+        <h3 class="item">${m.n}. ${esc(m.title)}</h3>
+        <p class="meta">${esc(m.actor||"")}${m.date?`, ${fmtDate(m.date)}`:""}${m.place?`, ${esc(m.place)}`:""}</p>
+        ${md(m.body)}
+        ${m.stated_rationale?`<div class="aside"><b>Stated rationale</b> ${esc(m.stated_rationale)}</div>`:""}
+        ${m.inference?`<div class="aside"><b>Inference</b> ${esc(m.inference)}</div>`:""}
+        <p class="meta"><span class="verdict ${esc(m.verdict)}">${VERDICTS[m.verdict]||esc(m.verdict)}</span>${
+          m.confidence?`${esc(m.confidence)} confidence`:""}</p>
+        ${sources(m.sources)}
+      </div>`).join("")}
+    </section>` : ""}
+
+    ${d.roster_silences ? `<section class="part">
+      <h3 class="part-name">Who published nothing</h3>${md(d.roster_silences)}</section>` : ""}
+
+    ${d.watch?.length ? `<section class="part">
+      <h3 class="part-name">To watch next week</h3>
+      ${d.watch.map(w=>`<div class="item-block">
+        <h3 class="item">${esc(w.title)}</h3>
+        ${w.date?`<p class="meta">${fmtDate(w.date)}</p>`:""}
+        ${md(w.note)}</div>`).join("")}
+    </section>` : ""}
+
+    ${d.housekeeping ? `<section class="part"><details><summary>Notes on how this week was made</summary>
+      <div class="note">${md(d.housekeeping)}</div></details></section>` : ""}
+  </div>`;
+
+  app.querySelector(".back").addEventListener("click", () => { view="list"; setNav(); render(); window.scrollTo(0,0); });
+  const o = document.getElementById("orient");
+  if(o) o.addEventListener("toggle", () => { if(!o.open) localStorage.setItem("seen-orientation","1"); });
+}
+
+async function renderTracker(){
+  app.innerHTML = `<div class="state">Loading…</div>`;
+  const all = await Promise.all(index.digests.map(d => getDigest(d.id).catch(() => null)));
+  const good = all.filter(Boolean);
+  if(!good.length){ app.innerHTML = `<div class="state">Nothing to track yet.</div>`; return; }
+
+  const weeks = good.map(d => ({id:d.id, label:fmtDate(d.week_end)}));
+  const names = [...new Set(good.flatMap(d => (d.salience||[]).map(s => s.jurisdiction)))];
+
+  // Latest state of every thread and move, by stable id, newest digest wins.
+  const collect = key => {
+    const map = new Map();
+    [...good].reverse().forEach(d => (d.continuity?.[key]||[]).forEach(t => map.set(t.id, t)));
+    return [...map.values()];
+  };
+  const threads = collect("open_threads");
+  const moves = collect("open_moves");
+  const openFirst = (a,b) => (a.status==="open"?0:1) - (b.status==="open"?0:1);
+
+  app.innerHTML = `<div class="wrap">
+    <section class="part">
+      <h3 class="part-name">Political will by jurisdiction</h3>
+      <div class="lanes"><table class="lane">
+        <tr><th>Jurisdiction</th>${weeks.map(w=>`<th>${w.label}</th>`).join("")}</tr>
+        ${names.map(n=>`<tr><td>${esc(n)}</td>${good.map(d=>{
+          const s = (d.salience||[]).find(x => x.jurisdiction===n);
+          return `<td>${s?`<span class="dir ${esc(s.direction)}">${DIR_WORDS[s.direction]||esc(s.direction)}</span>`:"&mdash;"}</td>`;
+        }).join("")}</tr>`).join("")}
+      </table></div>
+      ${weeks.length===1?`<p class="note" style="margin-top:14px">One week recorded. The lanes become readable from week three.</p>`:""}
+    </section>
+
+    <section class="part">
+      <h3 class="part-name">Where the claims come from, by actor type</h3>
+      <div class="lanes"><table class="lane">
+        <tr><th>Actor type</th>${weeks.map(w=>`<th>${w.label}</th>`).join("")}</tr>
+        ${Object.keys(ACTORS).filter(a=>a!=="other").map(a=>`<tr><td>${ACTORS[a]}</td>${good.map(d=>{
+          const cs = (d.salience||[]).flatMap(s=>s.claims||[]).filter(c=>c.actor_type===a);
+          const ev = cs.filter(c=>c.label==="evidence").length;
+          return `<td>${cs.length?`${ev} of ${cs.length} evidence`:"&mdash;"}</td>`;
+        }).join("")}</tr>`).join("")}
+      </table></div>
+      <p class="note" style="margin-top:14px">A week where an actor type carries no
+      evidence-marked claims is a week that axis went unchecked.</p>
+    </section>
+
+    <section class="part">
+      <h3 class="part-name">Open questions</h3>
+      ${threads.sort(openFirst).map(t=>`<div class="thread ${t.status==='resolved'?'resolved':''}">
+        ${esc(t.text)}<span class="since">${t.status==="resolved"
+          ? `Resolved ${fmtDate(t.resolved_on)}${t.resolution?`. ${esc(t.resolution)}`:""}`
+          : `Open since ${fmtDate(t.first_raised)}`}</span></div>`).join("")}
+    </section>
+
+    <section class="part">
+      <h3 class="part-name">Moves with the outcome still open</h3>
+      ${moves.sort(openFirst).map(m=>`<div class="thread ${m.status==='resolved'?'resolved':''}">
+        ${esc(m.text)}<span class="since">${m.status==="resolved"
+          ? `Resolved ${fmtDate(m.resolved_on)}`
+          : `Opened ${fmtDate(m.opened)}`}</span></div>`).join("")}
+    </section>
+  </div>`;
+}
+
+function setNav(){
+  document.getElementById("nav-digests").setAttribute("aria-current", view!=="tracker");
+  document.getElementById("nav-tracker").setAttribute("aria-current", view==="tracker");
+}
+document.getElementById("nav-digests").addEventListener("click", ()=>{ view="list"; setNav(); render(); window.scrollTo(0,0); });
+document.getElementById("nav-tracker").addEventListener("click", ()=>{ view="tracker"; setNav(); render(); window.scrollTo(0,0); });
+
+load();
+if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(()=>{});
+</script>
+</body>
+</html>

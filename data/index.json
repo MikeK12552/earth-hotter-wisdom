@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "generated": "2026-08-31T18:02:11.232Z",
+  "digests": [
+    {
+      "id": "2026-08-31",
+      "week_start": "2026-08-25",
+      "week_end": "2026-08-31",
+      "week_number": 1,
+      "standfirst": "Two multilateral instruments fail in one week, the military climate-security reporting infrastructure is found to have quietly stopped publishing, and attribution claims run wrong in both directions on two different disasters.",
+      "counts": {
+        "developments": 6,
+        "moves": 5,
+        "open_threads": 8
+      }
+    }
+  ]
+}
