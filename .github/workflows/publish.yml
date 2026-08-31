@@ -1,0 +1,148 @@
+# Publish path for the digest site.
+#
+# The gate is this workflow, not any branch-push rule. Every push that could change
+# what the site serves — to main or to a claude/** branch — runs the validator first.
+# Nothing merges and nothing deploys unless `node scripts/build.mjs` exits zero.
+#
+#   build      validate every digest and the index. Fails the run on any problem.
+#   integrate  claude/** only: merge the validated branch into main, delete it.
+#   deploy     re-validate main, build the site, publish it to GitHub Pages.
+#
+# A claude/** branch that fails validation is left untouched for inspection. A bad
+# commit pushed straight to main cannot deploy, because build and deploy both refuse
+# it — the site stays on the last good version.
+
+name: Publish
+
+on:
+  push:
+    branches:
+      - main
+      - "claude/**"
+  workflow_dispatch:
+
+# One publish at a time. Serialises branch merges and Pages deploys so two runs
+# cannot race on main or on the live site.
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # Must be the first thing that runs. Validates every file in data/digests
+      # against the schema and rebuilds data/index.json in the working tree.
+      - name: Validate every digest and rebuild the index
+        run: node scripts/build.mjs
+
+      # Confirms the validator's own invariant checks still fire.
+      - name: Test the validator against its fixtures
+        run: node scripts/build.test.mjs
+
+      # The committed index must already be what the script produces. Compare
+      # everything except the `generated` timestamp, which changes on every run.
+      - name: Fail if data/index.json was not rebuilt from the digests
+        run: |
+          git show HEAD:data/index.json > "$RUNNER_TEMP/committed-index.json"
+          node -e '
+            const fs = require("fs");
+            const a = JSON.parse(fs.readFileSync(process.env.RUNNER_TEMP + "/committed-index.json", "utf8"));
+            const b = JSON.parse(fs.readFileSync("data/index.json", "utf8"));
+            delete a.generated; delete b.generated;
+            if (JSON.stringify(a) !== JSON.stringify(b)) {
+              console.error("::error::data/index.json is stale. Run: node scripts/build.mjs, then commit data/index.json");
+              process.exit(1);
+            }
+          '
+
+  integrate:
+    needs: build
+    if: startsWith(github.ref, 'refs/heads/claude/')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Merge ${{ github.ref_name }} into main and delete it
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin "$BRANCH"
+          git merge --no-ff --no-edit -m "Publish $BRANCH" "origin/$BRANCH"
+          # Validate the merged result, not just the branch in isolation, in case
+          # main moved on. A bad merge is never pushed.
+          node scripts/build.mjs
+          git push origin HEAD:main
+          git push origin --delete "$BRANCH"
+
+  deploy:
+    needs: [build, integrate]
+    # Runs when build passed and integrate either succeeded or was skipped
+    # (a plain push to main). A failed merge stops the deploy.
+    if: >-
+      !cancelled()
+      && needs.build.result == 'success'
+      && (needs.integrate.result == 'success' || needs.integrate.result == 'skipped')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # Validate the state that is actually going live, after any merge.
+      - name: Re-validate main and rebuild the index
+        run: node scripts/build.mjs
+
+      - name: Assemble the site
+        run: |
+          mkdir _site
+          cp index.html sw.js manifest.webmanifest _site/
+          cp -r data _site/
+          touch _site/.nojekyll
+          shopt -s nullglob
+          for f in icon-*.png apple-touch-icon.png favicon.ico icon.svg; do
+            cp "$f" _site/
+          done
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - id: deploy
+        uses: actions/deploy-pages@v4

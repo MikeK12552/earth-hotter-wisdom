@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "2099-01-07",
+  "week_start": "2099-01-01",
+  "week_end": "2099-01-07",
+  "week_number": 900,
+  "standfirst": "Fixture: the clean predecessor week. Valid on its own; used so the next file can break the carried-forward continuity checks.",
+  "foundational": [
+    {
+      "phase": "1",
+      "kind": "conceptual",
+      "citation": {
+        "author": "A. Fixture",
+        "year": 2099,
+        "title": "A Test Citation",
+        "venue": "Journal of Fixtures",
+        "verification": "verified"
+      },
+      "summary": "Placeholder summary for the fixture."
+    }
+  ],
+  "developments": [
+    {
+      "n": 1,
+      "title": "Fixture development",
+      "date": "2099-01-03",
+      "scope": "global",
+      "body": "Placeholder body.",
+      "arc": "novel",
+      "attribution": { "status": "not_applicable" },
+      "claims": [
+        { "label": "evidence", "text": "Placeholder claim." }
+      ],
+      "nl_eu": { "level": "none", "note": "Fixture." },
+      "sources": [ { "title": "Fixture source" } ]
+    }
+  ],
+  "salience": [
+    { "jurisdiction": "Netherlands", "direction": "no_change", "claims": [ { "label": "gap", "text": "Nothing moved.", "actor_type": "government" } ] },
+    { "jurisdiction": "EU", "direction": "no_change", "claims": [ { "label": "gap", "text": "Nothing moved.", "actor_type": "government" } ] },
+    { "jurisdiction": "US", "direction": "no_change", "claims": [ { "label": "gap", "text": "Nothing moved.", "actor_type": "government" } ] },
+    { "jurisdiction": "China", "direction": "no_change", "claims": [ { "label": "gap", "text": "Nothing moved.", "actor_type": "government" } ] },
+    { "jurisdiction": "India", "direction": "no_change", "claims": [ { "label": "gap", "text": "Nothing moved.", "actor_type": "government" } ] },
+    { "jurisdiction": "Multilateral", "direction": "no_change", "claims": [ { "label": "gap", "text": "Nothing moved.", "actor_type": "government" } ] }
+  ],
+  "moves": [
+    { "n": 1, "title": "Fixture move", "body": "Placeholder.", "verdict": "too_early" }
+  ],
+  "watch": [
+    { "title": "Fixture watch", "note": "Placeholder." }
+  ],
+  "continuity": {
+    "active_trends": [
+      { "id": "fixture-trend", "text": "A placeholder trend.", "first_raised": "2099-01-07" }
+    ],
+    "open_threads": [
+      { "id": "test-thread-kept", "text": "Must be carried forward unchanged.", "status": "open", "first_raised": "2099-01-07" },
+      { "id": "test-thread-dropped", "text": "The next file drops this one entirely.", "status": "open", "first_raised": "2099-01-07" }
+    ],
+    "open_moves": [
+      { "id": "fixture-move", "text": "A placeholder open move.", "status": "open", "opened": "2099-01-07" }
+    ]
+  }
+}

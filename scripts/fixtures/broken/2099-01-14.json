@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "2099-01-14",
+  "week_start": "2099-01-08",
+  "week_end": "2099-01-15",
+  "week_number": 901,
+  "standfirst": "Fixture: schema-valid, but breaks every invariant build.mjs enforces beyond the schema. build.test.mjs asserts each check fires and names its field.",
+  "foundational": [],
+  "developments": [
+    {
+      "n": 1,
+      "title": "Development with no attribution",
+      "date": "2099-01-10",
+      "scope": "global",
+      "body": "The attribution object is missing. claims is present.",
+      "arc": "novel",
+      "claims": [
+        { "label": "evidence", "text": "Placeholder claim." }
+      ],
+      "nl_eu": { "level": "none" },
+      "sources": [ { "title": "Fixture source" } ]
+    },
+    {
+      "n": 2,
+      "title": "Development with no claims",
+      "date": "2099-01-11",
+      "scope": "global",
+      "body": "The claims array is missing. attribution is present.",
+      "arc": "repeat",
+      "attribution": { "status": "no_study" },
+      "nl_eu": { "level": "none" },
+      "sources": [ { "title": "Fixture source" } ]
+    }
+  ],
+  "salience": [
+    {
+      "jurisdiction": "Netherlands",
+      "direction": "no_change",
+      "claims": [
+        { "label": "gap", "text": "This claim has an actor_type.", "actor_type": "government" },
+        { "label": "gap", "text": "This claim is missing its actor_type." }
+      ]
+    },
+    { "jurisdiction": "EU", "direction": "no_change", "claims": [ { "label": "gap", "text": "ok", "actor_type": "government" } ] },
+    { "jurisdiction": "US", "direction": "no_change", "claims": [ { "label": "gap", "text": "ok", "actor_type": "government" } ] },
+    { "jurisdiction": "US", "direction": "no_change", "claims": [ { "label": "gap", "text": "duplicate US entry", "actor_type": "government" } ] },
+    { "jurisdiction": "China", "direction": "no_change", "claims": [ { "label": "gap", "text": "ok", "actor_type": "government" } ] },
+    { "jurisdiction": "Multilateral", "direction": "no_change", "claims": [ { "label": "gap", "text": "ok", "actor_type": "government" } ] }
+  ],
+  "moves": [
+    { "n": 1, "title": "Fixture move", "body": "Placeholder.", "verdict": "too_early" }
+  ],
+  "watch": [
+    { "title": "Fixture watch", "note": "Placeholder." }
+  ],
+  "continuity": {
+    "active_trends": [
+      { "id": "fixture-trend", "text": "A placeholder trend.", "first_raised": "2099-01-07" }
+    ],
+    "open_threads": [
+      { "id": "test-thread-kept", "text": "Carried forward, but first_raised has been changed.", "status": "open", "first_raised": "2099-01-13" }
+    ],
+    "open_moves": [
+      { "id": "fixture-move", "text": "A placeholder open move.", "status": "open", "opened": "2099-01-07" }
+    ]
+  }
+}

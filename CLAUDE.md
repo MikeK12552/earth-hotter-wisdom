@@ -13,7 +13,10 @@ data/index.json               generated, never edit by hand
 data/digests/YYYY-MM-DD.json  one digest per week, filename = week_end = id
 schema/digest.schema.json     the contract
 scripts/build.mjs             validates every digest, rebuilds the index
+scripts/build.test.mjs        runs build.mjs against a deliberately broken digest
+scripts/fixtures/             digests used only by build.test.mjs
 scripts/build_week_one.py     one-off, kept as a worked prose-to-schema example
+.github/workflows/publish.yml validates, merges claude/** to main, deploys Pages
 routine/curriculum.md         section A sequence; the routine corrects it in place
 routine/watchlist.md          section D roster; the routine corrects it in place
 routine/PROMPT.md             the prompt the weekly routine runs
@@ -63,6 +66,11 @@ to stay readable on a 375px-wide phone.
 
 ## Publishing
 
-Routines can only push to `claude/**` branches. `.github/workflows/publish.yml` picks
-those up, validates, merges to `main`, and deletes the branch. Do not push digests
-straight to `main` from a routine; the validation gate is the whole safeguard.
+`.github/workflows/publish.yml` is the gate. Every push to `main` or a `claude/**`
+branch runs `node scripts/build.mjs` first; nothing merges and nothing deploys unless
+it passes. A `claude/**` branch that validates is merged to `main` and deleted, then
+the site is rebuilt and deployed to GitHub Pages from the workflow. This holds whether
+or not the routine's push access is actually restricted to `claude/**`, so do not rely
+on that restriction and do not push digests straight to `main` from a routine.
+
+GitHub Pages must be set to deploy from GitHub Actions, not from a branch.

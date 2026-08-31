@@ -30,10 +30,12 @@ git push -u origin main
 ### 2. Turn on Pages
 
 Repository Settings, then Pages. Under Build and deployment set Source to
-"Deploy from a branch", branch `main`, folder `/ (root)`. Save.
+"GitHub Actions". The publish workflow builds and deploys the site; there is no branch
+to serve from. Save.
 
-A minute later the site is at `https://YOUR-NAME.github.io/climate-digest/`.
-Open it on your phone. In Safari use Share, then Add to Home Screen.
+The site goes live at `https://YOUR-NAME.github.io/climate-digest/` after the first
+workflow run (step 7). Open it on your phone. In Safari use Share, then Add to Home
+Screen.
 
 ### 3. Allow the Action to publish
 
@@ -87,9 +89,13 @@ Go to `claude.ai/code/routines`, create a routine:
 Keeping the real prompt in the repository rather than in the routine configuration
 means you can revise it with Claude Code, in version control, and see what changed.
 
-Routines can only push to branches starting with `claude/`, which is why
-`.github/workflows/publish.yml` exists: it validates the pushed branch and merges it to
-`main`. Nothing reaches the site without passing the schema.
+`.github/workflows/publish.yml` is the gate, not the branch name. Every push to `main`
+or a `claude/**` branch runs `node scripts/build.mjs` and the fixture test first. If a
+`claude/**` branch validates, the workflow merges it to `main`, deletes it, then
+rebuilds the site and deploys it to GitHub Pages. A branch that fails validation is
+left alone for you to inspect; a bad commit pushed straight to `main` cannot deploy,
+because the build and deploy steps both refuse it. Limiting the routine's push access
+to `claude/**` is good practice, but the workflow does not depend on it.
 
 ### 7. Watch the first run
 
@@ -104,6 +110,7 @@ Action log names the exact field. That is the system working.
 
 ```bash
 node scripts/build.mjs          # validate every digest, rebuild the index
+node scripts/build.test.mjs     # check the validator's own invariant checks fire
 python3 -m http.server 8000     # preview at http://localhost:8000
 ```
 

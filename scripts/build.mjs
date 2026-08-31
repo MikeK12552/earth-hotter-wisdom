@@ -1,15 +1,29 @@
 #!/usr/bin/env node
 // Validates every digest against schema/digest.schema.json and rebuilds data/index.json.
 // No dependencies. Exits non-zero on any problem so an unattended routine fails loudly.
+//
+// Env overrides, used by scripts/build.test.mjs and unset in normal operation:
+//   BUILD_DIGESTS_DIR  directory to read digests from  (default: data/digests)
+//   BUILD_INDEX_OUT    file to write the index to      (default: data/index.json)
 
 import { readFileSync, writeFileSync, readdirSync } from "node:fs";
-import { join, dirname } from "node:path";
+import { join, dirname, resolve as resolvePath } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const schema = JSON.parse(readFileSync(join(root, "schema/digest.schema.json"), "utf8"));
+
+const digestsDir = process.env.BUILD_DIGESTS_DIR
+  ? resolvePath(process.env.BUILD_DIGESTS_DIR)
+  : join(root, "data/digests");
+const indexOut = process.env.BUILD_INDEX_OUT
+  ? resolvePath(process.env.BUILD_INDEX_OUT)
+  : join(root, "data/index.json");
+
 const errors = [];
 
+// resolve() here is JSON-Schema $ref resolution, unrelated to node:path's resolve
+// (imported above as resolvePath).
 function resolve(node) {
   if (node && node.$ref) {
     const path = node.$ref.replace(/^#\//, "").split("/");
@@ -59,35 +73,98 @@ function check(node, value, path) {
   }
 }
 
-const dir = join(root, "data/digests");
-const files = readdirSync(dir).filter((f) => f.endsWith(".json")).sort().reverse();
+// Invariants the schema cannot express on its own. `prev` is { file, digest } for
+// the chronologically preceding digest, or null for the earliest. Every message
+// names the exact field so an unattended run says precisely what to fix.
+function checkInvariants(file, digest, prev) {
+  // id is the filename and the week_end date.
+  if (digest.id && `${digest.id}.json` !== file) {
+    errors.push(`${file}: id "${digest.id}" does not match the filename`);
+  }
+  if (digest.id && digest.week_end && digest.id !== digest.week_end) {
+    errors.push(`${file}: id "${digest.id}" must equal week_end "${digest.week_end}"`);
+  }
+
+  // Section C carries one entry for every jurisdiction in the enum, every week.
+  const jurisdictions = schema.properties.salience.items.properties.jurisdiction.enum;
+  const seen = new Map();
+  for (const s of digest.salience || []) {
+    if (s) seen.set(s.jurisdiction, (seen.get(s.jurisdiction) || 0) + 1);
+  }
+  for (const j of jurisdictions) {
+    const n = seen.get(j) || 0;
+    if (n === 0) {
+      errors.push(`${file}: salience.jurisdiction: missing "${j}" (every jurisdiction appears every week)`);
+    } else if (n > 1) {
+      errors.push(`${file}: salience.jurisdiction: ${n} entries for "${j}", expected exactly one`);
+    }
+  }
+
+  // Every salience claim carries an actor_type: the second axis of section C.
+  (digest.salience || []).forEach((s, i) => {
+    (s?.claims || []).forEach((c, k) => {
+      if (!c || c.actor_type === undefined || c.actor_type === null || c.actor_type === "") {
+        errors.push(`${file}: salience[${i}].claims[${k}].actor_type: required on every salience claim`);
+      }
+    });
+  });
+
+  // Every development carries attribution and claims.
+  (digest.developments || []).forEach((d, i) => {
+    if (!d || d.attribution === undefined || d.attribution === null) {
+      errors.push(`${file}: developments[${i}].attribution: required on every development`);
+    }
+    if (!d || d.claims === undefined || d.claims === null) {
+      errors.push(`${file}: developments[${i}].claims: required on every development`);
+    }
+  });
+
+  // A thread that was open last week is carried forward with the same id and
+  // first_raised, unless this week marks it resolved.
+  if (prev) {
+    const carried = new Map();
+    for (const t of digest.continuity?.open_threads || []) {
+      if (t && t.id != null) carried.set(t.id, t);
+    }
+    for (const before of prev.digest.continuity?.open_threads || []) {
+      if (!before || before.status !== "open") continue;
+      const after = carried.get(before.id);
+      if (!after) {
+        errors.push(
+          `${file}: continuity.open_threads: thread "${before.id}" was open in ${prev.file} and is not carried forward (keep it, or include it here marked resolved)`
+        );
+        continue;
+      }
+      if (after.status !== "resolved" && after.first_raised !== before.first_raised) {
+        errors.push(
+          `${file}: continuity.open_threads: thread "${before.id}".first_raised changed from "${before.first_raised ?? ""}" to "${after.first_raised ?? ""}" (original is in ${prev.file})`
+        );
+      }
+    }
+  }
+}
+
+const files = readdirSync(digestsDir).filter((f) => f.endsWith(".json")).sort();
 if (!files.length) {
-  console.error("No digests in data/digests. Nothing to build.");
+  console.error(`No digests in ${digestsDir}. Nothing to build.`);
   process.exit(1);
 }
 
-const digests = [];
+const chronological = [];
+let prev = null;
 for (const file of files) {
   let digest;
   try {
-    digest = JSON.parse(readFileSync(join(dir, file), "utf8"));
+    digest = JSON.parse(readFileSync(join(digestsDir, file), "utf8"));
   } catch (e) {
     errors.push(`${file}: not valid JSON — ${e.message}`);
     continue;
   }
+
   check(schema, digest, file);
+  checkInvariants(file, digest, prev);
 
-  if (digest.id && `${digest.id}.json` !== file) {
-    errors.push(`${file}: id "${digest.id}" does not match the filename`);
-  }
-
-  // Section C must cover the same jurisdictions every week, or the lane view breaks.
-  const seen = new Set((digest.salience || []).map((s) => s.jurisdiction));
-  if (seen.size !== (digest.salience || []).length) {
-    errors.push(`${file}: duplicate jurisdiction in salience`);
-  }
-
-  digests.push({
+  chronological.push({
     id: digest.id,
     week_start: digest.week_start,
     week_end: digest.week_end,
@@ -96,9 +173,10 @@ for (const file of files) {
     counts: {
       developments: (digest.developments || []).length,
       moves: (digest.moves || []).length,
-      open_threads: (digest.continuity?.open_threads || []).filter((t) => t.status === "open").length,
+      open_threads: (digest.continuity?.open_threads || []).filter((t) => t && t.status === "open").length,
     },
   });
+  prev = { file, digest };
 }
 
 if (errors.length) {
@@ -108,8 +186,10 @@ if (errors.length) {
   process.exit(1);
 }
 
+// Newest first: the reader takes digests[0] as the current week.
+const digests = [...chronological].reverse();
 writeFileSync(
-  join(root, "data/index.json"),
+  indexOut,
   JSON.stringify({ schema_version: 1, generated: new Date().toISOString(), digests }, null, 2) + "\n"
 );
-console.log(`Validated ${digests.length} digest(s). Wrote data/index.json.`);
+console.log(`Validated ${digests.length} digest(s). Wrote ${indexOut}.`);
