@@ -1,19 +1,7 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-31T21:41:15.276Z",
+  "generated": "2026-08-31T22:10:00.535Z",
   "digests": [
-    {
-      "id": "2099-01-03",
-      "week_start": "2099-01-01",
-      "week_end": "2099-01-03",
-      "week_number": 999,
-      "standfirst": "TEST DATA — NOT A REAL BRIEFING. This entry exists only to exercise the publish pipeline (schema validation, index rebuild, branch merge, Pages deploy). Every fact, name, citation and figure below is a placeholder. Delete this file when the check is done.",
-      "counts": {
-        "developments": 5,
-        "moves": 3,
-        "open_threads": 9
-      }
-    },
     {
       "id": "2026-08-31",
       "week_start": "2026-08-25",
