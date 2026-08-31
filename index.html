@@ -127,6 +127,8 @@ table.lane td{padding:10px 12px 10px 0;border-bottom:1px solid var(--rule-soft);
 .dir.gap{color:var(--gap)}
 .thread{border-left:2px solid var(--rule);padding-left:13px;margin-bottom:16px;font-size:16px}
 .thread.resolved{color:var(--muted);text-decoration:line-through;text-decoration-color:var(--rule)}
+/* Dropped, not answered: muted and dashed, but never struck through. */
+.thread.abandoned{color:var(--muted);border-left-style:dashed}
 .thread .since{display:block;font-family:var(--sans);font-size:12px;color:var(--muted);margin-top:4px;text-decoration:none}
 
 /* nav */
@@ -402,9 +404,10 @@ async function renderTracker(){
 
     <section class="part">
       <h3 class="part-name">Open questions</h3>
-      ${threads.sort(openFirst).map(t=>`<div class="thread ${t.status==='resolved'?'resolved':''}">
-        ${esc(t.text)}<span class="since">${t.status==="resolved"
-          ? `Resolved ${fmtDate(t.resolved_on)}${t.resolution?`. ${esc(t.resolution)}`:""}`
+      ${threads.sort(openFirst).map(t=>`<div class="thread ${t.status==='resolved'?'resolved':t.status==='abandoned'?'abandoned':''}">
+        ${esc(t.text)}<span class="since">${
+            t.status==="resolved" ? `Resolved ${fmtDate(t.resolved_on)}${t.resolution?`. ${esc(t.resolution)}`:""}`
+          : t.status==="abandoned" ? `Abandoned, raised ${fmtDate(t.first_raised)}`
           : `Open since ${fmtDate(t.first_raised)}`}</span></div>`).join("")}
     </section>
 
