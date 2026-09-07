@@ -176,7 +176,8 @@
           "lon": 36.8172,
           "kind": "institution",
           "precision": "settlement",
-          "note": "UNEP's seat. The report is global; only its publication is here."
+          "note": "UNEP's seat. The report is global; only its publication is here.",
+          "icon": "report"
         }
       ]
     },
@@ -264,9 +265,11 @@
           "lat": 7.3422,
           "lon": 134.4772,
           "kind": "event",
-          "precision": "settlement"
+          "precision": "settlement",
+          "icon": "summit"
         }
-      ]
+      ],
+      "responds_to": "b1"
     },
     {
       "n": 3,
@@ -367,14 +370,16 @@
           "lat": 28.2561,
           "lon": 85.5194,
           "kind": "event",
-          "precision": "point"
+          "precision": "point",
+          "icon": "glacier"
         },
         {
           "name": "Gyirong County",
           "lat": 28.8548,
           "lon": 85.2958,
           "kind": "event",
-          "precision": "region"
+          "precision": "region",
+          "icon": "glacier"
         }
       ]
     },
@@ -458,7 +463,8 @@
           "lon": 85.32,
           "kind": "institution",
           "precision": "settlement",
-          "note": "Where the decision was taken, not where the disaster is."
+          "note": "Where the decision was taken, not where the disaster is.",
+          "icon": "shield"
         }
       ]
     },
@@ -545,21 +551,24 @@
           "lat": 18.2167,
           "lon": -66.5,
           "kind": "event",
-          "precision": "region"
+          "precision": "region",
+          "icon": "drought"
         },
         {
           "name": "Jamaica",
           "lat": 18.18,
           "lon": -77.4,
           "kind": "event",
-          "precision": "country"
+          "precision": "country",
+          "icon": "drought"
         },
         {
           "name": "Lesser Antilles",
           "lat": 14.0,
           "lon": -61.0,
           "kind": "event",
-          "precision": "region"
+          "precision": "region",
+          "icon": "drought"
         }
       ]
     }
@@ -906,7 +915,8 @@
           "lat": -1.2864,
           "lon": 36.8172,
           "kind": "institution",
-          "precision": "settlement"
+          "precision": "settlement",
+          "icon": "report"
         }
       ]
     },
@@ -942,9 +952,11 @@
           "lat": 40.7128,
           "lon": -74.0061,
           "kind": "institution",
-          "precision": "settlement"
+          "precision": "settlement",
+          "icon": "statement"
         }
-      ]
+      ],
+      "responds_to": "d1"
     },
     {
       "n": 3,
@@ -984,7 +996,8 @@
           "lat": 7.3422,
           "lon": 134.4772,
           "kind": "event",
-          "precision": "settlement"
+          "precision": "settlement",
+          "icon": "summit"
         }
       ]
     },
@@ -1026,7 +1039,8 @@
           "lon": 85.5194,
           "kind": "event",
           "precision": "point",
-          "note": "Subject of the analysis; the consortium's own base is unverified."
+          "note": "Subject of the analysis; the consortium's own base is unverified.",
+          "icon": "research"
         }
       ]
     },
@@ -1073,7 +1087,8 @@
           "lat": 27.71,
           "lon": 85.32,
           "kind": "institution",
-          "precision": "settlement"
+          "precision": "settlement",
+          "icon": "government"
         }
       ]
     }

@@ -7,9 +7,10 @@
 // shell-v2: abbreviation glossary, apple-touch-icon fix.
 // shell-v3: Wikipedia link in the abbreviation popover.
 // shell-v4: verified article links in place of search links.
-const SHELL = "shell-v4";
+// shell-v5: map view.
+const SHELL = "shell-v5";
 const DATA = "data-v1";
-const ASSETS = ["./", "./index.html", "./manifest.webmanifest"];
+const ASSETS = ["./", "./index.html", "./map.html", "./manifest.webmanifest"];
 
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(SHELL).then(c => c.addAll(ASSETS)).then(() => self.skipWaiting()));

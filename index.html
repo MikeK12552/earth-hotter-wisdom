@@ -77,6 +77,8 @@ section.part{padding:30px 0;border-bottom:1px solid var(--rule-soft)}
 h3.item{font-size:20px;line-height:1.25;font-weight:500;margin:0 0 4px;letter-spacing:-.01em}
 .meta{font-family:var(--sans);font-size:12.5px;color:var(--muted);margin:0 0 12px}
 .item-block{margin-bottom:34px}
+.tomap{color:var(--evidence);text-decoration-color:var(--evidence);white-space:nowrap}
+.item-block.hit{box-shadow:-3px 0 0 var(--evidence);padding-left:14px;margin-left:-17px}
 .item-block:last-child{margin-bottom:0}
 
 /* the mark: how firm is this claim */
@@ -191,6 +193,7 @@ nav.bar button[aria-current="true"]{color:var(--ink);font-weight:600;box-shadow:
 <nav class="bar">
   <button id="nav-digests" aria-current="true">Digests</button>
   <button id="nav-tracker">Tracker</button>
+  <button id="nav-map">Map</button>
 </nav>
 
 <script>
@@ -401,7 +404,16 @@ async function load(){
   try{
     index = await (await fetch("data/index.json",{cache:"no-cache"})).json();
     await loadGlossary();
-    render();
+    const params = new URLSearchParams(location.search);
+    const want = params.get("id");
+    if(want && index.digests.some(d => d.id === want)){
+      await openDigest(want);
+      const el = location.hash && document.getElementById(location.hash.slice(1));
+      if(el){ el.classList.add("hit"); window.scrollTo(0, el.getBoundingClientRect().top + window.scrollY - 24); }
+    } else {
+      if(params.get("view") === "tracker"){ view = "tracker"; setNav(); }
+      render();
+    }
   }catch(e){
     app.innerHTML = `<div class="state">The digest list could not be loaded. Check your connection and reload.</div>`;
   }
@@ -486,9 +498,10 @@ async function openDigest(id){
 
     ${d.developments?.length ? `<section class="part">
       <h3 class="part-name">B. Developments this week</h3>
-      ${d.developments.map(b => `<div class="item-block">
+      ${d.developments.map(b => `<div class="item-block" id="b${b.n}">
         <h3 class="item">${b.n}. ${esc(b.title)}</h3>
-        <p class="meta">${fmtDate(b.date)}${b.place?`, ${esc(b.place)}`:""} &nbsp;&nbsp; ${esc(b.scope)}</p>
+        <p class="meta">${fmtDate(b.date)}${b.place?`, ${esc(b.place)}`:""} &nbsp;&nbsp; ${esc(b.scope)}${
+          b.locations?.length?` &nbsp;&nbsp; <a class="tomap" href="map.html?week=${d.id}&focus=b${b.n}">Show on map →</a>`:""}</p>
         ${md(b.body)}
         ${b.arc?`<div class="aside"><b>Arc</b> ${ARCS[b.arc]||esc(b.arc)}${b.arc_note?`. ${esc(b.arc_note)}`:""}</div>`:""}
         ${b.attribution?`<div class="aside"><b>Attribution</b> ${ATTRIB[b.attribution.status]||""}${
@@ -515,9 +528,10 @@ async function openDigest(id){
 
     ${d.moves?.length ? `<section class="part">
       <h3 class="part-name">D. Player moves</h3>
-      ${d.moves.map(m => `<div class="item-block">
+      ${d.moves.map(m => `<div class="item-block" id="d${m.n}">
         <h3 class="item">${m.n}. ${esc(m.title)}</h3>
-        <p class="meta">${esc(m.actor||"")}${m.date?`, ${fmtDate(m.date)}`:""}${m.place?`, ${esc(m.place)}`:""}</p>
+        <p class="meta">${esc(m.actor||"")}${m.date?`, ${fmtDate(m.date)}`:""}${m.place?`, ${esc(m.place)}`:""}${
+          m.locations?.length?` &nbsp;&nbsp; <a class="tomap" href="map.html?week=${d.id}&focus=d${m.n}">Show on map →</a>`:""}</p>
         ${md(m.body)}
         ${m.stated_rationale?`<div class="aside"><b>Stated rationale</b> ${esc(m.stated_rationale)}</div>`:""}
         ${m.inference?`<div class="aside"><b>Inference</b> ${esc(m.inference)}</div>`:""}
@@ -621,6 +635,7 @@ function setNav(){
 }
 document.getElementById("nav-digests").addEventListener("click", ()=>{ view="list"; setNav(); render(); window.scrollTo(0,0); });
 document.getElementById("nav-tracker").addEventListener("click", ()=>{ view="tracker"; setNav(); render(); window.scrollTo(0,0); });
+document.getElementById("nav-map").addEventListener("click", ()=>{ location.href = "map.html" + (current ? "?week=" + current.id : ""); });
 
 load();
 if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(()=>{});

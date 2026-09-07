@@ -1,0 +1,138 @@
+[
+  {
+    "name": "Clingendael / Planetary Security Initiative",
+    "city": "The Hague",
+    "lat": 52.095,
+    "lon": 4.297,
+    "role": "Dutch flagship climate-security platform",
+    "note": "Last verifiable PSI funding phase announced December 2019; visible output is curation of others' work."
+  },
+  {
+    "name": "HCSS",
+    "city": "The Hague",
+    "lat": 52.079,
+    "lon": 4.312,
+    "role": "Strategic studies centre",
+    "note": "Most recent climate-security report (June 2025) was commissioned by the Dutch police, not Defence."
+  },
+  {
+    "name": "KNMI",
+    "city": "De Bilt",
+    "lat": 52.101,
+    "lon": 5.177,
+    "role": "Attribution capability; part of WWA's institutional base",
+    "note": "Dutch researchers sit in the WWA Caribbean drought team."
+  },
+  {
+    "name": "Red Cross Red Crescent Climate Centre",
+    "city": "The Hague",
+    "lat": 52.086,
+    "lon": 4.328,
+    "role": "Humanitarian climate risk",
+    "note": "Reporting on Caribbean drought-hit farmers."
+  },
+  {
+    "name": "World Weather Attribution",
+    "city": "London (Imperial College)",
+    "lat": 51.499,
+    "lon": -0.175,
+    "role": "Rapid event attribution",
+    "note": "Published on Caribbean drought in both weeks; did not attribute Langtang-Lirung."
+  },
+  {
+    "name": "adelphi",
+    "city": "Berlin",
+    "lat": 52.52,
+    "lon": 13.405,
+    "role": "Climate diplomacy and security",
+    "note": "Berlin Climate and Security Conference set for 6 October at the Federal Foreign Office."
+  },
+  {
+    "name": "MERICS",
+    "city": "Berlin",
+    "lat": 52.51,
+    "lon": 13.39,
+    "role": "China analysis",
+    "note": "2022 analysis of China's refusal to securitise climate; no current replacement found."
+  },
+  {
+    "name": "SIPRI",
+    "city": "Stockholm",
+    "lat": 59.348,
+    "lon": 18.07,
+    "role": "Climate, peace and security research",
+    "note": "Climate-programme news page stale to 2023; Abyei study arrived via PSI."
+  },
+  {
+    "name": "NUPI",
+    "city": "Oslo",
+    "lat": 59.917,
+    "lon": 10.75,
+    "role": "Training for Peace; climate and peacekeeping",
+    "note": "Co-author of 'Beyond the blue line' on UNISFA."
+  },
+  {
+    "name": "Danish Refugee Council",
+    "city": "Copenhagen",
+    "lat": 55.676,
+    "lon": 12.568,
+    "role": "Displacement modelling",
+    "note": "Projected up to 3 million displaced by East African flooding."
+  },
+  {
+    "name": "NATO HQ / Science and Technology Organization",
+    "city": "Brussels",
+    "lat": 50.879,
+    "lon": 4.425,
+    "role": "Military climate-security assessment",
+    "note": "No fourth Climate Change and Security Impact Assessment; SAS-182 report (January 2026) is the latest product."
+  },
+  {
+    "name": "EEAS",
+    "city": "Brussels",
+    "lat": 50.843,
+    "lon": 4.383,
+    "role": "EU climate-and-security nexus",
+    "note": "Nexus page stale to 28 June 2023."
+  },
+  {
+    "name": "IMCCS / Council on Strategic Risks / Center for Climate and Security",
+    "city": "Washington DC",
+    "lat": 38.907,
+    "lon": -77.037,
+    "role": "Military and advocacy climate-security research",
+    "note": "No World Climate and Security Report since 2024; CCS output folded into CSR, which is hiring."
+  },
+  {
+    "name": "UN Climate Security Mechanism",
+    "city": "New York",
+    "lat": 40.749,
+    "lon": -73.968,
+    "role": "DPPA / UNDP / UNEP / DPO joint programme",
+    "note": "Phase III running 2026-2028 with eleven advisers deployed."
+  },
+  {
+    "name": "Security Council Report",
+    "city": "New York",
+    "lat": 40.752,
+    "lon": -73.978,
+    "role": "Council monitoring",
+    "note": "Tracks Council activity under a natural-resource governance frame."
+  },
+  {
+    "name": "UNEP",
+    "city": "Nairobi",
+    "lat": -1.286,
+    "lon": 36.817,
+    "role": "UN Environment Programme",
+    "note": "Published Limiting Overshoot, 2 September 2026."
+  },
+  {
+    "name": "ICIMOD",
+    "city": "Kathmandu",
+    "lat": 27.65,
+    "lon": 85.32,
+    "role": "Hindu Kush Himalaya cryosphere monitoring",
+    "note": "Named the Langtang-Lirung event an ice-and-rock avalanche cascade, not a GLOF."
+  }
+]
