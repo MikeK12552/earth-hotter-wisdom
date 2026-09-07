@@ -108,7 +108,9 @@ state that it sits outside the sequence.
 
 Draw the conceptual item from `routine/curriculum.md`, working through its phases in
 order. Do not restart each week: `continuity.next_reading` in the previous digest is the
-position marker. Read a critique in the same week as, or the week after, the claim it
+position marker — unless `routine/curriculum.md` carries a reset marker dated after that
+digest, which overrides it and says where to start instead. Read that file before you
+trust the marker. Read a critique in the same week as, or the week after, the claim it
 attacks, never the claim alone.
 
 Depart from the curriculum when a development in section B makes a text unusually live,
