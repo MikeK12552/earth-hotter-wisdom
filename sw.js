@@ -1,6 +1,11 @@
 // Cache the shell so the site opens offline; always try the network for data first
 // so a new digest appears as soon as it is published.
-const SHELL = "shell-v1";
+// Bump SHELL whenever index.html changes. The shell is served cache-first, so without a
+// new cache name a returning visitor keeps the old reader indefinitely: the browser only
+// reinstalls this worker when this file's bytes change, and activate() drops every cache
+// that is not the current SHELL or DATA.
+// shell-v2: abbreviation glossary, apple-touch-icon fix.
+const SHELL = "shell-v2";
 const DATA = "data-v1";
 const ASSETS = ["./", "./index.html", "./manifest.webmanifest"];
 

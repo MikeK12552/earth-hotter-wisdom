@@ -11,6 +11,7 @@ sw.js                         offline shell cache
 manifest.webmanifest          home-screen install
 data/index.json               generated, never edit by hand
 data/digests/YYYY-MM-DD.json  one digest per week, filename = week_end = id
+data/glossary.json            abbreviations, hand-maintained, validated by build.mjs
 schema/digest.schema.json     the contract
 scripts/build.mjs             validates every digest, rebuilds the index
 scripts/build.test.mjs        runs build.mjs against a deliberately broken digest
@@ -45,6 +46,16 @@ every one appears every week, even when the entry is just `"direction": "no_chan
 missing jurisdiction leaves a hole in the lane view that reads as "not tracked" rather
 than "nothing happened". Every salience claim also carries an `actor_type`. Private
 sector is an actor type, not a jurisdiction; do not add it back to the enum.
+
+**`data/glossary.json` is hand-maintained**, unlike `data/index.json`. The reader marks
+the first occurrence of each term in each section and shows the expansion on click. Keys
+match case-sensitively on whole words, so add only genuinely opaque abbreviations: US, EU
+and UN are noise. The entries that earn their keep are the ambiguous ones — in these
+digests CCS is the Center for Climate and Security rather than carbon capture, MEA is
+India's Ministry of External Affairs rather than a multilateral environmental agreement,
+and BRIC is a FEMA grant programme rather than a group of states. Say so in the gloss.
+The file is optional: without it the reader simply shows no chips. Malformed, it fails the
+build.
 
 **`routine/PROMPT.md` is the briefing prompt itself**, not a summary of it. The routine
 configuration points here. `routine/curriculum.md` and `routine/watchlist.md` are
