@@ -54,12 +54,18 @@ and UN are noise. The entries that earn their keep are the ambiguous ones — in
 digests CCS is the Center for Climate and Security rather than carbon capture, MEA is
 India's Ministry of External Affairs rather than a multilateral environmental agreement,
 and BRIC is a FEMA grant programme rather than a group of states. Say so in the gloss.
-Each entry also gets a Wikipedia link. The reader builds it from the expansion via
-Wikipedia's search, which lands on the article when the expansion is an exact title and
-shows results otherwise, so it can never be a dead link. Set `wikipedia` to an exact
-article title to point somewhere specific, or to `false` where no article is worth
-linking. It takes a title, never a URL: the reader fixes the host, and the build rejects
-anything URL-shaped so an entry cannot redirect the link off Wikipedia.
+Each entry also gets a Wikipedia link. `wikipedia` is an exact article title, `false`
+where no article is worth linking, or omitted — in which case the reader falls back to
+searching Wikipedia for the expansion. Verify a title against the Wikipedia API before
+adding it rather than guessing: the automated pass got four of these wrong by landing on
+a disambiguation page (CNA, COP, MEA, NIC) and one by following a redirect to the wrong
+subject (`Security Council Report` redirects to the UN Security Council article, but SCR
+here is the NGO). A wrong title fails silently on a red link, not loudly at build time.
+COP is the one deliberate disambiguation-page target: this digest cites COPs of both the
+climate and the desertification conventions, so no single article is right.
+
+The field takes a title, never a URL: the reader fixes the host, and the build rejects
+anything URL-shaped so an entry cannot redirect a link labelled Wikipedia off Wikipedia.
 
 The file is optional: without it the reader simply shows no chips. Malformed, it fails the
 build.
