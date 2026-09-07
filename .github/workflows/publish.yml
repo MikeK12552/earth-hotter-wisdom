@@ -130,7 +130,7 @@ jobs:
       - name: Assemble the site
         run: |
           mkdir _site
-          cp index.html sw.js manifest.webmanifest _site/
+          cp index.html map.html sw.js manifest.webmanifest _site/
           cp -r data _site/
           touch _site/.nojekyll
           # Icons are optional: copy any that exist, never fail on a missing one.

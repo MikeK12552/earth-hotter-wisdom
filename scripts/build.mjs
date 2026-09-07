@@ -6,6 +6,7 @@
 //   BUILD_DIGESTS_DIR  directory to read digests from  (default: data/digests)
 //   BUILD_INDEX_OUT    file to write the index to      (default: data/index.json)
 //   BUILD_GLOSSARY     glossary file to validate       (default: data/glossary.json)
+//   BUILD_INSTITUTES   institutes file to validate     (default: data/institutes.json)
 
 import { readFileSync, writeFileSync, readdirSync } from "node:fs";
 import { join, dirname, resolve as resolvePath } from "node:path";
@@ -228,6 +229,43 @@ function checkGlossary(path) {
 
 checkGlossary(
   process.env.BUILD_GLOSSARY ? resolvePath(process.env.BUILD_GLOSSARY) : join(root, "data/glossary.json")
+);
+
+// data/institutes.json is the map's standing layer of institutes and centres — the same
+// roster routine/watchlist.md tracks. Hand-maintained and optional, like the glossary.
+function checkInstitutes(path) {
+  let raw;
+  try {
+    raw = readFileSync(path, "utf8");
+  } catch (e) {
+    if (e.code === "ENOENT") return;
+    return errors.push(`institutes.json: could not be read — ${e.message}`);
+  }
+  let list;
+  try {
+    list = JSON.parse(raw);
+  } catch (e) {
+    return errors.push(`institutes.json: not valid JSON — ${e.message}`);
+  }
+  if (!Array.isArray(list)) return errors.push("institutes.json: expected an array");
+  list.forEach((e, i) => {
+    const at = `institutes.json[${i}]`;
+    if (!e || typeof e !== "object" || Array.isArray(e)) return errors.push(`${at}: expected an object`);
+    for (const key of ["name", "city", "role", "note"]) {
+      if (typeof e[key] !== "string" || !e[key].trim()) errors.push(`${at}.${key}: required, and must not be empty`);
+    }
+    if (typeof e.lat !== "number" || e.lat < -90 || e.lat > 90) errors.push(`${at}.lat: a number from -90 to 90`);
+    if (typeof e.lon !== "number" || e.lon < -180 || e.lon > 180) errors.push(`${at}.lon: a number from -180 to 180`);
+    for (const key of Object.keys(e)) {
+      if (!["name", "city", "lat", "lon", "role", "note"].includes(key)) {
+        errors.push(`${at}.${key}: not an institute field`);
+      }
+    }
+  });
+}
+
+checkInstitutes(
+  process.env.BUILD_INSTITUTES ? resolvePath(process.env.BUILD_INSTITUTES) : join(root, "data/institutes.json")
 );
 
 const files = readdirSync(digestsDir).filter((f) => f.endsWith(".json")).sort();

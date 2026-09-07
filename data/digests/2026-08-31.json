@@ -108,7 +108,8 @@
           "lon": 85.5194,
           "kind": "event",
           "precision": "point",
-          "note": "The slope failure that initiated the cascade."
+          "note": "The slope failure that initiated the cascade.",
+          "icon": "glacier"
         },
         {
           "name": "Gyirong County",
@@ -116,7 +117,8 @@
           "lon": 85.2958,
           "kind": "event",
           "precision": "region",
-          "note": "The Tibetan side of the same event."
+          "note": "The Tibetan side of the same event.",
+          "icon": "glacier"
         }
       ]
     },
@@ -167,7 +169,8 @@
           "lat": 47.9219,
           "lon": 106.9153,
           "kind": "event",
-          "precision": "settlement"
+          "precision": "settlement",
+          "icon": "summit"
         }
       ]
     },
@@ -212,7 +215,8 @@
           "lon": 4.31,
           "kind": "institution",
           "precision": "settlement",
-          "note": "Seat of the arbitration, not of the dispute."
+          "note": "Seat of the arbitration, not of the dispute.",
+          "icon": "law"
         }
       ]
     },
@@ -262,14 +266,16 @@
           "lat": 18.2167,
           "lon": -66.5,
           "kind": "event",
-          "precision": "region"
+          "precision": "region",
+          "icon": "drought"
         },
         {
           "name": "Jamaica",
           "lat": 18.18,
           "lon": -77.4,
           "kind": "event",
-          "precision": "country"
+          "precision": "country",
+          "icon": "drought"
         }
       ]
     },
@@ -314,7 +320,8 @@
           "lon": 48.0,
           "kind": "event",
           "precision": "region",
-          "note": "Somalia, Kenya, South Sudan and Uganda; a regional forecast, not a located event."
+          "note": "Somalia, Kenya, South Sudan and Uganda; a regional forecast, not a located event.",
+          "icon": "displacement"
         }
       ]
     },
@@ -349,6 +356,17 @@
           "publisher": "Reuters / BR",
           "date": "2026-08-30",
           "url": "https://www.brecorder.com/news/40437194/natos-arctic-moves-pose-direct-threat-to-russia-foreign-minister-lavrov-says"
+        }
+      ],
+      "locations": [
+        {
+          "name": "Murmansk",
+          "lat": 68.9667,
+          "lon": 33.0833,
+          "kind": "jurisdiction",
+          "precision": "settlement",
+          "icon": "shield",
+          "note": "What the Arctic security discourse is about, not a place where anything happened."
         }
       ]
     }
@@ -550,7 +568,8 @@
           "lat": 40.7496,
           "lon": -73.9674,
           "kind": "institution",
-          "precision": "point"
+          "precision": "point",
+          "icon": "statement"
         }
       ]
     },
@@ -576,6 +595,26 @@
         {
           "title": "EEAS: Climate and security nexus",
           "url": "https://www.eeas.europa.eu/eeas/climate-and-security-nexus_en"
+        }
+      ],
+      "locations": [
+        {
+          "name": "Brussels",
+          "lat": 50.8467,
+          "lon": 4.3525,
+          "kind": "institution",
+          "precision": "settlement",
+          "icon": "report",
+          "note": "NATO and the EEAS: two of the three bodies that stopped publishing."
+        },
+        {
+          "name": "Washington, D.C.",
+          "lat": 38.895,
+          "lon": -77.0367,
+          "kind": "institution",
+          "precision": "settlement",
+          "icon": "report",
+          "note": "IMCCS, the third."
         }
       ]
     },
@@ -603,7 +642,8 @@
           "lat": 38.895,
           "lon": -77.0367,
           "kind": "institution",
-          "precision": "settlement"
+          "precision": "settlement",
+          "icon": "research"
         }
       ]
     },
@@ -635,7 +675,8 @@
           "lat": -8.8383,
           "lon": 13.2344,
           "kind": "event",
-          "precision": "settlement"
+          "precision": "settlement",
+          "icon": "summit"
         }
       ]
     },
@@ -663,7 +704,8 @@
           "lon": 28.436,
           "kind": "event",
           "precision": "region",
-          "note": "Where the fieldwork was done; the institutes are in Oslo and Stockholm."
+          "note": "Where the fieldwork was done; the institutes are in Oslo and Stockholm.",
+          "icon": "research"
         }
       ]
     }

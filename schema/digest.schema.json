@@ -74,6 +74,7 @@
           },
           "sources": { "type": "array", "items": { "$ref": "#/$defs/source" } },
           "locations": { "type": "array", "items": { "$ref": "#/$defs/location" }, "description": "Where this happened. Optional: an item with no located place omits it rather than inventing one." },
+          "responds_to": { "type": "string", "pattern": "^[bd][0-9]+$", "description": "Another item in this same digest that this one answers, as 'b2' or 'd1'. The map draws an arrow. Use it only for a real, argued response, not for mere topical adjacency." },
           "dropped": { "type": "string", "description": "Anything cut for failing verification, and why." }
         }
       }
@@ -115,6 +116,7 @@
           "verdict": { "type": "string", "enum": ["landed", "failed", "too_early"] },
           "confidence": { "type": "string", "enum": ["high", "medium", "low"] },
           "locations": { "type": "array", "items": { "$ref": "#/$defs/location" }, "description": "Where the move was made. Usually the actor's seat, so kind is normally 'institution'." },
+          "responds_to": { "type": "string", "pattern": "^[bd][0-9]+$", "description": "Another item in this same digest that this move answers, as 'b1' or 'd1'. The map draws an arrow." },
           "sources": { "type": "array", "items": { "$ref": "#/$defs/source" } }
         }
       }
@@ -223,6 +225,11 @@
           "type": "string",
           "enum": ["point", "settlement", "region", "country"],
           "description": "How tightly the coordinate locates it: a specific site, a city, a sub- or supra-national area, or a whole country."
+        },
+        "icon": {
+          "type": "string",
+          "enum": ["glacier","flood","drought","displacement","fire","summit","law","shield","report","statement","research","government","institute"],
+          "description": "Which mark the map draws. What sort of thing this is, orthogonal to `kind`, which says whether the pin is where it happened or where the actor sits."
         },
         "note": { "type": "string" }
       }

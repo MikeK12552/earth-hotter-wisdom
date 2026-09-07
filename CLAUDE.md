@@ -7,11 +7,13 @@ no framework. GitHub Pages serves `main`.
 
 ```
 index.html                    the whole reader: markup, styles, logic
+map.html                      the weekly map: one marker per location, d3 + jsdelivr
 sw.js                         offline shell cache
 manifest.webmanifest          home-screen install
 data/index.json               generated, never edit by hand
 data/digests/YYYY-MM-DD.json  one digest per week, filename = week_end = id
 data/glossary.json            abbreviations, hand-maintained, validated by build.mjs
+data/institutes.json          the map's standing institute layer, hand-maintained
 schema/digest.schema.json     the contract
 scripts/build.mjs             validates every digest, rebuilds the index
 scripts/build.test.mjs        runs build.mjs against a deliberately broken digest
@@ -57,6 +59,16 @@ from Wikidata P625 or Wikipedia rather than recalling them — the build catches
 out-of-range value but cannot tell a wrong coordinate from a right one. An item with no
 located place omits the array; a pin that asserts something happened where it did not is
 worse than no pin.
+
+**The map reads the digests, not a parallel file.** `map.html` builds its markers from
+each item's `locations`, so there is one source of truth and no summary prose to drift:
+pin text is the item's own opening paragraph. An item with several locations gets a marker
+each — the Nepal-China flood is two, one either side of the border — while counts and the
+`responds_to` arrow stay per item. `map.html` is the only page with external runtime
+dependencies: d3, topojson-client and the world atlas, all pinned with SRI and all from
+jsdelivr, so one CDN has to be reachable rather than two. It is the one page that does not
+work offline. Add any new page to the workflow's *Assemble the site* step or it deploys to
+a 404.
 
 **`data/glossary.json` is hand-maintained**, unlike `data/index.json`. The reader marks
 the first occurrence of each term in each section and shows the expansion on click. Keys

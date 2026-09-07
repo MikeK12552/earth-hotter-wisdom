@@ -233,6 +233,14 @@ Each entry needs a `name` for the pin, `lat`, `lon`, a `kind` and a `precision`:
   opposite of what this digest argues.
 - `precision` is `point`, `settlement`, `region` or `country` — how tightly the
   coordinate actually locates it, so a country centroid is never plotted as a site.
+- `icon` picks the mark the map draws: `glacier`, `flood`, `drought`, `displacement`,
+  `fire`, `summit`, `law`, `shield`, `report`, `statement`, `research`, `government`.
+  What sort of thing it is, which is a different question from `kind`.
+
+Where one item is a direct answer to another in the same digest, set `responds_to` on the
+answering item to the other's `b2`/`d1` handle and the map draws an arrow. Use it only for
+a real, argued response — week two's Pacific Islands Forum answering UNEP's overshoot
+report within forty-eight hours is one; two items merely sharing a topic is not.
 
 Take coordinates from a source, the same as any other fact here. Wikidata's P625 and
 Wikipedia's `prop=coordinates` both serve, and both are checkable by the reader
@@ -250,6 +258,11 @@ side. So is an item about two islands.
 
 Section C needs nothing: its jurisdictions are a fixed enum, so a map holds that lookup
 once rather than repeating six coordinates in every digest.
+
+`data/institutes.json` is the map's standing layer of institutes and centres — the same
+roster `routine/watchlist.md` tracks. It changes rarely. Update it when a body's status
+changes in a way the roster records, in the same commit as the correction to the watchlist,
+so the two do not drift apart.
 
 ## Abbreviations
 
