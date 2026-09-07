@@ -54,7 +54,38 @@ for (const [label, fragment] of expected) line(out.includes(fragment), label);
 
 line(!out.includes("2099-01-07.json:"), "clean predecessor raises nothing");
 
-// --- Part 2: the real digests must still validate. ---
+// --- Part 2: the broken glossary must fail, one named error per check. ---
+console.log("\nscripts/fixtures/broken-glossary.json  (expect the run to fail)\n");
+
+const badGloss = run({
+  BUILD_GLOSSARY: join(here, "fixtures", "broken-glossary.json"),
+  BUILD_INDEX_OUT: tmpIndex(),
+});
+const gout = (badGloss.stderr || "") + (badGloss.stdout || "");
+
+line(badGloss.status === 1, "run exits non-zero");
+
+const expectedGloss = [
+  ["wrong schema_version",     "glossary.json.schema_version: expected 1, got 2"],
+  ["missing expansion",        'glossary.json.terms["NOEXP"].expansion: required'],
+  ["blank expansion",          'glossary.json.terms["EMPTYEXP"].expansion: required'],
+  ["blank gloss",              'glossary.json.terms["BADGLOSS"].gloss: optional'],
+  ["unknown field",            'glossary.json.terms["EXTRA"].meaning: not a glossary field'],
+  ["entry is not an object",   'glossary.json.terms["NOTANOBJECT"]: expected an object'],
+  ["key that can never match", 'glossary.json.terms["-DASHED"]: must start and end'],
+];
+for (const [label, fragment] of expectedGloss) line(gout.includes(fragment), label);
+
+line(!gout.includes('terms["GOOD"]'), "a well-formed entry raises nothing");
+
+// A missing glossary is allowed: the reader works without one.
+const noGloss = run({
+  BUILD_GLOSSARY: join(here, "fixtures", "there-is-no-glossary-here.json"),
+  BUILD_INDEX_OUT: tmpIndex(),
+});
+line(noGloss.status === 0, "an absent glossary is not an error");
+
+// --- Part 3: the real digests and glossary must still validate. ---
 console.log("\ndata/digests/  (expect the run to pass)\n");
 
 const real = run({ BUILD_INDEX_OUT: tmpIndex() });

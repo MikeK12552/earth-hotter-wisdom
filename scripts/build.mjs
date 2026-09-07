@@ -5,6 +5,7 @@
 // Env overrides, used by scripts/build.test.mjs and unset in normal operation:
 //   BUILD_DIGESTS_DIR  directory to read digests from  (default: data/digests)
 //   BUILD_INDEX_OUT    file to write the index to      (default: data/index.json)
+//   BUILD_GLOSSARY     glossary file to validate       (default: data/glossary.json)
 
 import { readFileSync, writeFileSync, readdirSync } from "node:fs";
 import { join, dirname, resolve as resolvePath } from "node:path";
@@ -143,6 +144,65 @@ function checkInvariants(file, digest, prev) {
     }
   }
 }
+
+// data/glossary.json powers the click-to-expand abbreviations in the reader. It is
+// hand-maintained and optional: a site without it simply shows no abbreviation chips.
+// Present but malformed is a different matter, and fails the build like anything else.
+function checkGlossary(path) {
+  let raw;
+  try {
+    raw = readFileSync(path, "utf8");
+  } catch (e) {
+    if (e.code === "ENOENT") return; // optional
+    return errors.push(`glossary.json: could not be read — ${e.message}`);
+  }
+
+  let g;
+  try {
+    g = JSON.parse(raw);
+  } catch (e) {
+    return errors.push(`glossary.json: not valid JSON — ${e.message}`);
+  }
+
+  if (!g || typeof g !== "object" || Array.isArray(g)) {
+    return errors.push("glossary.json: expected an object");
+  }
+  if (g.schema_version !== 1) {
+    errors.push(`glossary.json.schema_version: expected 1, got ${JSON.stringify(g.schema_version)}`);
+  }
+  if (!g.terms || typeof g.terms !== "object" || Array.isArray(g.terms)) {
+    return errors.push("glossary.json.terms: expected an object of term to definition");
+  }
+
+  for (const [term, entry] of Object.entries(g.terms)) {
+    const at = `glossary.json.terms["${term}"]`;
+    if (term !== term.trim() || !term) {
+      errors.push(`${at}: the key is matched literally against digest text, so it must not have padding`);
+    }
+    if (!entry || typeof entry !== "object" || Array.isArray(entry)) {
+      errors.push(`${at}: expected an object with an expansion`);
+      continue;
+    }
+    if (typeof entry.expansion !== "string" || !entry.expansion.trim()) {
+      errors.push(`${at}.expansion: required, and must not be empty`);
+    }
+    if (entry.gloss !== undefined && (typeof entry.gloss !== "string" || !entry.gloss.trim())) {
+      errors.push(`${at}.gloss: optional, but must be a non-empty string when present`);
+    }
+    for (const key of Object.keys(entry)) {
+      if (!["expansion", "gloss"].includes(key)) errors.push(`${at}.${key}: not a glossary field`);
+    }
+    // \b anchors the match, so a key that neither starts nor ends in a word character
+    // would silently never match anything in a digest.
+    if (!/^\w/.test(term) || !/\w$/.test(term)) {
+      errors.push(`${at}: must start and end with a letter or digit, or it will never match`);
+    }
+  }
+}
+
+checkGlossary(
+  process.env.BUILD_GLOSSARY ? resolvePath(process.env.BUILD_GLOSSARY) : join(root, "data/glossary.json")
+);
 
 const files = readdirSync(digestsDir).filter((f) => f.endsWith(".json")).sort();
 if (!files.length) {

@@ -17,6 +17,7 @@
   --paper:#edf0f1; --card:#f7f9f9; --ink:#131b21; --muted:#5d6e78;
   --rule:#c4d0d6; --rule-soft:#dbe3e7;
   --evidence:#1e4a52; --contested:#5b4a86; --framing:#8a6a1f; --gap:#7b7f82;
+  --abbr:#dde5e9; --abbr-hi:#c8d5db; --shadow:rgba(19,27,33,.16);
   --serif:"Newsreader",Georgia,"Times New Roman",serif;
   --sans:"IBM Plex Sans",system-ui,-apple-system,sans-serif;
   --pad:20px;
@@ -26,6 +27,7 @@
     --paper:#0e1418; --card:#151d22; --ink:#e2e8ea; --muted:#93a3ac;
     --rule:#2c3940; --rule-soft:#222c32;
     --evidence:#6fb3ab; --contested:#a99ad4; --framing:#c9a75a; --gap:#8b949a;
+    --abbr:#222e35; --abbr-hi:#324249; --shadow:rgba(0,0,0,.5);
   }
 }
 *{box-sizing:border-box}
@@ -88,6 +90,37 @@ h3.item{font-size:20px;line-height:1.25;font-weight:500;margin:0 0 4px;letter-sp
 .claim.framing .mark{color:var(--framing)}
 .claim.gap{border-left-style:dashed;border-color:var(--gap)}
 .claim.gap .mark{color:var(--gap)}
+
+/* abbreviations: click the term to see what it stands for.
+   Deliberately NOT a dotted or dashed underline. Dotted means framing and dashed means
+   gap on the claim rules above, and reusing either inline would blur a distinction the
+   whole reader rests on. A tinted chip plus a solid baseline is a separate signal, and
+   it survives being read without colour. */
+.abbr{
+  font:inherit;color:inherit;background:var(--abbr);
+  border:0;border-radius:2px;cursor:pointer;white-space:nowrap;vertical-align:baseline;
+  box-shadow:inset 0 -1px 0 var(--rule);
+  /* Negative margin cancels the padding exactly, so the tint bleeds a little past the
+     glyphs without widening the text. Without this, UNEP's sets as UNEP 's. */
+  padding:0 2px;margin:0 -2px;
+}
+.abbr:hover,.abbr[aria-expanded="true"]{background:var(--abbr-hi)}
+.abbr-pop{
+  position:absolute;z-index:20;width:min(21rem,calc(100vw - 24px));
+  background:var(--card);border:1px solid var(--rule);border-radius:3px;
+  padding:15px 17px;box-shadow:0 6px 26px var(--shadow);
+}
+.abbr-pop .t{font-family:var(--sans);font-size:12px;font-weight:600;letter-spacing:.05em;
+  color:var(--muted);margin:0 0 5px}
+.abbr-pop .x{font-size:17px;line-height:1.35;margin:0}
+.abbr-pop .g{font-size:15px;line-height:1.45;color:var(--muted);margin:9px 0 0}
+.abbr-pop .c{display:block;margin:13px 0 0;padding:0;background:none;border:0;
+  font-family:var(--sans);font-size:12.5px;color:var(--muted);cursor:pointer;text-decoration:underline}
+/* On a phone the popover becomes a sheet resting on top of the nav bar, so it never
+   lands half off-screen or under the thumb. */
+.abbr-pop.sheet{position:fixed;left:0;right:0;top:auto;width:auto;
+  bottom:calc(49px + env(safe-area-inset-bottom));border-radius:3px 3px 0 0;
+  border-left:0;border-right:0}
 
 .actor{display:block;font-family:var(--sans);font-size:11.5px;color:var(--muted);margin-top:5px}
 .aside{border-left:2px solid var(--rule);padding-left:13px;margin:14px 0;font-size:15px;color:var(--muted)}
@@ -209,9 +242,138 @@ const sources = list => !list?.length ? "" :
   `<ul class="sources">${list.map(s=>`<li>${s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>`:esc(s.title)}${
     s.publisher?`, ${esc(s.publisher)}`:""}</li>`).join("")}</ul>`;
 
+/* ---- abbreviations ------------------------------------------------------
+   data/glossary.json is hand-maintained. Terms are marked in the rendered DOM rather
+   than in the template strings: the templates escape and concatenate HTML, and adding
+   markup there would mean generating tags from digest text. Walking text nodes and
+   inserting real elements cannot inject anything.
+   Only the first occurrence of a term in each section is marked. The digests use UNEP
+   thirty-odd times in a week; marking all of them would turn body copy into a rash. */
+let glossary = null, abbrRe = null, pop = null, popFor = null;
+
+const SKIP_TAGS = new Set(["A","BUTTON","CODE","SCRIPT","STYLE","H1","H2"]);
+
+async function loadGlossary(){
+  try{
+    const g = await (await fetch("data/glossary.json",{cache:"no-cache"})).json();
+    const t = g && g.terms;
+    if(!t || typeof t !== "object") return;
+    const keys = Object.keys(t).filter(k => t[k] && t[k].expansion);
+    if(!keys.length) return;
+    // Longest first so COP31 wins over COP.
+    keys.sort((a,b) => b.length - a.length);
+    const q = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    abbrRe = new RegExp("\\b(?:" + keys.map(q).join("|") + ")\\b", "g");
+    glossary = t;
+  }catch(e){ /* the reader is expected to work without it */ }
+}
+
+function annotate(root){
+  if(!glossary) return;
+  const scopes = root.querySelectorAll("section.part, .pushback");
+  (scopes.length ? scopes : [root]).forEach(scope => {
+    const seen = new Set(), targets = [];
+    const walk = document.createTreeWalker(scope, NodeFilter.SHOW_TEXT, {
+      acceptNode(n){
+        for(let p = n.parentNode; p && p !== scope; p = p.parentNode){
+          if(SKIP_TAGS.has(p.nodeName)) return NodeFilter.FILTER_REJECT;
+        }
+        abbrRe.lastIndex = 0;
+        return abbrRe.test(n.nodeValue) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+      }
+    });
+    for(let n; (n = walk.nextNode()); ) targets.push(n);
+    targets.forEach(node => mark(node, seen));
+  });
+}
+
+function mark(node, seen){
+  const text = node.nodeValue;
+  let m, last = 0, frag = null;
+  abbrRe.lastIndex = 0;
+  while((m = abbrRe.exec(text))){
+    const term = m[0];
+    if(seen.has(term)) continue;
+    seen.add(term);
+    frag = frag || document.createDocumentFragment();
+    if(m.index > last) frag.appendChild(document.createTextNode(text.slice(last, m.index)));
+    const b = document.createElement("button");
+    b.type = "button"; b.className = "abbr"; b.textContent = term;
+    b.dataset.term = term;
+    b.title = glossary[term].expansion;
+    b.setAttribute("aria-expanded","false");
+    frag.appendChild(b);
+    last = m.index + term.length;
+  }
+  if(!frag) return;
+  if(last < text.length) frag.appendChild(document.createTextNode(text.slice(last)));
+  node.parentNode.replaceChild(frag, node);
+}
+
+function openAbbr(btn){
+  const entry = glossary?.[btn.dataset.term];
+  if(!entry) return;
+  closeAbbr(false);
+  if(!pop){
+    pop = document.createElement("div");
+    pop.className = "abbr-pop";
+    pop.setAttribute("role","dialog");
+    document.body.appendChild(pop);
+  }
+  pop.setAttribute("aria-label", `What ${btn.dataset.term} stands for`);
+  pop.textContent = "";
+  const add = (cls, text) => {
+    const el = document.createElement("p");
+    el.className = cls; el.textContent = text; pop.appendChild(el);
+  };
+  add("t", btn.dataset.term);
+  add("x", entry.expansion);
+  if(entry.gloss) add("g", entry.gloss);
+  const close = document.createElement("button");
+  close.type = "button"; close.className = "c"; close.textContent = "Close";
+  close.addEventListener("click", () => closeAbbr(true));
+  pop.appendChild(close);
+  btn.setAttribute("aria-expanded","true");
+  popFor = btn;
+  placeAbbr();
+}
+
+function placeAbbr(){
+  if(!pop || !popFor) return;
+  const sheet = window.matchMedia("(max-width:560px)").matches;
+  pop.classList.toggle("sheet", sheet);
+  if(sheet){ pop.style.left = pop.style.top = ""; return; }
+  const r = popFor.getBoundingClientRect();
+  pop.style.left = "0px"; pop.style.top = "0px";
+  const w = pop.offsetWidth, h = pop.offsetHeight, edge = 12;
+  const max = document.documentElement.clientWidth - w - edge;
+  pop.style.left = Math.round(Math.max(edge, Math.min(r.left + r.width/2 - w/2, max))) + window.scrollX + "px";
+  const below = r.bottom + 8 + h <= window.innerHeight, room = r.top - 8 - h >= 0;
+  pop.style.top = Math.round((below || !room ? r.bottom + 8 : r.top - 8 - h) + window.scrollY) + "px";
+}
+
+function closeAbbr(refocus){
+  if(!pop || !popFor) return;
+  pop.remove(); pop = null;
+  popFor.setAttribute("aria-expanded","false");
+  if(refocus) popFor.focus();
+  popFor = null;
+}
+
+document.addEventListener("click", e => {
+  const btn = e.target.closest ? e.target.closest(".abbr") : null;
+  if(btn){ btn === popFor ? closeAbbr(true) : openAbbr(btn); return; }
+  if(pop && !pop.contains(e.target)) closeAbbr(false);
+});
+document.addEventListener("keydown", e => { if(e.key === "Escape") closeAbbr(true); });
+window.addEventListener("resize", placeAbbr);
+
+/* ------------------------------------------------------------------------ */
+
 async function load(){
   try{
     index = await (await fetch("data/index.json",{cache:"no-cache"})).json();
+    await loadGlossary();
     render();
   }catch(e){
     app.innerHTML = `<div class="state">The digest list could not be loaded. Check your connection and reload.</div>`;
@@ -225,6 +387,7 @@ async function getDigest(id){
 }
 
 function render(){
+  closeAbbr(false);
   if(view === "list") return renderList();
   if(view === "tracker") return renderTracker();
 }
@@ -255,6 +418,7 @@ function renderList(){
 }
 
 async function openDigest(id){
+  closeAbbr(false);
   app.innerHTML = `<div class="state">Loading…</div>`;
   let d;
   try{ d = await getDigest(id); }
@@ -351,6 +515,7 @@ async function openDigest(id){
       <div class="note">${md(d.housekeeping)}</div></details></section>` : ""}
   </div>`;
 
+  annotate(app);
   app.querySelector(".back").addEventListener("click", () => { view="list"; setNav(); render(); window.scrollTo(0,0); });
   const o = document.getElementById("orient");
   if(o) o.addEventListener("toggle", () => { if(!o.open) localStorage.setItem("seen-orientation","1"); });
@@ -419,6 +584,8 @@ async function renderTracker(){
           : `Opened ${fmtDate(m.opened)}`}</span></div>`).join("")}
     </section>
   </div>`;
+
+  annotate(app);
 }
 
 function setNav(){

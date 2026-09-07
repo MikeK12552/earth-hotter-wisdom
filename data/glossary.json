@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "note": "Hand-maintained, unlike data/index.json. The reader marks the first occurrence of each term in each section and shows this on click. Keys match case-sensitively on whole words, so only add genuinely opaque abbreviations: US, EU, UN and the like are noise, not help. Where an abbreviation has a common other meaning, say so in the gloss — that is the case this file earns its keep on.",
+  "terms": {
+    "AOSIS": {
+      "expansion": "Alliance of Small Island States",
+      "gloss": "The negotiating bloc of low-lying and island states. Its leverage rests almost entirely on 1.5°C being a commitment rather than a target, which is why it fights framing changes to that number."
+    },
+    "AU": { "expansion": "African Union" },
+    "BRI": { "expansion": "Belt and Road Initiative" },
+    "BRIC": {
+      "expansion": "Building Resilient Infrastructure and Communities",
+      "gloss": "A FEMA pre-disaster mitigation grant programme. Nothing to do with the BRICS grouping of states."
+    },
+    "CAN Europe": { "expansion": "Climate Action Network Europe" },
+    "CCS": {
+      "expansion": "Center for Climate and Security",
+      "gloss": "A US institute, now part of the Council on Strategic Risks. In most other writing CCS means carbon capture and storage; in this digest it does not."
+    },
+    "CDA": { "expansion": "Christen-Democratisch Appèl", "gloss": "Dutch christian-democratic party." },
+    "CNA": {
+      "expansion": "CNA",
+      "gloss": "A US non-profit research organisation, formerly the Center for Naval Analyses. Its 2007 Military Advisory Board report put \"threat multiplier\" into circulation."
+    },
+    "COP": {
+      "expansion": "Conference of the Parties",
+      "gloss": "The decision-making body of a UN convention. Which convention depends on context: usually the climate convention, but the desertification and biodiversity conventions have their own numbered COPs."
+    },
+    "COP31": { "expansion": "31st Conference of the Parties to the UN climate convention", "gloss": "Antalya, 9 to 20 November 2026." },
+    "CPS": { "expansion": "climate, peace and security", "gloss": "The UN system's own term for the field, and the job title of the advisers it deploys." },
+    "CRS": { "expansion": "Congressional Research Service", "gloss": "The US Congress's in-house research arm." },
+    "CSDDD": { "expansion": "Corporate Sustainability Due Diligence Directive" },
+    "CSDP": { "expansion": "Common Security and Defence Policy", "gloss": "The EU's framework for military and civilian crisis-management missions." },
+    "CSM": {
+      "expansion": "Climate Security Mechanism",
+      "gloss": "The joint UN unit run by DPPA, UNDP, UNEP and DPO. The field's only standing multilateral machinery."
+    },
+    "CSR": { "expansion": "Council on Strategic Risks", "gloss": "The US institute that houses the Center for Climate and Security." },
+    "CWP": { "expansion": "Commission Work Programme", "gloss": "The European Commission's annual list of what it intends to propose, and when." },
+    "D66": { "expansion": "Democraten 66", "gloss": "Dutch social-liberal party; leads the cabinet sworn in February 2026." },
+    "DG CLIMA": { "expansion": "Directorate-General for Climate Action", "gloss": "The European Commission department that owns the climate file." },
+    "DHS": { "expansion": "US Department of Homeland Security" },
+    "DPO": { "expansion": "UN Department of Peace Operations" },
+    "DPPA": { "expansion": "UN Department of Political and Peacebuilding Affairs" },
+    "DRC": { "expansion": "Democratic Republic of the Congo" },
+    "EEAS": { "expansion": "European External Action Service", "gloss": "The EU's diplomatic service, and where its climate-security file sits." },
+    "ENSO": {
+      "expansion": "El Niño–Southern Oscillation",
+      "gloss": "The Pacific climate oscillation behind El Niño and La Niña. Its dry teleconnections, not its wet ones, carry most of the measured conflict risk."
+    },
+    "EPA": { "expansion": "US Environmental Protection Agency" },
+    "FEMA": { "expansion": "Federal Emergency Management Agency", "gloss": "The US disaster response and mitigation agency." },
+    "GHACOF": { "expansion": "Greater Horn of Africa Climate Outlook Forum", "gloss": "The regional seasonal-forecast forum, numbered by session." },
+    "GLOF": {
+      "expansion": "glacial lake outburst flood",
+      "gloss": "A flood caused by a glacier-dammed lake draining suddenly. Monitoring in the Himalaya is built around this hazard, which is why an ice-and-rock avalanche can arrive unwatched."
+    },
+    "HCSS": { "expansion": "The Hague Centre for Strategic Studies" },
+    "ICIMOD": {
+      "expansion": "International Centre for Integrated Mountain Development",
+      "gloss": "The intergovernmental body for the Hindu Kush Himalaya, based in Kathmandu."
+    },
+    "IMCCS": { "expansion": "International Military Council on Climate and Security" },
+    "IMD": { "expansion": "India Meteorological Department" },
+    "IOD": { "expansion": "Indian Ocean Dipole", "gloss": "A sea-surface temperature oscillation across the Indian Ocean; both its phases raise conflict risk in strongly connected regions." },
+    "IWT": { "expansion": "Indus Waters Treaty", "gloss": "The 1960 India–Pakistan water-sharing treaty brokered by the World Bank." },
+    "KNMI": { "expansion": "Koninklijk Nederlands Meteorologisch Instituut", "gloss": "The Royal Netherlands Meteorological Institute, and one of the partners behind World Weather Attribution." },
+    "MEA": {
+      "expansion": "Ministry of External Affairs",
+      "gloss": "India's foreign ministry. In environmental writing MEA usually means multilateral environmental agreement; here it does not."
+    },
+    "MERICS": { "expansion": "Mercator Institute for China Studies" },
+    "MFA": { "expansion": "Ministry of Foreign Affairs" },
+    "MFF": {
+      "expansion": "Multiannual Financial Framework",
+      "gloss": "The EU's seven-year budget. The 2028–2034 round proposes 35 per cent climate and environment mainstreaming, which is not the same as a climate-security line."
+    },
+    "MPTF": { "expansion": "Multi-Partner Trust Fund", "gloss": "The UN pooled-funding vehicle through which member states finance joint programmes." },
+    "NATO": { "expansion": "North Atlantic Treaty Organization" },
+    "NDC": { "expansion": "Nationally Determined Contribution", "gloss": "A country's self-set emissions pledge under the Paris Agreement." },
+    "NDRRMA": { "expansion": "National Disaster Risk Reduction and Management Authority", "gloss": "Nepal's disaster agency, and the source of its official casualty figures." },
+    "NDS": { "expansion": "National Defense Strategy", "gloss": "The US Department of Defense's periodic strategy document." },
+    "NIC": { "expansion": "National Intelligence Council", "gloss": "The US intelligence community's long-range analytic body; publisher of Global Trends." },
+    "NOAA": { "expansion": "National Oceanic and Atmospheric Administration" },
+    "NOFO": { "expansion": "Notice of Funding Opportunity", "gloss": "The instrument that actually releases US federal grant money, so its issue date is when a programme becomes real." },
+    "NSF": { "expansion": "National Science Foundation" },
+    "NSIDC": { "expansion": "National Snow and Ice Data Center" },
+    "NSR": { "expansion": "Northern Sea Route", "gloss": "The Arctic shipping route along Russia's northern coast." },
+    "NUPI": { "expansion": "Norwegian Institute of International Affairs" },
+    "OND": { "expansion": "October–November–December", "gloss": "The short rains season in the eastern Horn of Africa, forecast as a unit." },
+    "PBL": { "expansion": "Planbureau voor de Leefomgeving", "gloss": "The Netherlands Environmental Assessment Agency." },
+    "PCA": { "expansion": "Permanent Court of Arbitration", "gloss": "The inter-state arbitration institution seated in The Hague." },
+    "PDD": { "expansion": "Public Diplomacy Division", "gloss": "NATO's communications arm, and the office to ask when a NATO publication quietly stops appearing." },
+    "PGA80": { "expansion": "President of the 80th session of the UN General Assembly" },
+    "PIF": { "expansion": "Pacific Islands Forum", "gloss": "The regional body of Pacific states; author of the Boe Declaration and the Ocean of Peace Declaration." },
+    "PNAS": { "expansion": "Proceedings of the National Academy of Sciences" },
+    "PSC": { "expansion": "Peace and Security Council", "gloss": "The African Union's standing decision-making organ for conflict prevention and response." },
+    "PSI": { "expansion": "Planetary Security Initiative", "gloss": "The Dutch-founded climate-security platform hosted at Clingendael." },
+    "SAS-182": { "expansion": "Systems Analysis and Studies research task group 182", "gloss": "The NATO Science and Technology Organization group behind The Effects of Climate Change on Security, January 2026." },
+    "SCR": { "expansion": "Security Council Report", "gloss": "The independent organisation that tracks UN Security Council business. Not a Security Council resolution." },
+    "SIDS": { "expansion": "small island developing states" },
+    "SIPRI": { "expansion": "Stockholm International Peace Research Institute" },
+    "SRM": { "expansion": "solar radiation modification", "gloss": "Deliberate cooling by reflecting sunlight. Its governance is where the security frame appears to be travelling next." },
+    "STO": { "expansion": "Science and Technology Organization", "gloss": "NATO's research arm." },
+    "TEU": { "expansion": "Treaty on European Union" },
+    "UNCCD": { "expansion": "UN Convention to Combat Desertification" },
+    "UNDP": { "expansion": "UN Development Programme" },
+    "UNEP": { "expansion": "UN Environment Programme", "gloss": "The UN's environmental authority, based in Nairobi." },
+    "UNGA": { "expansion": "UN General Assembly" },
+    "UNGA81": { "expansion": "81st session of the UN General Assembly", "gloss": "Opened 8 September 2026; high-level week from 22 September." },
+    "UNISFA": { "expansion": "UN Interim Security Force for Abyei" },
+    "UNSC": { "expansion": "UN Security Council" },
+    "UNSG": { "expansion": "UN Secretary-General" },
+    "USDA": { "expansion": "US Department of Agriculture" },
+    "USGS": { "expansion": "US Geological Survey" },
+    "WFP": { "expansion": "World Food Programme" },
+    "WMO": { "expansion": "World Meteorological Organization" },
+    "WRI": { "expansion": "World Resources Institute" },
+    "WWA": {
+      "expansion": "World Weather Attribution",
+      "gloss": "The research network that publishes rapid studies on whether climate change made a given extreme event more likely."
+    },
+    "VVD": { "expansion": "Volkspartij voor Vrijheid en Democratie", "gloss": "Dutch conservative-liberal party." }
+  }
+}

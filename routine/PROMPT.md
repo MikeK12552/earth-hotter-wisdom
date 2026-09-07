@@ -230,10 +230,17 @@ node scripts/build.mjs
 If it fails, fix the digest and run again. Do not edit the schema to make an invalid
 digest pass. Do not edit `data/index.json` by hand.
 
+Where the digest uses an abbreviation that `data/glossary.json` does not carry, add it
+there in the same commit, with an expansion and — where the abbreviation has a common
+other meaning — a gloss saying which one is meant. The reader turns these into
+click-to-expand terms. Add only what is genuinely opaque; US, EU and UN are noise. A
+glossary that is not kept current decays into a list of last year's abbreviations.
+
 When it passes, commit to a branch named `claude/digest-<week_end>`:
 
 - `data/digests/<week_end>.json`
 - `data/index.json`
+- any new abbreviation in `data/glossary.json`
 - any correction to `routine/curriculum.md` or `routine/watchlist.md`
 
 Push. The publish workflow validates again and merges to `main`.
