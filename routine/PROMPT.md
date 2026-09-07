@@ -18,11 +18,8 @@ version control.
 4. Establish today's date. The week runs Monday to Sunday and ends on the Sunday
    before the run, so a Monday-morning run never covers the day it runs on. `week_end`
    and the filename are that Sunday's date; `week_start` is the Monday six days earlier.
-
-   **Week two only, delete once `data/digests/2026-09-06.json` exists:** week one ended
-   Monday 31 August 2026, so week two covers Tuesday 1 September to Sunday 6 September
-   2026 — `week_start` 2026-09-01, `week_end` and filename 2026-09-06. From the week
-   beginning Monday 7 September the weeks are full Monday-to-Sunday.
+   Weeks have been full Monday-to-Sunday since the week beginning 7 September 2026; the
+   two transitional weeks before that are `2026-08-31` and `2026-09-06`.
 
 You are preparing a weekly climate security briefing used professionally to build
 durable analytical knowledge, not for news awareness. It is read by someone who follows
