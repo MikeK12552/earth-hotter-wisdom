@@ -4,7 +4,7 @@
 // new cache name a returning visitor keeps the old reader indefinitely: the browser only
 // reinstalls this worker when this file's bytes change, and activate() drops every cache
 // that is not the current SHELL or DATA.
-// shell-v2: abbreviation glossary.
+// shell-v2: abbreviation glossary, apple-touch-icon fix.
 const SHELL = "shell-v2";
 const DATA = "data-v1";
 const ASSETS = ["./", "./index.html", "./manifest.webmanifest"];
