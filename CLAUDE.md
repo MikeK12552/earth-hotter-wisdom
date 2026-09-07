@@ -47,6 +47,17 @@ missing jurisdiction leaves a hole in the lane view that reads as "not tracked" 
 than "nothing happened". Every salience claim also carries an `actor_type`. Private
 sector is an actor type, not a jurisdiction; do not add it back to the enum.
 
+**Locations are optional but the two marks on them are not.** Section B items and
+section D moves may carry a `locations` array so the reader can map them. Each entry
+carries `kind` (`event` where it happened, `institution` where the actor sits,
+`jurisdiction` for a country the item is merely about) and `precision` (`point`,
+`settlement`, `region`, `country`). Both exist to stop a map lying: UNEP publishing from
+Nairobi is not an event in Kenya, and a country centroid is not a site. Take coordinates
+from Wikidata P625 or Wikipedia rather than recalling them — the build catches an
+out-of-range value but cannot tell a wrong coordinate from a right one. An item with no
+located place omits the array; a pin that asserts something happened where it did not is
+worse than no pin.
+
 **`data/glossary.json` is hand-maintained**, unlike `data/index.json`. The reader marks
 the first occurrence of each term in each section and shows the expansion on click. Keys
 match case-sensitively on whole words, so add only genuinely opaque abbreviations: US, EU

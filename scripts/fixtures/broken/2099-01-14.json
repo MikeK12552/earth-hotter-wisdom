@@ -15,10 +15,41 @@
       "body": "The attribution object is missing. claims is present.",
       "arc": "novel",
       "claims": [
-        { "label": "evidence", "text": "Placeholder claim." }
+        {
+          "label": "evidence",
+          "text": "Placeholder claim."
+        }
       ],
-      "nl_eu": { "level": "none" },
-      "sources": [ { "title": "Fixture source" } ]
+      "nl_eu": {
+        "level": "none"
+      },
+      "sources": [
+        {
+          "title": "Fixture source"
+        }
+      ],
+      "locations": [
+        {
+          "name": "Off the globe",
+          "lat": 91,
+          "lon": -200,
+          "kind": "event",
+          "precision": "point"
+        },
+        {
+          "name": "Latitude as text",
+          "lat": "52.08",
+          "lon": 4.31,
+          "kind": "event",
+          "precision": "point"
+        },
+        {
+          "name": "Missing kind",
+          "lat": 0,
+          "lon": 0,
+          "precision": "point"
+        }
+      ]
     },
     {
       "n": 2,
@@ -27,9 +58,17 @@
       "scope": "global",
       "body": "The claims array is missing. attribution is present.",
       "arc": "repeat",
-      "attribution": { "status": "no_study" },
-      "nl_eu": { "level": "none" },
-      "sources": [ { "title": "Fixture source" } ]
+      "attribution": {
+        "status": "no_study"
+      },
+      "nl_eu": {
+        "level": "none"
+      },
+      "sources": [
+        {
+          "title": "Fixture source"
+        }
+      ]
     }
   ],
   "salience": [
@@ -37,31 +76,110 @@
       "jurisdiction": "Netherlands",
       "direction": "no_change",
       "claims": [
-        { "label": "gap", "text": "This claim has an actor_type.", "actor_type": "government" },
-        { "label": "gap", "text": "This claim is missing its actor_type." }
+        {
+          "label": "gap",
+          "text": "This claim has an actor_type.",
+          "actor_type": "government"
+        },
+        {
+          "label": "gap",
+          "text": "This claim is missing its actor_type."
+        }
       ]
     },
-    { "jurisdiction": "EU", "direction": "no_change", "claims": [ { "label": "gap", "text": "ok", "actor_type": "government" } ] },
-    { "jurisdiction": "US", "direction": "no_change", "claims": [ { "label": "gap", "text": "ok", "actor_type": "government" } ] },
-    { "jurisdiction": "US", "direction": "no_change", "claims": [ { "label": "gap", "text": "duplicate US entry", "actor_type": "government" } ] },
-    { "jurisdiction": "China", "direction": "no_change", "claims": [ { "label": "gap", "text": "ok", "actor_type": "government" } ] },
-    { "jurisdiction": "Multilateral", "direction": "no_change", "claims": [ { "label": "gap", "text": "ok", "actor_type": "government" } ] }
+    {
+      "jurisdiction": "EU",
+      "direction": "no_change",
+      "claims": [
+        {
+          "label": "gap",
+          "text": "ok",
+          "actor_type": "government"
+        }
+      ]
+    },
+    {
+      "jurisdiction": "US",
+      "direction": "no_change",
+      "claims": [
+        {
+          "label": "gap",
+          "text": "ok",
+          "actor_type": "government"
+        }
+      ]
+    },
+    {
+      "jurisdiction": "US",
+      "direction": "no_change",
+      "claims": [
+        {
+          "label": "gap",
+          "text": "duplicate US entry",
+          "actor_type": "government"
+        }
+      ]
+    },
+    {
+      "jurisdiction": "China",
+      "direction": "no_change",
+      "claims": [
+        {
+          "label": "gap",
+          "text": "ok",
+          "actor_type": "government"
+        }
+      ]
+    },
+    {
+      "jurisdiction": "Multilateral",
+      "direction": "no_change",
+      "claims": [
+        {
+          "label": "gap",
+          "text": "ok",
+          "actor_type": "government"
+        }
+      ]
+    }
   ],
   "moves": [
-    { "n": 1, "title": "Fixture move", "body": "Placeholder.", "verdict": "too_early" }
+    {
+      "n": 1,
+      "title": "Fixture move",
+      "body": "Placeholder.",
+      "verdict": "too_early"
+    }
   ],
   "watch": [
-    { "title": "Fixture watch", "note": "Placeholder." }
+    {
+      "title": "Fixture watch",
+      "note": "Placeholder."
+    }
   ],
   "continuity": {
     "active_trends": [
-      { "id": "fixture-trend", "text": "A placeholder trend.", "first_raised": "2099-01-07" }
+      {
+        "id": "fixture-trend",
+        "text": "A placeholder trend.",
+        "first_raised": "2099-01-07"
+      }
     ],
     "open_threads": [
-      { "id": "test-thread-kept", "text": "Carried forward, but first_raised has been changed.", "status": "open", "first_raised": "2099-01-13" }
+      {
+        "id": "test-thread-kept",
+        "text": "Carried forward, but first_raised has been changed.",
+        "status": "open",
+        "first_raised": "2099-01-13"
+      }
     ],
     "open_moves": [
-      { "id": "fixture-move", "text": "A placeholder open move.", "status": "open", "opened": "2099-01-07" }
+      {
+        "id": "fixture-move",
+        "text": "A placeholder open move.",
+        "status": "open",
+        "opened": "2099-01-07"
+      }
     ]
   }
 }

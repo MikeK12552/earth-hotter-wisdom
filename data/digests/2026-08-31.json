@@ -100,6 +100,24 @@
           "date": "2026-08-30",
           "url": "https://www.aljazeera.com/news/2026/8/30/nepal-china-flood-disaster-whats-the-latest-toll-how-many-are-missing"
         }
+      ],
+      "locations": [
+        {
+          "name": "Langtang Lirung",
+          "lat": 28.2561,
+          "lon": 85.5194,
+          "kind": "event",
+          "precision": "point",
+          "note": "The slope failure that initiated the cascade."
+        },
+        {
+          "name": "Gyirong County",
+          "lat": 28.8548,
+          "lon": 85.2958,
+          "kind": "event",
+          "precision": "region",
+          "note": "The Tibetan side of the same event."
+        }
       ]
     },
     {
@@ -142,6 +160,15 @@
           "date": "2026-08-29",
           "url": "https://www.wri.org/news/statement-cop17-advances-finance-falls-short-global-drought-action"
         }
+      ],
+      "locations": [
+        {
+          "name": "Ulaanbaatar",
+          "lat": 47.9219,
+          "lon": 106.9153,
+          "kind": "event",
+          "precision": "settlement"
+        }
       ]
     },
     {
@@ -176,6 +203,16 @@
           "publisher": "The Tribune",
           "date": "2026-08-31",
           "url": "https://www.tribuneindia.com/news/court-arbitration-award/no-jurisdiction-india-rejects-illegally-constituted-court-of-arbitrations-indus-waters-treaty-award"
+        }
+      ],
+      "locations": [
+        {
+          "name": "The Hague",
+          "lat": 52.08,
+          "lon": 4.31,
+          "kind": "institution",
+          "precision": "settlement",
+          "note": "Seat of the arbitration, not of the dispute."
         }
       ]
     },
@@ -218,6 +255,22 @@
           "date": "2026-08-26",
           "url": "https://www.pbs.org/newshour/nation/u-s-declares-drought-disaster-for-parts-of-puerto-rico-after-driest-month-on-record-for-san-juan"
         }
+      ],
+      "locations": [
+        {
+          "name": "Puerto Rico",
+          "lat": 18.2167,
+          "lon": -66.5,
+          "kind": "event",
+          "precision": "region"
+        },
+        {
+          "name": "Jamaica",
+          "lat": 18.18,
+          "lon": -77.4,
+          "kind": "event",
+          "precision": "country"
+        }
       ]
     },
     {
@@ -252,6 +305,16 @@
           "publisher": "Danish Refugee Council",
           "date": "2026-08-25",
           "url": "https://drc.ngo/news/el-nino-to-supercharge-east-africa-flooding-3-million-displaced-by-end-of-year-in-worst-case-scenario/"
+        }
+      ],
+      "locations": [
+        {
+          "name": "Horn of Africa",
+          "lat": 9.0,
+          "lon": 48.0,
+          "kind": "event",
+          "precision": "region",
+          "note": "Somalia, Kenya, South Sudan and Uganda; a regional forecast, not a located event."
         }
       ]
     },
@@ -480,6 +543,15 @@
           "publisher": "Security Council Report",
           "url": "https://www.securitycouncilreport.org/whatsinblue/2026/08/conflict-and-food-insecurity-high-level-open-debate-2.php"
         }
+      ],
+      "locations": [
+        {
+          "name": "UN Headquarters",
+          "lat": 40.7496,
+          "lon": -73.9674,
+          "kind": "institution",
+          "precision": "point"
+        }
       ]
     },
     {
@@ -524,6 +596,15 @@
           "title": "We're hiring: Program and Community Manager for the Center for Climate and Security",
           "url": "https://councilonstrategicrisks.org/2026/08/26/were-hiring-program-and-community-manager-for-the-center-for-climate-and-security/"
         }
+      ],
+      "locations": [
+        {
+          "name": "Washington, D.C.",
+          "lat": 38.895,
+          "lon": -77.0367,
+          "kind": "institution",
+          "precision": "settlement"
+        }
       ]
     },
     {
@@ -547,6 +628,15 @@
           "title": "Communiqué of the 1331st meeting of the PSC",
           "url": "https://www.peaceau.org/en/article/communique-of-the-1331st-meeting-of-the-psc-held-on-19-february-2026-on-open-session-on-climate-peace-and-security"
         }
+      ],
+      "locations": [
+        {
+          "name": "Luanda",
+          "lat": -8.8383,
+          "lon": 13.2344,
+          "kind": "event",
+          "precision": "settlement"
+        }
       ]
     },
     {
@@ -564,6 +654,16 @@
         {
           "title": "Beyond the blue line: tackling climate, peace and security challenges in Abyei",
           "url": "https://www.planetarysecurityinitiative.org/index.php/news/beyond-blue-line-tackling-climate-peace-and-security-challenges-abyei"
+        }
+      ],
+      "locations": [
+        {
+          "name": "Abyei",
+          "lat": 9.595,
+          "lon": 28.436,
+          "kind": "event",
+          "precision": "region",
+          "note": "Where the fieldwork was done; the institutes are in Oslo and Stockholm."
         }
       ]
     }

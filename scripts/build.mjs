@@ -66,6 +66,19 @@ function check(node, value, path) {
   if (node.type === "integer" && !Number.isInteger(value)) {
     return errors.push(`${path}: expected a whole number`);
   }
+  if (node.type === "number" && (typeof value !== "number" || !Number.isFinite(value))) {
+    return errors.push(`${path}: expected a number`);
+  }
+  // Coordinates are the only thing using these so far. A latitude of 91 is a typo that
+  // would otherwise plot silently in the wrong hemisphere or off the map entirely.
+  if (typeof value === "number") {
+    if (node.minimum !== undefined && value < node.minimum) {
+      errors.push(`${path}: ${value} is below the minimum of ${node.minimum}`);
+    }
+    if (node.maximum !== undefined && value > node.maximum) {
+      errors.push(`${path}: ${value} is above the maximum of ${node.maximum}`);
+    }
+  }
   if (node.enum && !node.enum.includes(value)) {
     errors.push(`${path}: "${value}" is not one of ${node.enum.join(", ")}`);
   }
