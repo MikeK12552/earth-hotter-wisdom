@@ -3,6 +3,29 @@
 Section A works through this in order. `continuity.next_reading` in the most recent
 digest is the position marker; do not restart the sequence.
 
+> ## Reset marker — delete this block once it has been consumed
+>
+> **The sequence was reset to the beginning on 2026-09-07, at the reader's request.**
+>
+> The next digest starts at **Phase 1, first item: Ullman 1983**, and works forward from
+> there, ignoring `continuity.next_reading` in every digest dated on or before
+> 2026-09-06. This block overrides the "do not restart the sequence" rule above, once.
+>
+> The pair rule still applies from the restart: Mathews and Deudney in the same week when
+> they come round again, and Levy after them.
+>
+> Only the curriculum sequence resets. The recent empirical or policy-analytical item is
+> not part of this sequence and is chosen freely each week as usual, from the last one to
+> two years — it does not repeat what earlier weeks used.
+>
+> `continuity.literature_covered` is a record of what the site has published, not a
+> progress marker. Carry it forward intact; do not empty it. Texts covered before the
+> reset will appear in it twice once they come round again, and that is correct.
+>
+> **Delete this whole block** in the same commit as the first digest that starts from the
+> reset. From that digest on, `next_reading` is the position marker again and the rule
+> above stands unqualified.
+
 These citations were written from knowledge, not from a database, and a few years may be
 off by one. Verify author, year, title and venue before presenting any item. When you
 find an error, correct it here in the same commit and note the correction in the
@@ -81,6 +104,17 @@ digest's verification note.
 
 Kept current by the routine. Each entry records the week it appeared in.
 
+*Cleared 2026-09-07 by the reset above. The pre-reset run is preserved below for the
+record; it is history, not position. The list proper starts empty and the next digest is
+its first entry.*
+
+<!-- nothing yet since the reset -->
+
+### Before the reset (2026-08-31 to 2026-09-06)
+
+Kept so the sequence's first pass stays visible, and so a later reader can see that
+Ullman, Mathews and Deudney appear twice on the site by intent rather than by error.
+
 - Phase 1, Ullman 1983 — week ending 2026-08-31.
 - Phase 5/6 bridge, Vogler 2026 — week ending 2026-08-31.
 - Phase 1, Mathews 1989 — week ending 2026-09-06.
@@ -88,8 +122,10 @@ Kept current by the routine. Each entry records the week it appeared in.
 - Outside the sequence, Bagwell, Dee and Viens 2026, *PNAS*, "Global and regional climate
   modes modulate armed conflict risk" — week ending 2026-09-06.
 
-Note on cadence, recorded 2026-09-06: honouring the read-the-critique-in-the-same-week
+## Standing note on cadence
+
+Recorded 2026-09-06, unaffected by the reset. Honouring the read-the-critique-in-the-same-week
 rule costs a third item in any week where a curriculum pair falls due, because the recent
 empirical slot still has to be filled. That is the right trade — deferring the critique is
-the one thing this file forbids — but expect it again at Homer-Dixon/Gleditsch, at
-Hsiang-Burke-Miguel/Buhaug, and at Kelley/Selby.
+the one thing this file forbids — but expect it at Mathews/Deudney, at
+Homer-Dixon/Gleditsch, at Hsiang-Burke-Miguel/Buhaug, and at Kelley/Selby.
