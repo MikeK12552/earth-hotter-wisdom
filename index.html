@@ -114,8 +114,11 @@ h3.item{font-size:20px;line-height:1.25;font-weight:500;margin:0 0 4px;letter-sp
   color:var(--muted);margin:0 0 5px}
 .abbr-pop .x{font-size:17px;line-height:1.35;margin:0}
 .abbr-pop .g{font-size:15px;line-height:1.45;color:var(--muted);margin:9px 0 0}
-.abbr-pop .c{display:block;margin:13px 0 0;padding:0;background:none;border:0;
-  font-family:var(--sans);font-size:12.5px;color:var(--muted);cursor:pointer;text-decoration:underline}
+.abbr-pop .f{display:flex;justify-content:space-between;align-items:baseline;gap:16px;
+  margin:14px 0 0;padding-top:11px;border-top:1px solid var(--rule-soft)}
+.abbr-pop .w,.abbr-pop .c{font-family:var(--sans);font-size:12.5px;color:var(--muted)}
+.abbr-pop .w{text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:2px}
+.abbr-pop .c{padding:0;background:none;border:0;cursor:pointer;text-decoration:underline;flex:none}
 /* On a phone the popover becomes a sheet resting on top of the nav bar, so it never
    lands half off-screen or under the thumb. */
 .abbr-pop.sheet{position:fixed;left:0;right:0;top:auto;width:auto;
@@ -329,10 +332,34 @@ function openAbbr(btn){
   add("t", btn.dataset.term);
   add("x", entry.expansion);
   if(entry.gloss) add("g", entry.gloss);
+
+  const foot = document.createElement("div");
+  foot.className = "f";
+  // The glossary supplies an article title at most, never a URL: the host is fixed here
+  // so an entry cannot point the link at somewhere that is not Wikipedia.
+  if(entry.wikipedia !== false){
+    const a = document.createElement("a");
+    a.className = "w";
+    a.target = "_blank"; a.rel = "noopener";
+    if(typeof entry.wikipedia === "string"){
+      a.href = "https://en.wikipedia.org/wiki/" + encodeURIComponent(entry.wikipedia.replace(/ /g,"_"));
+      a.textContent = "Read on Wikipedia";
+    }else{
+      // Wikipedia's search jumps straight to the article when the expansion is an exact
+      // title, and shows results otherwise. Either way it is never a dead link, which
+      // guessing article titles would not guarantee.
+      a.href = "https://en.wikipedia.org/w/index.php?search=" + encodeURIComponent(entry.expansion);
+      a.textContent = "Look up on Wikipedia";
+    }
+    foot.appendChild(a);
+  }else{
+    foot.appendChild(document.createElement("span"));
+  }
   const close = document.createElement("button");
   close.type = "button"; close.className = "c"; close.textContent = "Close";
   close.addEventListener("click", () => closeAbbr(true));
-  pop.appendChild(close);
+  foot.appendChild(close);
+  pop.appendChild(foot);
   btn.setAttribute("aria-expanded","true");
   popFor = btn;
   placeAbbr();

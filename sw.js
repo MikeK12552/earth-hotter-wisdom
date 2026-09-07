@@ -5,7 +5,8 @@
 // reinstalls this worker when this file's bytes change, and activate() drops every cache
 // that is not the current SHELL or DATA.
 // shell-v2: abbreviation glossary, apple-touch-icon fix.
-const SHELL = "shell-v2";
+// shell-v3: Wikipedia link in the abbreviation popover.
+const SHELL = "shell-v3";
 const DATA = "data-v1";
 const ASSETS = ["./", "./index.html", "./manifest.webmanifest"];
 

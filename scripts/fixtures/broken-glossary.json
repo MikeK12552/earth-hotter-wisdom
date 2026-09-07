@@ -1,12 +1,43 @@
 {
   "schema_version": 2,
   "terms": {
-    "GOOD": { "expansion": "A well-formed entry", "gloss": "Present so the run cannot pass by finding nothing at all." },
-    "NOEXP": { "gloss": "No expansion, which is the one required field." },
-    "EMPTYEXP": { "expansion": "   " },
-    "BADGLOSS": { "expansion": "Fine expansion", "gloss": "" },
-    "EXTRA": { "expansion": "Fine expansion", "meaning": "meaning is not a glossary field" },
+    "GOOD": {
+      "expansion": "A well-formed entry",
+      "gloss": "Present so the run cannot pass by finding nothing at all."
+    },
+    "NOEXP": {
+      "gloss": "No expansion, which is the one required field."
+    },
+    "EMPTYEXP": {
+      "expansion": "   "
+    },
+    "BADGLOSS": {
+      "expansion": "Fine expansion",
+      "gloss": ""
+    },
+    "EXTRA": {
+      "expansion": "Fine expansion",
+      "meaning": "meaning is not a glossary field"
+    },
     "NOTANOBJECT": "a bare string where an object belongs",
-    "-DASHED": { "expansion": "Starts with a dash, so the word-boundary match can never fire" }
+    "-DASHED": {
+      "expansion": "Starts with a dash, so the word-boundary match can never fire"
+    },
+    "BADWIKI": {
+      "expansion": "Fine expansion",
+      "wikipedia": 123
+    },
+    "URLWIKI": {
+      "expansion": "Fine expansion",
+      "wikipedia": "https://example.com/not-wikipedia"
+    },
+    "OKWIKI": {
+      "expansion": "Fine expansion",
+      "wikipedia": "An Article Title"
+    },
+    "OFFWIKI": {
+      "expansion": "Fine expansion",
+      "wikipedia": false
+    }
   }
 }
