@@ -8,7 +8,8 @@
 // shell-v3: Wikipedia link in the abbreviation popover.
 // shell-v4: verified article links in place of search links.
 // shell-v5: map view.
-const SHELL = "shell-v5";
+// shell-v6: map fixes for portrait phones.
+const SHELL = "shell-v6";
 const DATA = "data-v1";
 const ASSETS = ["./", "./index.html", "./map.html", "./manifest.webmanifest"];
 
