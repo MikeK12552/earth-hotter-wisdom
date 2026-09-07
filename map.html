@@ -39,10 +39,10 @@ header{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;
 .wk .no{font-family:var(--sans);font-size:12px;color:var(--muted);margin-top:3px}
 .wk a{font-family:var(--sans);font-size:13px;color:var(--ink);display:inline-block;margin-top:6px}
 
-#stage{position:relative;flex:1;min-height:0;overflow:hidden;cursor:grab}
+#stage{position:relative;flex:1;min-height:0;overflow:hidden;cursor:grab;contain:layout paint}
 #stage:active{cursor:grabbing}
 #base,#marks,#heat{position:absolute;inset:0;width:100%;height:100%}
-#heat{pointer-events:none;mix-blend-mode:multiply}
+#heat{pointer-events:none;mix-blend-mode:multiply;contain:strict}
 #marks{pointer-events:none}
 #marks .mk{pointer-events:auto;cursor:pointer}
 .country{fill:var(--card);stroke:var(--rule);stroke-width:.6;vector-effect:non-scaling-stroke}
@@ -65,6 +65,13 @@ header{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;
 #panel{position:absolute;left:18px;top:18px;width:232px;max-height:calc(100% - 36px);overflow:auto;background:var(--card);border:1px solid var(--rule);border-radius:2px;
   font-family:var(--sans);font-size:13px;padding:14px 16px 12px;box-shadow:0 1px 2px rgba(19,27,33,.06)}
 #panel h4{margin:0 0 10px;font-size:12px;font-weight:600;letter-spacing:.03em;color:var(--muted)}
+/* The toggle only exists on a narrow screen, where the panel would otherwise cover
+   nearly half the map. Desktop keeps the panel open with no chrome. */
+#panelToggle{display:none;align-items:center;gap:8px;width:100%;background:none;border:0;
+  padding:0;cursor:pointer;font-family:var(--sans);font-size:12px;font-weight:600;
+  letter-spacing:.03em;color:var(--muted);text-align:left}
+#panelToggle .car{margin-left:auto;font-size:11px;transition:transform .15s}
+#panel.min #panelToggle .car{transform:rotate(-90deg)}
 #panel h4+h4{margin-top:16px}
 .lay{display:flex;align-items:center;gap:10px;padding:5px 0;cursor:pointer;user-select:none}
 .lay input{appearance:none;width:26px;height:16px;border-radius:9px;background:var(--rule);position:relative;margin:0;flex:none;cursor:pointer;transition:background .15s}
@@ -105,7 +112,7 @@ footer{flex:none;border-top:1px solid var(--rule);background:var(--card);padding
 footer .nav{background:none;border:1px solid var(--rule);width:32px;height:32px;border-radius:2px;cursor:pointer;color:var(--ink);font-size:15px;flex:none}
 footer .nav:disabled{opacity:.35;cursor:default}
 footer .nav:not(:disabled):hover{border-color:var(--ink)}
-#weeks{flex:1;position:relative;height:48px;display:flex;align-items:center;overflow-x:auto;overflow-y:hidden}
+#weeks{flex:1 1 0;min-width:0;position:relative;height:48px;scrollbar-width:none;display:flex;align-items:center;overflow-x:auto;overflow-y:hidden}
 #weeks .line{position:absolute;left:0;right:0;top:50%;height:1px;background:var(--rule)}
 #weeks .tick{position:relative;flex:1;min-width:64px;display:flex;flex-direction:column;align-items:center;gap:6px;cursor:pointer;background:none;border:0;padding:0;color:var(--muted);font-size:11.5px}
 #weeks .tick i{display:block;width:10px;height:10px;border-radius:50%;background:var(--card);border:1.5px solid var(--rule);transition:all .15s}
@@ -115,11 +122,34 @@ footer .nav:not(:disabled):hover{border-color:var(--ink)}
 #weeks .tick.future i{border-style:dashed}
 #weeks .tick.future{cursor:default}
 footer .hint{color:var(--muted);font-size:12px;flex:none}
+#weeks::-webkit-scrollbar{display:none}
+#weeks .tick span{white-space:nowrap}
 nav.bar{flex:none;display:flex;background:var(--card);border-top:1px solid var(--rule)}
 nav.bar button{flex:1;background:none;border:0;padding:13px 0;font-family:var(--sans);font-size:13.5px;color:var(--muted);cursor:pointer}
 nav.bar button[aria-current="true"]{color:var(--ink);font-weight:600;box-shadow:inset 0 2px 0 var(--ink)}
 .state{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:15px;pointer-events:none}
-@media (max-width:720px){#panel{width:190px;font-size:12px}#pop{width:300px}header{padding:14px 16px 10px}.wk .range{font-size:16px}footer{padding:10px 16px}}
+@media (max-width:720px){
+  #pop{width:300px}
+  header{padding:14px 16px 10px}
+  .wk .range{font-size:16px}
+  footer{padding:10px 12px;gap:10px}
+  /* Portrait was wrapping the masthead onto two lines and breaking the digest link
+     across the arrow. Smaller type, and the row lays out left-to-right instead. */
+  header{align-items:center;gap:12px}
+  .mast{font-size:17px}
+  .mast span{font-size:11px;margin-top:3px}
+  .wk .range{font-size:14px;line-height:1.2}
+  .wk .no{font-size:11px;margin-top:1px}
+  .wk a{font-size:12px;margin-top:3px;white-space:nowrap}
+  /* The hint is desktop advice — there are no arrow keys and no scroll wheel on a
+     phone — and at 270px it was squeezing the timeline to nothing. */
+  footer .hint{display:none}
+  #panel{left:12px;top:12px;width:auto;max-width:calc(100% - 24px);font-size:12.5px;padding:10px 12px}
+  #panelToggle{display:flex}
+  #panel.min{padding:8px 12px}
+  #panel.min #panelBody{display:none}
+  #panelBody{margin-top:12px}
+}
 </style>
 </head>
 <body>
@@ -137,6 +167,10 @@ nav.bar button[aria-current="true"]{color:var(--ink);font-weight:600;box-shadow:
   <canvas id="heat"></canvas>
   <svg id="marks"><g id="gMarks"><g id="gLinks"></g><g id="gInst"></g><g id="gItems"></g></g></svg>
   <div id="panel">
+    <button id="panelToggle" aria-expanded="true" aria-controls="panelBody">
+      <span>Layers and legend</span><span class="car" aria-hidden="true">▾</span>
+    </button>
+    <div id="panelBody">
     <h4>Layers</h4>
     <label class="lay"><input type="checkbox" data-layer="dev" checked><span class="sw dev"></span>Key developments</label>
     <label class="lay"><input type="checkbox" data-layer="moves" checked><span class="sw move"></span>Player moves</label>
@@ -146,6 +180,7 @@ nav.bar button[aria-current="true"]{color:var(--ink);font-weight:600;box-shadow:
     <h4>Event types this week</h4>
     <div class="leg" id="legend"></div>
     <div class="cnt" id="counts"></div>
+    </div>
   </div>
   <div id="pop" role="dialog"></div>
   <div class="state" id="state">Loading map…</div>
@@ -213,7 +248,16 @@ const layers = {dev:true, moves:true, links:true, inst:false, heat:true};
 const ramp = d3.interpolateRgb("#f3d9d5", "#b3362b");
 const LUT = d3.range(256).map(i => { const v=i/255; const c=d3.rgb(ramp(Math.min(1,v*1.15))); return [c.r,c.g,c.b,Math.round(Math.min(1,v*1.7)*255)]; });
 
-const zoom = d3.zoom().scaleExtent([1,14]).on("zoom", e => { if(e.sourceEvent) focusItem = null; t = e.transform; apply(); });
+// The heat field is a full-screen canvas composited with mix-blend-mode: multiply over
+// 177 SVG country paths that carry non-scaling strokes. Redrawing and re-blending that
+// on every frame of a pinch is what makes the map crawl on a phone — the JavaScript is
+// nothing, the rasterising is everything. So during a gesture the heat is switched off
+// and put back when the gesture ends.
+let interacting = false;
+const zoom = d3.zoom().scaleExtent([1,14])
+  .on("start", e => { if(e.sourceEvent){ interacting = true; canvas.style.display = "none"; } })
+  .on("zoom",  e => { if(e.sourceEvent) focusItem = null; t = e.transform; apply(); })
+  .on("end",   () => { if(interacting){ interacting = false; canvas.style.display = ""; drawHeat(); } });
 svgMarks.call(zoom).on("dblclick.zoom", null);
 d3.select("#marks").style("pointer-events","auto");
 
@@ -238,7 +282,21 @@ async function boot(){
   await selectWeek(index.digests.some(d=>d.id===want) ? want : index.digests[index.digests.length-1].id);
   focusItem = focus && items.find(o=>o.id===focus) || null;
   if(focusItem) focusOn(true);
-  document.querySelectorAll("[data-layer]").forEach(cb => cb.addEventListener("change", () => { layers[cb.dataset.layer]=cb.checked; if(!cb.checked && selected && ((selected.type==="inst"&&cb.dataset.layer==="inst")||(selected.type==="dev"&&cb.dataset.layer==="dev")||(selected.type==="move"&&cb.dataset.layer==="moves"))) closePop(); render(); }));
+  document.querySelectorAll("[data-layer]").forEach(cb => cb.addEventListener("change", () => { layers[cb.dataset.layer]=cb.checked; if(cb.dataset.layer==="heat" && cb.checked) canvas.style.display=""; if(!cb.checked && selected && ((selected.type==="inst"&&cb.dataset.layer==="inst")||(selected.type==="dev"&&cb.dataset.layer==="dev")||(selected.type==="move"&&cb.dataset.layer==="moves"))) closePop(); render(); }));
+  // Collapsed by default on a phone, where the open panel covered nearly half the map.
+  const panel = document.getElementById("panel"), pt = document.getElementById("panelToggle");
+  const narrowPanel = () => window.matchMedia("(max-width:720px)").matches;
+  const setPanel = min => {
+    panel.classList.toggle("min", min);
+    pt.setAttribute("aria-expanded", String(!min));
+    if(narrowPanel()) localStorage.setItem("csw-map-panel", min ? "min" : "open");
+  };
+  setPanel(narrowPanel() && localStorage.getItem("csw-map-panel") !== "open");
+  pt.addEventListener("click", () => setPanel(!panel.classList.contains("min")));
+  // Coming back to a wide screen should never leave the panel stuck shut.
+  window.matchMedia("(max-width:720px)").addEventListener("change", e =>
+    setPanel(e.matches && localStorage.getItem("csw-map-panel") !== "open"));
+
   document.getElementById("prev").addEventListener("click", ()=>step(-1));
   document.getElementById("next").addEventListener("click", ()=>step(1));
   window.addEventListener("keydown", e => { if(e.key==="ArrowLeft") step(-1); else if(e.key==="ArrowRight") step(1); else if(e.key==="Escape") closePop(); });
@@ -247,7 +305,7 @@ async function boot(){
 
 function resize(){
   W = stage.clientWidth || 800; H = stage.clientHeight || 400;
-  canvas.width = W; canvas.height = H;
+  canvas.width = W; canvas.height = H; sizeHeat();
   projection = d3.geoNaturalEarth1().fitExtent([[12,12],[W-12,H-12]], {type:"Sphere"});
   path = d3.geoPath(projection);
   gBase.html("");
@@ -403,26 +461,40 @@ function apply(){
   drawHeat(); positionPop();
 }
 
-let heatFrame = 0;
+// The heat field is a blur, so it is drawn at half resolution and scaled up: a quarter
+// of the pixels through the per-pixel recolour, which is the expensive part and ran on
+// every pan and zoom frame. The scratch canvas is allocated once per resize rather than
+// once per frame — on a phone the old version churned a full-size canvas 60 times a
+// second and the map crawled.
+const HEAT_SCALE = 0.5;
+let heatFrame = 0, off = document.createElement("canvas"), oc = off.getContext("2d", {willReadFrequently:true});
+let hw = 0, hh = 0;
+function sizeHeat(){
+  hw = Math.max(1, Math.round(W*HEAT_SCALE)); hh = Math.max(1, Math.round(H*HEAT_SCALE));
+  off.width = hw; off.height = hh;
+}
 function drawHeat(){
   cancelAnimationFrame(heatFrame);
   heatFrame = requestAnimationFrame(() => {
     ctx.clearRect(0,0,W,H);
-    if(!layers.heat) return;
-    const pts = items.filter(visible).map(o => [t.applyX(o.x), t.applyY(o.y)]);
+    if(!layers.heat || interacting) return;
+    if(off.width !== Math.round(W*HEAT_SCALE)) sizeHeat();
+    const pts = items.filter(visible).map(o => [t.applyX(o.x)*HEAT_SCALE, t.applyY(o.y)*HEAT_SCALE]);
     if(!pts.length) return;
-    const off = document.createElement("canvas"); off.width=W; off.height=H;
-    const oc = off.getContext("2d");
-    const R = Math.min(200, 75*Math.sqrt(t.k));
+    oc.clearRect(0,0,hw,hh);
+    const R = Math.min(200, 75*Math.sqrt(t.k)) * HEAT_SCALE;
+    let drew = false;
     pts.forEach(([x,y]) => {
-      if(x<-R||y<-R||x>W+R||y>H+R) return;
+      if(x<-R||y<-R||x>hw+R||y>hh+R) return;
       const g = oc.createRadialGradient(x,y,0,x,y,R);
       g.addColorStop(0,"rgba(0,0,0,.5)"); g.addColorStop(.45,"rgba(0,0,0,.18)"); g.addColorStop(1,"rgba(0,0,0,0)");
-      oc.fillStyle = g; oc.beginPath(); oc.arc(x,y,R,0,Math.PI*2); oc.fill();
+      oc.fillStyle = g; oc.beginPath(); oc.arc(x,y,R,0,Math.PI*2); oc.fill(); drew = true;
     });
-    const img = oc.getImageData(0,0,W,H), d = img.data;
+    if(!drew) return;
+    const img = oc.getImageData(0,0,hw,hh), d = img.data;
     for(let i=0;i<d.length;i+=4){ const a=d[i+3]; if(!a) continue; const c=LUT[a]; d[i]=c[0]; d[i+1]=c[1]; d[i+2]=c[2]; d[i+3]=c[3]; }
-    ctx.putImageData(img,0,0);
+    oc.putImageData(img,0,0);
+    ctx.drawImage(off, 0, 0, hw, hh, 0, 0, W, H);
   });
 }
 
