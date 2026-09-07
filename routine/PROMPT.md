@@ -15,7 +15,9 @@ version control.
 2. Read the most recent file in `data/digests/`. Its `continuity` object replaces the
    continuity block that used to be pasted in. It is your position marker.
 3. Read `routine/curriculum.md` for section A and `routine/watchlist.md` for section D.
-4. Establish today's date. The week runs Monday to Sunday and ends on the Sunday
+4. Read `data/glossary.json`. It is the abbreviations the reader can already explain, and
+   knowing what is in it is what stops you writing an opaque acronym you never define.
+5. Establish today's date. The week runs Monday to Sunday and ends on the Sunday
    before the run, so a Monday-morning run never covers the day it runs on. `week_end`
    and the filename are that Sunday's date; `week_start` is the Monday six days earlier.
    Weeks have been full Monday-to-Sunday since the week beginning 7 September 2026; the
@@ -214,6 +216,46 @@ This is what makes the site work across weeks.
   long it has been pending.
 - Add new threads and trends as they arise, and record `next_reading` for section A.
 
+## Abbreviations
+
+Do this while you write, not while you publish. Every time you introduce an abbreviation,
+check it against `data/glossary.json` and add it there if it is missing. The reader turns
+the first occurrence in each section into a term the reader can click.
+
+Add only what is genuinely opaque. US, EU, UN and UK are noise. The entries that earn
+their keep are the ones a well-informed reader would get *wrong*: in these digests CCS is
+the Center for Climate and Security rather than carbon capture, MEA is India's Ministry of
+External Affairs rather than a multilateral environmental agreement, and BRIC is a FEMA
+grant programme rather than a group of states. Where an abbreviation has a common other
+meaning, the gloss must say which one you mean.
+
+Each entry takes an `expansion`, an optional `gloss`, and a `wikipedia` field:
+
+- an **exact article title** where one exists,
+- **`false`** where no article is worth linking,
+- **omitted** where none exists but a search still helps — the reader then searches
+  Wikipedia for the expansion.
+
+**Verify the title; never guess it.** Resolve it against the Wikipedia API
+(`action=query&titles=…&redirects=1&prop=pageprops&ppprop=disambiguation`) and confirm the
+page exists, is not a redirect to something else, and is not a disambiguation page. A
+wrong title fails silently on a red link rather than loudly at build time, so nothing
+downstream will catch it. Two traps, both of which caught real entries here:
+
+- **Disambiguation pages.** `CNA`, `Conference of the Parties`, `Ministry of External
+  Affairs` and `National Intelligence Council` are all disambiguation pages; the articles
+  wanted were `CNA (nonprofit)`, `Ministry of External Affairs (India)` and
+  `National Intelligence Council (United States)`.
+- **Redirects that land on the wrong subject.** `Security Council Report` redirects to the
+  UN Security Council article, but SCR in these digests is the independent NGO of that
+  name, which has no article — so it links nowhere rather than somewhere wrong.
+
+The field is a title, never a URL. The reader fixes the host and the build rejects
+anything URL-shaped.
+
+A glossary that is not kept current decays into a list of last year's abbreviations, and
+the decay is invisible: the reader simply stops marking terms.
+
 ## Format
 
 Mark confidence where evidence is thin and label speculation as such. There is no word
@@ -230,11 +272,9 @@ node scripts/build.mjs
 If it fails, fix the digest and run again. Do not edit the schema to make an invalid
 digest pass. Do not edit `data/index.json` by hand.
 
-Where the digest uses an abbreviation that `data/glossary.json` does not carry, add it
-there in the same commit, with an expansion and — where the abbreviation has a common
-other meaning — a gloss saying which one is meant. The reader turns these into
-click-to-expand terms. Add only what is genuinely opaque; US, EU and UN are noise. A
-glossary that is not kept current decays into a list of last year's abbreviations.
+This also validates `data/glossary.json`. If you have left an abbreviation undefined the
+build will not catch it — that check is yours, and it belongs to the writing, not to this
+step. See **Abbreviations** above.
 
 When it passes, commit to a branch named `claude/digest-<week_end>`:
 
