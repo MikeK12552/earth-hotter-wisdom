@@ -216,6 +216,41 @@ This is what makes the site work across weeks.
   long it has been pending.
 - Add new threads and trends as they arise, and record `next_reading` for section A.
 
+## Locations
+
+Every section B item and every section D move that happened somewhere carries a
+`locations` array, so the reader can put it on a map. Record it as you write the item,
+while you still have the source in front of you.
+
+Each entry needs a `name` for the pin, `lat`, `lon`, a `kind` and a `precision`:
+
+- `kind` is `event` where the thing happened, `institution` where the body that acted
+  sits, or `jurisdiction` for a country the item is about rather than anywhere something
+  occurred. **The distinction is the point.** UNEP publishing from Nairobi is an
+  institution pin, not an event in Kenya; an arbitration seated in The Hague is not a
+  dispute in the Netherlands. Collapsing the two would put the field's institutional
+  geography on the map as though it were its physical geography, which is close to the
+  opposite of what this digest argues.
+- `precision` is `point`, `settlement`, `region` or `country` — how tightly the
+  coordinate actually locates it, so a country centroid is never plotted as a site.
+
+Take coordinates from a source, the same as any other fact here. Wikidata's P625 and
+Wikipedia's `prop=coordinates` both serve, and both are checkable by the reader
+afterwards. Do not recall them: a plausible-looking pair of decimals in the wrong valley
+is exactly the kind of error nothing downstream will catch. The build rejects an
+out-of-range value but cannot tell a wrong coordinate from a right one.
+
+**An item with no located place omits `locations` rather than inventing one.** Several
+deserve to be absent: a finding about discourse, a move that spans three institutions and
+is about an absence, a global synthesis with no site. An empty map pin is worse than no
+pin, because it asserts something happened somewhere it did not.
+
+Multiple entries are normal. A flood across the Nepal-China border is two, one either
+side. So is an item about two islands.
+
+Section C needs nothing: its jurisdictions are a fixed enum, so a map holds that lookup
+once rather than repeating six coordinates in every digest.
+
 ## Abbreviations
 
 Do this while you write, not while you publish. Every time you introduce an abbreviation,

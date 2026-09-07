@@ -47,6 +47,10 @@ const expected = [
   ["salience claim without actor_type", "salience[0].claims[1].actor_type: required on every salience claim"],
   ["development without attribution",   "developments[0].attribution: required on every development"],
   ["development without claims",        "developments[1].claims: required on every development"],
+  ["latitude above the maximum",  "developments[0].locations[0].lat: 91 is above the maximum of 90"],
+  ["longitude below the minimum", "developments[0].locations[0].lon: -200 is below the minimum of -180"],
+  ["latitude that is not a number","developments[0].locations[1].lat: expected a number"],
+  ["location without a kind",     "developments[0].locations[2].kind: required"],
   ["carried thread dropped",            'thread "test-thread-dropped" was open in 2099-01-07.json and is not carried forward'],
   ["carried thread first_raised moved", 'thread "test-thread-kept".first_raised changed from "2099-01-07" to "2099-01-13"'],
 ];

@@ -73,6 +73,7 @@
             }
           },
           "sources": { "type": "array", "items": { "$ref": "#/$defs/source" } },
+          "locations": { "type": "array", "items": { "$ref": "#/$defs/location" }, "description": "Where this happened. Optional: an item with no located place omits it rather than inventing one." },
           "dropped": { "type": "string", "description": "Anything cut for failing verification, and why." }
         }
       }
@@ -113,6 +114,7 @@
           "inference": { "type": "string" },
           "verdict": { "type": "string", "enum": ["landed", "failed", "too_early"] },
           "confidence": { "type": "string", "enum": ["high", "medium", "low"] },
+          "locations": { "type": "array", "items": { "$ref": "#/$defs/location" }, "description": "Where the move was made. Usually the actor's seat, so kind is normally 'institution'." },
           "sources": { "type": "array", "items": { "$ref": "#/$defs/source" } }
         }
       }
@@ -202,6 +204,27 @@
           "description": "Required on salience claims. The second axis of section C."
         },
         "source": { "$ref": "#/$defs/source" }
+      }
+    },
+    "location": {
+      "type": "object",
+      "description": "One place an item belongs to. Coordinates are for plotting, so they carry the same standard as any other fact here: take them from a source, do not recall them. `precision` is the honesty field — a country centroid must not be plotted as though it were the site of an event.",
+      "required": ["name", "lat", "lon", "kind", "precision"],
+      "properties": {
+        "name": { "type": "string", "description": "What to label the pin. Usually shorter than the item's `place` string." },
+        "lat": { "type": "number", "minimum": -90, "maximum": 90 },
+        "lon": { "type": "number", "minimum": -180, "maximum": 180 },
+        "kind": {
+          "type": "string",
+          "enum": ["event", "institution", "jurisdiction"],
+          "description": "`event` where the thing happened. `institution` where the body that acted sits — a report published from a headquarters is not an event at that headquarters. `jurisdiction` for a country or bloc the item is about rather than anywhere something occurred."
+        },
+        "precision": {
+          "type": "string",
+          "enum": ["point", "settlement", "region", "country"],
+          "description": "How tightly the coordinate locates it: a specific site, a city, a sub- or supra-national area, or a whole country."
+        },
+        "note": { "type": "string" }
       }
     },
     "source": {
