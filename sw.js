@@ -6,7 +6,8 @@
 // that is not the current SHELL or DATA.
 // shell-v2: abbreviation glossary, apple-touch-icon fix.
 // shell-v3: Wikipedia link in the abbreviation popover.
-const SHELL = "shell-v3";
+// shell-v4: verified article links in place of search links.
+const SHELL = "shell-v4";
 const DATA = "data-v1";
 const ASSETS = ["./", "./index.html", "./manifest.webmanifest"];
 

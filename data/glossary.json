@@ -1,23 +1,27 @@
 {
   "schema_version": 1,
-  "note": "Hand-maintained, unlike data/index.json. The reader marks the first occurrence of each term in each section and shows this on click. Keys match case-sensitively on whole words, so only add genuinely opaque abbreviations: US, EU and UN are noise, not help. Where an abbreviation has a common other meaning, say so in the gloss — that is the case this file earns its keep on. Each entry also gets a Wikipedia link, built from the expansion by the reader; set \"wikipedia\" to an exact article title to point somewhere specific, or to false where no article is worth linking.",
+  "note": "Hand-maintained, unlike data/index.json. The reader marks the first occurrence of each term in each section and shows this on click. Keys match case-sensitively on whole words, so only add genuinely opaque abbreviations: US, EU and UN are noise, not help. Where an abbreviation has a common other meaning, say so in the gloss — that is the case this file earns its keep on. \"wikipedia\" is an exact article title, verified against the Wikipedia API rather than guessed; false where no article is worth linking; omitted where none exists but a search still helps, in which case the reader searches on the expansion.",
   "terms": {
     "AOSIS": {
       "expansion": "Alliance of Small Island States",
-      "gloss": "The negotiating bloc of low-lying and island states. Its leverage rests almost entirely on 1.5°C being a commitment rather than a target, which is why it fights framing changes to that number."
+      "gloss": "The negotiating bloc of low-lying and island states. Its leverage rests almost entirely on 1.5°C being a commitment rather than a target, which is why it fights framing changes to that number.",
+      "wikipedia": "Alliance of Small Island States"
     },
     "AU": {
-      "expansion": "African Union"
+      "expansion": "African Union",
+      "wikipedia": "African Union"
     },
     "BRI": {
-      "expansion": "Belt and Road Initiative"
+      "expansion": "Belt and Road Initiative",
+      "wikipedia": "Belt and Road Initiative"
     },
     "BRIC": {
       "expansion": "Building Resilient Infrastructure and Communities",
       "gloss": "A FEMA pre-disaster mitigation grant programme. Nothing to do with the BRICS grouping of states."
     },
     "CAN Europe": {
-      "expansion": "Climate Action Network Europe"
+      "expansion": "Climate Action Network Europe",
+      "wikipedia": "Climate Action Network"
     },
     "CCS": {
       "expansion": "Center for Climate and Security",
@@ -25,20 +29,23 @@
     },
     "CDA": {
       "expansion": "Christen-Democratisch Appèl",
-      "gloss": "Dutch christian-democratic party."
+      "gloss": "Dutch christian-democratic party.",
+      "wikipedia": "Christian Democratic Appeal"
     },
     "CNA": {
       "expansion": "CNA",
       "gloss": "A US non-profit research organisation, formerly the Center for Naval Analyses. Its 2007 Military Advisory Board report put \"threat multiplier\" into circulation.",
-      "wikipedia": false
+      "wikipedia": "CNA (nonprofit)"
     },
     "COP": {
       "expansion": "Conference of the Parties",
-      "gloss": "The decision-making body of a UN convention. Which convention depends on context: usually the climate convention, but the desertification and biodiversity conventions have their own numbered COPs."
+      "gloss": "The decision-making body of a UN convention. Which convention depends on context: usually the climate convention, but the desertification and biodiversity conventions have their own numbered COPs.",
+      "wikipedia": "Conference of the Parties"
     },
     "COP31": {
       "expansion": "31st Conference of the Parties to the UN climate convention",
-      "gloss": "Antalya, 9 to 20 November 2026."
+      "gloss": "Antalya, 9 to 20 November 2026.",
+      "wikipedia": "2026 United Nations Climate Change Conference"
     },
     "CPS": {
       "expansion": "climate, peace and security",
@@ -47,14 +54,17 @@
     },
     "CRS": {
       "expansion": "Congressional Research Service",
-      "gloss": "The US Congress's in-house research arm."
+      "gloss": "The US Congress's in-house research arm.",
+      "wikipedia": "Congressional Research Service"
     },
     "CSDDD": {
-      "expansion": "Corporate Sustainability Due Diligence Directive"
+      "expansion": "Corporate Sustainability Due Diligence Directive",
+      "wikipedia": "Corporate Sustainability Due Diligence Directive"
     },
     "CSDP": {
       "expansion": "Common Security and Defence Policy",
-      "gloss": "The EU's framework for military and civilian crisis-management missions."
+      "gloss": "The EU's framework for military and civilian crisis-management missions.",
+      "wikipedia": "Common Security and Defence Policy"
     },
     "CSM": {
       "expansion": "Climate Security Mechanism",
@@ -71,38 +81,48 @@
     },
     "D66": {
       "expansion": "Democraten 66",
-      "gloss": "Dutch social-liberal party; leads the cabinet sworn in February 2026."
+      "gloss": "Dutch social-liberal party; leads the cabinet sworn in February 2026.",
+      "wikipedia": "Democrats 66"
     },
     "DG CLIMA": {
       "expansion": "Directorate-General for Climate Action",
-      "gloss": "The European Commission department that owns the climate file."
+      "gloss": "The European Commission department that owns the climate file.",
+      "wikipedia": "Directorate-General for Climate Action"
     },
     "DHS": {
-      "expansion": "US Department of Homeland Security"
+      "expansion": "US Department of Homeland Security",
+      "wikipedia": "United States Department of Homeland Security"
     },
     "DPO": {
-      "expansion": "UN Department of Peace Operations"
+      "expansion": "UN Department of Peace Operations",
+      "wikipedia": "United Nations Department of Peace Operations"
     },
     "DPPA": {
-      "expansion": "UN Department of Political and Peacebuilding Affairs"
+      "expansion": "UN Department of Political and Peacebuilding Affairs",
+      "wikipedia": "United Nations Department of Political and Peacebuilding Affairs"
     },
     "DRC": {
-      "expansion": "Democratic Republic of the Congo"
+      "expansion": "Democratic Republic of the Congo",
+      "wikipedia": "Democratic Republic of the Congo"
     },
     "EEAS": {
       "expansion": "European External Action Service",
-      "gloss": "The EU's diplomatic service, and where its climate-security file sits."
+      "gloss": "The EU's diplomatic service, and where its climate-security file sits.",
+      "wikipedia": "European External Action Service"
     },
     "ENSO": {
       "expansion": "El Niño–Southern Oscillation",
-      "gloss": "The Pacific climate oscillation behind El Niño and La Niña. Its dry teleconnections, not its wet ones, carry most of the measured conflict risk."
+      "gloss": "The Pacific climate oscillation behind El Niño and La Niña. Its dry teleconnections, not its wet ones, carry most of the measured conflict risk.",
+      "wikipedia": "El Niño–Southern Oscillation"
     },
     "EPA": {
-      "expansion": "US Environmental Protection Agency"
+      "expansion": "US Environmental Protection Agency",
+      "wikipedia": "United States Environmental Protection Agency"
     },
     "FEMA": {
       "expansion": "Federal Emergency Management Agency",
-      "gloss": "The US disaster response and mitigation agency."
+      "gloss": "The US disaster response and mitigation agency.",
+      "wikipedia": "Federal Emergency Management Agency"
     },
     "GHACOF": {
       "expansion": "Greater Horn of Africa Climate Outlook Forum",
@@ -110,73 +130,89 @@
     },
     "GLOF": {
       "expansion": "glacial lake outburst flood",
-      "gloss": "A flood caused by a glacier-dammed lake draining suddenly. Monitoring in the Himalaya is built around this hazard, which is why an ice-and-rock avalanche can arrive unwatched."
+      "gloss": "A flood caused by a glacier-dammed lake draining suddenly. Monitoring in the Himalaya is built around this hazard, which is why an ice-and-rock avalanche can arrive unwatched.",
+      "wikipedia": "Glacial lake outburst flood"
     },
     "HCSS": {
-      "expansion": "The Hague Centre for Strategic Studies"
+      "expansion": "The Hague Centre for Strategic Studies",
+      "wikipedia": "The Hague Centre for Strategic Studies"
     },
     "ICIMOD": {
       "expansion": "International Centre for Integrated Mountain Development",
-      "gloss": "The intergovernmental body for the Hindu Kush Himalaya, based in Kathmandu."
+      "gloss": "The intergovernmental body for the Hindu Kush Himalaya, based in Kathmandu.",
+      "wikipedia": "International Centre for Integrated Mountain Development"
     },
     "IMCCS": {
       "expansion": "International Military Council on Climate and Security"
     },
     "IMD": {
-      "expansion": "India Meteorological Department"
+      "expansion": "India Meteorological Department",
+      "wikipedia": "India Meteorological Department"
     },
     "IOD": {
       "expansion": "Indian Ocean Dipole",
-      "gloss": "A sea-surface temperature oscillation across the Indian Ocean; both its phases raise conflict risk in strongly connected regions."
+      "gloss": "A sea-surface temperature oscillation across the Indian Ocean; both its phases raise conflict risk in strongly connected regions.",
+      "wikipedia": "Indian Ocean Dipole"
     },
     "IWT": {
       "expansion": "Indus Waters Treaty",
-      "gloss": "The 1960 India–Pakistan water-sharing treaty brokered by the World Bank."
+      "gloss": "The 1960 India–Pakistan water-sharing treaty brokered by the World Bank.",
+      "wikipedia": "Indus Waters Treaty"
     },
     "KNMI": {
       "expansion": "Koninklijk Nederlands Meteorologisch Instituut",
-      "gloss": "The Royal Netherlands Meteorological Institute, and one of the partners behind World Weather Attribution."
+      "gloss": "The Royal Netherlands Meteorological Institute, and one of the partners behind World Weather Attribution.",
+      "wikipedia": "Royal Netherlands Meteorological Institute"
     },
     "MEA": {
       "expansion": "Ministry of External Affairs",
-      "gloss": "India's foreign ministry. In environmental writing MEA usually means multilateral environmental agreement; here it does not."
+      "gloss": "India's foreign ministry. In environmental writing MEA usually means multilateral environmental agreement; here it does not.",
+      "wikipedia": "Ministry of External Affairs (India)"
     },
     "MERICS": {
-      "expansion": "Mercator Institute for China Studies"
+      "expansion": "Mercator Institute for China Studies",
+      "wikipedia": "Mercator Institute for China Studies"
     },
     "MFA": {
       "expansion": "Ministry of Foreign Affairs",
-      "wikipedia": false
+      "wikipedia": "Ministry of foreign affairs"
     },
     "MFF": {
       "expansion": "Multiannual Financial Framework",
-      "gloss": "The EU's seven-year budget. The 2028–2034 round proposes 35 per cent climate and environment mainstreaming, which is not the same as a climate-security line."
+      "gloss": "The EU's seven-year budget. The 2028–2034 round proposes 35 per cent climate and environment mainstreaming, which is not the same as a climate-security line.",
+      "wikipedia": "Multiannual Financial Framework"
     },
     "MPTF": {
       "expansion": "Multi-Partner Trust Fund",
       "gloss": "The UN pooled-funding vehicle through which member states finance joint programmes."
     },
     "NATO": {
-      "expansion": "North Atlantic Treaty Organization"
+      "expansion": "North Atlantic Treaty Organization",
+      "wikipedia": "NATO"
     },
     "NDC": {
       "expansion": "Nationally Determined Contribution",
-      "gloss": "A country's self-set emissions pledge under the Paris Agreement."
+      "gloss": "A country's self-set emissions pledge under the Paris Agreement.",
+      "wikipedia": "Nationally determined contribution"
     },
     "NDRRMA": {
       "expansion": "National Disaster Risk Reduction and Management Authority",
-      "gloss": "Nepal's disaster agency, and the source of its official casualty figures."
+      "gloss": "Nepal's disaster agency, and the source of its official casualty figures.",
+      "wikipedia": "National Disaster Risk Reduction and Management Authority"
     },
     "NDS": {
       "expansion": "National Defense Strategy",
-      "gloss": "The US Department of Defense's periodic strategy document."
+      "gloss": "The US Department of Defense's periodic strategy document.",
+      "wikipedia": "National Defense Strategy"
     },
     "NIC": {
       "expansion": "National Intelligence Council",
-      "gloss": "The US intelligence community's long-range analytic body; publisher of Global Trends."
+      "gloss": "The US intelligence community's long-range analytic body; publisher of Global Trends.",
+      "wikipedia": "National Intelligence Council (United States)"
     },
     "NOAA": {
-      "expansion": "National Oceanic and Atmospheric Administration"
+      "expansion": "National Oceanic and Atmospheric Administration",
+      "wikipedia": "National Oceanic and Atmospheric Administration"
     },
     "NOFO": {
       "expansion": "Notice of Funding Opportunity",
@@ -184,17 +220,21 @@
       "wikipedia": false
     },
     "NSF": {
-      "expansion": "National Science Foundation"
+      "expansion": "National Science Foundation",
+      "wikipedia": "National Science Foundation"
     },
     "NSIDC": {
-      "expansion": "National Snow and Ice Data Center"
+      "expansion": "National Snow and Ice Data Center",
+      "wikipedia": "National Snow and Ice Data Center"
     },
     "NSR": {
       "expansion": "Northern Sea Route",
-      "gloss": "The Arctic shipping route along Russia's northern coast."
+      "gloss": "The Arctic shipping route along Russia's northern coast.",
+      "wikipedia": "Northern Sea Route"
     },
     "NUPI": {
-      "expansion": "Norwegian Institute of International Affairs"
+      "expansion": "Norwegian Institute of International Affairs",
+      "wikipedia": "Norwegian Institute of International Affairs"
     },
     "OND": {
       "expansion": "October–November–December",
@@ -207,7 +247,8 @@
     },
     "PCA": {
       "expansion": "Permanent Court of Arbitration",
-      "gloss": "The inter-state arbitration institution seated in The Hague."
+      "gloss": "The inter-state arbitration institution seated in The Hague.",
+      "wikipedia": "Permanent Court of Arbitration"
     },
     "PDD": {
       "expansion": "Public Diplomacy Division",
@@ -215,18 +256,22 @@
       "wikipedia": false
     },
     "PGA80": {
-      "expansion": "President of the 80th session of the UN General Assembly"
+      "expansion": "President of the 80th session of the UN General Assembly",
+      "wikipedia": "President of the United Nations General Assembly"
     },
     "PIF": {
       "expansion": "Pacific Islands Forum",
-      "gloss": "The regional body of Pacific states; author of the Boe Declaration and the Ocean of Peace Declaration."
+      "gloss": "The regional body of Pacific states; author of the Boe Declaration and the Ocean of Peace Declaration.",
+      "wikipedia": "Pacific Islands Forum"
     },
     "PNAS": {
-      "expansion": "Proceedings of the National Academy of Sciences"
+      "expansion": "Proceedings of the National Academy of Sciences",
+      "wikipedia": "Proceedings of the National Academy of Sciences of the United States of America"
     },
     "PSC": {
       "expansion": "Peace and Security Council",
-      "gloss": "The African Union's standing decision-making organ for conflict prevention and response."
+      "gloss": "The African Union's standing decision-making organ for conflict prevention and response.",
+      "wikipedia": "Peace and Security Council"
     },
     "PSI": {
       "expansion": "Planetary Security Initiative",
@@ -239,73 +284,93 @@
     },
     "SCR": {
       "expansion": "Security Council Report",
-      "gloss": "The independent organisation that tracks UN Security Council business. Not a Security Council resolution."
+      "gloss": "The independent organisation that tracks UN Security Council business. Not a Security Council resolution.",
+      "wikipedia": false
     },
     "SIDS": {
-      "expansion": "small island developing states"
+      "expansion": "small island developing states",
+      "wikipedia": "Small Island Developing States"
     },
     "SIPRI": {
-      "expansion": "Stockholm International Peace Research Institute"
+      "expansion": "Stockholm International Peace Research Institute",
+      "wikipedia": "Stockholm International Peace Research Institute"
     },
     "SRM": {
       "expansion": "solar radiation modification",
-      "gloss": "Deliberate cooling by reflecting sunlight. Its governance is where the security frame appears to be travelling next."
+      "gloss": "Deliberate cooling by reflecting sunlight. Its governance is where the security frame appears to be travelling next.",
+      "wikipedia": "Solar radiation modification"
     },
     "STO": {
       "expansion": "Science and Technology Organization",
-      "gloss": "NATO's research arm."
+      "gloss": "NATO's research arm.",
+      "wikipedia": "NATO Science and Technology Organization"
     },
     "TEU": {
-      "expansion": "Treaty on European Union"
+      "expansion": "Treaty on European Union",
+      "wikipedia": "Treaty on European Union"
     },
     "UNCCD": {
-      "expansion": "UN Convention to Combat Desertification"
+      "expansion": "UN Convention to Combat Desertification",
+      "wikipedia": "United Nations Convention to Combat Desertification"
     },
     "UNDP": {
-      "expansion": "UN Development Programme"
+      "expansion": "UN Development Programme",
+      "wikipedia": "United Nations Development Programme"
     },
     "UNEP": {
       "expansion": "UN Environment Programme",
-      "gloss": "The UN's environmental authority, based in Nairobi."
+      "gloss": "The UN's environmental authority, based in Nairobi.",
+      "wikipedia": "United Nations Environment Programme"
     },
     "UNGA": {
-      "expansion": "UN General Assembly"
+      "expansion": "UN General Assembly",
+      "wikipedia": "United Nations General Assembly"
     },
     "UNGA81": {
       "expansion": "81st session of the UN General Assembly",
       "gloss": "Opened 8 September 2026; high-level week from 22 September."
     },
     "UNISFA": {
-      "expansion": "UN Interim Security Force for Abyei"
+      "expansion": "UN Interim Security Force for Abyei",
+      "wikipedia": "United Nations Interim Security Force for Abyei"
     },
     "UNSC": {
-      "expansion": "UN Security Council"
+      "expansion": "UN Security Council",
+      "wikipedia": "United Nations Security Council"
     },
     "UNSG": {
-      "expansion": "UN Secretary-General"
+      "expansion": "UN Secretary-General",
+      "wikipedia": "Secretary-General of the United Nations"
     },
     "USDA": {
-      "expansion": "US Department of Agriculture"
+      "expansion": "US Department of Agriculture",
+      "wikipedia": "United States Department of Agriculture"
     },
     "USGS": {
-      "expansion": "US Geological Survey"
+      "expansion": "US Geological Survey",
+      "wikipedia": "United States Geological Survey"
     },
     "WFP": {
-      "expansion": "World Food Programme"
+      "expansion": "World Food Programme",
+      "wikipedia": "World Food Programme"
     },
     "WMO": {
-      "expansion": "World Meteorological Organization"
+      "expansion": "World Meteorological Organization",
+      "wikipedia": "World Meteorological Organization"
     },
     "WRI": {
-      "expansion": "World Resources Institute"
+      "expansion": "World Resources Institute",
+      "wikipedia": "World Resources Institute"
     },
     "WWA": {
       "expansion": "World Weather Attribution",
-      "gloss": "The research network that publishes rapid studies on whether climate change made a given extreme event more likely."
+      "gloss": "The research network that publishes rapid studies on whether climate change made a given extreme event more likely.",
+      "wikipedia": "World Weather Attribution"
     },
     "VVD": {
       "expansion": "Volkspartij voor Vrijheid en Democratie",
-      "gloss": "Dutch conservative-liberal party."
+      "gloss": "Dutch conservative-liberal party.",
+      "wikipedia": "People's Party for Freedom and Democracy"
     }
   }
 }
