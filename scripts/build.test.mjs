@@ -73,10 +73,14 @@ const expectedGloss = [
   ["unknown field",            'glossary.json.terms["EXTRA"].meaning: not a glossary field'],
   ["entry is not an object",   'glossary.json.terms["NOTANOBJECT"]: expected an object'],
   ["key that can never match", 'glossary.json.terms["-DASHED"]: must start and end'],
+  ["wikipedia of the wrong type", 'glossary.json.terms["BADWIKI"].wikipedia: expected an article title'],
+  ["wikipedia given as a URL",    'glossary.json.terms["URLWIKI"].wikipedia: an article title, not a URL'],
 ];
 for (const [label, fragment] of expectedGloss) line(gout.includes(fragment), label);
 
 line(!gout.includes('terms["GOOD"]'), "a well-formed entry raises nothing");
+line(!gout.includes('terms["OKWIKI"]'), "a valid article title raises nothing");
+line(!gout.includes('terms["OFFWIKI"]'), "wikipedia:false raises nothing");
 
 // A missing glossary is allowed: the reader works without one.
 const noGloss = run({

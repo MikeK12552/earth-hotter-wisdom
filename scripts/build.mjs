@@ -189,8 +189,21 @@ function checkGlossary(path) {
     if (entry.gloss !== undefined && (typeof entry.gloss !== "string" || !entry.gloss.trim())) {
       errors.push(`${at}.gloss: optional, but must be a non-empty string when present`);
     }
+    // The reader fixes the host and builds the URL itself, so this field carries an
+    // article title or false, never a URL. Anything URL-shaped here is either a mistake
+    // or an attempt to point a Wikipedia link somewhere else.
+    if (entry.wikipedia !== undefined) {
+      const w = entry.wikipedia;
+      if (w !== false && (typeof w !== "string" || !w.trim())) {
+        errors.push(`${at}.wikipedia: expected an article title, or false for no link`);
+      } else if (typeof w === "string" && (w.includes("://") || w.startsWith("/") || w.includes("?"))) {
+        errors.push(`${at}.wikipedia: an article title, not a URL — the reader builds the URL`);
+      }
+    }
     for (const key of Object.keys(entry)) {
-      if (!["expansion", "gloss"].includes(key)) errors.push(`${at}.${key}: not a glossary field`);
+      if (!["expansion", "gloss", "wikipedia"].includes(key)) {
+        errors.push(`${at}.${key}: not a glossary field`);
+      }
     }
     // \b anchors the match, so a key that neither starts nor ends in a word character
     // would silently never match anything in a digest.
