@@ -1,0 +1,731 @@
+{
+  "schema_version": 1,
+  "id": "2026-09-06",
+  "week_start": "2026-09-01",
+  "week_end": "2026-09-06",
+  "week_number": 2,
+  "standfirst": "The UN Environment Programme concedes that 1.5°C will be crossed and asks governments to manage the overshoot instead; small island states and Pacific leaders refuse the frame within forty-eight hours; and a Himalayan disaster turns into an argument about which monitoring system should have caught it.",
+  "orientation": "Claims carry one of three marks. **Evidence** is what the sources actually support. **Contested** is where researchers genuinely disagree. **Framing** is advocacy, policy narrative or institutional positioning. **Gap** is a verified absence — something looked for and not found. Sections A and D do not use the marks: A is curriculum reading, D is attributed action.\n\nThis week has an unusual shape. The largest item is an institution changing the terms of its own argument, and the second largest is a disaster whose physical cause is settled faster than its climate attribution. Read sections B and D together: the moves are mostly responses to the two events, not independent of them.",
+  "housekeeping": "**Retrieval constraint, and it is a serious one.** Direct page retrieval was blocked this week by the execution environment's network egress policy: every attempt to open a source document — UNEP, press.un.org, news.un.org, worldweatherattribution.org, icimod.org, climateandsecurity.org — was refused at the proxy. Only web *search* was available. Every URL cited below was returned by search under a matching title, and every factual claim is corroborated across at least two independently-published results, but **no source document was opened and read this week**. That is one notch weaker than last week's sourcing and it is why several load-bearing numbers have been dropped rather than hedged (see the `dropped` fields on B1 and B3). Treat quantities in this digest as reported figures, not as figures read off the primary document.\n\n**Section A carries three items, not the usual two.** `routine/curriculum.md` requires Deudney 1990 to be read in the same week as Mathews 1989, and the previous digest's `next_reading` repeated that instruction. Honouring it while also carrying a recent empirical item means three. The alternative — deferring Deudney a week — is the one thing the curriculum explicitly forbids.\n\n**Week window.** Week two runs Tuesday 1 September to Sunday 6 September 2026 per the transitional rule in `routine/PROMPT.md`. From the week beginning Monday 7 September the weeks are full Monday-to-Sunday and that rule can be deleted; it has been.\n\nRuns roughly 3,300 words.",
+  "word_count": 3300,
+
+  "pushback": {
+    "target": "The temptation to file UNEP's overshoot report under last week's `retreat-from-binding-instruments` trend",
+    "text": "Don't. That trend was built on two multilateral instruments failing — the UNCCD drought protocol twice, states declining to bind themselves. UNEP conceding that 1.5°C will be breached is a different kind of act and pointing it at the same trend line makes the trend unfalsifiable.\n\nThe difference is who bears the cost. A state declining a binding instrument protects its own freedom of action. An agency publishing a finding that destroys the headline number its own convening power rests on does the opposite: UNEP's leverage over governments has for a decade been the 1.5°C threshold, and this report converts that threshold from a line into a variable with a magnitude and a duration. That is an institution spending its own authority, which is what candour looks like from the inside.\n\nWhether the *consequence* is retreat is a separate and open question — AOSIS says explicitly that it will be used that way (D2), and they may be right. But the analytical error is to treat motive and consequence as the same object because both point downward. If every event in the field can be coded as retreat, the code has stopped doing work. Keep the trend for instruments that states declined to sign, and track the overshoot frame as its own thing."
+  },
+
+  "foundational": [
+    {
+      "phase": "1",
+      "kind": "conceptual",
+      "citation": {
+        "author": "Jessica Tuchman Mathews",
+        "year": 1989,
+        "title": "Redefining Security",
+        "venue": "Foreign Affairs",
+        "locator": "68(2), Spring 1989, pp. 162-177",
+        "url": "https://www.jstor.org/stable/20043906",
+        "verification": "verified",
+        "verification_note": "Volume, issue, season and pagination confirmed against the JSTOR record (stable/20043906) and the Foreign Affairs Spring 1989 issue index, both surfaced by search. The article itself was not opened: page retrieval was blocked all week."
+      },
+      "summary": "Mathews takes Ullman's manoeuvre and gives it content. Where Ullman argued abstractly that a purely military definition of security is false, Mathews names what should replace it: resource, environmental and demographic issues, which she says have moved from the periphery of foreign policy to its centre. The 1990s national-security agenda, she argues, must be expanded to include them, and the state is the wrong-sized container for the job — environmental problems cross borders that armies are organised to defend.\n\nTwo things make this the load-bearing text rather than a period piece. First, it is written from inside the establishment, in the establishment's own journal, which is why it travelled: the argument is addressed to people who allocate budgets, not to a seminar. Second, it introduces the move that every later institutional document repeats — assert that an item belongs to security, and let the priority follow from the category. The 2023 EU Joint Communication, NATO's action plan and every national defence climate strategy are variations on this one sentence structure. Read against Ullman, the field's first fifteen years are visible: 1983 opens the category, 1989 fills it."
+      ,
+      "critiques": [
+        "Deudney 1990, below, and read in this order deliberately: the rebuttal arrives one year later and is aimed at exactly this essay.",
+        "The expansion is asserted rather than demonstrated. Mathews gives no mechanism connecting environmental degradation to the kinds of harm security institutions are built to prevent; the causal work is left to Homer-Dixon and the empirical wave of the 1990s, which then largely fails to find it at the scale claimed.",
+        "'The state is the wrong-sized container' is used both to argue that security must expand and to argue that security institutions cannot handle the expansion. Both cannot be load-bearing at once."
+      ]
+    },
+    {
+      "phase": "1",
+      "kind": "critique",
+      "citation": {
+        "author": "Daniel H. Deudney",
+        "year": 1990,
+        "title": "The Case Against Linking Environmental Degradation and National Security",
+        "venue": "Millennium: Journal of International Studies",
+        "locator": "19(3), pp. 461-476",
+        "doi": "10.1177/03058298900190031001",
+        "url": "https://journals.sagepub.com/doi/abs/10.1177/03058298900190031001",
+        "verification": "verified",
+        "verification_note": "Author, year, title, venue, volume/issue and pagination confirmed against the SAGE DOI record and independently against Semantic Scholar and reference databases. Note the curriculum's standing warning: this piece is widely reprinted with different pagination, so a page range cited against the Millennium venue that is not 461-476 is probably a reprint's."
+      },
+      "summary": "Deudney makes three claims and it is worth keeping them separate, because the field routinely answers one while thinking it has answered all three.\n\nFirst, an analytic claim: environmental degradation and interstate violence have little in common — different causes, different actors, different remedies — so the conceptual merger is misleading rather than merely loose. Second, a political claim: harnessing nationalism's emotive power to mobilise environmental action is likely to backfire, because nationalism is the sensibility environmentalism most needs to dissolve. Third, an empirical claim: environmental degradation is unlikely to cause interstate war.\n\nThe third claim is the one the field has spent thirty-five years testing, and broadly Deudney has held up: the interstate resource war remains rare. The first two have aged into something more uncomfortable, because they predict the failure mode the critical literature now documents — that securitising an issue imports the logic of the security apparatus into it rather than importing the issue's urgency into security. Anyone writing about defence climate strategies in 2026 is working inside Deudney's second claim whether or not they cite it."
+      ,
+      "critiques": [
+        "Written before climate specifically displaced 'the environment' generally. The threat-multiplier literature is about intrastate violence and state fragility, which Deudney's third claim does not address; treating him as refuted or vindicated on climate-conflict is a category error in both directions.",
+        "The political claim is untestable as stated. Deudney offers no way to tell a securitisation that backfired from one that simply did not work.",
+        "Levy 1995, next week, argues that the debate as framed by Mathews and Deudney is mostly about rhetoric, and that the real question is whether environmental change poses risks comparable in magnitude to those security institutions already handle."
+      ]
+    },
+    {
+      "phase": "outside the sequence",
+      "kind": "empirical",
+      "citation": {
+        "author": "Tyler Bagwell, Sylvia Dee and Frederi Viens",
+        "year": 2026,
+        "title": "Global and regional climate modes modulate armed conflict risk",
+        "venue": "Proceedings of the National Academy of Sciences",
+        "locator": "Received 18 November 2025, accepted 1 April 2026; volume and pagination not established",
+        "doi": "10.1073/pnas.2532935123",
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2532935123",
+        "verification": "verified",
+        "verification_note": "Authors, year, title, venue and DOI confirmed against the PNAS record, PubMed (PMID 42113996) and Rice University's own release. Volume and page numbers could not be established without opening the article, and pages are therefore omitted rather than guessed."
+      },
+      "summary": "Chosen because last week's UNSC food-security debate rested climate's entire appearance on 'El Niño risk to 45 countries', and this is the paper that says what that sentence can and cannot carry.\n\nBagwell, Dee and Viens model armed conflict on a high-resolution grid against two modes of climate variability — the El Niño–Southern Oscillation and the Indian Ocean Dipole — rather than against temperature or precipitation anomalies directly. Three findings matter. El Niño does raise conflict risk, but the effect does not scale smoothly with how strongly a region is teleconnected to ENSO: it appears to behave like a threshold, not a gradient. The risk travels through El Niño's *dry* teleconnections rather than its wet ones. And the IOD matters independently, with both its positive and negative phases raising risk in strongly teleconnected regions — the Horn of Africa and Southeast Asia.\n\nWhy this is useful rather than merely interesting: it gives the climate-conflict literature something it has mostly lacked, a spatially specific and falsifiable prediction that does not rest on averaging across the globe. It is also a warning about the policy sentence. 'El Niño puts 45 countries at risk' is the gradient reading; this paper says the gradient reading is wrong, and that the exposure is concentrated where the dry teleconnection is strong."
+      ,
+      "critiques": [
+        "Modes of natural variability are not anthropogenic climate change. The authors extend to the latter 'by extension', which is the same inferential step Buhaug has spent a career objecting to when others take it.",
+        "Gridded conflict data carry the reporting biases of the underlying event datasets; a threshold in the model may be a threshold in observation.",
+        "Not yet exposed to the field's usual adversarial replication. Treat the threshold finding as a claim awaiting Buhaug-style scrutiny, not as settled."
+      ]
+    }
+  ],
+
+  "developments": [
+    {
+      "n": 1,
+      "title": "UNEP says 1.5°C will be crossed, and reframes the goal as managing the overshoot",
+      "date": "2026-09-02",
+      "place": "Nairobi / Geneva",
+      "scope": "multilateral",
+      "body": "The UN Environment Programme published *Limiting Overshoot: Navigating exceedance of 1.5°C and pathways towards return*, stating that global temperature rise is set to cross 1.5°C, likely within the next few years, and that the remaining question is the magnitude and duration of the exceedance rather than whether it happens. The report organises itself around an 'overshoot, peak and decline' pathway, and is blunt that returning below the threshold requires net-negative emissions at a scale the existing carbon-removal capacity does not approach.\n\nThe Secretary-General launched it with a video message (UN press release sgsm23257), which carried the security framing the report itself largely does not: that even a temporary overshoot risks pushing ecosystems past irreversible tipping points and amplifying threats to peace and security, with hunger, displacement and loss falling on those least responsible. Coverage was immediate and broad — *Nature*'s news desk led with the UN 'finally admitting' the breach.\n\nThe timing is the analytically interesting part. UNGA high-level week opens on 8 September with a Secretary-General's Climate Summit on the calendar, and COP31 convenes in Antalya on 9 November.",
+      "arc": "novel",
+      "arc_note": "Genuinely novel as an institutional act. Individual scientists and assessments have said 1.5°C would be breached for years; UNEP has not previously organised a flagship report around the premise. It is not novel as physical science, and treating it as a new finding rather than a new admission is the mistake to avoid.",
+      "attribution": {
+        "status": "not_applicable",
+        "note": "A synthesis report, not an event."
+      },
+      "claims": [
+        {
+          "label": "evidence",
+          "text": "UNEP states that warming is set to cross 1.5°C, likely within the next few years, and frames the policy problem as minimising the magnitude and duration of the exceedance and returning below it. Corroborated across UNEP's own release, Nature's news coverage, NPR, France24 and UN News, all dated 2-3 September.",
+          "source": { "title": "UNEP: World set to cross 1.5°C global warming, but can still limit, adapt to and return from higher temperatures", "url": "https://www.unep.org/news-and-stories/press-release/unep-world-set-cross-15degc-global-warming-can-still-limit-adapt-and", "publisher": "UNEP", "date": "2026-09-02" }
+        },
+        {
+          "label": "evidence",
+          "text": "The Secretary-General's launch message, not the report, is where the peace-and-security framing sits: overshoot as an amplifier of threats to peace and security, and of hunger and displacement. Worth noting precisely because it shows the security frame being applied to a physical-science synthesis from outside it.",
+          "source": { "title": "Humanity Speeding Past 1.5°C Climate Limit, Secretary-General Warns, Urging Immediate Action, in Message on Launch of Environment Report", "url": "https://press.un.org/en/2026/sgsm23257.doc.htm", "publisher": "United Nations", "date": "2026-09-02" }
+        },
+        {
+          "label": "framing",
+          "text": "'Overshoot, peak and decline' is a policy architecture, not a finding. It presupposes that return is achievable, which makes carbon removal at scale a premise of the framework rather than a conclusion from it. The report's own candour about the removal gap sits awkwardly against the pathway it recommends.",
+          "source": { "title": "Limiting Overshoot - Navigating exceedance of 1.5°C and pathways towards return", "url": "https://www.unep.org/resources/limiting-overshoot-navigating-exceedance", "publisher": "UNEP", "date": "2026-09-02" }
+        },
+        {
+          "label": "contested",
+          "text": "Whether publishing this now protects the 1.5°C commitment or dissolves it is disputed between the publisher and the constituency the threshold was written for. UNEP and the Secretary-General present it as a warning that should raise ambition; AOSIS states that governments will read it as permission to abandon the target, and that 1.5°C is a Paris commitment rather than a scientific waypoint that new science can retire. This is a disagreement about the political function of a number, and both sides are explicit about it.",
+          "source": { "title": "AOSIS rejects calls to abandon 1.5°C goal amid overshoot warning", "url": "https://www3.cnc3.co.tt/aosis-rejects-calls-to-abandon-1-5c-goal-amid-overshoot-warning/", "publisher": "CNC3", "date": "2026-09-03" }
+        }
+      ],
+      "nl_eu": {
+        "level": "indirect",
+        "note": "No Dutch or EU institutional response was found within the window. The indirect link is concrete rather than rhetorical: the Commission's forthcoming climate-resilience framework is built on a common European reference scenario pegged to roughly 3°C, so an EU adaptation architecture already assumes overshoot. UNEP has now made the assumption sayable at global level, which removes a political cost the Commission was carrying alone."
+      },
+      "sources": [
+        { "title": "UNEP: World set to cross 1.5°C global warming", "url": "https://www.unep.org/news-and-stories/press-release/unep-world-set-cross-15degc-global-warming-can-still-limit-adapt-and", "publisher": "UNEP", "date": "2026-09-02" },
+        { "title": "UN finally admits global warming will shoot past 1.5 ºC climate limit", "url": "https://www.nature.com/articles/d41586-026-02753-5", "publisher": "Nature (news)", "date": "2026-09-02" },
+        { "title": "UN says world must navigate 'reality' of 1.5C overshoot", "url": "https://www.france24.com/en/live-news/20260902-un-says-world-must-navigate-reality-of-1-5c-overshoot", "publisher": "AFP / France 24", "date": "2026-09-02" },
+        { "title": "U.N. climate report warns world will soon cross a dangerous threshold", "url": "https://www.npr.org/2026/09/03/nx-s1-5954417/u-n-climate-report-warns-world-will-soon-cross-a-dangerous-threshold", "publisher": "NPR", "date": "2026-09-03" },
+        { "title": "'Fight for humanity': Avoiding a climate catastrophe means acting now", "url": "https://news.un.org/en/story/2026/09/1168240", "publisher": "UN News", "date": "2026-09-02" }
+      ],
+      "dropped": "Specific projected figures — a best-case peak warming value, a current-policies median for 2100 and its range — appeared in search summaries but traced only to low-quality aggregator sites, and the report could not be opened to check them. They are load-bearing numbers and are omitted entirely rather than presented with a hedge. Anyone citing peak-warming figures from this report should take them from the report."
+    },
+    {
+      "n": 2,
+      "title": "Pacific leaders answer the overshoot report within forty-eight hours",
+      "date": "2026-09-04",
+      "place": "Koror, Palau",
+      "scope": "multilateral",
+      "body": "The 55th Pacific Islands Forum Leaders Meeting ran 30 August to 4 September under the theme 'B.E.L.A.U: Building Economies, Life, Action, Unity'. Leaders endorsed the BELAU Declaration for Urgent and Inclusive Climate Action to Keep 1.5°C Within Reach, demanding faster emissions cuts, a large increase in grant-based climate finance directly accessible to Pacific small island developing states, and stronger international action to hold the limit. The communiqué reaffirms that climate change remains 'the single greatest threat to the security, livelihoods and wellbeing of Pacific peoples'.\n\nOn the security architecture, leaders reaffirmed the Boe Declaration on Regional Security and the 2025 Blue Pacific Ocean of Peace Declaration as the region's frameworks — two instruments, reaffirmed separately, not merged. Leaders also approved a regional Renewable Energy Commissioner and agreed that the pre-COP would be hosted by Fiji and Tuvalu.\n\nThis matters for a reason beyond the Pacific. Last week's digest flagged the merger of the Pacific security declarations as a securitisation-durability test with a datable answer. The answer arrived on 4 September and it is: the language held.",
+      "arc": "repeat",
+      "arc_note": "The 'single greatest threat' formulation has been reaffirmed annually since Boe in 2018, and reaffirmation is the weakest form of political action. What is not a repeat is that it was reaffirmed two days after the UN's own environment agency conceded the target that formulation is attached to.",
+      "attribution": {
+        "status": "not_applicable"
+      },
+      "claims": [
+        {
+          "label": "evidence",
+          "text": "The BELAU Declaration was endorsed on 4 September and the 2026 Leaders' Communiqué retains the 'single greatest threat to the security, livelihoods and wellbeing of Pacific peoples' formulation. Boe and the Ocean of Peace Declaration were reaffirmed as the region's peace and security frameworks.",
+          "source": { "title": "Pacific leaders issue Belau call to keep 1.5°C alive", "url": "https://pina.com.fj/2026/09/04/pacific-leaders-issue-belau-call-to-keep-1-5c-alive/", "publisher": "Pacific Islands News Association", "date": "2026-09-04" }
+        },
+        {
+          "label": "evidence",
+          "text": "The Forum also approved a Renewable Energy Commissioner and agreed the pre-COP would go to Fiji and Tuvalu — institutional and calendar commitments rather than declaratory language, and therefore the harder part of the outcome to reverse.",
+          "source": { "title": "Pacific leaders step up climate and disaster push ahead of COP31, approve Renewable Energy Commissioner", "url": "https://pina.com.fj/2026/09/04/pacific-leaders-step-up-climate-and-disaster-push-ahead-of-cop31-approve-renewable-energy-commissioner-as-climate-push-intensifies/", "publisher": "Pacific Islands News Association", "date": "2026-09-04" }
+        },
+        {
+          "label": "contested",
+          "text": "The Ocean of Peace Declaration's meaning is under active dispute among its own signatories and analysts. Australia is embedding it in a bilateral defence treaty; Fiji and Pacific civil society argue that a framework written to insulate the region from great-power competition is being absorbed into that competition. The August failure of Forum foreign ministers to agree a statement on China's ballistic missile test over the Pacific is the concrete instance.",
+          "source": { "title": "Where to for the Pacific's Ocean of Peace?", "url": "https://eastasiaforum.org/2026/08/30/where-to-for-the-pacifics-ocean-of-peace/", "publisher": "East Asia Forum", "date": "2026-08-30" }
+        },
+        {
+          "label": "framing",
+          "text": "'Single greatest threat' is a securitisation claim maintained by a coalition whose diplomatic leverage depends on it. That does not make it wrong — for atoll states the existential reading is closer to literal than metaphorical — but it should not be read as an independent assessment converging with UNEP's. It is a position being defended, and this week it was defended against a UN agency."
+        }
+      ],
+      "nl_eu": {
+        "level": "none",
+        "note": "No Dutch or EU role. It still matters: this is the clearest available test of whether climate-as-security language survives its own scientific premise being downgraded, and the answer — the coalition holds the language and attacks the premise's framing instead — is the pattern to expect from the EU and NATO when the same pressure reaches them."
+      },
+      "sources": [
+        { "title": "Pacific leaders issue Belau call to keep 1.5°C alive", "url": "https://pina.com.fj/2026/09/04/pacific-leaders-issue-belau-call-to-keep-1-5c-alive/", "publisher": "PINA", "date": "2026-09-04" },
+        { "title": "Security, climate change and drugs on agenda at Pacific Islands Forum leaders meeting", "url": "https://www.abc.net.au/news/2026-08-31/pacific-islands-forum-leaders-meeting-politically-charged/107095316", "publisher": "ABC News (Australia)", "date": "2026-08-31" },
+        { "title": "55th Pacific Islands Forum Leaders Meeting", "url": "https://www.theprif.org/event/regional-event/2026-08-30/55th-pacific-islands-forum-leaders-meeting", "publisher": "Pacific Regional Infrastructure Facility", "date": "2026-08-30" },
+        { "title": "Where to for the Pacific's Ocean of Peace?", "url": "https://eastasiaforum.org/2026/08/30/where-to-for-the-pacifics-ocean-of-peace/", "publisher": "East Asia Forum", "date": "2026-08-30" }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "The Langtang-Lirung cascade: cause settled in ten days, climate attribution deliberately withheld",
+      "date": "2026-09-01",
+      "place": "Langtang / Rasuwa, Nepal and Kyirong (Gyirong), Tibet Autonomous Region, China",
+      "scope": "other",
+      "body": "The catastrophic flood that struck the Nepal-China border region on 26 August continued to dominate the field's week, but the news between 1 and 6 September was analytical rather than operational. On 1 September, reporting on a study by the HiRISK scientific consortium concluded that the glacier that failed showed visible signs of instability days beforehand — 'pre-event indications' identifiable in satellite imagery, including a change in the surface of the section that collapsed.\n\nThe physical sequence has converged quickly. USGS analysis of long-period seismic waves was consistent with a glacier collapse rather than an earthquake. ICIMOD's specialists — Saswata Sanyal and Farooq Azam are named in its own material — describe an ice-and-rock avalanche, not a glacial lake outburst flood, initiating a multi-hazard cascade: bedrock and ice failure high on Langtang-Lirung, rock and ice avalanches, debris flows, temporary and unstable river blockages, then catastrophic flooding. The wave covered its first 22 kilometres at an average of roughly 193 km/h and reached Gyirong within minutes.\n\nThe monitoring finding is the one that will outlive the news cycle. Nepal had glacial-lake inventories, satellite monitoring, a warning system and international scientific support — all of it pointed at glacial lakes. No early-warning system for glacier-related hazards covered the affected area. ICIMOD notes that transboundary systems typically cover major rivers rather than the smaller waterways where flash floods originate, and that there are no weather stations in the high mountain areas because there is no transboundary data-seeding mechanism to sustain them.",
+      "arc": "acceleration",
+      "arc_note": "Acceleration of a trend the cryosphere community has named for years: high-mountain hazard is migrating from the lake-outburst mode that monitoring was built for to ice-and-rock slope failure that it was not. The 2024 Thame flood and the 2025 Rasuwa supraglacial outburst are the immediate antecedents; this is the same trend at a casualty scale that forces a policy answer.",
+      "attribution": {
+        "status": "no_study",
+        "note": "No event attribution study existed as of 6 September, eleven days after the event. ICIMOD is explicit that this specific disaster cannot yet be directly attributed to warming, while maintaining that climate change is driving cryospheric destabilisation across the Hindu Kush Himalaya. That is the correct distinction and it is being drawn by the institution with the most to gain from blurring it."
+      },
+      "claims": [
+        {
+          "label": "evidence",
+          "text": "The trigger was slope failure — ice and rock — on Langtang-Lirung, not a glacial lake outburst. Seismic analysis rules out an earthquake as the initiating cause; the resulting event is a multi-hazard cascade including temporary landslide-dammed lakes.",
+          "source": { "title": "Kyirong-Rasuwa Flood 2026 | Nepal-China Cryosphere Risk", "url": "https://www.icimod.org/kyirong-rasuwa-flood-2026-nepal-china-border/", "publisher": "ICIMOD", "date": "2026-09-01" }
+        },
+        {
+          "label": "evidence",
+          "text": "Instability was visible in satellite imagery days before the collapse, per the HiRISK consortium's analysis reported on 1 September. Nothing in the operational warning chain was configured to look for it.",
+          "source": { "title": "Warning signs visible days before glacier collapse in Nepal, report finds", "url": "https://www.abc.net.au/news/2026-09-01/warning-signs-visible-before-glacier-collapse-in-nepal/107097636", "publisher": "ABC News (Australia)", "date": "2026-09-01" }
+        },
+        {
+          "label": "evidence",
+          "text": "The monitoring gap is structural, not a local failure: no glacier-hazard early warning covered the area; transboundary systems cover major rivers rather than the tributaries where these floods originate; and high-altitude weather stations are absent for want of a cross-border data-sharing mechanism.",
+          "source": { "title": "Nepal Floods Expose Gaps in Warning, China Data Sharing", "url": "https://www.bloomberg.com/news/articles/2026-08-31/nepal-floods-expose-gaps-in-warning-systems-china-data-sharing", "publisher": "Bloomberg", "date": "2026-08-31" }
+        },
+        {
+          "label": "contested",
+          "text": "The causal account is genuinely disputed, not merely evolving. An early attribution to drainage of a Tibetan glacial lake circulated under the authority of a named climate body and was reported as such; ICIMOD's own specialists subsequently attribute the initiation to an ice-and-rock avalanche and reject the GLOF reading; Azam additionally links the avalanche to local seismic activity, which Sanyal's framing does not emphasise. The dispute is not settled by the seismic evidence, which rules out an earthquake as the *cause of the flood* without settling the role of seismicity in the slope failure."
+        },
+        {
+          "label": "gap",
+          "text": "No rapid attribution study of the Langtang-Lirung cascade had been published as of 6 September, and none was announced. This is a verified absence, not an unknown: World Weather Attribution published on a Caribbean drought the same week (B5), so the capability was in use and was not pointed here. Slope-failure cascades are much harder to attribute than rainfall or temperature extremes, which is precisely why the absence should be recorded rather than glossed."
+        },
+        {
+          "label": "framing",
+          "text": "'Without warning' has done a great deal of work in the coverage of this event. It is defensible about the last hour and misleading about the last week: the honest statement is that indications existed and no system was configured to act on them. The difference decides whether the policy conclusion is 'nature is unpredictable' or 'monitoring was aimed at the wrong hazard class'."
+        }
+      ],
+      "nl_eu": {
+        "level": "none",
+        "note": "No Dutch or EU link. Included because it introduces a method problem the field will have to answer: an event with an unambiguous physical chain, an unambiguous monitoring failure, and no attributable climate signal, occurring inside the world's most climate-vulnerable mountain system. The instinct to fill that gap with a plausible causal sentence is exactly what the claim protocol exists to stop."
+      },
+      "sources": [
+        { "title": "Kyirong-Rasuwa Flood 2026 | Nepal-China Cryosphere Risk", "url": "https://www.icimod.org/kyirong-rasuwa-flood-2026-nepal-china-border/", "publisher": "ICIMOD" },
+        { "title": "September 1-2, 2026 — Warning signs were visible ahead of Nepal-China floods, report says", "url": "https://www.cnn.com/2026/09/01/world/live-news/nepal-china-flood", "publisher": "CNN", "date": "2026-09-01" },
+        { "title": "Warning signs visible days before glacier collapse in Nepal, report finds", "url": "https://www.abc.net.au/news/2026-09-01/warning-signs-visible-before-glacier-collapse-in-nepal/107097636", "publisher": "ABC News (Australia)", "date": "2026-09-01" },
+        { "title": "Why Nepal's rare, deadly flood struck without warning", "url": "https://www.axios.com/2026/08/29/nepal-flood-cause-warning-alert-system", "publisher": "Axios", "date": "2026-08-29" },
+        { "title": "Nepal-Tibet floods: What is a glacial collapse, how common is it?", "url": "https://www.aljazeera.com/features/2026/8/27/nepal-tibet-floods-what-is-a-glacial-collapse-how-common-is-it", "publisher": "Al Jazeera", "date": "2026-08-27" }
+      ],
+      "dropped": "The flood-wave speed and travel-time figures (roughly 193 km/h over the first 22 km) are reported consistently but trace to news accounts rather than to a document that could be opened, and no source for the underlying reconstruction could be identified; they are given here as reported figures and should not be re-cited as measurements. A claimed casualty breakdown by nationality was dropped entirely: figures diverged irreconcilably across sources and dates."
+    },
+    {
+      "n": 4,
+      "title": "Nepal limits foreign search-and-rescue, and a disaster becomes a balancing problem",
+      "date": "2026-09-04",
+      "place": "Kathmandu",
+      "scope": "other",
+      "body": "Alongside the physical inquiry ran a political one. Nepal's Foreign Ministry declined offers of foreign search-and-rescue teams and helicopters from India, China, the United States, the United Kingdom and South Korea, saying its own security forces could handle the operation. As criticism grew, the finance minister rejected the characterisation that help had been refused, saying assistance had been accepted 'according to the needs on the ground', and the government stated that the army and police were working alongside specialists from India, China and South Korea at hydropower tunnels. By 4 September, Nepal and China were reported still to be limiting search, rescue and technical assistance to their own teams plus specialists from India, Australia and South Korea.\n\nCasualty figures diverged sharply by source and date. Nepal's National Disaster Risk Reduction and Management Authority reported at least 1,010 dead, 1,473 injured, 11,814 rescued and 3,916 missing; Al Jazeera on 6 September gave at least 1,384 dead and more than 5,500 missing across both countries, including some 800 foreign nationals, with 43 dead and 519 missing in Tibet per Xinhua. Preliminary Nepali economic losses were put at $2.56 billion.\n\nThe pattern is familiar to anyone who has watched disaster diplomacy: the composition of the accepted list is the message. India, China, South Korea and Australia in; the United States and United Kingdom out.",
+      "arc": "repeat",
+      "arc_note": "A repeat of the standing pattern in which acceptance of disaster assistance is governed by alignment rather than by capability. What distinguishes this instance is that the disaster physically straddles the China-Nepal border, so the sovereignty calculation and the cross-border data-sharing failure in B3 are the same problem seen from two sides.",
+      "attribution": {
+        "status": "not_applicable",
+        "note": "A political response, not an event with a physical cause."
+      },
+      "claims": [
+        {
+          "label": "evidence",
+          "text": "Nepal declined foreign search-and-rescue teams from India, China, the US, the UK and South Korea, citing the sufficiency of its own security forces; the government later disputed the 'refusal' framing and described need-based acceptance, naming Indian, Chinese and South Korean specialists at hydropower tunnels.",
+          "source": { "title": "Nepal's hesitance to accept foreign help for flood relief under scrutiny", "url": "https://www.npr.org/2026/08/31/nx-s1-5949971/nepals-hesitance-help-flood", "publisher": "NPR", "date": "2026-08-31" }
+        },
+        {
+          "label": "evidence",
+          "text": "Casualty and missing figures are not reconcilable across sources within the window. NDRRMA: at least 1,010 dead and 3,916 missing in Nepal. Al Jazeera, 6 September: at least 1,384 dead and more than 5,500 missing across Nepal and Tibet. Both are reported here rather than averaged; the divergence is itself informative about the information environment around a cross-border disaster.",
+          "source": { "title": "China, Nepal race to find thousands still missing 12 days after floods", "url": "https://www.aljazeera.com/news/2026/9/6/china-nepal-race-to-find-thousands-still-missing-12-days-after-floods", "publisher": "Al Jazeera", "date": "2026-09-06" }
+        },
+        {
+          "label": "framing",
+          "text": "'Our security forces can handle it' is a sovereignty claim presented as a capability assessment. The distinction is testable in principle — the recovered-versus-missing ratio over the search window is the measure — and the government's own revised account, that assistance was accepted as needed, concedes that the first statement was not primarily about capacity."
+        },
+        {
+          "label": "contested",
+          "text": "Whether the restriction materially cost lives is disputed and, on the evidence available in the window, not resolvable. Search-and-rescue survival windows in debris flows are short enough that the marginal value of teams arriving after several days is genuinely arguable, and that argument is being made in good faith by people who also think the decision was political."
+        }
+      ],
+      "nl_eu": {
+        "level": "none",
+        "note": "No Dutch or EU involvement, and none offered as far as could be established. The precedent is what matters: if the transboundary early-warning gap identified in B3 is to be closed, it has to be closed by the two states that just demonstrated they will manage a shared catastrophe through parallel national channels."
+      },
+      "sources": [
+        { "title": "Nepal's hesitance to accept foreign help for flood relief under scrutiny", "url": "https://www.npr.org/2026/08/31/nx-s1-5949971/nepals-hesitance-help-flood", "publisher": "NPR", "date": "2026-08-31" },
+        { "title": "Nepal's Floods Upset Its China-India Balancing Act", "url": "https://thediplomat.com/2026/09/nepals-floods-upset-its-china-india-balancing-act/", "publisher": "The Diplomat", "date": "2026-09" },
+        { "title": "China, Nepal race to find thousands still missing 12 days after floods", "url": "https://www.aljazeera.com/news/2026/9/6/china-nepal-race-to-find-thousands-still-missing-12-days-after-floods", "publisher": "Al Jazeera", "date": "2026-09-06" },
+        { "title": "September 1-2, 2026 — live coverage", "url": "https://www.cnn.com/2026/09/01/world/live-news/nepal-china-flood", "publisher": "CNN", "date": "2026-09-01" }
+      ]
+    },
+    {
+      "n": 5,
+      "title": "Rapid attribution reaches Caribbean drought: rainfall down 6-9 per cent, water rationing in a US territory",
+      "date": "2026-09-04",
+      "place": "Puerto Rico, Jamaica and the Lesser Antilles",
+      "scope": "other",
+      "body": "World Weather Attribution published a rapid study on Friday 4 September finding that human-caused warming reduced early wet season rainfall — May to July — by about 9 per cent in Puerto Rico and about 6 per cent in Jamaica, making extreme dry spells roughly 30 per cent more likely in Puerto Rico and 40 per cent more likely in Jamaica relative to the pre-industrial climate. The three-month rainfall deficit is characterised as approximately a 1-in-50-year event in Puerto Rico and 1-in-30 in Jamaica in today's climate. The author group is unusually distributed — researchers from Jamaica, the Dominican Republic, Ireland, the United States, the Netherlands, Sweden and the United Kingdom.\n\nThe impacts are the reason this belongs in a security digest rather than a weather one. Drought has gripped Puerto Rico, Jamaica and smaller islands including St Lucia, St Vincent, the US Virgin Islands, Grenada and St Kitts since May. Puerto Rico has imposed water rationing on residents as well as agricultural users, with extreme drought covering 44 per cent of the territory as of 2 September and more than 300 brushfires recorded in July. Jamaica has restricted non-essential water use in several parishes as major reservoirs fall. In the US Virgin Islands, shortages are hitting households and farmers.",
+      "arc": "acceleration",
+      "arc_note": "Acceleration of the extension of rapid attribution from fast-onset extremes into slow-onset drought, and into small-island contexts where the observational record is thin and attribution has historically been hardest. It also lands a quantified climate signal inside US jurisdiction in a year when the federal government has been removing climate from its own analytic vehicles.",
+      "attribution": {
+        "status": "study_exists",
+        "note": "Rapid attribution using WWA's established peer-reviewed methods, published eleven weeks after the analysed period. Standard caveats apply: rapid studies precede peer review of the specific analysis, and drought attribution is more sensitive to the choice of variable — here, early wet season rainfall rather than a drought index — than heat attribution is."
+      },
+      "claims": [
+        {
+          "label": "evidence",
+          "text": "Warming reduced May-July rainfall by about 9 per cent in Puerto Rico and 6 per cent in Jamaica, raising the likelihood of extreme dry spells by roughly 30 and 40 per cent respectively against the pre-industrial baseline.",
+          "source": { "title": "Climate change is reducing early wet season rainfall in Puerto Rico and Jamaica", "url": "https://www.worldweatherattribution.org/climate-change-is-reducing-early-wet-season-rainfall-in-puerto-rico-and-jamaica/", "publisher": "World Weather Attribution", "date": "2026-09-04" }
+        },
+        {
+          "label": "evidence",
+          "text": "Extreme drought covered 44 per cent of Puerto Rico as of early September, with rationing extended beyond agriculture to residential users and more than 300 brushfires recorded in July; Jamaica has restricted non-essential use across several parishes.",
+          "source": { "title": "Extreme drought now covers 44% of Puerto Rico", "url": "https://www.sciencedaily.com/releases/2026/09/260902234457.htm", "publisher": "ScienceDaily", "date": "2026-09-02" }
+        },
+        {
+          "label": "evidence",
+          "text": "Agricultural impact is ongoing rather than recovering, with no relief forecast for drought-hit farmers across the affected islands — the food-security dimension that turns a water statistic into a livelihoods problem.",
+          "source": { "title": "No relief in sight for Caribbean's drought-hit farmers", "url": "https://www.climatecentre.org/17702/no-relief-in-sight-for-caribbeans-drought-hit-farmers/", "publisher": "Red Cross Red Crescent Climate Centre" }
+        },
+        {
+          "label": "gap",
+          "text": "No US federal climate-security or adaptation response to the Puerto Rico and US Virgin Islands water emergency could be identified within the window. Searched: federal agency announcements, DHS and FEMA activity, and territorial-federal coordination. The absence is recorded as a verified absence for the week only; it is not evidence that no response exists outside it."
+        }
+      ],
+      "nl_eu": {
+        "level": "indirect",
+        "note": "Dutch researchers are among the study's authors, and WWA's institutional base includes KNMI — Dutch attribution capability is being applied in a region where the Kingdom of the Netherlands has constituent countries and special municipalities in the same hazard basin. No Dutch institutional response to the drought was found; whether the Caribbean parts of the Kingdom were within the study's scope could not be established without opening the paper."
+      },
+      "sources": [
+        { "title": "Climate change is reducing early wet season rainfall in Puerto Rico and Jamaica", "url": "https://www.worldweatherattribution.org/climate-change-is-reducing-early-wet-season-rainfall-in-puerto-rico-and-jamaica/", "publisher": "World Weather Attribution", "date": "2026-09-04" },
+        { "title": "Climate change parches Puerto Rico and Jamaica in rare early wet season drought", "url": "https://news.mongabay.com/short-article/2026/09/climate-change-parches-puerto-rico-and-jamaica-in-rare-early-wet-season-drought/", "publisher": "Mongabay", "date": "2026-09" },
+        { "title": "Extreme drought now covers 44% of Puerto Rico", "url": "https://www.sciencedaily.com/releases/2026/09/260902234457.htm", "publisher": "ScienceDaily", "date": "2026-09-02" },
+        { "title": "No relief in sight for Caribbean's drought-hit farmers", "url": "https://www.climatecentre.org/17702/no-relief-in-sight-for-caribbeans-drought-hit-farmers/", "publisher": "Red Cross Red Crescent Climate Centre" }
+      ]
+    }
+  ],
+
+  "salience": [
+    {
+      "jurisdiction": "Netherlands",
+      "direction": "no_change",
+      "direction_note": "First sitting week after the summer recess and nothing climate-security-related surfaced. That is a stronger reading than last week's, when the Kamer was away.",
+      "method_note": "The Tweede Kamer's summer recess ran 3 July to 31 August 2026, so 1-6 September was the first week back and silence in it is informative rather than a calendar artefact. Prinsjesdag falls on 15 September, which means the week examined here sits inside the pre-budget quiet period when departments hold announcements back — an artefact in the other direction, and the reason the next two weeks carry more diagnostic weight than this one. Per the standing rule, no operational water-management activity has been counted as evidence of political salience.",
+      "claims": [
+        {
+          "label": "evidence",
+          "actor_type": "defence",
+          "text": "The Defensiestrategie voor Klimaatverandering en Veiligheid — 'Klimaatparaat' — exists as a Kamerstuk and carries a structural €5 million per year in the Defence budget from 2027, with four tracks to be operationalised in a subsequent action plan setting out concrete measures, responsibilities and fixed timelines. The strategy is framed as delivery on NATO expectations and on the EU Strategic Compass commitment that member states develop national strategies preparing their armed forces for climate change.",
+          "source": { "title": "Defensiestrategie voor Klimaatverandering en Veiligheid — Klimaatparaat", "url": "https://www.tweedekamer.nl/downloads/document?id=2026D35375", "publisher": "Tweede Kamer der Staten-Generaal" }
+        },
+        {
+          "label": "gap",
+          "actor_type": "defence",
+          "text": "The Klimaatparaat action plan — the document that would convert four tracks into measures with owners and dates — could not be found, and the covering Kamerbrief's date could not be fixed: search returned a submission date that falls after this digest's window, which is not credible and could not be checked because the document could not be opened. Recorded as a verification failure, not as a finding either way. €5 million structural against a defence budget of that size is a strategy with a coordinator, not a programme.",
+          "source": { "title": "Defensiestrategie voor Klimaatverandering en Veiligheid", "url": "https://berthub.eu/tkconv/document.html?nummer=2026D35374", "publisher": "OpenTK (Tweede Kamer mirror)" }
+        },
+        {
+          "label": "evidence",
+          "actor_type": "government",
+          "text": "The governing configuration is new this year: the Jetten cabinet (D66, VVD, CDA) was sworn in on 23 February 2026 with 18 ministers and 10 state secretaries. It has presented a National Climate Adaptation Strategy 2026 and a National Security Risk Analysis 2026. Both predate this window; they are recorded here because they are the instruments against which any autumn movement should be read, and because a first-year cabinet's first Prinsjesdag is where fiscal commitment becomes legible.",
+          "source": { "title": "Kabinet-Jetten beëdigd", "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/02/23/kabinet-jetten-beedigd", "publisher": "Rijksoverheid", "date": "2026-02-23" }
+        },
+        {
+          "label": "gap",
+          "actor_type": "private_sector",
+          "text": "No Dutch private-sector climate-security signal was found in the window — no insurer, port, energy or water-technology actor making a security-framed climate intervention. Searched Dutch-language sources for sector statements and think-tank-industry output. Verified absence for the week."
+        },
+        {
+          "label": "gap",
+          "actor_type": "public_opinion",
+          "text": "No new Dutch polling on climate as a security or priority issue was published in the window. The decline against the international average recorded last week remains the standing observation, with no update to test it against."
+        }
+      ],
+      "rests_on": []
+    },
+    {
+      "jurisdiction": "EU",
+      "direction": "no_change",
+      "direction_note": "Nothing moved in the window. Two standing files were checked and both are where they were.",
+      "method_note": "A date trap worth naming, because it nearly produced a false finding here: the call for evidence on the European Climate Resilience and Risk Management Integrated Framework closed on 4 September — of 2025, not 2026. A search for September activity surfaces it as though it were current. Anyone tracking this file weekly should expect that collision every year.",
+      "claims": [
+        {
+          "label": "evidence",
+          "actor_type": "government",
+          "text": "The European Climate Resilience and Risk Management Integrated Framework remains scheduled for adoption in the second half of 2026, as a package mixing binding rules, economic instruments and information tools. Its announced backbone is a common European climate reference scenario built on a trajectory of close to 3°C — meaning the EU's adaptation architecture already assumes the overshoot that UNEP conceded this week (B1).",
+          "source": { "title": "European Climate Resilience and Risk Management – Integrated Framework", "url": "https://climate.ec.europa.eu/eu-action/adaptation-and-resilience-climate-change/european-climate-resilience-and-risk-management-integrated-framework_en", "publisher": "European Commission, DG CLIMA" }
+        },
+        {
+          "label": "evidence",
+          "actor_type": "government",
+          "text": "On the MFF: the Commission's July 2025 proposal for 2028-2034 sets a 35 per cent climate *and environment* mainstreaming target — over €700 billion of a package of nearly €2 trillion — with member states pushing to conclude negotiations by the end of 2026 and Parliament seeking a larger overall ceiling. This finally sources the percentage that last week's digest correctly refused to state without one.",
+          "source": { "title": "EU's next long-term budget: Commission's proposal leaves gaps in climate and nature", "url": "https://caneurope.org/news/mff-proposal-2028-2034/", "publisher": "CAN Europe" }
+        },
+        {
+          "label": "gap",
+          "actor_type": "government",
+          "text": "There is no identifiable climate-*security* line in the MFF proposal. The 35 per cent is climate and environment mainstreaming, which is a different object: it can be satisfied entirely by decarbonisation and nature spending without a euro tagged to climate-related security or conflict risk. The open thread carried from last week should be understood as answered in the negative on the mainstreaming question and still open on whether any instrument carries a security-tagged earmark.",
+          "source": { "title": "Impacts of the 2028-2034 MFF proposals on climate and environment — Assessment of the Commission proposals", "url": "https://www.europarl.europa.eu/thinktank/en/document/ECTI_STU(2026)780419", "publisher": "European Parliament Think Tank", "date": "2026" }
+        },
+        {
+          "label": "gap",
+          "actor_type": "defence",
+          "text": "No EEAS or Commission climate-and-defence output in the window: nothing new on the 2023 Joint Communication's implementation, nothing from the climate-proof security and defence roadmap. Verified absence for the week."
+        },
+        {
+          "label": "gap",
+          "actor_type": "private_sector",
+          "text": "No European private-sector climate-security signal found in the window. The nearest live channel — climate risk disclosure obligations inside the defence-readiness regulatory package — produced nothing datable to 1-6 September."
+        },
+        {
+          "label": "gap",
+          "actor_type": "public_opinion",
+          "text": "No EU-level polling on climate as a security priority published in the window."
+        }
+      ],
+      "rests_on": ["eu-climate-resilience-framework"]
+    },
+    {
+      "jurisdiction": "US",
+      "direction": "no_change",
+      "direction_note": "No federal movement identified in either direction. The standing trajectory — removal of climate from security vehicles rather than merely from language — is unchanged, and nothing this week tested it.",
+      "method_note": "Assessment is weaker than usual because of the retrieval constraint: search surfaced a State Department media note on US engagement at the Pacific Islands Forum dated 1 September 2026 but the document could not be opened, so whether it engaged climate at all is unknown. Recorded as a gap with the document named, rather than as an inference from its title.",
+      "claims": [
+        {
+          "label": "evidence",
+          "actor_type": "government",
+          "text": "An attributed climate signal landed inside US jurisdiction this week: WWA quantified the rainfall deficit driving water rationing in Puerto Rico, where extreme drought covers 44 per cent of the territory, and shortages in the US Virgin Islands (B5). The observable is what did not follow — no federal climate-framed response was identifiable in the window.",
+          "source": { "title": "Climate change is reducing early wet season rainfall in Puerto Rico and Jamaica", "url": "https://www.worldweatherattribution.org/climate-change-is-reducing-early-wet-season-rainfall-in-puerto-rico-and-jamaica/", "publisher": "World Weather Attribution", "date": "2026-09-04" }
+        },
+        {
+          "label": "gap",
+          "actor_type": "defence",
+          "text": "No Department of Defense or intelligence-community climate activity found in the window, in either direction. Verified absence for the week; the substantive 2025-26 record of removals sits outside it."
+        },
+        {
+          "label": "gap",
+          "actor_type": "government",
+          "text": "US engagement at the 55th Pacific Islands Forum is documented by a State Department media note of 1 September 2026, but its treatment of climate could not be established. Named here so the gap is checkable rather than vague.",
+          "source": { "title": "Promoting Pacific Prosperity: U.S. Engagement at the Pacific Islands Forum", "url": "https://www.globalsecurity.org/military/library/news/2026/09/mil-260901-state01.htm", "publisher": "US Department of State, via GlobalSecurity.org", "date": "2026-09-01" }
+        },
+        {
+          "label": "gap",
+          "actor_type": "private_sector",
+          "text": "No US private-sector climate-security signal in the window. The insurance-side indicator this digest has been trying to source — the 2025 protection gap figure — remains uncited pending the underlying sigma number."
+        },
+        {
+          "label": "gap",
+          "actor_type": "public_opinion",
+          "text": "No new US polling on climate as a security issue published in the window."
+        }
+      ],
+      "rests_on": []
+    },
+    {
+      "jurisdiction": "China",
+      "direction": "no_change",
+      "direction_note": "China was central to the week's largest event and did nothing that constitutes climate-security priority-setting. Crisis management is not policy movement.",
+      "method_note": "Applying the Dutch rule — operational response is not evidence of political salience — symmetrically to China. Tibet casualty figures, rescue deployment and the reception of foreign teams are disaster operations, and counting them as rising salience would inflate every jurisdiction that has a bad week of weather.",
+      "claims": [
+        {
+          "label": "evidence",
+          "actor_type": "government",
+          "text": "Chinese losses in the 26 August cascade — 43 dead and 519 missing in Tibet per Xinhua as of 6 September — were handled as a domestic emergency-management matter, with assistance limited alongside Nepal to a short list of national teams. No climate framing accompanied the response in the material available.",
+          "source": { "title": "China, Nepal race to find thousands still missing 12 days after floods", "url": "https://www.aljazeera.com/news/2026/9/6/china-nepal-race-to-find-thousands-still-missing-12-days-after-floods", "publisher": "Al Jazeera", "date": "2026-09-06" }
+        },
+        {
+          "label": "evidence",
+          "actor_type": "government",
+          "text": "The concrete Chinese climate-security observable this week is negative and structural: the absence of transboundary hydrological and meteorological data-sharing on the Nepal-China border, identified by ICIMOD and reported as a named factor in the warning failure. This is a standing policy position with a measurable cost, which makes it a better indicator of priority than any statement.",
+          "source": { "title": "Nepal Floods Expose Gaps in Warning, China Data Sharing", "url": "https://www.bloomberg.com/news/articles/2026-08-31/nepal-floods-expose-gaps-in-warning-systems-china-data-sharing", "publisher": "Bloomberg", "date": "2026-08-31" }
+        },
+        {
+          "label": "gap",
+          "actor_type": "defence",
+          "text": "No 2026 Chinese defence doctrine or white-paper treatment of climate could be found. Checked the State Council Information Office white paper series and secondary analysis. The standing thread carried from last week remains open and unmoved: China's framework locates climate disasters under non-traditional security while treating the problem as one for development policy rather than security institutions."
+        },
+        {
+          "label": "gap",
+          "actor_type": "private_sector",
+          "text": "No Chinese private-sector climate-security signal identified in the window."
+        },
+        {
+          "label": "gap",
+          "actor_type": "public_opinion",
+          "text": "No usable public-opinion indicator. Recorded as a standing methodological gap for this jurisdiction rather than a weekly one."
+        }
+      ],
+      "rests_on": ["nepal-assistance-limits"]
+    },
+    {
+      "jurisdiction": "India",
+      "direction": "no_change",
+      "direction_note": "Continued severe flood impacts, continued treatment of them as a forecasting and disaster-management problem rather than a security one.",
+      "method_note": "India's Assam flooding — described by state officials as the worst in six decades, with more than 100 dead and over 700,000 displaced — began in the preceding weeks and is outside this window. It is referenced because the *framing* of the government's response is the salience indicator, and that framing was visible in the window's parliamentary material.",
+      "claims": [
+        {
+          "label": "evidence",
+          "actor_type": "government",
+          "text": "The government's answer to parliamentary questions on Assam runs through monsoon forecasting and climate resilience: satellite-based monitoring, IMD warnings, and Mission Mausam upgrades to coupled atmosphere-ocean and high-resolution numerical weather prediction models. The register is meteorological capability, not security. That is a consistent and deliberate Indian position, not an oversight.",
+          "source": { "title": "Parliament question: monsoon forecasting and climate resilience in Assam", "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2226189&reg=3&lang=2", "publisher": "Press Information Bureau, Government of India" }
+        },
+        {
+          "label": "evidence",
+          "actor_type": "government",
+          "text": "India was among the small set of states whose specialists Nepal did accept during the flood response, alongside China, South Korea and Australia. In the regional reading, disaster assistance is functioning as a channel of influence in Nepal at a moment when Nepal's China relationship is under strain — which is a security use of a climate-driven event, conducted without any climate-security vocabulary.",
+          "source": { "title": "Nepal's Floods Upset Its China-India Balancing Act", "url": "https://thediplomat.com/2026/09/nepals-floods-upset-its-china-india-balancing-act/", "publisher": "The Diplomat", "date": "2026-09" }
+        },
+        {
+          "label": "gap",
+          "actor_type": "defence",
+          "text": "No Indian security or defence document treating climate could be found this week, repeating last week's result. The thread stays open. Note that this is an absence of the *document class*, not of activity: the Nepal deployment above is climate-adjacent security behaviour with no doctrinal text behind it."
+        },
+        {
+          "label": "gap",
+          "actor_type": "private_sector",
+          "text": "No Indian private-sector climate-security signal identified in the window."
+        },
+        {
+          "label": "gap",
+          "actor_type": "public_opinion",
+          "text": "No new Indian polling on climate as a security priority in the window."
+        }
+      ],
+      "rests_on": ["nepal-assistance-limits"]
+    },
+    {
+      "jurisdiction": "Multilateral",
+      "direction": "mixed",
+      "direction_note": "Rising in discourse and falling nowhere, but with the movement concentrated in framing rather than in machinery: two significant declaratory events, no institutional or budgetary change, and nothing at all from the Security Council.",
+      "method_note": "The window ends two days before UNGA81 opens on 8 September, and the Secretary-General's Climate Summit falls in high-level week on 22 September. Everything in this entry is therefore pre-positioning, and next week's reading will be much better evidenced. Do not mistake the pre-UNGA publication cluster for a rise in institutional priority; September is when the UN system publishes.",
+      "claims": [
+        {
+          "label": "evidence",
+          "actor_type": "government",
+          "text": "UNEP moved the field's central number from a target to a variable, and the Secretary-General attached explicit peace-and-security consequences to the exceedance in his launch message. Whatever else it does, this puts overshoot into the vocabulary that security institutions will now have to plan against (B1, D1).",
+          "source": { "title": "Humanity Speeding Past 1.5°C Climate Limit, Secretary-General Warns", "url": "https://press.un.org/en/2026/sgsm23257.doc.htm", "publisher": "United Nations", "date": "2026-09-02" }
+        },
+        {
+          "label": "evidence",
+          "actor_type": "government",
+          "text": "The UN Climate Security Mechanism is running an extended Phase III covering 2026-2028, with a core team drawn from DPPA, UNDP, UNEP and DPO, eleven climate-peace-and-security advisers deployed to peace operations and regional organisations, and contributions from fourteen governments through the Multi-Partner Trust Fund plus in-kind junior professional officers from nine more. This is the field's only standing multilateral machinery and it is intact — a materially different picture from the lapsed reporting infrastructure documented last week.",
+          "source": { "title": "Climate Security Mechanism Joint Programme", "url": "https://www.un.org/climatesecuritymechanism/en/climate-security-mechanism-joint-programme", "publisher": "United Nations" }
+        },
+        {
+          "label": "framing",
+          "actor_type": "government",
+          "text": "The Pacific Islands Forum's reaffirmation of climate as 'the single greatest threat' to regional security, two days after UNEP's concession, is a coalition defending a securitisation claim against an adverse scientific reframing rather than a new assessment (B2). It is the clearest evidence available that the security frame's constituency will not follow the science's framing when the two diverge."
+        },
+        {
+          "label": "gap",
+          "actor_type": "government",
+          "text": "No Security Council activity on climate in the window: no meeting, no product, no scheduled item identified. The Council remains the venue where the field's institutional gains are least durable, and a week in which the UN's own environment agency conceded the 1.5°C breach passed without it appearing there at all."
+        },
+        {
+          "label": "gap",
+          "actor_type": "private_sector",
+          "text": "No private-sector participation identifiable in either the UNEP launch or the Forum outcomes as reported. For a report built around carbon removal at a scale that does not currently exist — an explicitly commercial dependency — the absence of a visible private-sector interlocutor is the notable thing, and it is recorded as a gap rather than inferred as disinterest."
+        },
+        {
+          "label": "gap",
+          "actor_type": "defence",
+          "text": "No multilateral defence body engaged the overshoot finding within the window. NATO published nothing; its most recent substantive climate-security product remains the STO SAS-182 final report of January 2026, and no fourth Climate Change and Security Impact Assessment has appeared."
+        }
+      ],
+      "rests_on": ["unep-overshoot-concession", "pif-belau-declaration", "aosis-overshoot-refusal"]
+    }
+  ],
+
+  "moves": [
+    {
+      "n": 1,
+      "id": "unep-overshoot-concession",
+      "title": "UNEP spends its own leverage to change the terms of the argument",
+      "actor": "UN Environment Programme; Executive Director Inger Andersen",
+      "date": "2026-09-02",
+      "place": "Nairobi",
+      "body": "UNEP published *Limiting Overshoot* six days before UNGA81 opens and ten weeks before COP31 convenes in Antalya, and had the Secretary-General launch it. Andersen's role and term were verified this week: appointed Executive Director in 2019, confirmed for a further four-year term running 15 June 2023 to 14 June 2027, so this is a move made from the middle of a mandate rather than at its end.\n\nThe institutional shape of the act matters more than its content. UNEP's convening power over states has rested for a decade on a threshold — 1.5°C — that functions as a bright line: bright lines create obligation in a way that gradients do not. This report converts the line into a quantity with a magnitude and a duration, and does so on UNEP's own timetable, in UNEP's own flagship format, with the Secretary-General's imprimatur attached.",
+      "stated_rationale": "Overshoot is now unavoidable, so the responsible course is to give governments a framework for minimising its magnitude and duration and returning below 1.5°C as soon as possible — an 'overshoot of ambition' rather than an abandonment of the goal.",
+      "inference": "Two readings, and they are not exclusive. The defensive one: the concession was going to be made at COP31 by someone, probably in a worse venue and under worse control, and making it first at a moment of your choosing is how an institution keeps authorship of its own bad news. The structural one: this is a bid to relocate the field's centre of gravity from mitigation targets to overshoot management — adaptation, carbon removal, and the governance of a period of exceedance — which is the terrain where security framings, and solar radiation modification governance behind them, become central rather than peripheral. Watch whether the security-adjacent institutions pick up 'overshoot' as a planning premise; that is the tell for the second reading.",
+      "verdict": "landed",
+      "confidence": "medium",
+      "sources": [
+        { "title": "UNEP: World set to cross 1.5°C global warming", "url": "https://www.unep.org/news-and-stories/press-release/unep-world-set-cross-15degc-global-warming-can-still-limit-adapt-and", "publisher": "UNEP", "date": "2026-09-02" },
+        { "title": "Andersen reappointed director of UNEP", "url": "https://unric.org/en/andersen-reappointed-director-of-unep/", "publisher": "UN Regional Information Centre for Western Europe" },
+        { "title": "UN finally admits global warming will shoot past 1.5 ºC climate limit", "url": "https://www.nature.com/articles/d41586-026-02753-5", "publisher": "Nature (news)", "date": "2026-09-02" }
+      ]
+    },
+    {
+      "n": 2,
+      "id": "aosis-overshoot-refusal",
+      "title": "AOSIS refuses the frame rather than the finding",
+      "actor": "Alliance of Small Island States",
+      "date": "2026-09-03",
+      "place": "New York (statement)",
+      "body": "Within a day of the report, AOSIS issued a statement warning governments not to treat exceedance as grounds for abandoning the 1.5°C target, arguing that 1.5°C is not an arbitrary number that can be retired but a limit states committed to pursue under the Paris Agreement, that the trajectory is not yet fixed, and that the report should be read as a warning rather than a verdict.\n\nNote what is not disputed. AOSIS does not contest UNEP's physical finding. It contests the inference states will draw from it, and it does so by moving the ground from science to law: the argument is that a commitment does not lapse because compliance became unlikely. Per the standing rule on roles, the chair of AOSIS for 2026 could not be verified this week, so the move is attributed to the institution rather than to a person, and `routine/watchlist.md` has been updated to record that the AOSIS chair remains unidentified.",
+      "stated_rationale": "1.5°C is a Paris Agreement commitment rather than a scientific waypoint; the trajectory of warming is not yet fixed; the report is a warning about what is at stake, and governments should respond with the highest possible ambition and acceleration away from fossil fuels.",
+      "inference": "This is the correct move from a coalition whose entire leverage is a number written into a treaty. Once 1.5°C becomes a variable with a magnitude, every negotiation about the magnitude is a negotiation AOSIS enters from weakness, because the coalition has no material power and only the commitment to trade on. Reframing the report as a warning rather than a verdict is an attempt to keep the number's legal character intact while conceding its physical one — the reverse of the manoeuvre Mathews made in section A, and equally a claim about category rather than fact.",
+      "verdict": "too_early",
+      "confidence": "medium",
+      "sources": [
+        { "title": "AOSIS rejects calls to abandon 1.5°C goal amid overshoot warning", "url": "https://www3.cnc3.co.tt/aosis-rejects-calls-to-abandon-1-5c-goal-amid-overshoot-warning/", "publisher": "CNC3", "date": "2026-09-03" },
+        { "title": "Alliance of Small Island States statement on UNEP 'Limiting Overshoot' report", "url": "https://emonewsdm.com/alliance-of-small-island-states-statement-on-unep-limiting-overshoot-report/", "publisher": "Emonews Dominica", "date": "2026-09" }
+      ]
+    },
+    {
+      "n": 3,
+      "id": "pif-belau-declaration",
+      "title": "Pacific leaders keep two security instruments rather than merging them, and add a climate declaration on top",
+      "actor": "Pacific Islands Forum leaders, hosted by Palau",
+      "date": "2026-09-04",
+      "place": "Koror, Palau",
+      "body": "At the close of the 55th Leaders Meeting, the Forum endorsed the BELAU Declaration for Urgent and Inclusive Climate Action to Keep 1.5°C Within Reach, retained the 'single greatest threat to the security, livelihoods and wellbeing of Pacific peoples' formulation in the communiqué, and reaffirmed the Boe Declaration on Regional Security and the Blue Pacific Ocean of Peace Declaration as the region's security frameworks — as two instruments, not one. Leaders also approved a Renewable Energy Commissioner and placed the pre-COP with Fiji and Tuvalu.\n\nThis is the answer to last week's `pif-security-declaration` question, which asked whether Boe's language would survive a merger into a consolidated security instrument. There was no merger, and the language survived.",
+      "stated_rationale": "Faster emissions cuts, a large increase in grant-based and directly accessible climate finance for Pacific SIDS to avoid adding to unsustainable debt, and stronger international action to keep 1.5°C within reach — with Pacific unity presented as the region's response to geopolitical competition, climate threats and transnational crime together.",
+      "inference": "Keeping Boe and the Ocean of Peace separate is the load-bearing decision, and it is a defensive one. A consolidated instrument would have to reconcile the climate-existential framing with the great-power-competition framing, and reconciliation is where the weaker claim loses: on current form the climate language would have been subordinated to the strategic-competition language that Australia and the United States are actively pushing into the region. Two instruments preserve two independent claims. The Renewable Energy Commissioner and the pre-COP hosting are the parts that survive a change of leaders; declaratory language is not.",
+      "verdict": "landed",
+      "confidence": "medium",
+      "sources": [
+        { "title": "Pacific leaders issue Belau call to keep 1.5°C alive", "url": "https://pina.com.fj/2026/09/04/pacific-leaders-issue-belau-call-to-keep-1-5c-alive/", "publisher": "PINA", "date": "2026-09-04" },
+        { "title": "Pacific leaders step up climate and disaster push ahead of COP31", "url": "https://pina.com.fj/2026/09/04/pacific-leaders-step-up-climate-and-disaster-push-ahead-of-cop31-approve-renewable-energy-commissioner-as-climate-push-intensifies/", "publisher": "PINA", "date": "2026-09-04" },
+        { "title": "Where to for the Pacific's Ocean of Peace?", "url": "https://eastasiaforum.org/2026/08/30/where-to-for-the-pacifics-ocean-of-peace/", "publisher": "East Asia Forum", "date": "2026-08-30" }
+      ]
+    },
+    {
+      "n": 4,
+      "id": "hirisk-nepal-preevent",
+      "title": "A scientific consortium closes the 'unforeseeable' defence in six days",
+      "actor": "HiRISK scientific consortium (composition not verified)",
+      "date": "2026-09-01",
+      "place": "Langtang, Nepal",
+      "body": "Six days after the collapse, the HiRISK consortium reported pre-event indications visible in satellite imagery — surface change on the section of glacier that failed, identifiable days before it did. The finding was picked up immediately and widely, and it reframed the story: from 26 August to 31 August the question was what happened, and from 1 September it was why nobody was looking.\n\nThe speed is the move. Publishing while search operations are still running, into a news cycle that has not yet resolved, is a choice about when a finding has most political effect rather than when it is most complete.\n\nThe consortium's membership, funding and institutional home could not be verified this week and are not asserted here; the finding is attributed to HiRISK as reported by ABC and CNN, both on 1 September. That is a real limitation on this entry and the reason its confidence is low.",
+      "stated_rationale": "Establish the physical sequence of the collapse from satellite observation.",
+      "inference": "A rapid-analysis capability is being pointed at a hazard class that the operational warning system does not cover, and the effect — whether or not the intent — is to convert an act of nature into a monitoring failure with an owner. This is the same institutional manoeuvre rapid attribution performed for extreme weather, transplanted to slope stability, and it works on the same mechanism: publish fast enough and the finding shapes the political question before the political question has settled. If it holds, expect pressure for glacier-hazard early warning to become a funded transboundary programme, which runs directly into the China-Nepal data-sharing wall identified in B3.",
+      "verdict": "too_early",
+      "confidence": "low",
+      "sources": [
+        { "title": "Warning signs visible days before glacier collapse in Nepal, report finds", "url": "https://www.abc.net.au/news/2026-09-01/warning-signs-visible-before-glacier-collapse-in-nepal/107097636", "publisher": "ABC News (Australia)", "date": "2026-09-01" },
+        { "title": "September 1-2, 2026 — Warning signs were visible ahead of Nepal-China floods, report says", "url": "https://www.cnn.com/2026/09/01/world/live-news/nepal-china-flood", "publisher": "CNN", "date": "2026-09-01" },
+        { "title": "Kyirong-Rasuwa Flood 2026 | Nepal-China Cryosphere Risk", "url": "https://www.icimod.org/kyirong-rasuwa-flood-2026-nepal-china-border/", "publisher": "ICIMOD" }
+      ]
+    },
+    {
+      "n": 5,
+      "id": "nepal-assistance-limits",
+      "title": "Nepal converts a rescue operation into a sovereignty demonstration, and then softens it",
+      "actor": "Government of Nepal; Prime Minister Balendra (Balen) Shah; Ministry of Foreign Affairs",
+      "date": "2026-09-04",
+      "place": "Kathmandu",
+      "body": "Nepal's Foreign Ministry declined offers of specialised search-and-rescue teams and helicopters from India, China, the United States, the United Kingdom and South Korea, stating that national security forces could handle the operation. Under criticism the position was restated rather than reversed: the finance minister rejected the claim that help had been refused, saying it had been accepted according to need, and the government described army and police working with Indian, Chinese and South Korean specialists at hydropower tunnels. By 4 September both Nepal and China were reported to be keeping search, rescue and technical work largely within their own teams plus specialists from India, Australia and South Korea.\n\nRole verified this week: Shah became Prime Minister on 27 March 2026 after the Rastriya Swatantra Party won 182 of 275 seats on 5 March, following the collapse of the previous government in the wake of the 2025 protests and the Karki interim administration. This is a government five months old, with the least experienced cabinet in Nepal's modern history, facing its first mass-casualty disaster.",
+      "stated_rationale": "Nepal's own security forces are sufficient for the rescue effort; foreign assistance has been accepted where there was a need on the ground.",
+      "inference": "Read the accepted list, not the refused one. India, China, South Korea and Australia in; the United States and United Kingdom out. For a five-month-old government whose mandate is anti-establishment and whose disaster straddles the Chinese border, accepting Western teams into Langtang would have cost more domestically and with Beijing than the search capacity was worth — and admitting insufficiency in the first month of a crisis is not something a new government does if it can avoid it. The softening after criticism suggests the initial refusal was reflexive rather than planned, which is its own finding about how a disaster-inexperienced administration handles the sovereignty question under pressure. The cost is unquantifiable but not zero, and it will be argued about for years.",
+      "verdict": "landed",
+      "confidence": "medium",
+      "sources": [
+        { "title": "Nepal's hesitance to accept foreign help for flood relief under scrutiny", "url": "https://www.npr.org/2026/08/31/nx-s1-5949971/nepals-hesitance-help-flood", "publisher": "NPR", "date": "2026-08-31" },
+        { "title": "Balendra Shah to be sworn in as PM on March 27", "url": "https://kathmandupost.com/national/2026/03/19/balendra-shah-to-be-sworn-in-as-pm-on-march-27", "publisher": "The Kathmandu Post", "date": "2026-03-19" },
+        { "title": "Nepal's Floods Upset Its China-India Balancing Act", "url": "https://thediplomat.com/2026/09/nepals-floods-upset-its-china-india-balancing-act/", "publisher": "The Diplomat", "date": "2026-09" },
+        { "title": "Nepal: 2026 legislative election and future prospects", "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10622/", "publisher": "House of Commons Library" }
+      ]
+    }
+  ],
+
+  "roster_silences": "**Clingendael and the Planetary Security Initiative:** the standing question about PSI's funding phase produced a finding this week, and it is not encouraging. The only publicly datable announcement of a PSI funding phase that search can surface is Clingendael's *A new 3-year phase for the Planetary Security Initiative*, dated **9 December 2019**. Nothing more recent announces a renewal. This does not establish that PSI is unfunded — a renewal may simply never have been announced, which is common — but it does mean the Dutch flagship platform's status has not been publicly stated for close to seven years, and it is consistent with last week's observation that PSI's visible output is curation of other institutions' work.\n\n**HCSS:** no climate-security output in the window. Its most recent substantial climate-security publication remains *Veiligheid in een Verhitte Wereld: Klimaatverandering en Maatschappelijke Stabiliteit* (Laura Birkman, Fiona De Cuyper and Julie Jeuken, June 2025) — worth noting that it was commissioned by the Dutch **police**, under the Strategische Monitor Politie programme, not by Defence or Foreign Affairs. The Dutch climate-security research demand that is actually paying is domestic-order demand.\n\n**adelphi:** nothing in the window; the Berlin Climate and Security Conference remains scheduled for 6 October at the Federal Foreign Office.\n\n**SIPRI:** no climate-security publication datable to 1-6 September found.\n\n**IMCCS and NATO:** unchanged from last week and checked again. No World Climate and Security Report since the 2024 edition; no fourth Climate Change and Security Impact Assessment. NATO's most recent substantive product is the Science and Technology Organization's SAS-182 final report *The Effects of Climate Change on Security*, published January 2026 — a research-task-group output, not a Secretary-General's assessment, and it does not substitute for one.\n\n**UN Climate Security Mechanism:** no new output in the window, but see the Multilateral entry — the machinery is documented as running through 2028, which makes publication silence a different thing here than at IMCCS.\n\n**No move from the Gulf states, the African Union or AOSIS beyond the statement recorded as D2.** China and India both appear in this digest as actors, but in neither case through a climate-security instrument.",
+
+  "watch": [
+    {
+      "title": "Whether the overshoot frame enters the UNGA81 security register",
+      "note": "UNGA81 opens on 8 September and the Secretary-General's Climate Summit falls in high-level week on 22 September. Two datable questions: whether the incoming President of the General Assembly's opening remarks carry climate-security language — Annalena Baerbock's term as PGA80 ends on 8 September — and whether the Climate Summit adopts 'overshoot' as its organising premise or works around it. The second is the real test of D1's structural reading.",
+      "date": "2026-09-08"
+    },
+    {
+      "title": "Prinsjesdag and the Klimaatparaat money",
+      "note": "15 September. Three things resolve on the day: whether the Defensiebegroting carries the €5 million structural Klimaatparaat line into 2027 and whether it grows, whether the action plan converting the strategy's four tracks into dated measures has appeared or slipped, and whether Deltaprogramma 2027 lands on Prinsjesdag as it customarily does. A first Prinsjesdag for the Jetten cabinet makes all three readable as priority-setting rather than continuity.",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Whether anyone attributes the Langtang-Lirung cascade",
+      "note": "Two connected questions with datable answers. Does a rapid or formal attribution study of the 26 August cascade appear, and does the field settle on ICIMOD's ice-and-rock avalanche account over the earlier glacial-lake-drainage account that circulated under a climate body's authority? A month of silence would itself be the finding: it would mark slope-failure cascades as a hazard class that rapid attribution cannot currently serve, at exactly the moment the policy argument needs it to."
+    }
+  ],
+
+  "continuity": {
+    "literature_covered": [
+      { "author": "Richard H. Ullman", "year": 1983, "title": "Redefining Security", "venue": "International Security", "locator": "8(1), 129-153", "verification": "verified" },
+      { "author": "Anselm Vogler", "year": 2026, "title": "A mundane challenge of menacing proportions?", "venue": "Environment and Security", "locator": "4(2), 151-178", "verification": "verified" },
+      { "author": "Jessica Tuchman Mathews", "year": 1989, "title": "Redefining Security", "venue": "Foreign Affairs", "locator": "68(2), 162-177", "verification": "verified" },
+      { "author": "Daniel H. Deudney", "year": 1990, "title": "The Case Against Linking Environmental Degradation and National Security", "venue": "Millennium: Journal of International Studies", "locator": "19(3), 461-476", "doi": "10.1177/03058298900190031001", "verification": "verified" },
+      { "author": "Tyler Bagwell, Sylvia Dee and Frederi Viens", "year": 2026, "title": "Global and regional climate modes modulate armed conflict risk", "venue": "Proceedings of the National Academy of Sciences", "doi": "10.1073/pnas.2532935123", "verification": "verified" }
+    ],
+    "next_reading": [
+      {
+        "author": "Marc A. Levy",
+        "year": 1995,
+        "title": "Is the Environment a National Security Issue?",
+        "venue": "International Security",
+        "locator": "20(2), Fall 1995, 35-62",
+        "url": "https://www.jstor.org/stable/2539228",
+        "verification": "verified",
+        "verification_note": "Volume, issue, season and pagination confirmed against the JSTOR record and the Project MUSE issue index for International Security 20(2). Closes Phase 1. Levy's move is to argue that the Mathews-Deudney exchange is largely about rhetoric and that the substantive question is whether environmental change poses risks comparable in magnitude to those security institutions already handle — read it as the phase's verdict, not as a fourth position."
+      },
+      {
+        "author": "Thomas F. Homer-Dixon",
+        "year": 1994,
+        "title": "Environmental Scarcities and Violent Conflict: Evidence from Cases",
+        "venue": "International Security",
+        "verification": "unverified",
+        "verification_note": "Opens Phase 2 the week after Levy. Volume, issue and pagination not yet checked — verify before presenting, and pair it with Gleditsch 1998 within one week of each other per the curriculum's read-the-critique rule."
+      }
+    ],
+    "active_trends": [
+      { "id": "us-vehicle-removal", "text": "US removal of climate from security *vehicles*, not just language.", "first_raised": "2026-08-31" },
+      { "id": "us-adaptation-as-disaster-ops", "text": "US adaptation surviving only where reframed as disaster operations.", "first_raised": "2026-08-31" },
+      { "id": "unsc-natural-resource-frame", "text": "UNSC shift from \"climate security\" to \"natural resource governance\".", "first_raised": "2026-08-31" },
+      { "id": "retreat-from-binding-instruments", "text": "Retreat from binding multilateral environmental instruments (UNCCD drought, twice). See this week's pushback: do not extend this trend to cover institutional candour about overshoot; the two are different acts and merging them makes the trend unfalsifiable.", "first_raised": "2026-08-31" },
+      { "id": "nl-institution-without-money", "text": "Dutch institutional creation with fiscal non-commitment. Klimaatparaat at €5m structural from 2027, with the action plan not yet visible, is the current instance.", "first_raised": "2026-08-31" },
+      { "id": "nl-opinion-decline", "text": "Dutch public-opinion decline against the international average.", "first_raised": "2026-08-31" },
+      { "id": "overshoot-as-planning-premise", "text": "Overshoot moving from a risk to a planning premise: UNEP organising a flagship around exceedance, the Commission pegging its resilience framework to a ~3°C reference scenario. Watch whether security institutions adopt it, which is where adaptation, carbon removal and SRM governance become security files rather than climate ones.", "first_raised": "2026-09-06" },
+      { "id": "highmountain-warning-mismatch", "text": "High-mountain hazard migrating from the glacial-lake-outburst mode that monitoring was built for to ice-and-rock slope failure that it was not, across borders where no data-sharing mechanism exists.", "first_raised": "2026-09-06" }
+    ],
+    "open_threads": [
+      { "id": "psi-funding-phase", "text": "PSI's current funding phase. Finding this week: the only publicly datable phase announcement is Clingendael's, 9 December 2019. No renewal has been publicly announced in the seven years since. Still open — absence of an announcement is not evidence of non-renewal — but the thread now has a floor.", "status": "open", "first_raised": "2026-08-31" },
+      { "id": "nato-ccsia-4th-edition", "text": "Whether NATO published a 4th Climate Change and Security Impact Assessment. Re-checked; still nothing. The STO SAS-182 report of January 2026 is a different instrument and does not close this.", "status": "open", "first_raised": "2026-08-31" },
+      { "id": "imccs-wcsr-lapsed", "text": "Whether the IMCCS World Climate and Security Report has formally lapsed. Re-checked; nothing since the 2024 edition.", "status": "open", "first_raised": "2026-08-31" },
+      { "id": "csm-funding", "text": "CSM funding trajectory. Established this week: Phase III extended to cover 2026-2028, fourteen contributing governments through the MPTF, nine more providing JPOs in kind, eleven CPS advisers deployed. Still open on the money itself — the annual financial report has not been retrieved and contribution volumes remain unknown, which is the part that would show a trajectory rather than a structure.", "status": "open", "first_raised": "2026-08-31" },
+      { "id": "mff-climate-security-line", "text": "MFF 2028-2034 climate/security line. The percentage is now sourced: 35 per cent climate *and environment* mainstreaming, over €700bn of a ~€2tn package, from the Commission's July 2025 proposal. That is not a climate-security line and no security-tagged earmark could be found. Open on the narrower question: does any MFF instrument carry an explicit climate-security allocation, and does the mainstreaming target survive a negotiation member states want closed by end-2026.", "status": "open", "first_raised": "2026-08-31" },
+      { "id": "china-2026-defence-climate", "text": "Chinese 2026 defence doctrine on climate — gap. Re-checked; unchanged. The week's concrete Chinese observable was negative and non-doctrinal: no transboundary hydrological data-sharing on the Nepal border.", "status": "open", "first_raised": "2026-08-31" },
+      { "id": "india-security-doc-climate", "text": "Any Indian security document on climate — gap. Re-checked; unchanged. Note the live contrast: India conducted climate-adjacent security behaviour in Nepal this week with no doctrinal text behind it.", "status": "open", "first_raised": "2026-08-31" },
+      { "id": "swiss-re-sigma-424bn", "text": "Swiss Re sigma citation for the $424bn 2025 protection gap — get the sigma number before citing. Not pursued this week; direct retrieval was blocked, which is the constraint that would have to lift for this to be closeable.", "status": "open", "first_raised": "2026-08-31" },
+      { "id": "langtang-attribution", "text": "Whether any event attribution study of the 26 August Langtang-Lirung cascade appears, and whether the ice-and-rock-avalanche account or the earlier glacial-lake-drainage account prevails. A sustained absence is the finding: it would mark slope-failure cascades as outside rapid attribution's current reach.", "status": "open", "first_raised": "2026-09-06" },
+      { "id": "hirisk-consortium-identity", "text": "What the HiRISK consortium is: membership, funding, institutional home. Its finding on pre-event indications is doing real political work and its provenance is unverified. Resolve before citing it again as authority.", "status": "open", "first_raised": "2026-09-06" }
+    ],
+    "open_moves": [
+      { "id": "dk-unsc-food-security", "text": "Denmark's UNSC food-security debate, outcome document unconfirmed. See section A: the PNAS paper on ENSO and IOD teleconnections is the evidence base against which the debate's 'El Niño risk to 45 countries' framing should be judged, and it does not support a smooth-gradient reading.", "status": "open", "opened": "2026-08-25" },
+      { "id": "csr-ccs-staffing", "text": "CSR/CCS philanthropic-funding bet.", "status": "open", "opened": "2026-08-26" },
+      { "id": "nupi-sipri-abyei", "text": "NUPI/SIPRI Abyei report and the next UNISFA renewal.", "status": "open", "opened": "2026-08-01" },
+      { "id": "pif-security-declaration", "text": "PIF security-declaration merger.", "status": "resolved", "opened": "2026-08-31", "resolved_on": "2026-09-04", "resolution": "No merger. The 55th Leaders Meeting reaffirmed the Boe Declaration on Regional Security and the Blue Pacific Ocean of Peace Declaration as two separate frameworks, and the 2026 communiqué retains the 'single greatest threat to the security, livelihoods and wellbeing of Pacific peoples' formulation. Boe's securitisation language survived, and it survived two days after UNEP conceded the 1.5°C breach the language is attached to. Succeeded by pif-belau-declaration for the durability question." },
+      { "id": "eu-climate-resilience-framework", "text": "EU integrated framework for climate resilience, still indicative for the second half of 2026 — watch for slippage past year-end. Date correction to prevent a recurring false positive: the call for evidence closed 4 September **2025**, not 2026; it resurfaces in September searches every year and is not new activity.", "status": "open", "opened": "2026-08-31" },
+      { "id": "unsg-succession", "text": "UNSG succession, finalisation Aug-Oct 2026. UNGA81 opens 8 September, which puts the process into its decisive weeks.", "status": "open", "opened": "2026-08-31" },
+      { "id": "cop31-antalya", "text": "COP31 Antalya, 9-20 Nov 2026. Now also the venue where the overshoot frame either becomes the organising premise or is contained; pre-COP goes to Fiji and Tuvalu.", "status": "open", "opened": "2026-08-31" },
+      { "id": "unep-overshoot-concession", "text": "Whether 'overshoot' is adopted as a planning premise by security institutions — NATO, EEAS, national defence strategies — or stays inside the climate-policy system. The tell for whether D1 was defensive or structural.", "status": "open", "opened": "2026-09-02" },
+      { "id": "aosis-overshoot-refusal", "text": "Whether AOSIS's legal-character defence of 1.5°C holds through UNGA81 and COP31, or whether the overshoot frame converts the target into a negotiable magnitude.", "status": "open", "opened": "2026-09-03" },
+      { "id": "hirisk-nepal-preevent", "text": "Whether the pre-event-indications finding produces a funded glacier-hazard early-warning programme, and whether it can survive contact with the China-Nepal data-sharing wall. Provenance of the consortium unverified.", "status": "open", "opened": "2026-09-01" },
+      { "id": "nepal-assistance-limits", "text": "Whether Nepal's restriction of foreign search-and-rescue becomes a precedent or an episode, and whether any transboundary early-warning mechanism emerges from a disaster that both states chose to manage through parallel national channels.", "status": "open", "opened": "2026-09-04" }
+    ]
+  }
+}

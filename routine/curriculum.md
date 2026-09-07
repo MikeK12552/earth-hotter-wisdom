@@ -10,11 +10,19 @@ digest's verification note.
 
 ## Phase 1 — Where the question came from (1970s–1990)
 
-- Ullman, "Redefining Security", *International Security*, 1983.
-- Mathews, "Redefining Security", *Foreign Affairs*, 1989.
+- Ullman, "Redefining Security", *International Security*, 1983, 8(1), 129-153.
+- Mathews, "Redefining Security", *Foreign Affairs*, 1989, 68(2), 162-177. *Verified
+  2026-09-06 against the JSTOR record and the Spring 1989 issue index.*
 - Deudney, "The Case Against Linking Environmental Degradation and National Security",
-  *Millennium*, 1990. Read immediately after Mathews, in the same week.
-- Levy, "Is the Environment a National Security Issue?", *International Security*, 1995.
+  *Millennium*, 1990, 19(3), 461-476, doi 10.1177/03058298900190031001. Read immediately
+  after Mathews, in the same week. *Verified 2026-09-06 against the SAGE DOI record.*
+  Widely reprinted with different pagination: a page range cited against the *Millennium*
+  venue that is not 461-476 is probably a reprint's.
+- Levy, "Is the Environment a National Security Issue?", *International Security*, 1995,
+  20(2), 35-62. *Verified 2026-09-06 against JSTOR and the Project MUSE issue index.*
+  Closes the phase: Levy argues the Mathews-Deudney exchange is largely about rhetoric
+  and that the substantive question is one of comparable magnitude. Read it as the
+  phase's verdict, not as a fourth position.
 
 ## Phase 2 — Scarcity and the first empirical wave (1990–2005)
 
@@ -75,3 +83,13 @@ Kept current by the routine. Each entry records the week it appeared in.
 
 - Phase 1, Ullman 1983 — week ending 2026-08-31.
 - Phase 5/6 bridge, Vogler 2026 — week ending 2026-08-31.
+- Phase 1, Mathews 1989 — week ending 2026-09-06.
+- Phase 1, Deudney 1990 (critique, read as a pair with Mathews) — week ending 2026-09-06.
+- Outside the sequence, Bagwell, Dee and Viens 2026, *PNAS*, "Global and regional climate
+  modes modulate armed conflict risk" — week ending 2026-09-06.
+
+Note on cadence, recorded 2026-09-06: honouring the read-the-critique-in-the-same-week
+rule costs a third item in any week where a curriculum pair falls due, because the recent
+empirical slot still has to be filled. That is the right trade — deferring the critique is
+the one thing this file forbids — but expect it again at Homer-Dixon/Gleditsch, at
+Hsiang-Burke-Miguel/Buhaug, and at Kelley/Selby.

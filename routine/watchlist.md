@@ -32,6 +32,21 @@ Initiative; visiting professor at the College of Europe. Current statement: *The
 Resilience Agenda*, with Hannah Lentschig (Systemiq with the University of Oxford and
 Clingendael, 5 February 2026).
 
+*Note on PSI, 2026-09-06:* the only publicly datable announcement of a PSI funding phase
+that can be surfaced is Clingendael's *A new 3-year phase for the Planetary Security
+Initiative*, **9 December 2019**. Nothing since announces a renewal. This says nothing
+about van Schaik's role, which is not in question; it says that the platform's funding
+status has not been publicly stated for close to seven years. Do not describe PSI as a
+currently-funded Dutch flagship without a source, and do not read its news feed as
+Clingendael output — it is curation of other institutions' work.
+
+**Inger Andersen** *(verified 2026-09-06)* — Executive Director of the UN Environment
+Programme since 2019, confirmed for a further four-year term running 15 June 2023 to
+14 June 2027. Added because UNEP's *Limiting Overshoot* (2 September 2026) makes UNEP an
+agenda-setter in this field rather than an adjacent one: an agency that converts 1.5°C
+from a threshold into a magnitude has changed what security institutions plan against.
+The succession process falls in 2027 and is worth tracking from mid-2026 onward.
+
 **Wopke Hoekstra** *(verified Aug 2026)* — European Commissioner for Climate, Net Zero
 and Clean Growth since October 2023, continuing into the second von der Leyen
 Commission. The test case for whether the security framing survives contact with
@@ -65,9 +80,26 @@ author of a 2024 memoir of that title. Verify the coinage attribution before rep
 it.
 
 **To add:** the head of the UN Climate Security Mechanism, NATO's climate and security
-officials, whoever holds the EEAS climate-security file, the AOSIS chair, the Pacific
-Islands Forum Secretary-General, and the equivalent figures in the African Union, Indian
-and Brazilian systems.
+officials, whoever holds the EEAS climate-security file, the Pacific Islands Forum
+Secretary-General, and the equivalent figures in the African Union, Indian and Brazilian
+systems.
+
+**AOSIS chair** *(sought 2026-09-06, not established)* — AOSIS issued the sharpest
+institutional response of the week to UNEP's overshoot report and it had to be attributed
+to the institution because the 2026 chair could not be verified. This is the single
+highest-value unfilled slot on this list: AOSIS is the actor whose entire leverage rests
+on 1.5°C retaining the character of a commitment, so its chair is the person to quote when
+that character is under pressure. Establish before the next digest.
+
+**ICIMOD** *(verified 2026-09-06)* — the International Centre for Integrated Mountain
+Development is now a standing entry, not an occasional source. Its specialists **Saswata
+Sanyal** (disaster risk) and **Farooq Azam** are named in its own material on the
+Kyirong-Rasuwa flood of August 2026. Worth watching for a specific reason: ICIMOD held the
+line on attribution in the week it had the most to gain from crossing it, stating that the
+event cannot yet be directly attributed to warming while maintaining the broader
+cryospheric case. An institution that distinguishes those two under pressure is a reliable
+one. High-mountain multi-hazard cascades are a live security file and ICIMOD sits on the
+transboundary data problem at its centre.
 
 ## Academics whose positions set the terms of debate
 
@@ -97,3 +129,18 @@ Clingendael (Planetary Security Initiative), HCSS, adelphi, SIPRI, Council on St
 Risks / Center for Climate and Security, IMCCS, NATO, EEAS and relevant Commission DGs,
 the UN Climate Security Mechanism, relevant national ministries. Non-Western actors:
 China, the Gulf states, the African Union, AOSIS, India.
+
+Added 2026-09-06: **ICIMOD**, **World Weather Attribution** and the **Pacific Islands
+Forum Secretariat**. The first two because attribution and monitoring institutions now
+set the terms of argument about events faster than security institutions respond to them
+— WWA published on Caribbean drought within the same week the Himalayan cascade went
+unattributed, and the asymmetry is itself a finding. The third because the Forum is the
+one venue that produces a dated, checkable answer each year on whether climate-as-security
+language survives contact with great-power competition.
+
+Dutch note, 2026-09-06: HCSS's most recent substantial climate-security report,
+*Veiligheid in een Verhitte Wereld* (Birkman, De Cuyper and Jeuken, June 2025), was
+commissioned by the Dutch **police** under the Strategische Monitor Politie programme.
+The Dutch climate-security research demand that actually pays is domestic-order demand,
+not defence or foreign-policy demand. Do not describe HCSS climate output as
+defence-commissioned without checking the client.
