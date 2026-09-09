@@ -10,7 +10,8 @@
 // shell-v5: map view.
 // shell-v6: map fixes for portrait phones.
 // shell-v7: scrollable map popover.
-const SHELL = "shell-v7";
+// shell-v8: heat field carried through gestures instead of hidden.
+const SHELL = "shell-v8";
 const DATA = "data-v1";
 const ASSETS = ["./", "./index.html", "./map.html", "./manifest.webmanifest"];
 
