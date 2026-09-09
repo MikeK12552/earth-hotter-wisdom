@@ -9,7 +9,8 @@
 // shell-v4: verified article links in place of search links.
 // shell-v5: map view.
 // shell-v6: map fixes for portrait phones.
-const SHELL = "shell-v6";
+// shell-v7: scrollable map popover.
+const SHELL = "shell-v7";
 const DATA = "data-v1";
 const ASSETS = ["./", "./index.html", "./map.html", "./manifest.webmanifest"];
 
