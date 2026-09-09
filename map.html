@@ -90,9 +90,21 @@ header{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;
 .cnt b{font-family:var(--serif);font-size:17px;font-weight:500;color:var(--ink);margin-right:3px}
 
 /* popover */
-#pop{position:absolute;width:340px;max-width:calc(100% - 36px);background:var(--card);border:1px solid var(--rule);border-radius:2px;
-  padding:16px 18px 14px;box-shadow:0 6px 24px rgba(19,27,33,.12);display:none;z-index:5}
-#pop.on{display:block}
+/* The card is a column: a fixed heading, a body that scrolls, and the digest link
+   pinned at the bottom. Without the cap it grew past the stage, and #stage clips its
+   overflow, so on a phone a long summary put the button 160px below the last visible
+   pixel with nothing to scroll. */
+#pop{position:absolute;width:340px;max-width:calc(100% - 36px);max-height:calc(100% - 24px);
+  background:var(--card);border:1px solid var(--rule);border-radius:2px;
+  padding:16px 18px 14px;box-shadow:0 6px 24px rgba(19,27,33,.12);display:none;z-index:5;
+  flex-direction:column}
+#pop.on{display:flex}
+#pop .bod{overflow-y:auto;min-height:0;-webkit-overflow-scrolling:touch;overscroll-behavior:contain}
+#pop .bod p:last-child{margin-bottom:0}
+#pop .go{flex:none;align-self:flex-start;margin-top:12px}
+/* A hairline that only appears when there is more text above the fold, so the reader
+   can tell the body is scrollable rather than simply ended. */
+#pop.scrolls .bod{border-bottom:1px solid var(--rule-soft);padding-bottom:12px}
 #pop .kind{font-family:var(--sans);font-size:11.5px;font-weight:600;letter-spacing:.03em;color:var(--muted);display:flex;justify-content:space-between;gap:10px}
 #pop .kind .x{background:none;border:0;cursor:pointer;color:var(--muted);padding:0 0 0 8px;font-size:15px;line-height:1}
 #pop h3{font-size:18px;line-height:1.25;font-weight:500;margin:6px 0 4px;letter-spacing:-.01em}
@@ -503,6 +515,8 @@ function openPop(o){
   gMarks.selectAll("g.mk").classed("sel", x => x.key===o.key);
   const K = KINDS[o.icon]||KINDS.report;
   let html = `<div class="kind"><span>${o.type==="dev"?"Key development":o.type==="move"?"Player move":"Institute"} · ${K.label}</span><button class="x" aria-label="Close">×</button></div>`;
+  let foot = "";
+  html += `<div class="bod">`;
   if(o.type==="inst"){
     html += `<h3>${esc(o.name)}</h3><p class="meta">${esc(o.city)} &nbsp;·&nbsp; ${esc(o.role)}</p><p>${esc(o.note)}</p>`;
   } else {
@@ -514,11 +528,14 @@ function openPop(o){
     if(o.geoKind) tags.push(`<span class="tag">${esc(o.label)}: ${KINDMARK[o.geoKind]||esc(o.geoKind)}</span>`);
     html += `<div class="tags">${tags.join("")}</div><p>${esc(o.summary)}</p>`;
     if(o.locNote) html += `<p class="meta">${esc(o.locNote)}</p>`;
-    html += `<a class="go" href="index.html?id=${weekId}#${o.id}">Read in Week ${d.week_number} digest →</a>`;
+    foot = `<a class="go" href="index.html?id=${weekId}#${o.id}">Read in Week ${d.week_number} digest →</a>`;
   }
+  html += `</div>` + foot;
   pop.innerHTML = html; pop.classList.add("on");
   pop.querySelector(".x").addEventListener("click", closePop);
   positionPop();
+  const bod = pop.querySelector(".bod");
+  pop.classList.toggle("scrolls", bod.scrollHeight > bod.clientHeight + 1);
 }
 function closePop(){ selected=null; pop.classList.remove("on"); gMarks.selectAll("g.mk").classed("sel",false); }
 function positionPop(){
