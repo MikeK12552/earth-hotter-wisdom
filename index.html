@@ -638,7 +638,19 @@ document.getElementById("nav-tracker").addEventListener("click", ()=>{ view="tra
 document.getElementById("nav-map").addEventListener("click", ()=>{ location.href = "map.html" + (current ? "?week=" + current.id : ""); });
 
 load();
-if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(()=>{});
+// updateViaCache:"none" stops the browser serving sw.js itself from its HTTP cache, so
+// a new worker is noticed on the next visit rather than up to a day later.
+if("serviceWorker" in navigator){
+  navigator.serviceWorker.register("sw.js",{updateViaCache:"none"}).then(reg => {
+    reg.update().catch(()=>{});
+    // A worker that takes over mid-session means the page was served by the old one.
+    // Reload once so the reader and the map are never a version apart.
+    let reloading = false;
+    navigator.serviceWorker.addEventListener("controllerchange", () => {
+      if(reloading) return; reloading = true; location.reload();
+    });
+  }).catch(()=>{});
+}
 </script>
 </body>
 </html>

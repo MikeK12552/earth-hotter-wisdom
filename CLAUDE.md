@@ -8,7 +8,7 @@ no framework. GitHub Pages serves `main`.
 ```
 index.html                    the whole reader: markup, styles, logic
 map.html                      the weekly map: one marker per location, d3 + jsdelivr
-sw.js                         offline shell cache
+sw.js                         network-first for pages, cache-first for icons
 manifest.webmanifest          home-screen install
 data/index.json               generated, never edit by hand
 data/digests/YYYY-MM-DD.json  one digest per week, filename = week_end = id
@@ -103,8 +103,15 @@ that does not propagate back into them will be re-absorbed next week.
 Preview locally with `python3 -m http.server 8000` and open `http://localhost:8000`.
 Opening `index.html` as a `file://` URL will not work: `fetch` is blocked.
 
-The service worker caches aggressively. When a change does not appear, hard-reload, or
-unregister the worker in DevTools under Application.
+The service worker serves pages network-first, so a deploy appears on the next load and
+there is no cache version to remember to bump. Icons and the manifest are still cache
+first. If a change ever does not appear, it is the GitHub Pages edge cache
+(`Cache-Control: max-age=600`) rather than the worker; wait it out or hard-reload.
+
+An older worker on a returning visitor's phone can still be cache-first, and that copy
+wins until the new worker installs. `index.html` registers with `updateViaCache: "none"`
+and reloads once on `controllerchange`, so that resolves itself on the next visit rather
+than needing the worker unregistered by hand.
 
 Design constraints, if you are asked to restyle: the marks on claims carry meaning and
 must stay visually distinct from each other (colour alone is not enough, hence the
