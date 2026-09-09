@@ -56,6 +56,9 @@ header{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;
 .mk.move .ic{stroke:var(--contested)}
 .mk.inst .bg{fill:var(--paper);stroke:var(--gap);stroke-width:1.2}
 .mk .ic{fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.mk.cluster .bg{fill:var(--card);stroke:var(--ink);stroke-width:1.5}
+.mk.cluster .n{font-family:var(--sans);font-size:12px;font-weight:600;fill:var(--ink);
+  paint-order:stroke;stroke:var(--card);stroke-width:3px}
 .mk.sel .bg{stroke:var(--red);stroke-width:2.5}
 .mk:hover .bg{stroke-width:2.5}
 .link{fill:none;stroke:var(--framing);stroke-width:1.4;stroke-dasharray:4 4;vector-effect:non-scaling-stroke}
@@ -177,7 +180,7 @@ nav.bar button[aria-current="true"]{color:var(--ink);font-weight:600;box-shadow:
 <div id="stage">
   <svg id="base"><g id="gBase"></g></svg>
   <canvas id="heat"></canvas>
-  <svg id="marks"><g id="gMarks"><g id="gLinks"></g><g id="gInst"></g><g id="gItems"></g></g></svg>
+  <svg id="marks"><g id="gMarks"><g id="gLinks"></g><g id="gItems"></g></g></svg>
   <div id="panel">
     <button id="panelToggle" aria-expanded="true" aria-controls="panelBody">
       <span>Layers and legend</span><span class="car" aria-hidden="true">▾</span>
@@ -248,7 +251,7 @@ const KINDMARK = {event:"where it happened", institution:"where the actor sits",
 
 const stage = document.getElementById("stage"), canvas = document.getElementById("heat"), ctx = canvas.getContext("2d");
 const svgBase = d3.select("#base"), gBase = d3.select("#gBase"), svgMarks = d3.select("#marks"), gMarks = d3.select("#gMarks");
-const gLinks = d3.select("#gLinks"), gInst = d3.select("#gInst"), gItems = d3.select("#gItems");
+const gLinks = d3.select("#gLinks"), gItems = d3.select("#gItems");
 const pop = document.getElementById("pop");
 
 let W, H, projection, path, land, index, institutes = [], digests = {};
@@ -282,7 +285,7 @@ function heatTrack(){
 }
 const zoom = d3.zoom().scaleExtent([1,14])
   .on("start", e => { if(e.sourceEvent){ interacting = true; t0 = t; } })
-  .on("zoom",  e => { if(e.sourceEvent) focusItem = null; t = e.transform; apply(); if(interacting) heatTrack(); })
+  .on("zoom",  e => { if(e.sourceEvent){ focusItem = null; if(expanded && e.transform.k !== nodeK) expanded = null; } t = e.transform; apply(); if(interacting) heatTrack(); })
   .on("end",   () => { if(interacting){ interacting = false; t0 = null; canvas.style.transform = ""; drawHeat(); } });
 svgMarks.call(zoom).on("dblclick.zoom", null);
 d3.select("#marks").style("pointer-events","auto");
@@ -412,47 +415,144 @@ function fit(){
 let focusItem = null;
 function focusOn(animate){
   const o = focusItem, k = 3;
+  expanded = null;
   const tf = d3.zoomIdentity.translate(W/2 - k*o.x, H/2 - k*o.y).scale(k);
   if(animate && document.visibilityState === "visible"){
     svgMarks.transition().duration(700).call(zoom.transform, tf).on("end", () => openPop(o));
   } else { svgMarks.call(zoom.transform, tf); openPop(o); }
 }
 
-// project + spread co-located markers
+// Markers are clustered by how far apart they land ON SCREEN, so a knot of pins at one
+// place becomes a single mark carrying a count. Tapping it zooms in far enough to break
+// the knot; where the members share a coordinate and no zoom can ever separate them, it
+// fans them out side by side instead.
+//
+// Cluster membership depends only on the scale, never on the pan: screen distance is
+// just k times map distance. So this recomputes when k changes and costs nothing while
+// you drag.
+const CLUSTER_PX = 34;   // a marker is 26px across; closer than this and they overlap
+
 function layout(){
-  const all = items.concat(instItems);
-  all.forEach(o => { const p = projection([o.lon,o.lat]); o.x=p[0]; o.y=p[1]; o.dx=0; o.dy=0; });
-  const groups = d3.group(all.filter(o => o.type!=="inst" || layers.inst), o => `${Math.round(o.lat*2)},${Math.round(o.lon*2)}`);
-  groups.forEach(arr => {
-    if(arr.length<2) return;
-    const r = 15 + arr.length*2;
-    arr.forEach((o,i) => { const a = -Math.PI/2 + i*2*Math.PI/arr.length; o.dx = r*Math.cos(a); o.dy = r*Math.sin(a); });
+  items.concat(instItems).forEach(o => {
+    const p = projection([o.lon,o.lat]); o.x=p[0]; o.y=p[1];
   });
 }
 
 function visible(o){ return o.type==="dev" ? layers.dev : o.type==="move" ? layers.moves : layers.inst; }
 
+let nodes = [], nodeOf = new Map(), nodeK = null, nodeSig = "", expanded = null, painted = "";
+
+function fanOut(list, out){
+  const r = 15 + list.length*2;
+  list.forEach((m,i) => {
+    const a = -Math.PI/2 + i*2*Math.PI/list.length;
+    out.push({single:true, m, key:m.key, x:m.x, y:m.y, dx:r*Math.cos(a), dy:r*Math.sin(a)});
+  });
+}
+
+function buildNodes(force){
+  const shown = items.concat(instItems).filter(visible);
+  const sig = shown.map(o=>o.key).join("|") + "@" + expanded;
+  if(!force && nodeK === t.k && nodeSig === sig) return;
+  nodeK = t.k; nodeSig = sig;
+
+  const rest = shown.slice(), out = [];
+  while(rest.length){
+    const seed = rest.shift(), group = [seed];
+    // single-link: anything within reach of anything already in the group joins it
+    for(let grew = true; grew; ){
+      grew = false;
+      for(let i = rest.length - 1; i >= 0; i--){
+        if(group.some(g => Math.hypot(rest[i].x-g.x, rest[i].y-g.y) * t.k < CLUSTER_PX)){
+          group.push(rest.splice(i,1)[0]); grew = true;
+        }
+      }
+    }
+    if(group.length === 1){
+      const m = group[0];
+      out.push({single:true, m, key:m.key, x:m.x, y:m.y, dx:0, dy:0});
+      continue;
+    }
+    const key = "c:" + group.map(g=>g.key).sort().join(",");
+    if(expanded === key){ fanOut(group, out); continue; }
+    out.push({single:false, members:group, key, n:group.length,
+      x: d3.mean(group, g=>g.x), y: d3.mean(group, g=>g.y), dx:0, dy:0});
+  }
+
+  // institutes under items, clusters on top
+  const rank = o => !o.single ? 2 : o.m.type === "inst" ? 0 : 1;
+  out.sort((a,b) => rank(a) - rank(b));
+  nodes = out;
+  nodeOf = new Map();
+  nodes.forEach(nd => nd.single ? nodeOf.set(nd.m.key, nd)
+                                : nd.members.forEach(m => nodeOf.set(m.key, nd)));
+  // a marker swallowed by a cluster can no longer own the popover
+  if(selected && !nodes.some(nd => nd.single && nd.m.key === selected.key)) closePop();
+}
+
+// The scale at which this cluster's closest separable pair clears CLUSTER_PX. Infinite
+// when every member sits on the same coordinate.
+function breakScale(node){
+  let need = 0;
+  const m = node.members;
+  for(let i=0;i<m.length;i++) for(let j=i+1;j<m.length;j++){
+    const d = Math.hypot(m[i].x-m[j].x, m[i].y-m[j].y);
+    if(d > 0.02) need = Math.max(need, CLUSTER_PX/d * 1.2);
+  }
+  return need || Infinity;
+}
+
+function openCluster(node){
+  const need = breakScale(node), max = zoom.scaleExtent()[1];
+  if(!isFinite(need) || need > max){
+    // no amount of zoom separates them: fan them out where they are
+    expanded = node.key; buildNodes(true); paint(); apply(); return;
+  }
+  const k = Math.min(max, Math.max(need, t.k * 1.6));
+  svgMarks.transition().duration(550)
+    .call(zoom.transform, d3.zoomIdentity.translate(W/2 - k*node.x, H/2 - k*node.y).scale(k));
+}
+
+function paint(){
+  const sig = nodes.map(n=>n.key).join("|");
+  const same = sig === painted;
+  painted = sig;
+  const sel = gItems.selectAll("g.mk").data(nodes, o=>o.key);
+  if(!same){
+    sel.join(enter => {
+      const g = enter.append("g")
+        .attr("class", o => o.single ? `mk ${o.m.type}` : "mk cluster");
+      g.filter(o => !o.single).each(function(o){
+        const q = d3.select(this);
+        q.append("circle").attr("class","bg").attr("r", 13 + Math.min(5, o.n));
+        q.append("text").attr("class","n").attr("text-anchor","middle").attr("dy","0.34em").text(o.n);
+        q.append("title").text(`${o.n} items here — tap to open`);
+      });
+      g.filter(o => o.single && o.m.type === "inst").each(function(o){
+        const q = d3.select(this);
+        q.append("rect").attr("class","bg").attr("x",-6).attr("y",-6)
+          .attr("width",12).attr("height",12).attr("transform","rotate(45)");
+        q.append("title").text(`${o.m.name}, ${o.m.city}`);
+      });
+      g.filter(o => o.single && o.m.type !== "inst").each(function(o){
+        const q = d3.select(this);
+        q.append("circle").attr("class","bg").attr("r",13);
+        q.append("path").attr("class","ic")
+          .attr("d",(KINDS[o.m.icon]||KINDS.report).d).attr("transform","translate(-8,-8) scale(.667)");
+        q.append("title").text(o.m.title);
+      });
+      g.on("click", (e,o) => { e.stopPropagation(); o.single ? openPop(o.m) : openCluster(o); });
+      return g;
+    }).order();
+  }
+  gItems.selectAll("g.mk").classed("sel", o => selected && o.single && selected.key === o.m.key);
+}
+
 function render(){
   layout();
   const shown = items.filter(visible);
-  gItems.selectAll("g.mk").data(shown, o=>o.key).join(enter => {
-      const g = enter.append("g").attr("class", o=>`mk ${o.type}`);
-      g.append("circle").attr("class","bg").attr("r",13);
-      g.append("path").attr("class","ic").attr("d", o=>(KINDS[o.icon]||KINDS.report).d).attr("transform","translate(-8,-8) scale(.667)");
-      g.append("title").text(o=>o.title);
-      g.on("click", (e,o)=>{ e.stopPropagation(); openPop(o); });
-      return g;
-    }).classed("sel", o => selected && selected.key===o.key);
 
-  gInst.selectAll("g.mk").data(layers.inst ? instItems : [], o=>o.key).join(enter => {
-      const g = enter.append("g").attr("class","mk inst");
-      g.append("rect").attr("class","bg").attr("x",-6).attr("y",-6).attr("width",12).attr("height",12).attr("transform","rotate(45)");
-      g.append("title").text(o=>`${o.name}, ${o.city}`);
-      g.on("click", (e,o)=>{ e.stopPropagation(); openPop(o); });
-      return g;
-    }).classed("sel", o => selected && selected.key===o.key);
-
-  // links: responds_to
+  // links: responds_to. An endpoint swallowed by a cluster points at the cluster.
   const links = layers.links ? shown.filter(o=>o.responds_to).map(o => ({from: items.find(x=>x.id===o.responds_to), to:o})).filter(l=>l.from && visible(l.from)) : [];
   gLinks.selectAll("path.link").data(links, l=>l.from.key+">"+l.to.key).join("path").attr("class","link");
   gLinks.selectAll("path.link-head").data(links, l=>l.from.key+">"+l.to.key).join("path").attr("class","link-head");
@@ -463,22 +563,27 @@ function render(){
   const nd = new Set(items.filter(o=>o.type==="dev").map(o=>o.id)).size,
         nm = new Set(items.filter(o=>o.type==="move").map(o=>o.id)).size;
   document.getElementById("counts").innerHTML = `<b>${nd}</b>developments &nbsp; <b>${nm}</b>player moves`;
-  apply();
+
+  buildNodes(true); paint(); apply();
 }
 
 // zoom transform: move groups, keep markers a constant screen size, redraw heat
 function apply(){
   const k = t.k;
+  buildNodes(); paint();
   gBase.attr("transform", t); gMarks.attr("transform", t);
   gMarks.selectAll("g.mk").attr("transform", o => `translate(${o.x + o.dx/k},${o.y + o.dy/k}) scale(${1/k})`);
+  // an endpoint that has been swallowed by a cluster is drawn from the cluster
+  const at = m => nodeOf.get(m.key) || m;
   gLinks.selectAll("path.link").attr("d", l => {
-    const x1=l.from.x+l.from.dx/k, y1=l.from.y+l.from.dy/k, x2=l.to.x+l.to.dx/k, y2=l.to.y+l.to.dy/k;
+    const a=at(l.from), b=at(l.to);
+    const x1=a.x+a.dx/k, y1=a.y+a.dy/k, x2=b.x+b.dx/k, y2=b.y+b.dy/k;
     const mx=(x1+x2)/2, my=(y1+y2)/2, ddx=x2-x1, ddy=y2-y1, len=Math.hypot(ddx,ddy)||1;
     const cx = mx - ddy/len*len*0.18, cy = my + ddx/len*len*0.18;
     l.cx=cx; l.cy=cy; return `M${x1},${y1} Q${cx},${cy} ${x2},${y2}`;
   });
   gLinks.selectAll("path.link-head").attr("d", l => {
-    const x2=l.to.x+l.to.dx/k, y2=l.to.y+l.to.dy/k;
+    const b=at(l.to), x2=b.x+b.dx/k, y2=b.y+b.dy/k;
     const ang = Math.atan2(y2-l.cy, x2-l.cx); const s = 1/k, back = 15*s;
     const px = x2 - Math.cos(ang)*back, py = y2 - Math.sin(ang)*back;
     const a1 = ang+Math.PI*0.82, a2 = ang-Math.PI*0.82, L=7*s;
@@ -559,8 +664,8 @@ function openPop(o){
 function closePop(){ selected=null; pop.classList.remove("on"); gMarks.selectAll("g.mk").classed("sel",false); }
 function positionPop(){
   if(!selected) return;
-  const o = selected, k=t.k;
-  const sx = t.applyX(o.x) + o.dx, sy = t.applyY(o.y) + o.dy;
+  const o = selected, nd = nodeOf.get(o.key) || o;
+  const sx = t.applyX(nd.x) + (nd.dx||0), sy = t.applyY(nd.y) + (nd.dy||0);
   const pw = pop.offsetWidth, ph = pop.offsetHeight;
   let left = sx + 22, top = sy - 24;
   if(left + pw > W - 12) left = sx - pw - 22;

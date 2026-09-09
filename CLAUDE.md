@@ -64,7 +64,14 @@ worse than no pin.
 each item's `locations`, so there is one source of truth and no summary prose to drift:
 pin text is the item's own opening paragraph. An item with several locations gets a marker
 each — the Nepal-China flood is two, one either side of the border — while counts and the
-`responds_to` arrow stay per item. `map.html` is the only page with external runtime
+`responds_to` arrow stay per item.
+
+Markers are clustered by screen distance, so a knot of pins reads as one mark with a
+count. Tapping it zooms to the scale where its closest pair separates; where no reachable
+zoom can split them — several pins on one coordinate, like the development and the move
+both filed to UNEP in Nairobi — it fans them out side by side instead. Cluster membership
+depends only on the scale, never on the pan, so it is recomputed when `k` changes and
+costs nothing while dragging. `map.html` is the only page with external runtime
 dependencies: d3, topojson-client and the world atlas, all pinned with SRI and all from
 jsdelivr, so one CDN has to be reachable rather than two. It is the one page that does not
 work offline. Add any new page to the workflow's *Assemble the site* step or it deploys to

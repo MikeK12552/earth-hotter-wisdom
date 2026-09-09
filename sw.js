@@ -13,7 +13,7 @@
 //
 // SHELL is still versioned so activate() can drop stale entries, but nothing depends on
 // remembering to bump it any more.
-const SHELL = "shell-v9";
+const SHELL = "shell-v10";
 const DATA = "data-v1";
 const ASSETS = ["./", "./index.html", "./map.html", "./manifest.webmanifest"];
 
