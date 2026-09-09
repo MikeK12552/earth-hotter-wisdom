@@ -66,12 +66,26 @@ pin text is the item's own opening paragraph. An item with several locations get
 each — the Nepal-China flood is two, one either side of the border — while counts and the
 `responds_to` arrow stay per item.
 
-Markers are clustered by screen distance, so a knot of pins reads as one mark with a
-count. Tapping it zooms to the scale where its closest pair separates; where no reachable
-zoom can split them — several pins on one coordinate, like the development and the move
-both filed to UNEP in Nairobi — it fans them out side by side instead. Cluster membership
-depends only on the scale, never on the pan, so it is recomputed when `k` changes and
-costs nothing while dragging. `map.html` is the only page with external runtime
+Markers are clustered by screen distance, so a knot of three or more pins reads as one
+mark with a count. Two pins are just two pins: a mark saying "2" costs a tap and tells the
+reader nothing. Tapping a mark zooms towards the scale that separates its closest pair,
+but never past the scale at which the cluster as a whole still fits the viewport — the
+Nepal knot's tightest pair needs `k` 63, at which its own members are several hundred
+pixels off the top of a phone. Whatever the zoom reaches, the members are then permanently
+released: they stay individual rather than reforming into smaller numbered marks, until
+the reader zooms back out past where they opened them.
+
+Overlap left over after that is resolved by `spread()`, which pushes every pin against
+every other in screen pixels until each pair clears `CLUSTER_PX`. It replaced a per-knot
+fan, which laid out neighbouring knots independently and so could push a pin out of one
+knot straight into the next. Pins on the same coordinate — the development and the move
+both filed to UNEP in Nairobi — have no direction to be pushed along, so each pin is
+nudged onto its own golden-angle ray first and the same loop fans them into a ring.
+
+Cluster membership depends only on the scale, never on the pan, so it is recomputed when
+`k` changes and costs nothing while dragging. A cluster mark does store its members'
+centroid as a snapshot, though, so `layout()` bumps a generation counter that is folded
+into the cache key: a reprojection must rebuild the nodes even when `k` has not moved. `map.html` is the only page with external runtime
 dependencies: d3, topojson-client and the world atlas, all pinned with SRI and all from
 jsdelivr, so one CDN has to be reachable rather than two. It is the one page that does not
 work offline. Add any new page to the workflow's *Assemble the site* step or it deploys to

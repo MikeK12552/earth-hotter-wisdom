@@ -283,9 +283,12 @@ function heatTrack(){
   canvas.style.transform =
     `translate(${t.x - r*t0.x}px,${t.y - r*t0.y}px) scale(${r})`;
 }
-const zoom = d3.zoom().scaleExtent([1,14])
+// Measured against both published weeks, splitting the tightest cluster needs k=63
+// (Langtang and Kathmandu, about a degree apart). The old ceiling of 14 meant tapping
+// those marks could never zoom and silently fell back to fanning out.
+const zoom = d3.zoom().scaleExtent([1,96])
   .on("start", e => { if(e.sourceEvent){ interacting = true; t0 = t; } })
-  .on("zoom",  e => { if(e.sourceEvent){ focusItem = null; if(expanded && e.transform.k !== nodeK) expanded = null; } t = e.transform; apply(); if(interacting) heatTrack(); })
+  .on("zoom",  e => { if(e.sourceEvent) focusItem = null; t = e.transform; apply(); if(interacting) heatTrack(); })
   .on("end",   () => { if(interacting){ interacting = false; t0 = null; canvas.style.transform = ""; drawHeat(); } });
 svgMarks.call(zoom).on("dblclick.zoom", null);
 d3.select("#marks").style("pointer-events","auto");
@@ -370,6 +373,7 @@ function buildTimeline(){
 
 async function selectWeek(id){
   weekId = id; localStorage.setItem("csw-map-week", id);
+  released = new Set(); releaseK = 0;
   focusItem = null;
   history.replaceState(null,"", "?week="+id);
   closePop();
@@ -415,7 +419,7 @@ function fit(){
 let focusItem = null;
 function focusOn(animate){
   const o = focusItem, k = 3;
-  expanded = null;
+  released = new Set(); releaseK = 0;
   const tf = d3.zoomIdentity.translate(W/2 - k*o.x, H/2 - k*o.y).scale(k);
   if(animate && document.visibilityState === "visible"){
     svgMarks.transition().duration(700).call(zoom.transform, tf).on("end", () => openPop(o));
@@ -431,8 +435,21 @@ function focusOn(animate){
 // just k times map distance. So this recomputes when k changes and costs nothing while
 // you drag.
 const CLUSTER_PX = 34;   // a marker is 26px across; closer than this and they overlap
+// A pair reads better as two pins side by side than as a mark saying "2", so a cluster
+// starts at three. Below that, and for any cluster the reader has opened, the pins are
+// emitted individually and only fanned where they would still sit on top of each other.
+const MIN_CLUSTER = 3;
+
+// Bumped on every reprojection. A cluster mark stores the centroid of its members as a
+// snapshot, so a resize that moves the members would leave the mark — and the scale
+// openCluster zooms to — pointing at where they used to be. On a phone the projection
+// settles once after first paint, which was enough to throw an opened cluster a few
+// hundred pixels off the top of the screen. Folding the generation into nodeSig makes
+// buildNodes rebuild after a reprojection instead of trusting an unchanged k.
+let layoutGen = 0;
 
 function layout(){
+  layoutGen++;
   items.concat(instItems).forEach(o => {
     const p = projection([o.lon,o.lat]); o.x=p[0]; o.y=p[1];
   });
@@ -440,19 +457,46 @@ function layout(){
 
 function visible(o){ return o.type==="dev" ? layers.dev : o.type==="move" ? layers.moves : layers.inst; }
 
-let nodes = [], nodeOf = new Map(), nodeK = null, nodeSig = "", expanded = null, painted = "";
+let nodes = [], nodeOf = new Map(), nodeK = null, nodeSig = "", painted = "";
+// Pins the reader has opened by tapping their cluster. They never re-cluster, so opening
+// a mark of five gives five pins rather than two twos and a one. Zooming back out past
+// where they were opened lets them gather again.
+let released = new Set(), releaseK = 0;
 
-function fanOut(list, out){
-  const r = 15 + list.length*2;
-  list.forEach((m,i) => {
-    const a = -Math.PI/2 + i*2*Math.PI/list.length;
-    out.push({single:true, m, key:m.key, x:m.x, y:m.y, dx:r*Math.cos(a), dy:r*Math.sin(a)});
-  });
+// Push overlapping pins apart, in screen pixels, until every pair clears CLUSTER_PX.
+//
+// This replaces a per-knot fan. A fan laid out each knot independently, so two knots that
+// happened to sit near each other could each push a pin towards the other and end up
+// 5px apart — exactly the overlap the fan existed to remove. Relaxing every pin against
+// every other cannot do that. Pushes are symmetric, so the group's centre of mass does
+// not drift, and the degenerate case — several pins on one coordinate, where there is no
+// direction to push along — falls out of the same loop once each pin is nudged onto its
+// own golden-angle ray first. n is a dozen or so; the loop is free.
+function spread(list){
+  if(list.length < 2) return;
+  const p = list.map((o,i) => ({ o,
+    x: o.x*t.k + 0.01*Math.cos(i*2.39996),
+    y: o.y*t.k + 0.01*Math.sin(i*2.39996) }));
+  for(let iter=0; iter<200; iter++){
+    let moved = false;
+    for(let i=0;i<p.length;i++) for(let j=i+1;j<p.length;j++){
+      const dx = p[j].x-p[i].x, dy = p[j].y-p[i].y, d = Math.hypot(dx,dy);
+      if(d >= CLUSTER_PX) continue;
+      const push = (CLUSTER_PX - d)/2 + 0.01, ux = dx/d, uy = dy/d;
+      p[i].x -= ux*push; p[i].y -= uy*push;
+      p[j].x += ux*push; p[j].y += uy*push;
+      moved = true;
+    }
+    if(!moved) break;
+  }
+  p.forEach(q => { q.o.dx = q.x - q.o.x*t.k; q.o.dy = q.y - q.o.y*t.k; });
 }
 
 function buildNodes(force){
+  // zooming back out below where a cluster was opened lets its pins gather again
+  if(released.size && t.k < releaseK * 0.9){ released = new Set(); releaseK = 0; }
   const shown = items.concat(instItems).filter(visible);
-  const sig = shown.map(o=>o.key).join("|") + "@" + expanded;
+  const sig = shown.map(o=>o.key).join("|") + "@" + [...released].sort().join(",") + "#" + layoutGen;
   if(!force && nodeK === t.k && nodeSig === sig) return;
   nodeK = t.k; nodeSig = sig;
 
@@ -473,11 +517,16 @@ function buildNodes(force){
       out.push({single:true, m, key:m.key, x:m.x, y:m.y, dx:0, dy:0});
       continue;
     }
+    if(group.length < MIN_CLUSTER || group.some(g => released.has(g.key))){
+      group.forEach(m => out.push({single:true, m, key:m.key, x:m.x, y:m.y, dx:0, dy:0}));
+      continue;
+    }
     const key = "c:" + group.map(g=>g.key).sort().join(",");
-    if(expanded === key){ fanOut(group, out); continue; }
     out.push({single:false, members:group, key, n:group.length,
       x: d3.mean(group, g=>g.x), y: d3.mean(group, g=>g.y), dx:0, dy:0});
   }
+
+  spread(out.filter(o => o.single));
 
   // institutes under items, clusters on top
   const rank = o => !o.single ? 2 : o.m.type === "inst" ? 0 : 1;
@@ -490,25 +539,37 @@ function buildNodes(force){
   if(selected && !nodes.some(nd => nd.single && nd.m.key === selected.key)) closePop();
 }
 
-// The scale at which this cluster's closest separable pair clears CLUSTER_PX. Infinite
-// when every member sits on the same coordinate.
+// The scale at which this cluster's closest separable pair clears CLUSTER_PX, and the
+// largest scale at which the cluster as a whole still fits the viewport. `need` is
+// Infinite when every member sits on the same coordinate; `fit` when they all do.
 function breakScale(node){
-  let need = 0;
+  let need = 0, span = 0;
   const m = node.members;
   for(let i=0;i<m.length;i++) for(let j=i+1;j<m.length;j++){
     const d = Math.hypot(m[i].x-m[j].x, m[i].y-m[j].y);
+    span = Math.max(span, d);
     if(d > 0.02) need = Math.max(need, CLUSTER_PX/d * 1.2);
   }
-  return need || Infinity;
+  return { need: need || Infinity,
+           fit: span > 0.02 ? Math.min(W,H) * 0.8 / span : Infinity };
 }
 
 function openCluster(node){
-  const need = breakScale(node), max = zoom.scaleExtent()[1];
-  if(!isFinite(need) || need > max){
-    // no amount of zoom separates them: fan them out where they are
-    expanded = node.key; buildNodes(true); paint(); apply(); return;
+  // Opening always releases the members, so they stay individual afterwards instead of
+  // reforming into smaller numbered clusters.
+  node.members.forEach(m => released.add(m.key));
+  const { need, fit } = breakScale(node), max = zoom.scaleExtent()[1];
+  // Separating the closest pair can want a scale at which the *widest* pair is far off
+  // the edges — the Nepal cluster's tightest pair needs k=63, at which its own members
+  // are 500px outside a phone screen. Fit wins: the reader has to see what they opened.
+  // Anything still overlapping at that scale is spread apart by spread() instead.
+  const k = Math.max(t.k, Math.min(max, fit, Math.max(isFinite(need) ? need : t.k, t.k * 1.6)));
+  releaseK = Math.min(k, t.k);
+  if(k <= t.k * 1.01){
+    // no zoom left to give — the members share a coordinate, or the cluster already
+    // fills the screen. Release them where they are and let spread() do the work.
+    buildNodes(true); paint(); apply(); return;
   }
-  const k = Math.min(max, Math.max(need, t.k * 1.6));
   svgMarks.transition().duration(550)
     .call(zoom.transform, d3.zoomIdentity.translate(W/2 - k*node.x, H/2 - k*node.y).scale(k));
 }
