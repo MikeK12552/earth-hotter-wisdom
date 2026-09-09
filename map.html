@@ -502,8 +502,13 @@ function sizeHeat(){
 function drawHeat(){
   cancelAnimationFrame(heatFrame);
   heatFrame = requestAnimationFrame(() => {
+    // Order matters. While a gesture runs, the existing bitmap is being carried by a CSS
+    // transform and must survive untouched: clearing first and returning second wiped it
+    // on the opening frame of every drag, so the heat still vanished — the transform was
+    // faithfully carrying an empty canvas.
+    if(interacting) return;
     ctx.clearRect(0,0,W,H);
-    if(!layers.heat || interacting) return;
+    if(!layers.heat) return;
     if(off.width !== Math.round(W*HEAT_SCALE)) sizeHeat();
     const pts = items.filter(visible).map(o => [t.applyX(o.x)*HEAT_SCALE, t.applyY(o.y)*HEAT_SCALE]);
     if(!pts.length) return;
