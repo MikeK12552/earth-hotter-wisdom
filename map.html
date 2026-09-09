@@ -42,7 +42,7 @@ header{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;
 #stage{position:relative;flex:1;min-height:0;overflow:hidden;cursor:grab;contain:layout paint}
 #stage:active{cursor:grabbing}
 #base,#marks,#heat{position:absolute;inset:0;width:100%;height:100%}
-#heat{pointer-events:none;mix-blend-mode:multiply;contain:strict}
+#heat{pointer-events:none;mix-blend-mode:multiply;contain:strict;transform-origin:0 0;will-change:transform}
 #marks{pointer-events:none}
 #marks .mk{pointer-events:auto;cursor:pointer}
 .country{fill:var(--card);stroke:var(--rule);stroke-width:.6;vector-effect:non-scaling-stroke}
@@ -260,16 +260,30 @@ const layers = {dev:true, moves:true, links:true, inst:false, heat:true};
 const ramp = d3.interpolateRgb("#f3d9d5", "#b3362b");
 const LUT = d3.range(256).map(i => { const v=i/255; const c=d3.rgb(ramp(Math.min(1,v*1.15))); return [c.r,c.g,c.b,Math.round(Math.min(1,v*1.7)*255)]; });
 
-// The heat field is a full-screen canvas composited with mix-blend-mode: multiply over
-// 177 SVG country paths that carry non-scaling strokes. Redrawing and re-blending that
-// on every frame of a pinch is what makes the map crawl on a phone — the JavaScript is
-// nothing, the rasterising is everything. So during a gesture the heat is switched off
-// and put back when the gesture ends.
-let interacting = false;
+// The heat field is a full-screen canvas composited with mix-blend-mode: multiply. On a
+// phone, recomputing its pixels every frame of a pinch is what made the map crawl — the
+// JavaScript is nothing, the rasterising is everything.
+//
+// So during a gesture the bitmap is not redrawn; it is carried along with a CSS
+// transform instead, which the compositor can do on the GPU. The heat stays on screen
+// and tracks the map, and the exact redraw happens once the gesture ends. Hiding it
+// outright was the first attempt and it read as a flicker: gone while you drag, back
+// with a jolt when you stop.
+//
+// The blob radius grows with zoom (75*sqrt(k)), so a scaled bitmap is very slightly off
+// from a fresh one mid-pinch. It is a blur; the discrepancy is invisible, and the
+// redraw on release settles it.
+let interacting = false, t0 = null;
+function heatTrack(){
+  if(!t0 || !layers.heat) return;
+  const r = t.k / t0.k;
+  canvas.style.transform =
+    `translate(${t.x - r*t0.x}px,${t.y - r*t0.y}px) scale(${r})`;
+}
 const zoom = d3.zoom().scaleExtent([1,14])
-  .on("start", e => { if(e.sourceEvent){ interacting = true; canvas.style.display = "none"; } })
-  .on("zoom",  e => { if(e.sourceEvent) focusItem = null; t = e.transform; apply(); })
-  .on("end",   () => { if(interacting){ interacting = false; canvas.style.display = ""; drawHeat(); } });
+  .on("start", e => { if(e.sourceEvent){ interacting = true; t0 = t; } })
+  .on("zoom",  e => { if(e.sourceEvent) focusItem = null; t = e.transform; apply(); if(interacting) heatTrack(); })
+  .on("end",   () => { if(interacting){ interacting = false; t0 = null; canvas.style.transform = ""; drawHeat(); } });
 svgMarks.call(zoom).on("dblclick.zoom", null);
 d3.select("#marks").style("pointer-events","auto");
 
@@ -294,7 +308,7 @@ async function boot(){
   await selectWeek(index.digests.some(d=>d.id===want) ? want : index.digests[index.digests.length-1].id);
   focusItem = focus && items.find(o=>o.id===focus) || null;
   if(focusItem) focusOn(true);
-  document.querySelectorAll("[data-layer]").forEach(cb => cb.addEventListener("change", () => { layers[cb.dataset.layer]=cb.checked; if(cb.dataset.layer==="heat" && cb.checked) canvas.style.display=""; if(!cb.checked && selected && ((selected.type==="inst"&&cb.dataset.layer==="inst")||(selected.type==="dev"&&cb.dataset.layer==="dev")||(selected.type==="move"&&cb.dataset.layer==="moves"))) closePop(); render(); }));
+  document.querySelectorAll("[data-layer]").forEach(cb => cb.addEventListener("change", () => { layers[cb.dataset.layer]=cb.checked; if(cb.dataset.layer==="heat") canvas.style.transform=""; if(!cb.checked && selected && ((selected.type==="inst"&&cb.dataset.layer==="inst")||(selected.type==="dev"&&cb.dataset.layer==="dev")||(selected.type==="move"&&cb.dataset.layer==="moves"))) closePop(); render(); }));
   // Collapsed by default on a phone, where the open panel covered nearly half the map.
   const panel = document.getElementById("panel"), pt = document.getElementById("panelToggle");
   const narrowPanel = () => window.matchMedia("(max-width:720px)").matches;
