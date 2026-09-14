@@ -54,9 +54,25 @@ competitiveness politics: he bundles climate, energy security and strategic inde
 into a single argument, which is either the frame's greatest institutional success or
 its dilution into industrial policy.
 
-**Simon Stiell** *(verified Aug 2026)* — UNFCCC Executive Secretary since August 2022,
-reappointed for a second three-year term in June 2025. Watch how much security language
-he does and does not use; the secretariat has structural reasons for caution.
+**Simon Stiell** *(verified 2026-09-13)* — UNFCCC Executive Secretary since August 2022,
+reappointed for a second three-year term in June 2025. Role re-confirmed this week
+against UNFCCC and UN News coverage of his 10 September appearance.
+
+*Correction, 2026-09-13:* this entry used to say "watch how much security language he
+does and does not use; the secretariat has structural reasons for caution". That is the
+wrong question and this week showed why. At the European Parliament's ENVI committee on
+10 September he made the most security-inflected intervention of his tenure — and used
+almost none of this field's vocabulary. No threat multiplier, no climate-conflict claim,
+no defence institution, no displacement-as-instability argument. What he used was
+inflation, cost of living, sovereignty, growth, winter fuel and €180 billion of lost
+European output: *economic* security, to a committee whose competence is environmental
+regulation. The caution is still real; it has been routed around rather than overcome.
+**Ask which register he reaches for, not how much security language he uses.** A count
+would have scored this week as the field winning an argument it did not win.
+
+Note on the number: the €180 billion he carried is from *Hot Summer Economics*, a Triodos
+Bank modelling study of August 2026, not from peer-reviewed work or from an attribution
+study. Do not cite it as either.
 
 **The UN Secretary-General succession** *(verified Aug 2026)* — António Guterres's term
 ends 31 December 2026. What the candidates say about climate, and about Security Council
@@ -84,12 +100,15 @@ officials, whoever holds the EEAS climate-security file, the Pacific Islands For
 Secretary-General, and the equivalent figures in the African Union, Indian and Brazilian
 systems.
 
-**AOSIS chair** *(sought 2026-09-06, not established)* — AOSIS issued the sharpest
-institutional response of the week to UNEP's overshoot report and it had to be attributed
-to the institution because the 2026 chair could not be verified. This is the single
-highest-value unfilled slot on this list: AOSIS is the actor whose entire leverage rests
-on 1.5°C retaining the character of a commitment, so its chair is the person to quote when
-that character is under pressure. Establish before the next digest.
+**Ilana Victorya Seid** *(verified 2026-09-13)* — Permanent Representative of Palau to
+the United Nations since 2021, and **Chair of AOSIS for 2025-2026**, confirmed against
+the alliance's own chair page at aosis.org/chair/. This fills what the 2026-09-06 entry
+called the single highest-value unfilled slot on this list: AOSIS is the actor whose
+entire leverage rests on 1.5°C retaining the character of a commitment, so its chair is
+the person to quote when that character is under pressure — and the overshoot refusal
+recorded in the 2026-09-06 digest can now be attributed to a principal rather than only
+to the institution. Two dates make the chair worth tracking closely: the chairmanship
+runs out at the end of 2026, and COP31 at Antalya falls inside it.
 
 **ICIMOD** *(verified 2026-09-06)* — the International Centre for Integrated Mountain
 Development is now a standing entry, not an occasional source. Its specialists **Saswata
@@ -130,6 +149,25 @@ Risks / Center for Climate and Security, IMCCS, NATO, EEAS and relevant Commissi
 the UN Climate Security Mechanism, relevant national ministries. Non-Western actors:
 China, the Gulf states, the African Union, AOSIS, India.
 
+Checking note, 2026-09-13, on where to look rather than whether to look:
+
+- **NATO.** The Secretary-General's annual Climate Change and Security Impact Assessment
+  ran 2022, 2023, 2024 and has now missed two cycles with no announcement of
+  discontinuation, suspension or replacement. Check NATO's own environment and climate
+  topic page each week, not the press releases; the topic page is where the series is
+  listed and where its absence is legible. The Science and Technology Organization's
+  SAS-182 report (January 2026) is a research-task-group output and does not substitute.
+- **Center for Climate and Security.** Its output is no longer at climateandsecurity.org,
+  whose blog has shown nothing since April 2026. CCS-branded items now appear on the
+  parent site, councilonstrategicrisks.org. Checking only the old domain would have
+  scored an active institute as silent — it was nearly scored that way on 2026-09-13.
+- **Louise van Schaik.** Unresolved discrepancy: the PSI site describes her as Project
+  Manager of PSI and Head of the Clingendael International Sustainability Centre, while
+  Clingendael's own materials describe her as Head of Unit EU & Global Affairs and
+  Programme Lead Critical Resources. Her role is not in question; which description is
+  current is. Resolve when clingendael.org is reachable — it returned HTTP 403 on
+  2026-09-13.
+
 Added 2026-09-06: **ICIMOD**, **World Weather Attribution** and the **Pacific Islands
 Forum Secretariat**. The first two because attribution and monitoring institutions now
 set the terms of argument about events faster than security institutions respond to them
@@ -138,9 +176,24 @@ unattributed, and the asymmetry is itself a finding. The third because the Forum
 one venue that produces a dated, checkable answer each year on whether climate-as-security
 language survives contact with great-power competition.
 
-Dutch note, 2026-09-06: HCSS's most recent substantial climate-security report,
-*Veiligheid in een Verhitte Wereld* (Birkman, De Cuyper and Jeuken, June 2025), was
-commissioned by the Dutch **police** under the Strategische Monitor Politie programme.
-The Dutch climate-security research demand that actually pays is domestic-order demand,
-not defence or foreign-policy demand. Do not describe HCSS climate output as
-defence-commissioned without checking the client.
+Dutch note, 2026-09-06, **corrected and qualified 2026-09-13**: the claim used to be
+that HCSS's most recent substantial climate-security output was *Veiligheid in een
+Verhitte Wereld* (Birkman, De Cuyper and Jeuken, June 2025), commissioned by the Dutch
+**police** under the Strategische Monitor Politie programme, and that the Dutch
+climate-security research demand which actually pays is therefore domestic-order demand
+rather than defence demand.
+
+The first half is out of date. HCSS has published on climate security since: Patrick
+Willemsen, *Klimaat als strategische factor: Nederlandse Defensie zet koers in onzeker
+vaarwater*, 16 July 2026 — a critique of the Ministry of Defence's *Defensiestrategie
+voor Klimaatverandering en Veiligheid – Klimaatparaat* (3 July 2026), arguing the
+strategy is substantively sound but lacks a national anchor, operationalisation, and any
+treatment of climate as a strategic opportunity rather than only a threat. Earlier 2026
+HCSS climate work includes Govaerts on the Nile basin (28 May) and on long-run climate
+trends (26 May), and Willemsen on climate stress and EU cohesion (24 March).
+
+The second half needs qualifying rather than deleting. A Dutch defence climate strategy
+now exists, carries €5 million structural from 2027, and HCSS has engaged it. Whether
+that engagement is commissioned or unsolicited is unresolved and is the thing to check.
+The standing instruction survives in its narrow form: **do not describe HCSS climate
+output as defence-commissioned without checking the client.**

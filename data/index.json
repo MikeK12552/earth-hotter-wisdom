@@ -1,7 +1,19 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-09T19:55:59.728Z",
+  "generated": "2026-09-14T04:35:45.939Z",
   "digests": [
+    {
+      "id": "2026-09-13",
+      "week_start": "2026-09-07",
+      "week_end": "2026-09-13",
+      "week_number": 3,
+      "standfirst": "The UN's climate secretariat takes the security frame to the European Parliament and calls the summer a continent-wide economic security emergency; the Netherlands' delta commissioner asks the cabinet to double water spending to two per cent of GDP and says plainly that not all damage can now be prevented; and Nepal puts a $4.78 billion reconstruction bill to the world in the same week its scientists agree publicly that they cannot attribute the disaster that caused it.",
+      "counts": {
+        "developments": 7,
+        "moves": 5,
+        "open_threads": 10
+      }
+    },
     {
       "id": "2026-09-06",
       "week_start": "2026-09-01",

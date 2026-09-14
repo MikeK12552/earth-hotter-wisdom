@@ -3,28 +3,11 @@
 Section A works through this in order. `continuity.next_reading` in the most recent
 digest is the position marker; do not restart the sequence.
 
-> ## Reset marker — delete this block once it has been consumed
->
-> **The sequence was reset to the beginning on 2026-09-07, at the reader's request.**
->
-> The next digest starts at **Phase 1, first item: Ullman 1983**, and works forward from
-> there, ignoring `continuity.next_reading` in every digest dated on or before
-> 2026-09-06. This block overrides the "do not restart the sequence" rule above, once.
->
-> The pair rule still applies from the restart: Mathews and Deudney in the same week when
-> they come round again, and Levy after them.
->
-> Only the curriculum sequence resets. The recent empirical or policy-analytical item is
-> not part of this sequence and is chosen freely each week as usual, from the last one to
-> two years — it does not repeat what earlier weeks used.
->
-> `continuity.literature_covered` is a record of what the site has published, not a
-> progress marker. Carry it forward intact; do not empty it. Texts covered before the
-> reset will appear in it twice once they come round again, and that is correct.
->
-> **Delete this whole block** in the same commit as the first digest that starts from the
-> reset. From that digest on, `next_reading` is the position marker again and the rule
-> above stands unqualified.
+*The reset marker dated 2026-09-07 was consumed by the digest for the week ending
+2026-09-13, which started the sequence again at Ullman 1983, and has been deleted as it
+instructed. `next_reading` is the position marker again and the rule above stands
+unqualified. Ullman, Mathews and Deudney therefore appear twice on the site by intent;
+see "Before the reset" below.*
 
 These citations were written from knowledge, not from a database, and a few years may be
 off by one. Verify author, year, title and venue before presenting any item. When you
@@ -33,7 +16,9 @@ digest's verification note.
 
 ## Phase 1 — Where the question came from (1970s–1990)
 
-- Ullman, "Redefining Security", *International Security*, 1983, 8(1), 129-153.
+- Ullman, "Redefining Security", *International Security*, 1983, 8(1), 129-153. *Verified
+  2026-09-13 against the Project MUSE record and issue index for International Security
+  8(1), Summer 1983. The file had this right, including the pagination.*
 - Mathews, "Redefining Security", *Foreign Affairs*, 1989, 68(2), 162-177. *Verified
   2026-09-06 against the JSTOR record and the Spring 1989 issue index.*
 - Deudney, "The Case Against Linking Environmental Degradation and National Security",
@@ -104,11 +89,15 @@ digest's verification note.
 
 Kept current by the routine. Each entry records the week it appeared in.
 
-*Cleared 2026-09-07 by the reset above. The pre-reset run is preserved below for the
-record; it is history, not position. The list proper starts empty and the next digest is
-its first entry.*
+*Cleared 2026-09-07 by the reset, which has now been consumed. The pre-reset run is
+preserved below for the record; it is history, not position.*
 
-<!-- nothing yet since the reset -->
+- Phase 1, Ullman 1983 — week ending 2026-09-13. First entry since the reset.
+- Outside the sequence, Lamain 2026, *Environment and Security* 4(1), 92-114, "'When the
+  military finds a new territory, it will never leave': 'Vital climate infrastructures'
+  as new climate militarisation strategy? Observations from Nepal" — week ending
+  2026-09-13. Chosen because section B ran on Nepal; the full text could not be read
+  (SAGE returned 403) and the summary rests on the publisher's abstract.
 
 ### Before the reset (2026-08-31 to 2026-09-06)
 
