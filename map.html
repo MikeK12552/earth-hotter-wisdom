@@ -127,10 +127,20 @@ footer{flex:none;border-top:1px solid var(--rule);background:var(--card);padding
 footer .nav{background:none;border:1px solid var(--rule);width:32px;height:32px;border-radius:2px;cursor:pointer;color:var(--ink);font-size:15px;flex:none}
 footer .nav:disabled{opacity:.35;cursor:default}
 footer .nav:not(:disabled):hover{border-color:var(--ink)}
-#weeks{flex:1 1 0;min-width:0;position:relative;height:48px;scrollbar-width:none;display:flex;align-items:center;overflow-x:auto;overflow-y:hidden}
-#weeks .line{position:absolute;left:0;right:0;top:50%;height:1px;background:var(--rule)}
-#weeks .tick{position:relative;flex:1;min-width:64px;display:flex;flex-direction:column;align-items:center;gap:6px;cursor:pointer;background:none;border:0;padding:0;color:var(--muted);font-size:11.5px}
-#weeks .tick i{display:block;width:10px;height:10px;border-radius:50%;background:var(--card);border:1.5px solid var(--rule);transition:all .15s}
+/* The track scrolls rather than squeezing: a tick may grow to share out spare width
+   but never shrinks below its own label, so a year of weeks slides sideways instead of
+   printing "W2 · 1–6 Sep" on top of "W3 · 7–13 Sep" on a 375px phone. The rule behind
+   the ticks is a background on the scroll port, not a child of the scrolled content:
+   an absolutely positioned child is sized to the visible box, so it stopped short of
+   the ticks the moment the track overflowed. */
+#weeks{flex:1 1 0;min-width:0;position:relative;height:48px;scrollbar-width:none;display:flex;align-items:center;overflow-x:auto;overflow-y:hidden;
+  scroll-behavior:smooth;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain;
+  background:linear-gradient(var(--rule),var(--rule)) 0 50%/100% 1px no-repeat;
+  /* Fading the ends rather than clipping them mid-letter says the run continues. */
+  -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 14px,#000 calc(100% - 14px),transparent 100%);
+          mask-image:linear-gradient(90deg,transparent 0,#000 14px,#000 calc(100% - 14px),transparent 100%)}
+#weeks .tick{position:relative;flex:1 0 auto;min-width:64px;padding:0 10px;display:flex;flex-direction:column;align-items:center;justify-content:center;align-self:stretch;gap:6px;cursor:pointer;background:none;border:0;color:var(--muted);font-size:11.5px;scroll-margin-inline:24px}
+#weeks .tick i{display:block;width:10px;height:10px;border-radius:50%;background:var(--card);border:1.5px solid var(--rule);transition:border-color .15s,background .15s,transform .15s}
 #weeks .tick:hover i{border-color:var(--ink)}
 #weeks .tick[aria-current="true"]{color:var(--ink);font-weight:600}
 #weeks .tick[aria-current="true"] i{background:var(--ink);border-color:var(--ink);transform:scale(1.25)}
@@ -147,7 +157,9 @@ nav.bar button[aria-current="true"]{color:var(--ink);font-weight:600;box-shadow:
   #pop{width:300px}
   header{padding:14px 16px 10px}
   .wk .range{font-size:16px}
-  footer{padding:10px 12px;gap:10px}
+  footer{padding:10px 8px;gap:8px}
+  /* Nothing left over to share out, so ticks are exactly as wide as their label. */
+  #weeks .tick{min-width:0;padding:0 9px;font-size:11px}
   /* Portrait was wrapping the masthead onto two lines and breaking the digest link
      across the arrow. Smaller type, and the row lays out left-to-right instead. */
   header{align-items:center;gap:12px}
@@ -203,7 +215,7 @@ nav.bar button[aria-current="true"]{color:var(--ink);font-weight:600;box-shadow:
 
 <footer>
   <button class="nav" id="prev" aria-label="Previous week">‹</button>
-  <div id="weeks"><div class="line"></div></div>
+  <div id="weeks"></div>
   <button class="nav" id="next" aria-label="Next week">›</button>
   <span class="hint">← → to move between weeks · scroll to zoom</span>
 </footer>
@@ -352,6 +364,18 @@ function step(n){
   selectWeek(index.digests[j].id);
 }
 
+// The track can be wider than the phone, so the week being read has to be brought to
+// the middle of it — including when the arrows step past the edge of the visible run.
+// The first call jumps; later ones inherit the stylesheet's smooth scroll.
+let tickCentred = false;
+function centreTick(el){
+  if(!el) return;
+  const wrap = document.getElementById("weeks");
+  const left = el.offsetLeft - (wrap.clientWidth - el.offsetWidth)/2;
+  wrap.scrollTo({left: Math.max(0, left), behavior: tickCentred ? "smooth" : "auto"});
+  tickCentred = true;
+}
+
 function buildTimeline(){
   const wrap = document.getElementById("weeks");
   wrap.querySelectorAll(".tick").forEach(x=>x.remove());
@@ -382,7 +406,9 @@ async function selectWeek(id){
   document.getElementById("wkRange").textContent = fmtRange(d.week_start, d.week_end);
   document.getElementById("wkNo").textContent = `Week ${d.week_number}`;
   document.getElementById("wkLink").href = `index.html?id=${id}`;
-  document.querySelectorAll("#weeks .tick").forEach(x => x.setAttribute("aria-current", x.dataset.id===id));
+  const ticks = document.querySelectorAll("#weeks .tick");
+  ticks.forEach(x => x.setAttribute("aria-current", x.dataset.id===id));
+  centreTick([...ticks].find(x => x.dataset.id===id));
   const i = index.digests.findIndex(x=>x.id===id);
   document.getElementById("prev").disabled = i<=0; document.getElementById("next").disabled = i>=index.digests.length-1;
 
