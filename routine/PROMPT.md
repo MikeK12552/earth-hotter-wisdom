@@ -93,7 +93,45 @@ hedging it, and record what you dropped and why in the item's `dropped` field.
 or a framing carried forward from an earlier week has absorbed a talking point rather
 than an argument, say so directly in the `pushback` object rather than answering within
 it. Where the correction concerns something written in `watchlist.md`, amend that file
-in the same commit. A correction that does not propagate will be re-absorbed.
+in the same commit — silently, per the rule below. A correction that does not propagate
+will be re-absorbed.
+
+**Keep the machine room out of the digest.** The reader is here for the field. They have
+no view of this repository, and nothing in the briefing should assume they do. Prose the
+reader sees — `standfirst`, `orientation`, `pushback`, every section body, claim,
+`inference`, `arc_note`, `critique`, `verification_note` and `roster_silences` entry —
+never names a file or path in this repository, a commit or branch, a schema field or
+property name, the build, this prompt, or the routine that runs it. Sentences of this
+shape have all appeared and are all wrong for the reader:
+
+- "`routine/watchlist.md` has been amended in this commit"
+- "which by the prompt's own rule overrides `next_reading`"
+- "several load-bearing numbers have been dropped rather than hedged (see the `dropped`
+  fields on B1 and B3)"
+- "blocked by the execution environment's network egress policy"
+
+Each one is a note to yourself wearing the clothes of analysis. It asks the reader to
+hold a model of a working repository in order to follow a sentence about climate
+security, and it tells them nothing about climate security when they do.
+
+Where the substance is worth the reader's time, say it in the field's own words and
+without the plumbing: not "the watchlist entry has been amended" but "the standing
+question about Stiell has been the wrong question — it counts how much security language
+he uses where it should ask which register he reaches for". The file still gets
+corrected in the same commit; the bookkeeping simply is not the argument. Where you must
+refer to the routine's working files at all, name the thing rather than the path: the
+standing roster, the reading list, the standing question about X.
+
+Three things this does not prohibit. The digest may refer to itself as a publication —
+"this digest has recorded", "since week one", "read B3 and B5 against each other" — and
+section handles are reader-facing, because the reader sees them on the page. A source
+that could not be opened is reportable and should be reported; describe it as a source
+that would not open, not as a proxy, an egress policy or an HTTP status. And
+`housekeeping` renders to the reader as *Notes on how this week was made*, so it is the
+one field where the making-of belongs: sourcing, retrieval failures, corrections to the
+published record, length overruns. Write it in the same plain words — what could not be
+read this week and what that costs the reader — rather than in paths, field names and
+commit mechanics.
 
 ---
 
@@ -122,7 +160,8 @@ curriculum; choose it from the last one to two years.
 The curriculum's citations were written from knowledge, not from a database. Verify
 author, year, title and venue before presenting any item. Mark each `verified`,
 `partial` or `unverified` and say what limited the verification. If you find an error in
-`routine/curriculum.md`, correct that file in the same commit.
+`routine/curriculum.md`, correct that file in the same commit, without narrating the
+correction to the file in the digest.
 
 ## Section B: `developments`
 
@@ -195,7 +234,8 @@ actors. When a tracked player has been silent for several weeks, record it in
 
 Never state anyone's current role, mandate or affiliation from memory. Verify each one
 this week. If you cannot verify, name the institution rather than the individual, and
-update `routine/watchlist.md` with what you confirmed and on what date.
+update `routine/watchlist.md` with what you confirmed and on what date. The move itself
+says only that the role could not be verified, not that a file was updated.
 
 Give every move a stable `id`.
 
@@ -307,7 +347,9 @@ the decay is invisible: the reader simply stops marking terms.
 ## Format
 
 Mark confidence where evidence is thin and label speculation as such. There is no word
-limit: this publishes to a website, not a chat message. No opening greeting.
+limit: this publishes to a website, not a chat message. No opening greeting. Before you
+publish, reread the reader-facing prose for the machine room: a path, a commit, a field
+name or a mention of this prompt that survived the writing.
 
 ---
 
