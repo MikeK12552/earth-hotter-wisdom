@@ -13,7 +13,7 @@
     "lat": 52.079,
     "lon": 4.312,
     "role": "Strategic studies centre",
-    "note": "Most recent climate-security report (June 2025) was commissioned by the Dutch police, not Defence."
+    "note": "Still publishing on climate security: Willemsen critiqued the Ministry of Defence's July 2026 climate strategy on 16 July 2026. The June 2025 report was police-commissioned; check the client before calling any of it defence-commissioned."
   },
   {
     "name": "KNMI",
@@ -37,7 +37,7 @@
     "lat": 51.499,
     "lon": -0.175,
     "role": "Rapid event attribution",
-    "note": "Published on Caribbean drought in both weeks; did not attribute Langtang-Lirung."
+    "note": "Caribbean drought study dated 28 August 2026 on WWA's own listing, correcting the 4 September date published here in week two. Did not attribute Langtang-Lirung; the field now says that hazard class may be beyond single-event attribution."
   },
   {
     "name": "adelphi",
@@ -85,7 +85,7 @@
     "lat": 50.879,
     "lon": 4.425,
     "role": "Military climate-security assessment",
-    "note": "No fourth Climate Change and Security Impact Assessment; SAS-182 report (January 2026) is the latest product."
+    "note": "The Secretary-General's annual Climate Change and Security Impact Assessment ran 2022, 2023, 2024 and has now missed two cycles with no announcement. SAS-182 (January 2026) is a research-task-group output, not a substitute."
   },
   {
     "name": "EEAS",
@@ -101,7 +101,7 @@
     "lat": 38.907,
     "lon": -77.037,
     "role": "Military and advocacy climate-security research",
-    "note": "No World Climate and Security Report since 2024; CCS output folded into CSR, which is hiring."
+    "note": "No World Climate and Security Report since 2024 and nothing on imccs.org since an open letter of 23 October 2025. CCS output has moved to the CSR site — climateandsecurity.org's blog has been static since April 2026 — so check the parent domain, not the old one."
   },
   {
     "name": "UN Climate Security Mechanism",
@@ -133,6 +133,14 @@
     "lat": 27.65,
     "lon": 85.32,
     "role": "Hindu Kush Himalaya cryosphere monitoring",
-    "note": "Named the Langtang-Lirung event an ice-and-rock avalanche cascade, not a GLOF."
+    "note": "Called the Langtang-Lirung event an ice-and-rock avalanche cascade, not a GLOF, and on 11 September 2026 its Saswata Sanyal called hazard-specific disaster planning obsolete."
+  },
+  {
+    "name": "UNFCCC secretariat",
+    "city": "Bonn",
+    "lat": 50.7353,
+    "lon": 7.1022,
+    "role": "Climate convention secretariat",
+    "note": "Added 2026-09-13. Executive Secretary Simon Stiell argued climate as a 'continent-wide economic security emergency' to the European Parliament on 10 September — the economic register, not this field's. The US withdrew from the convention on 7 January 2026. Coordinate is the city of Bonn, not the UN Campus."
   }
 ]

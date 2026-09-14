@@ -1,0 +1,808 @@
+{
+  "schema_version": 1,
+  "id": "2026-09-13",
+  "week_start": "2026-09-07",
+  "week_end": "2026-09-13",
+  "week_number": 3,
+  "standfirst": "The UN's climate secretariat takes the security frame to the European Parliament and calls the summer a continent-wide economic security emergency; the Netherlands' delta commissioner asks the cabinet to double water spending to two per cent of GDP and says plainly that not all damage can now be prevented; and Nepal puts a $4.78 billion reconstruction bill to the world in the same week its scientists agree publicly that they cannot attribute the disaster that caused it.",
+  "orientation": "Claims carry one of three marks. **Evidence** is what the sources actually support. **Contested** is where researchers genuinely disagree. **Framing** is advocacy, policy narrative or institutional positioning. **Gap** is a verified absence — something looked for and not found. Sections A and D do not use the marks: A is curriculum reading, D is attributed action.\n\nThe week has one shape and it is worth naming before you start. Three institutions in three jurisdictions put a price on climate risk — €180 billion for a European summer, two per cent of Dutch GDP for water, $4.78 billion for a Nepali valley — and in the same seven days the attribution community said out loud that the causal chain behind the week's largest disaster may never be establishable for an event of its kind. Read sections B3 and B5 against each other: the gap between what the science will certify and what the finance is being asked to pay for is the analytically live thing this week, and it is new.\n\nA second thread runs underneath. The security vocabulary is in heavy use everywhere — economic security, energy security, water safety, supply-chain resilience — while the climate referent attaches to it unevenly. Section C is mostly an inventory of which register each jurisdiction reached for.",
+  "housekeeping": "**Retrieval worked this week, and that matters.** Last week's digest carried a serious caveat: the execution environment refused every attempt to open a source document, so nothing was read and everything rested on search summaries. That constraint has lifted. Most claims below rest on documents actually opened and read — UN News, unfccc.int coverage, Carbon Brief, SciDev.Net via phys.org, the Kathmandu Post, ABC/Reuters, the Council on Strategic Risks, NATO's own topic page, IMCCS's own site, hirisk.org, the Commission's adaptation page, Security Council Report's September forecast, the AOSIS chair page, and Crossref for the section A citation. Coordinates come from the Wikipedia coordinates API, not from memory.\n\n**What still could not be opened**, and which claims are therefore weaker: CNN (HTTP 451), SAGE Journals (403), the European Parliament Think Tank study page (returned empty), clingendael.org (403), Swiss Re's own sigma page (403), and unfccc.int's news item (empty body — the same speech was read on UN News instead). Where a figure below rests only on search-returned summaries it is marked in the claim or dropped outright.\n\n**Correction to the published record.** Last week's B5 dated the World Weather Attribution study on Caribbean drought to 4 September 2026, which placed it inside week two. World Weather Attribution's own listing dates it **28 August 2026**. The study belongs to week one. The finding it reported — roughly 6 per cent less rainfall in Jamaica and 9 per cent in Puerto Rico attributable to human-induced climate change — stands; the date does not. This is exactly the class of error that last week's retrieval blackout made likely, and it is why the caveat above is worth reading as a sourcing grade rather than an apology.\n\n**Not a correction.** Last week's continuity called the Dutch defence line \"Klimaatparaat\". Checked: that is the instrument's own subtitle. Its full name is the *Defensiestrategie voor Klimaatverandering en Veiligheid – Klimaatparaat*, sent to the Tweede Kamer on 3 July 2026. The short form was partial, not wrong, and this digest uses the full name.\n\n**Section A returns to the start of the curriculum.** `routine/curriculum.md` carried a reset marker dated 2026-09-07, which by the prompt's own rule overrides `next_reading` in every digest dated on or before 2026-09-06. Ullman 1983 is therefore read again, the second time it has appeared on this site, by intent. The reset block has been deleted in this commit, as it instructed.\n\n**Length.** Runs about 11,900 reader-facing words, against roughly 3,300 last week. That is a real overrun and worth explaining rather than hiding. Three things caused it: two long-standing threads closed this week and a resolution has to carry enough detail to be usable later (`hirisk-consortium-identity`, `swiss-re-sigma-424bn`); five new moves opened, each of which has to be stated well enough to be scored in a later week; and the corrections section is unusually large because last week's retrieval blackout left several things to re-check. The section B and C prose is not much longer than last week's. If the next week has no closures and no corrections it should return to normal length; if it does not, that is a signal to compress continuity rather than the argument.",
+  "word_count": 11900,
+  "pushback": {
+    "target": "The standing instruction in `routine/watchlist.md` to watch 'how much security language' Simon Stiell does and does not use — and the temptation to read this week's speech as the climate-security field winning an argument",
+    "text": "The watchlist poses this as a quantity question. It is not, and this week proves it. Stiell used more security language before the European Parliament on 10 September than at any point in his tenure that this digest has recorded. He also used almost none of the field's own register. There is no threat multiplier, no climate-conflict claim, no defence institution, no displacement-as-instability argument. What there is, is inflation, the cost of living, sovereignty, growth, winter fuel, and €180 billion of lost European output. The register is economic security, and the audience was a regulatory committee, not a security one.\n\nSo the correct reading is not 'the secretariat has come round'. It is that climate is being argued in whichever register is currently unoccupied. In the United States the security vocabulary survives with the climate referent stripped out of it — the G20 ministerial in Houston this week is titled *Energy Abundance* and runs pillars on energy security and critical minerals (B6). In Europe the climate referent survives by attaching itself to economic security instead. Both are substitutions, and a field that counts only the first as a loss and the second as a win is not measuring anything.\n\nThere is a second reason for caution, and it is about evidentiary weight. The €180 billion that carried the speech is not peer-reviewed work: it is *Hot Summer Economics*, a modelling study published by Triodos Bank in August 2026. It may well be right. But the number doing the persuading in the field's most prominent security-framed intervention of the week was produced by a bank, which is a fact worth holding onto at the same time as the argument.\n\n`routine/watchlist.md` has been amended in this commit: the Stiell entry now asks which register he reaches for, not how much security language he uses."
+  },
+  "foundational": [
+    {
+      "phase": "1",
+      "kind": "conceptual",
+      "citation": {
+        "author": "Richard H. Ullman",
+        "year": 1983,
+        "title": "Redefining Security",
+        "venue": "International Security",
+        "locator": "8(1), Summer 1983, 129-153",
+        "url": "https://muse.jhu.edu/article/446023/summary",
+        "verification": "verified",
+        "verification_note": "Volume, issue, season and pagination confirmed against the Project MUSE record for International Security 8(1), Summer 1983, and the issue index. `routine/curriculum.md` had this right. Read for the second time on this site: the curriculum carried a reset marker dated 2026-09-07 sending the sequence back to its first item, which by the prompt's rule overrides the `next_reading` marker in the 2026-09-06 digest."
+      },
+      "summary": "Ullman's argument is a definitional one and it is still the cleanest statement of the move the whole field rests on. He proposes that a threat to national security is anything that, over a relatively brief span of time, sharply degrades the quality of life of a state's inhabitants, or sharply narrows the range of policy choices available to its government and to private actors within it. Two things follow. First, the military-threat definition of security is not neutral: by making states attend to a narrow class of dangers, it causes them to ignore larger ones, and Ullman treats that as a real cost, not a stylistic preference. Second, once degradation of life and narrowing of choice are the criteria, resource scarcity, population pressure and environmental damage qualify on the same terms as invasion — not by analogy, but by the definition itself. Everything after this, including the environmental-security literature and the objections to it, is a fight about whether that definitional move was legitimate.",
+      "critiques": [
+        "The definition is so capacious that almost any adverse trend qualifies. Deudney's 1990 objection, read next week, is that yoking environmental degradation to national security either militarises the environment or empties 'security' of analytical content, and that the second is the likelier outcome.",
+        "Ullman offers a criterion but no threshold. 'Sharply' degrades and 'relatively brief' span are doing enormous work and he does not operationalise either, which is why the empirical literature of the 1990s had to build its own thresholds and largely failed to agree on them.",
+        "The essay is a product of its moment: the counter-case it argues against is nuclear-era military primacy, and its examples reflect 1983 anxieties about resources and population. A reader coming to it from the 2020s should notice how little of its apparatus is about a physically changing climate, as opposed to scarcity within a stable one.",
+        "It assumes the state is the referent object worth securing. The critical strand read in Phase 6 attacks precisely this: whose quality of life, degraded by whom, and who is empowered by the designation."
+      ]
+    },
+    {
+      "phase": "Outside the curriculum sequence",
+      "kind": "empirical",
+      "citation": {
+        "author": "Corinne Lamain",
+        "year": 2026,
+        "title": "'When the military finds a new territory, it will never leave': 'Vital climate infrastructures' as new climate militarisation strategy? Observations from Nepal",
+        "venue": "Environment and Security",
+        "locator": "4(1), 92-114",
+        "doi": "10.1177/27538796251368712",
+        "verification": "verified",
+        "verification_note": "Author, title, journal, volume, issue, pagination and DOI verified against the Crossref record (published online 14 October 2025; print issue March 2026). Author affiliation on the record is Erasmus University Rotterdam. The article itself could not be opened — SAGE returned HTTP 403 — so the summary below is built from the publisher's abstract as returned by Crossref, not from the full text. Treat the account of its evidentiary base as thinner than usual."
+      },
+      "summary": "Lamain identifies a strand of climate securitisation that the field's own vocabulary tends to miss, because it happens through infrastructure policy rather than through security policy. Her object is what she proposes calling 'vital climate infrastructure': assets whose protection is assigned to military or police actors because they are classified as vital, and which climate mitigation and adaptation investment is steadily expanding. In Nepal she identifies three — hydro-electricity dams, disaster response, and forests — and argues that military and police presence at dams and forests is rising or plausibly about to, with a documented history of harm where it has happened before. Disaster response, she notes, is assigned to the army without it being self-evident that the army is the most effective or appropriate responder. The argument's force is that no securitising speech act is required: the military arrives through an infrastructure classification, and the effect on people's adaptive capacity and disaster preparedness is, on her account, negative. She closes on alternatives that foreground just climate action.",
+      "critiques": [
+        "Chosen deliberately, and the reason is section B. Nepal spent this week running the largest security-force deployment since 2015 as a disaster response, costing a reported $4.78 billion to repair, while its own hydropower infrastructure sat at the centre of the damage. A paper published six months earlier naming hydropower, disaster response and forests as the three sites of climate militarisation in exactly that country is unusually live, and it was written before the event rather than after it.",
+        "The abstract's own hedging is visible and should be reported: presence at dams and forests 'is increasing, or could potentially do so'. A claim that is partly about a trend and partly about a possibility is harder to falsify than one that is only about a trend.",
+        "The normative conclusion — that this undermines adaptive capacity — does not obviously follow from the descriptive finding. An army may be a poor disaster responder and still be the only organisation in a country with the lift capacity, which is close to the position Nepali officials took in public this week.",
+        "Single-country, and the generalisation to 'and beyond' in the abstract is asserted rather than demonstrated. Whether the mechanism travels is exactly what a second case would settle."
+      ]
+    }
+  ],
+  "developments": [
+    {
+      "n": 1,
+      "title": "The UN climate secretariat takes the security frame to the European Parliament, in the economic register",
+      "date": "2026-09-10",
+      "place": "European Parliament, Brussels",
+      "scope": "multilateral",
+      "body": "Simon Stiell, Executive Secretary of the UN Framework Convention on Climate Change, told the European Parliament's environment committee in Brussels on 10 September that the climate crisis had become \"a continent-wide economic security emergency\", citing a European summer of extreme heat that forced mass evacuations, shut down power stations, disrupted trade routes and cut crop yields. He tied the argument to fossil-fuel dependency and a looming winter fuel problem, and told the committee that to be soft on climate action is to be soft on inflation and the cost of living, on sovereignty and security, and on growth. He also said climate impacts are increasingly driving forced migration within and across borders, citing Himalayan floods and heat-driven power outages and water shortages in North Africa. This is the most security-inflected intervention the secretariat has made in the period this digest has covered, and it is worth being precise about which security it invoked.",
+      "arc": "acceleration",
+      "arc_note": "Acceleration of the shift, first visible in the Commission's competitiveness-framed climate work, from arguing climate as a human or military security problem to arguing it as an economic security problem. The novelty here is the actor: the UNFCCC secretariat has structural reasons for caution about security language, and reached for the economic register rather than the field's own.",
+      "attribution": {
+        "status": "study_exists",
+        "note": "Attribution studies exist for the underlying European heat: World Weather Attribution published on rapidly worsening European heatwaves on 26 June 2026 and on European drought and water management on 23 July 2026. But the €180 billion figure Stiell used is not an attribution result. It is an economic modelling estimate, and the distinction matters because the speech's persuasive weight sat on the euro number rather than on the attribution science."
+      },
+      "claims": [
+        {
+          "label": "evidence",
+          "text": "Stiell addressed the European Parliament's environment committee in Brussels on 10 September 2026 and described the climate crisis as \"a continent-wide economic security emergency\". Reported by UN News and carried on the UNFCCC's own news page under the same headline.",
+          "source": { "title": "UN climate chief warns political division is undermining fight against 'economic security emergency'", "url": "https://news.un.org/en/story/2026/09/1168311", "publisher": "UN News", "date": "2026-09-10" }
+        },
+        {
+          "label": "evidence",
+          "text": "The €180 billion figure is from *Hot Summer Economics*, published by Triodos Bank in August 2026, which modelled heat-related disruption cutting EU GDP by roughly 1 per cent in 2026 against expected growth of about 1.1 per cent. Its breakdown attributes about 0.6 points to reduced labour productivity, with smaller contributions from crop and dairy yields, constrained nuclear, hydro and thermal generation, and disrupted rail, road and waterway capacity.",
+          "source": { "title": "Europe's scorching summer could cost EU economies €180 billion", "url": "https://www.euronews.com/business/2026/08/12/europes-scorching-summer-could-cost-eu-economies-180-billion", "publisher": "Euronews", "date": "2026-08-12" }
+        },
+        {
+          "label": "framing",
+          "text": "Choosing 'economic security emergency' over the field's own vocabulary is a positioning decision, not a description. It buys the urgency of the security register without requiring the secretariat to make any claim about conflict, defence or instability that it would then have to defend — and it was made to a committee whose competence is environmental regulation, not security."
+        },
+        {
+          "label": "gap",
+          "text": "No security institution picked the frame up inside the window. Searched: NATO, the EEAS, and Commission output on defence and resilience between 7 and 13 September. Nothing. The formulation stayed inside the climate-policy system, which is also where UNEP's overshoot frame has so far stayed."
+        }
+      ],
+      "nl_eu": {
+        "level": "direct",
+        "note": "Delivered to an EU institution, about EU economies, with a modelled Dutch cost of roughly 0.8 points of growth inside the study it cited."
+      },
+      "sources": [
+        { "title": "UN climate chief warns political division is undermining fight against 'economic security emergency'", "url": "https://news.un.org/en/story/2026/09/1168311", "publisher": "UN News", "date": "2026-09-10" },
+        { "title": "UN Climate Chief: \"the climate crisis is now a continent-wide economic security emergency\"", "url": "https://unfccc.int/news/un-climate-chief-the-climate-crisis-is-now-a-continent-wide-economic-security-emergency", "publisher": "UNFCCC", "date": "2026-09-10" },
+        { "title": "Europe's scorching summer could cost EU economies €180 billion", "url": "https://www.euronews.com/business/2026/08/12/europes-scorching-summer-could-cost-eu-economies-180-billion", "publisher": "Euronews", "date": "2026-08-12" }
+      ],
+      "locations": [
+        { "name": "European Parliament, Brussels", "lat": 50.84666667, "lon": 4.3525, "kind": "institution", "precision": "settlement", "icon": "statement", "note": "Coordinate is the city of Brussels, not the Parliament building: the building's own coordinate could not be retrieved this week, so the pin is honest about locating only the city." }
+      ],
+      "dropped": "Stiell's claim that solar generation saved Europe more than €30 billion in avoided gas imports during the first six months of the Middle East conflict. The figure appears in search-returned coverage of the speech but could not be traced to the study behind it, and its conflict reference point is not dated in the reporting."
+    },
+    {
+      "n": 2,
+      "title": "The Dutch delta commissioner asks to double water spending, and says outright that not all the damage can be prevented",
+      "date": "2026-09-07",
+      "place": "The Hague",
+      "scope": "nl",
+      "body": "On Monday 7 September, deltacommissaris Co Verdaas handed the second six-yearly review of the National Deltaprogramma — the *tweede herijking* — to Vincent Karremans, Minister of Infrastructure and Water Management. Its headline conclusion is that continuing on the current course is not an option, and its headline ask is fiscal: spending on water safety, freshwater supply and spatial adaptation should rise from roughly 1 per cent of GDP, about €11 billion a year, to at least 2 per cent. The second half of the message is the one that has not been said this plainly before by the office that holds the Dutch water file. Technical measures remain necessary but are no longer sufficient; society must prepare for disruption and damage that will not be prevented; and the review says in terms that not everything can be done, and not everywhere, and not always.",
+      "arc": "novel",
+      "arc_note": "Novel in two respects. The Dutch adaptation requirement has not previously been stated as a share of GDP by the office that holds the mandate, and the acceptance of unpreventable damage is a departure from the register in which Dutch water policy is normally communicated. It cuts against the standing `nl-institution-without-money` trend rather than confirming it: here the institution has named the money.",
+      "attribution": {
+        "status": "not_applicable",
+        "note": "A policy instrument, not an event. The deltascenarios behind it are projections, not event attribution."
+      },
+      "claims": [
+        {
+          "label": "evidence",
+          "text": "Verdaas, deltacommissaris since 1 December 2023, delivered the tweede herijking to Minister Karremans on 7 September 2026 and called for water spending to rise from about 1 per cent to at least 2 per cent of GDP, against current spending of roughly €11 billion a year. Corroborated by NOS and by TPO, and the delivery is confirmed on the Deltaprogramma's own site.",
+          "source": { "title": "Miljarden extra nodig voor wateraanpak, maar zelfs dan niet alle schade te voorkomen", "url": "https://nos.nl/artikel/2630054-miljarden-extra-nodig-voor-wateraanpak-maar-zelfs-dan-niet-alle-schade-te-voorkomen", "publisher": "NOS", "date": "2026-09-07" }
+        },
+        {
+          "label": "evidence",
+          "text": "The review states that technical measures alone cannot prevent all consequences of drought, salinisation and water excess over the long term and with increasing extremes, and that society must be prepared for disruption and damage. A regional water authority's summary of the same document reports its conclusion as 'continuing on the current course is not an option', with spatial adaptation and freshwater security named as the two underfunded priorities.",
+          "source": { "title": "Herijking Deltaprogramma benadrukt noodzaak aanvullende maatregelen en keuzes", "url": "https://www.hhnk.nl/herijking-deltaprogramma-benadrukt-noodzaak-aanvullende-maatregelen-en-keuzes", "publisher": "Hoogheemraadschap Hollands Noorderkwartier", "date": "2026-09-07" }
+        },
+        {
+          "label": "evidence",
+          "text": "A programme manager working on the IJsselmeer pumping capacity told a regional platform on 7 September that six to seven times the current capacity will ultimately be needed and that the new capacity will already be insufficient by 2045 — a statement that puts a date on the inadequacy of works not yet built.",
+          "source": { "title": "Deltacommissaris Co Verdaas: Het leven in de Nederlandse delta gaat ingrijpend veranderen", "url": "https://platformijsselmeergebied.nl/het-leven-in-de-nederlandse-delta-gaat-ingrijpend-veranderen/", "publisher": "Platform IJsselmeergebied", "date": "2026-09-07" }
+        },
+        {
+          "label": "framing",
+          "text": "Expressing an adaptation requirement as a percentage of GDP, and specifically as a doubling to two per cent, places it on the same rhetorical scale as the NATO defence-spending norm. No source consulted says the echo is deliberate and this digest does not claim it is. It is recorded because the choice of denominator is a communication decision with a known reference point in Dutch political argument, and because it is the form in which the ask will be debated."
+        },
+        {
+          "label": "gap",
+          "text": "No cabinet response inside the window. Prinsjesdag falls on 15 September, two days after the week closes, and the Deltaprogramma 2027 itself is published on that day. The absence of a fiscal answer this week is a calendar artefact, not a refusal."
+        }
+      ],
+      "nl_eu": {
+        "level": "direct",
+        "note": "The Dutch item of the week, and the largest single adaptation-finance ask made by a Dutch statutory office in the period this digest covers."
+      },
+      "sources": [
+        { "title": "Miljarden extra nodig voor wateraanpak, maar zelfs dan niet alle schade te voorkomen", "url": "https://nos.nl/artikel/2630054-miljarden-extra-nodig-voor-wateraanpak-maar-zelfs-dan-niet-alle-schade-te-voorkomen", "publisher": "NOS", "date": "2026-09-07" },
+        { "title": "Deltacommissaris vraagt kabinet miljarden voor wateraanpak", "url": "https://tpo.nl/2026/09/07/deltacommissaris-miljarden-wateraanpak-delta/", "publisher": "TPO", "date": "2026-09-07" },
+        { "title": "Nieuwe Deltawerken nodig: Nederland moet nu al voorbereidingen treffen", "url": "https://www.infrasite.nl/waterbouw-deltas/2026/09/08/nieuwe-deltawerken-nodig-nederland-moet-nu-al-voorbereidingen-treffen/", "publisher": "Infrasite", "date": "2026-09-08" },
+        { "title": "Tweede herijking Deltaprogramma", "url": "https://www.deltaprogramma.nl/deltaprogramma/tweede-herijking", "publisher": "Deltaprogramma", "date": "2026-09" }
+      ],
+      "locations": [
+        { "name": "The Hague", "lat": 52.08, "lon": 4.31, "kind": "institution", "precision": "settlement", "icon": "government", "note": "Where the deltacommissaris and the Ministry of Infrastructure and Water Management sit. The review is about the whole delta, not about The Hague." }
+      ],
+      "dropped": "Three figures. The cost of future-proofing the IJmuiden pumping complex, reported as about €2 billion by NOS and about €2.5 billion by TPO — the sources disagree and the primary document was not opened. The widely-repeated totals of roughly €38 billion of measures to 2050 against roughly €29 billion available in the Deltafonds, which appear only in search-returned summaries and could not be found on any page actually opened. And any sea-level-rise figure: the reporting refers to the deltascenarios without giving numbers."
+    },
+    {
+      "n": 3,
+      "title": "The field says in public that it cannot attribute the Himalayan cascade, and may never be able to for events of its kind",
+      "date": "2026-09-08",
+      "place": "no single site",
+      "scope": "global",
+      "body": "On 8 September Carbon Brief published a structured Q&A on what can and cannot be said about global warming's role in the 26 August Langtang-Lirung collapse and the Trishuli flood, drawing on seven named scientists across five countries. The collective answer is unusually clean for a live disaster: no formal rapid attribution study has been done; a careful attribution study is needed and has not been carried out; and the deeper problem is that the causality of rock-ice avalanches is messy enough that a definitive single-event attribution may not be achievable at all. What the same scientists say can be stated is that warming makes ice-rock avalanches in the region more likely, and that the mountain in question has warmed measurably. Eighteen days after the event, the field has converged on withholding the specific claim while keeping the general one — and has said so on the record.",
+      "arc": "novel",
+      "arc_note": "The novelty is not the absence of a study; it is the collective, on-the-record statement that the absence may be permanent for this hazard class. That marks slope-failure cascades as a category rapid attribution cannot currently serve, at the moment the policy argument most needs it to. It closes out this digest's standing `langtang-attribution` thread on the first question and opens a harder one.",
+      "attribution": {
+        "status": "no_study",
+        "note": "No rapid or formal attribution study exists as of 13 September. Carbon Brief's Q&A quotes Prof Bethan Davies (Newcastle) saying a careful attribution study is needed, and Dr Zeke Hausfather observing that a definitive single-event attribution may prove impossible given the messy causality of rock-ice avalanches and the absence of long observational records of previous collapses. The 2021 Chamoli precedent is cited: that study concluded the individual disaster could not be attributed specifically to climate change."
+      },
+      "claims": [
+        {
+          "label": "evidence",
+          "text": "Carbon Brief's Q&A of 8 September 2026 quotes Dr Umesh Haritashya (Dayton), Dr Kristen Cook (Université Grenoble Alpes), Dr Jakob Steiner (Graz), Prof Bethan Davies (Newcastle), Dr Robert Rohde (Berkeley Earth), Prof Maria Shahgedanova (Reading) and Dr Zeke Hausfather. No formal rapid attribution study has been completed.",
+          "source": { "title": "Q&A: What can – and cannot – be said about global warming's role in the 2026 Himalayan floods", "url": "https://www.carbonbrief.org/qa-what-can-and-cannot-be-said-about-global-warmings-role-in-the-2026-himalayan-floods", "publisher": "Carbon Brief", "date": "2026-09-08" }
+        },
+        {
+          "label": "contested",
+          "text": "Whether single-event attribution of a rock-ice avalanche is achievable at all is genuinely open among the scientists quoted. Hausfather's position is that a definitive single-event attribution may prove impossible because of the causality involved; Davies's is that a careful attribution study is needed and pending, which presumes it is doable. Steiner takes a third position: the mechanism pre-dates climate change, but the community can be confident the probability has risen. These are not the same claim and the difference is methodological, not rhetorical."
+        },
+        {
+          "label": "evidence",
+          "text": "The background trend is documented independently. Silwal and colleagues, publishing in *Global and Planetary Change* in June 2026, find that glacial areas of the Langtang catchment above 4,000 m warmed at 0.31°C per decade over 1960-2023 — more than three times the rate at a lower-elevation station — and that the catchment has lost about 41.5 per cent of its glacier area since the Little Ice Age, with the loss rate rising more than fourfold and accelerating after 2000.",
+          "source": { "title": "Glacier changes in Langtang Catchment, Central Nepalese Himalaya from the Little Ice Age (~1815 CE) to 2023 CE", "url": "https://www.sciencedirect.com/science/article/pii/S0921818126002766", "publisher": "Global and Planetary Change", "date": "2026-06" }
+        },
+        {
+          "label": "framing",
+          "text": "The restraint is itself doing political work, in both directions. Holding the line protects the credibility of attribution science at the cost of leaving the loudest claim of the week — Nepal's, in B5 — without a certified causal basis. Advocacy communities and their opponents both know this, and the argument has already left the journals: pieces published on both sides in the fortnight after the event treat the attribution gap as the contested ground rather than the physics."
+        },
+        {
+          "label": "gap",
+          "text": "Searched for a rapid attribution product from World Weather Attribution on the Himalayan event across the 7-13 September window and on WWA's own by-year listing. Nothing. WWA's most recent published study remains 28 August 2026, on Caribbean drought. The asymmetry noted last week holds: the network that can turn a rainfall event around in a fortnight has no product for a slope failure three weeks on."
+        }
+      ],
+      "nl_eu": {
+        "level": "none",
+        "note": "No Dutch or EU link. It matters because it sets the evidentiary ceiling for every climate-attributed loss and damage claim that follows, including those EU member states will be asked to fund."
+      },
+      "sources": [
+        { "title": "Q&A: What can – and cannot – be said about global warming's role in the 2026 Himalayan floods", "url": "https://www.carbonbrief.org/qa-what-can-and-cannot-be-said-about-global-warmings-role-in-the-2026-himalayan-floods", "publisher": "Carbon Brief", "date": "2026-09-08" },
+        { "title": "What we can and cannot say about climate change and the Nepal disaster", "url": "https://www.theclimatebrink.com/p/what-we-can-and-cannot-say-about", "publisher": "The Climate Brink", "date": "2026-08-28" },
+        { "title": "By year – World Weather Attribution", "url": "https://www.worldweatherattribution.org/by-year/", "publisher": "World Weather Attribution", "date": "2026-09-13" }
+      ],
+      "dropped": "A location array. The item is a finding about what the scientific community will and will not say; it did not happen at Langtang-Lirung, and pinning it there would assert an event where there was an argument. The map carries the physical site under B4 instead."
+    },
+    {
+      "n": 4,
+      "title": "ICIMOD says hazard-specific disaster planning is obsolete, and the monitoring gap gets quantified",
+      "date": "2026-09-11",
+      "place": "Kathmandu and the Langtang valley",
+      "scope": "other",
+      "body": "A SciDev.Net analysis carried on 11 September assembled the physical reconstruction of the 26 August event and drew an institutional conclusion from it. The sequence was a glacier-rock collapse that blocked the Lhende Khola for eighteen to nineteen hours before the natural dam burst — a chain of hazards rather than a single one. Saswata Sanyal of the International Centre for Integrated Mountain Development, whose restraint on attribution this digest recorded last week, is quoted saying that hazard-specific disaster planning is obsolete. Liz Stephens of Reading makes the technical version of the same point: mountain flash floods come from complex hazard chains, not from rainfall. The piece also sets out why detection is hard — only a fraction of Himalayan glaciers are adequately monitored, satellite imagery cannot reliably detect imminent collapses, cloud cover and revisit intervals limit prediction, and the terrain defeats ground sensors.",
+      "arc": "acceleration",
+      "arc_note": "Acceleration of the `highmountain-warning-mismatch` trend opened on 2026-09-06: hazard migrating from the glacial-lake-outburst mode monitoring was built for, to ice-and-rock slope failure it was not. This week the mismatch is stated as a planning doctrine problem by the regional institution rather than inferred by this digest.",
+      "attribution": {
+        "status": "no_study",
+        "note": "Consistent with B3. The article situates the collapse against long-term glacier instability under warming without claiming event attribution."
+      },
+      "claims": [
+        {
+          "label": "evidence",
+          "text": "The 26 August event was a glacier-rock collapse that dammed the Lhende Khola for 18-19 hours before the barrier failed, producing a debris-laden flood — a cascade, not a single hazard. Saswata Sanyal (ICIMOD) is quoted stating that hazard-specific disaster planning is obsolete, and Basanta Raj Adhikari of Tribhuvan University compares the flood's energy to atomic weapons.",
+          "source": { "title": "Nepal flood disaster exposes cascading threats in Himalayas", "url": "https://phys.org/news/2026-09-nepal-disaster-exposes-cascading-threats.html", "publisher": "SciDev.Net, via Phys.org", "date": "2026-09-11" }
+        },
+        {
+          "label": "evidence",
+          "text": "The detection constraints are specific and physical: only a fraction of Himalayan glaciers receive adequate monitoring; satellite imagery cannot reliably detect imminent collapses; cloud cover and revisit delays limit predictive capability; and remote terrain complicates ground sensor installation. This is the technical floor under every early-warning commitment being made about the region this month."
+        },
+        {
+          "label": "framing",
+          "text": "'Obsolete' is an institutional bid as well as a technical judgement. ICIMOD sits on the transboundary data problem at the centre of this hazard class, and a finding that existing planning doctrine has expired is also an argument for a mandate and a budget to replace it. That does not make it wrong; it makes it a move as well as a finding, and it is recorded as both."
+        },
+        {
+          "label": "gap",
+          "text": "No funded programme follows from it inside the window. Searched for a multi-hazard cascade monitoring commitment, from ICIMOD, the Nepali government, China or any donor, between 7 and 13 September. Nothing dated."
+        }
+      ],
+      "nl_eu": {
+        "level": "none",
+        "note": "No direct link. It matters because 'multi-hazard' is about to become a funding category, and the doctrine being declared obsolete here is the same doctrine European civil-protection instruments are built on."
+      },
+      "sources": [
+        { "title": "Nepal flood disaster exposes cascading threats in Himalayas", "url": "https://phys.org/news/2026-09-nepal-disaster-exposes-cascading-threats.html", "publisher": "SciDev.Net, via Phys.org", "date": "2026-09-11" }
+      ],
+      "locations": [
+        { "name": "ICIMOD, Khumaltar", "lat": 27.646412, "lon": 85.323542, "kind": "institution", "precision": "point", "icon": "research", "note": "Where the body making the claim sits. Nothing happened here." },
+        { "name": "Langtang Lirung", "lat": 28.2575, "lon": 85.51583333, "kind": "event", "precision": "point", "icon": "glacier", "note": "The collapse site itself." }
+      ],
+      "dropped": "The article relays an attribution of the collapse to glacier instability under long-term warming sourced to Chinese state media. Searched for the underlying Chinese statement and could not find one that makes the attribution claim in those terms. Dropped rather than hedged: an attribution attributed to a state broadcaster, in a week whose whole point is that no attribution exists, is exactly the claim that has to be checked at source."
+    },
+    {
+      "n": 5,
+      "title": "Nepal prices the disaster at $4.78 billion and takes it to the Loss and Damage Fund — with no attribution behind it",
+      "date": "2026-09-11",
+      "place": "Kathmandu",
+      "scope": "other",
+      "body": "On Friday 11 September, Lok Bahadur Chhetri, spokesperson for Nepal's Ministry of Foreign Affairs, put the reconstruction bill from the 26 August floods at $4.78 billion: about $57.67 million for short-term recovery over six months and about $4.71 billion for long-term reconstruction. A UN preliminary assessment had put building damage alone at $158 million, noting total losses would be much higher. Three days earlier the Kathmandu Post had reported the financing argument inside the government: Foreign Minister Shisir Khanal saying Nepal prefers grants and aid over loans, with the 2015 earthquake debt as the reference point; Finance Minister Swarnim Wagle acknowledging grants cannot meet the need; and officials describing a claim on the Loss and Damage Fund as potentially symbolic in size but precedent-setting in kind. Prime Minister Balendra Shah is expected to take the case to the UN General Assembly later this month.",
+      "arc": "novel",
+      "arc_note": "Novel as a test case rather than as an event. This is the first instance this digest has recorded of a state converting a specific, dated disaster into a Loss and Damage Fund claim in the same fortnight that the attribution community publicly declined to certify the event's causal link. The fund's answer will establish, in practice, what standard of evidence it applies.",
+      "attribution": {
+        "status": "no_study",
+        "note": "See B3. Nepal's climate-justice argument rests on the general proposition that warming makes such events more likely — which the science supports — and not on an event attribution, which does not exist and may not be obtainable."
+      },
+      "claims": [
+        {
+          "label": "evidence",
+          "text": "Nepal's foreign ministry spokesperson Lok Bahadur Chhetri gave reporters a total reconstruction figure of $4.78 billion on 11 September 2026, split $57.67 million short-term and $4.71 billion long-term. A UN preliminary assessment put building damage alone at $158 million.",
+          "source": { "title": "Nepal estimates reconstruction after deadly floods to cost nearly $7 billion", "url": "https://www.abc.net.au/news/2026-09-12/nepal-flood-reconstruction-cost-billions/107145518", "publisher": "ABC News (Australia), citing Reuters and AP", "date": "2026-09-12" }
+        },
+        {
+          "label": "evidence",
+          "text": "The grants-versus-loans argument is on the record and unresolved. Foreign Minister Shisir Khanal: though not officially decided, Nepal prefers grants and aid over loans. Finance Minister Swarnim Wagle concedes grants cannot meet all needs. A former National Planning Commission vice-chairman, Govinda Raj Pokharel, argues it is impossible to secure enough grants from conventional development partners alone and recommends soft loans. A post-disaster needs assessment was expected within five weeks of 8 September.",
+          "source": { "title": "Nepal looks for grants for flood recovery, but loans may be unavoidable", "url": "https://kathmandupost.com/national/2026/09/08/nepal-looks-for-grants-for-flood-recovery-but-loans-may-be-unavoidable", "publisher": "The Kathmandu Post", "date": "2026-09-08" }
+        },
+        {
+          "label": "framing",
+          "text": "Nepal's officials frame the ask as shared responsibility: a country that contributes little to climate change is facing a disaster of this scale, so why should the cost not be shared. This is the loss and damage argument in its cleanest political form and it is being made without the causal certificate the fund's sceptics will ask for. Nepali officials themselves describe the likely sum as symbolic, which indicates that the point of the claim is the precedent rather than the money."
+        },
+        {
+          "label": "evidence",
+          "text": "Nepal had already narrowed the claim before this week. On 3 September, Foreign Minister Khanal clarified that Nepal had not demanded climate damage compensation from India, China or the United States, and would instead seek support through the UNFCCC and Paris Agreement machinery. The bilateral route was closed and the multilateral one kept open — which is what makes the Loss and Damage Fund the whole of the strategy rather than one option in it.",
+          "source": { "title": "The diplomatic implications of Nepal's retreat from 'climate compensation'", "url": "https://www.counterview.net/2026/09/the-diplomatic-implications-of-nepals.html", "publisher": "Counterview", "date": "2026-09-05" }
+        },
+        {
+          "label": "gap",
+          "text": "No decision, meeting date or allocation from the Loss and Damage Fund inside the window. Board members were reported on 2 September to have called for an extraordinary meeting on Nepal; nothing between 7 and 13 September records whether one was convened."
+        }
+      ],
+      "nl_eu": {
+        "level": "indirect",
+        "note": "EU member states are among the Loss and Damage Fund's contributors, so the evidentiary standard the fund applies to an unattributed event is a direct question for European treasuries — and the first place the B3 finding will have a fiscal consequence."
+      },
+      "sources": [
+        { "title": "Nepal estimates reconstruction after deadly floods to cost nearly $7 billion", "url": "https://www.abc.net.au/news/2026-09-12/nepal-flood-reconstruction-cost-billions/107145518", "publisher": "ABC News (Australia)", "date": "2026-09-12" },
+        { "title": "Nepal looks for grants for flood recovery, but loans may be unavoidable", "url": "https://kathmandupost.com/national/2026/09/08/nepal-looks-for-grants-for-flood-recovery-but-loans-may-be-unavoidable", "publisher": "The Kathmandu Post", "date": "2026-09-08" },
+        { "title": "Loss and damage fund urged to hold emergency meeting on Nepal", "url": "https://www.climatechangenews.com/2026/09/02/loss-and-damage-fund-urged-to-hold-crisis-meeting-on-nepal/", "publisher": "Climate Home News", "date": "2026-09-02" }
+      ],
+      "locations": [
+        { "name": "Kathmandu", "lat": 27.71, "lon": 85.32, "kind": "institution", "precision": "settlement", "icon": "government", "note": "Where the foreign ministry announced the figure." },
+        { "name": "Rasuwa District", "lat": 28.165, "lon": 85.34083333, "kind": "event", "precision": "region", "icon": "flood", "note": "The district the reconstruction bill is largely for. A district centroid, not a site." }
+      ],
+      "dropped": "The headline on the ABC item says 'nearly $7 billion'; that is the Australian-dollar conversion, and the underlying figure given by the ministry is $4.78 billion US. The higher number is not used. Also dropped: CNN's 11 September piece on the affordability of the bill, which returned HTTP 451 and could not be read."
+    },
+    {
+      "n": 6,
+      "title": "The US moves to erase power-plant carbon limits, timed to a G20 ministerial on 'energy abundance'",
+      "date": "2026-09-13",
+      "place": "Washington and Houston",
+      "scope": "us",
+      "body": "On 13 September, Bloomberg reported that the Environmental Protection Agency was poised to rescind carbon standards for coal- and gas-fired power plants as soon as Monday, with a separate proposal to repeal the finding that greenhouse gases from power plants pose a threat. The timing is the part that belongs in this digest: the announcement was expected on the sidelines of the G20 energy ministerial in Houston, held 14-16 September under the US presidency and titled the *Energy Abundance* ministerial, whose three pillars are energy security and affordable baseload, permitting and regulatory efficiency, and critical minerals and resilient supply chains. Note what survives and what does not. The security vocabulary is fully intact — energy security, resilient supply chains, critical minerals. The climate referent has been removed from it.",
+      "arc": "repeat-accelerating",
+      "arc_note": "Continues the `us-vehicle-removal` trend: the removal of climate from security instruments rather than merely from security language. This week's instance is the inverse and is worth stating separately — the security language is being retained with the climate object cut out, which is a different operation from deleting the language.",
+      "attribution": {
+        "status": "not_applicable",
+        "note": "A regulatory action."
+      },
+      "claims": [
+        {
+          "label": "evidence",
+          "text": "Bloomberg reported on 13 September 2026 that the EPA was poised to rescind carbon standards for coal and gas power plants as soon as Monday 14 September, with a separate proposal to repeal the power-plant greenhouse-gas endangerment finding, and that the move was expected on the sidelines of the G20 energy ministers' meeting in Houston. The action itself falls one day outside this week; the reporting does not.",
+          "source": { "title": "EPA poised to repeal carbon standards for coal, gas power plants", "url": "https://www.spokesman.com/stories/2026/sep/13/epa-poised-to-repeal-carbon-standards-for-coal-gas/", "publisher": "The Spokesman-Review, citing Bloomberg", "date": "2026-09-13" }
+        },
+        {
+          "label": "evidence",
+          "text": "The wider vehicle removal is already complete at the treaty level. On 7 January 2026 the White House and State Department announced US withdrawal from 66 international organisations described as wasteful, ineffective and harmful; the list includes the Intergovernmental Panel on Climate Change and the UN Framework Convention on Climate Change. This is why B1's audience was European: the secretariat's largest historical interlocutor is no longer a party.",
+          "source": { "title": "White House and State Department Announce Withdrawals from International Organizations", "url": "https://climate.law.columbia.edu/content/white-house-and-state-department-announce-withdrawals-international-organizations", "publisher": "Sabin Center for Climate Change Law, Columbia", "date": "2026-01-07" }
+        },
+        {
+          "label": "framing",
+          "text": "'Energy Abundance' is a deliberate naming. A ministerial that runs pillars on energy security, permitting efficiency and critical-minerals supply chains is making a securitised argument about energy; it simply declines to route any of it through climate. Reading this as de-securitisation would be a mistake. It is the retention of the security frame with a substituted referent — the same operation Europe is performing in the opposite direction (see the pushback)."
+        },
+        {
+          "label": "gap",
+          "text": "Searched for any US defence or intelligence climate-security product dated 7-13 September 2026. Nothing. The 2026 Annual Threat Assessment's omission of climate, recorded in March by the Center for Climate and Security, remains the standing position."
+        }
+      ],
+      "nl_eu": {
+        "level": "indirect",
+        "note": "European policy now has to assume the largest historical emitter is outside both the convention and the assessment body, which is the premise underneath the EU's own resilience framework and behind Stiell's decision to argue in Brussels rather than Washington."
+      },
+      "sources": [
+        { "title": "EPA poised to repeal carbon standards for coal, gas power plants", "url": "https://www.spokesman.com/stories/2026/sep/13/epa-poised-to-repeal-carbon-standards-for-coal-gas/", "publisher": "The Spokesman-Review, citing Bloomberg", "date": "2026-09-13" },
+        { "title": "Union Minister Manohar Lal to participate in G20 energy abundance ministerial meeting in US", "url": "https://aninews.in/news/national/general-news/union-minister-manohar-lal-to-participate-in-g20-energy-abundance-ministerial-meeting-in-us20260911092221/", "publisher": "ANI", "date": "2026-09-11" },
+        { "title": "White House and State Department Announce Withdrawals from International Organizations", "url": "https://climate.law.columbia.edu/content/white-house-and-state-department-announce-withdrawals-international-organizations", "publisher": "Sabin Center for Climate Change Law", "date": "2026-01-07" }
+      ],
+      "locations": [
+        { "name": "EPA headquarters, Washington DC", "lat": 38.8939, "lon": -77.0289, "kind": "institution", "precision": "point", "icon": "government", "note": "The William Jefferson Clinton Federal Building, EPA's headquarters." },
+        { "name": "Houston", "lat": 29.75666667, "lon": -95.36527778, "kind": "event", "precision": "settlement", "icon": "summit", "note": "Venue of the G20 Energy Abundance ministerial, 14-16 September, which the announcement was timed to." }
+      ],
+      "dropped": "Any characterisation of what the rescinded rule would have achieved. Figures circulating for the emissions the 2024 rule would have avoided appear only in search-returned summaries and were not traced to the rule text or to an agency document."
+    },
+    {
+      "n": 7,
+      "title": "UNGA81 opens with climate among six priorities, and nowhere near the security register",
+      "date": "2026-09-08",
+      "place": "UN Headquarters, New York",
+      "scope": "multilateral",
+      "body": "Khalilur Rahman of Bangladesh gavelled open the 81st session of the General Assembly on 8 September under the theme 'Restoring trust, managing transformation: A United Nations that delivers for all', with six stated priorities of which one is to step up climate action. His opening statement is worth reading for where climate sits in it. Climate appears under adaptation and resilience, under ocean and biodiversity health, and under the existential exposure of small island developing states and low-lying coastal nations. Refugees, migrants and displaced communities appear under humanitarian space and rights, not under instability. Peace and security appear separately, framed around prevention and political solutions. A president from the country that is the field's most cited example of climate vulnerability opened the session without joining the two files.",
+      "arc": "repeat",
+      "arc_note": "A repeat of the pattern this digest has recorded since week one: climate is handled in the development and adaptation register at the UN's political centre, while the security register is reserved for conflict. The Security Council's September programme of work, under the French presidency, confirms it by omission.",
+      "attribution": {
+        "status": "not_applicable"
+      },
+      "claims": [
+        {
+          "label": "evidence",
+          "text": "Khalilur Rahman opened UNGA81 on 8 September 2026. His statement calls for accelerated climate action 'particularly in the areas of adaptation and resilience', links the climate crisis to ocean and biodiversity health, names sea-level rise as existential for small island developing states and low-lying coastal nations, and treats refugees, migrants and displaced communities under humanitarian space rather than under security.",
+          "source": { "title": "Remarks at the opening of the eighty-first session", "url": "https://www.un.org/pga/81/documents/speeches/opening-statement/", "publisher": "Office of the President of the UN General Assembly", "date": "2026-09-08" }
+        },
+        {
+          "label": "gap",
+          "text": "Security Council Report's forecast for September 2026, under the French presidency, lists no climate, water, food-security or environment item in the programme of work. The scheduled items are peacekeeping, Syria, Iran, Sudan sanctions, Afghanistan, a UNHCR briefing on forced displacement, Haiti and the DRC. The displacement briefing is the closest adjacency and is not framed as climate."
+        },
+        {
+          "label": "evidence",
+          "text": "The Secretary-General succession runs through the same weeks and under the same presidency. Straw polls began on 30 July and continued on 21 August, with Guyana's Carolyn Rodrigues Birkett leading the second round on eight 'encourage' votes; further rounds are expected in September but not during high-level week. Guterres's term ends on 31 December 2026.",
+          "source": { "title": "First Security Council Straw Poll on UN Secretary-General Candidates", "url": "https://www.securitycouncilreport.org/whatsinblue/2026/07/first-security-council-straw-poll-on-un-secretary-general-candidates.php", "publisher": "Security Council Report", "date": "2026-07" }
+        },
+        {
+          "label": "framing",
+          "text": "A Bangladeshi presidency was the strongest available test of whether climate vulnerability translates into climate-security framing at the Assembly's rostrum, and the answer for the opening statement is no. That is informative about the institutional grammar rather than about the president: the General Assembly's climate business runs through the sustainable-development machinery, and moving it would be a jurisdictional claim against the Council."
+        }
+      ],
+      "nl_eu": {
+        "level": "indirect",
+        "note": "The Netherlands and EU member states are among the constituencies that have pressed for Council competence over climate; the absence of any climate item from the September programme of work is the current state of that effort."
+      },
+      "sources": [
+        { "title": "Remarks at the opening of the eighty-first session", "url": "https://www.un.org/pga/81/documents/speeches/opening-statement/", "publisher": "Office of the President of the UN General Assembly", "date": "2026-09-08" },
+        { "title": "'This is not 1945': General Assembly president gavels open new session aimed at restoring global trust", "url": "https://news.un.org/en/story/2026/09/1168293", "publisher": "UN News", "date": "2026-09-08" },
+        { "title": "September 2026 Monthly Forecast", "url": "https://www.securitycouncilreport.org/monthly-forecast/2026-09/", "publisher": "Security Council Report", "date": "2026-09" }
+      ],
+      "locations": [
+        { "name": "UN Headquarters, New York", "lat": 40.74944444, "lon": -73.96805556, "kind": "institution", "precision": "point", "icon": "summit" }
+      ]
+    }
+  ],
+  "salience": [
+    {
+      "jurisdiction": "Netherlands",
+      "direction": "rising",
+      "direction_note": "Rising sharply on the water and adaptation lane, where the statutory office has just named a number; flat on the defence lane, where the instrument exists and the action plan does not. The two lanes are moving at different speeds and should not be averaged.",
+      "rests_on": ["D2"],
+      "claims": [
+        {
+          "label": "evidence",
+          "actor_type": "government",
+          "text": "The observable is the tweede herijking itself, delivered 7 September: a six-yearly statutory review whose ask is 1 per cent to at least 2 per cent of GDP, against roughly €11 billion a year now. This is priority-setting, not crisis management — the distinction this digest is required to police. No water authority was operating a pump here; the government's own commissioner told the minister the current course is not an option.",
+          "source": { "title": "Miljarden extra nodig voor wateraanpak", "url": "https://nos.nl/artikel/2630054-miljarden-extra-nodig-voor-wateraanpak-maar-zelfs-dan-niet-alle-schade-te-voorkomen", "publisher": "NOS", "date": "2026-09-07" }
+        },
+        {
+          "label": "evidence",
+          "actor_type": "defence",
+          "text": "The Dutch defence instrument is the *Defensiestrategie voor Klimaatverandering en Veiligheid – Klimaatparaat*, sent to the Tweede Kamer on 3 July 2026 by Minister of Defence Dilan Yeşilgöz-Zegerius and State Secretary Derk Boswijk. It carries €5 million structural from 2027 and four pillars — anticipation, adaptation, mitigation, cooperation — and states that an action plan with concrete measures, responsibilities and timelines will follow. Re-checked this week: no action plan published.",
+          "source": { "title": "Defensiestrategie voor Klimaatverandering en Veiligheid", "url": "https://berthub.eu/tkconv/document.html?nummer=2026D35374", "publisher": "Ministerie van Defensie, via OpenTK", "date": "2026-07-03" }
+        },
+        {
+          "label": "framing",
+          "actor_type": "defence",
+          "text": "HCSS published a critique of that strategy on 16 July: substantively sound and necessary, but lacking a strong national anchor, clear operationalisation, and an explicit choice to treat climate as a strategic opportunity for military effectiveness and energy security rather than only as a threat. It argues the real test is the action plan. That the criticism comes from the house that does much of the ministry's strategic work makes it a better indicator than an advocacy critique would be.",
+          "source": { "title": "Klimaat als strategische factor: Nederlandse Defensie zet koers in onzeker vaarwater", "url": "https://hcss.nl/news/klimaat-als-strategische-factor-nederlandse-defensie-zet-koers-in-onzeker-vaarwater/", "publisher": "HCSS", "date": "2026-07-16" }
+        },
+        {
+          "label": "evidence",
+          "actor_type": "private_sector",
+          "text": "The Dutch private-sector signal this quarter is a bank's, not a ministry's: Triodos Bank's *Hot Summer Economics* models the Netherlands losing about 0.8 points of growth to heat in 2026, nearly its whole expected expansion. The number that reached the European Parliament on 10 September came from a Dutch commercial institution, which is a real observable about where climate-economic risk analysis is being produced.",
+          "source": { "title": "Europe's scorching summer could cost EU economies €180 billion", "url": "https://www.euronews.com/business/2026/08/12/europes-scorching-summer-could-cost-eu-economies-180-billion", "publisher": "Euronews", "date": "2026-08-12" }
+        },
+        {
+          "label": "gap",
+          "actor_type": "public_opinion",
+          "text": "No Dutch climate polling published 7-13 September that was findable. The standing `nl-opinion-decline` trend is therefore carried forward unrefreshed for a third week, which is long enough to say that the trend is now resting on data none of these three digests has re-verified."
+        }
+      ],
+      "method_note": "Prinsjesdag falls on 15 September, two days outside the window, and the Deltaprogramma 2027 is published on the day. Every fiscal answer to the herijking is therefore outside this week by construction. Do not read the absence as a negative signal."
+    },
+    {
+      "jurisdiction": "EU",
+      "direction": "mixed",
+      "direction_note": "Rising in argument, unchanged in instrument. The most security-framed climate argument of the week was made to an EU institution, by someone who does not work for it, on a file that has not moved.",
+      "claims": [
+        {
+          "label": "evidence",
+          "actor_type": "government",
+          "text": "The venue is the observable. Stiell made the economic-security argument to the European Parliament's environment committee — ENVI — and not to its foreign affairs or security and defence committees. Where a security-framed climate argument is heard inside the Parliament tells you which committee owns the file, and it is still the environmental one.",
+          "source": { "title": "UN climate chief warns political division is undermining fight against 'economic security emergency'", "url": "https://news.un.org/en/story/2026/09/1168311", "publisher": "UN News", "date": "2026-09-10" }
+        },
+        {
+          "label": "evidence",
+          "actor_type": "government",
+          "text": "The European Climate Resilience and Risk Management Integrated Framework has not moved. The Commission's own page, last updated 19 May 2026, still says the package is expected to be adopted during the second half of 2026. Re-checked this week; no new date, no published draft, no slippage announcement. Secondary sources describing a slip to the fourth quarter could not be confirmed against a Commission document and are not relied on here.",
+          "source": { "title": "European Climate Resilience and Risk Management – Integrated Framework", "url": "https://climate.ec.europa.eu/areas-action/adaptation-and-resilience-climate-change/european-climate-resilience-and-risk-management-integrated-framework_en", "publisher": "European Commission, DG CLIMA", "date": "2026-05-19" }
+        },
+        {
+          "label": "evidence",
+          "actor_type": "private_sector",
+          "text": "The bloc-level private-sector signal is the same Triodos study: roughly 1 per cent of EU GDP, about €180 billion, with France losing 1.4 points and tipping into contraction on the model's own numbers. Whatever its methodological status, it is currently the number in circulation at EU level, and it was produced by a bank rather than by the Commission, the EEA or a research council.",
+          "source": { "title": "Europe's scorching summer is erasing its economic growth, says report", "url": "https://www.eenews.net/articles/europes-scorching-summer-is-erasing-its-economic-growth-says-report/", "publisher": "E&E News", "date": "2026-08" }
+        },
+        {
+          "label": "gap",
+          "actor_type": "defence",
+          "text": "No EEAS or Commission defence-side climate-security output dated 7-13 September. Searched EEAS, DG CLIMA and the Parliament's committee calendar. The one relevant instrument identified — a European Parliament Think Tank study on the climate and environmental impacts of the 2028-2034 MFF proposals, ECTI_STU(2026)780419, commissioned by ENVI — exists in the catalogue but the page returned empty content and it could not be read. It is carried as an open thread rather than cited."
+        },
+        {
+          "label": "gap",
+          "actor_type": "public_opinion",
+          "text": "No EU-level climate or climate-security polling published in the window."
+        }
+      ]
+    },
+    {
+      "jurisdiction": "US",
+      "direction": "falling",
+      "direction_note": "Falling, and this week the mechanism is visible: the security vocabulary is being kept and the climate referent removed from it. That is a different and more durable operation than dropping the language.",
+      "rests_on": ["D4"],
+      "claims": [
+        {
+          "label": "evidence",
+          "actor_type": "government",
+          "text": "EPA rescission of power-plant carbon standards reported 13 September, with a separate proposal against the power-plant endangerment finding, timed to the Houston ministerial. Set against the 7 January 2026 withdrawal from 66 international organisations including the IPCC and UNFCCC, the regulatory and the treaty tracks are now aligned.",
+          "source": { "title": "EPA poised to repeal carbon standards for coal, gas power plants", "url": "https://www.spokesman.com/stories/2026/sep/13/epa-poised-to-repeal-carbon-standards-for-coal-gas/", "publisher": "The Spokesman-Review, citing Bloomberg", "date": "2026-09-13" }
+        },
+        {
+          "label": "framing",
+          "actor_type": "government",
+          "text": "The G20 ministerial the US is hosting is branded *Energy Abundance* and runs pillars on energy security and affordable baseload, permitting and regulatory efficiency, and critical minerals and resilient supply chains. Every one of those is a securitised framing of energy. None routes through climate. Publication behaviour is the indicator here: the administration is not avoiding the security register, it is using it heavily with a substituted object."
+        },
+        {
+          "label": "evidence",
+          "actor_type": "other",
+          "text": "The non-governmental side of the US field is still producing. The Council on Strategic Risks published two Center for Climate and Security items inside or adjacent to the window: a toolkit on information resilience amid disaster on 1 September, and Peter Schwartzstein's 'Reflections on the Security Dimensions of the Nepal Flooding' on 10 September, which reads the disaster through state capacity, migration-driven urbanisation, damaged hydropower and contaminated water rather than through attribution. Institutional output has not fallen with government demand; it has changed subject.",
+          "source": { "title": "Reflections on the Security Dimensions of the Nepal Flooding", "url": "https://councilonstrategicrisks.org/2026/09/10/reflections-on-the-security-dimensions-of-the-nepal-flooding/", "publisher": "Council on Strategic Risks", "date": "2026-09-10" }
+        },
+        {
+          "label": "gap",
+          "actor_type": "defence",
+          "text": "No Pentagon or intelligence-community climate-security product dated in the window. The standing position remains the omission of climate from the 2026 Annual Threat Assessment, documented in March 2026 by the Center for Climate and Security."
+        },
+        {
+          "label": "gap",
+          "actor_type": "private_sector",
+          "text": "No US private-sector climate-security signal found in the window. The nearest adjacent observable is the reinsurance sector's loss accounting — Swiss Re's sigma 1/2026 putting the global natural catastrophe protection gap at $424 billion for 2025, up from $395 billion — which is a risk-pricing signal rather than a security one, and which predates the window."
+        }
+      ]
+    },
+    {
+      "jurisdiction": "China",
+      "direction": "no_change",
+      "direction_note": "No change, and the observable remains negative and non-doctrinal for the fourth week running: what China does not share, rather than what it says.",
+      "claims": [
+        {
+          "label": "gap",
+          "actor_type": "government",
+          "text": "Re-checked this week: still no Chinese defence or security document naming climate change as a security concern that could be surfaced. The standing `china-2026-defence-climate` thread is unchanged."
+        },
+        {
+          "label": "evidence",
+          "actor_type": "government",
+          "text": "The concrete file is transboundary hydrological data, and nothing in this window moved it. As of the reporting of 31 August to 3 September, Nepal was seeking a real-time data-sharing agreement on the model of its arrangement with India — its department asked for data at ten-minute intervals — after May 2026 talks in Kathmandu ended without one, on the stated ground that the Chinese participants lacked authority to sign. China's embassy describes those talks as substantial progress. China and Nepal jointly monitor a single transboundary glacial lake, Cirenmaco, a system built for slowly forming lakes rather than sudden avalanches in unwatched valleys.",
+          "source": { "title": "Hit by deadly floods, Nepal renews push for Chinese data and early warnings", "url": "https://www.taipeitimes.com/News/editorials/archives/2026/09/03/2003863588", "publisher": "Taipei Times, citing Reuters", "date": "2026-09-03" }
+        },
+        {
+          "label": "framing",
+          "actor_type": "government",
+          "text": "The comparison that does the analytical work is China's own: it shares data year-round with five downstream states through the Lancang-Mekong Water Resources Cooperation information platform. The constraint in the Himalaya is therefore not capability and not a general policy against sharing. It is specific to this border, which makes it a political fact rather than a technical one."
+        },
+        {
+          "label": "gap",
+          "actor_type": "private_sector",
+          "text": "No Chinese private-sector climate-security signal identified. This axis has now been empty for China in every week this digest has run, which is itself worth recording rather than dropping."
+        }
+      ],
+      "method_note": "The Chinese observables cited here are dated 31 August to 3 September, outside the window. They are carried as the current state of an unchanged file, not as this week's events, and are labelled accordingly."
+    },
+    {
+      "jurisdiction": "India",
+      "direction": "no_change",
+      "direction_note": "No change. India acted on a climate-adjacent security file again this week without any doctrinal text behind it, and its one dated ministerial engagement of the week was with a US-framed energy agenda rather than a climate one.",
+      "claims": [
+        {
+          "label": "evidence",
+          "actor_type": "government",
+          "text": "On 11 September it was announced that Manohar Lal Khattar — Union Minister of Power and of Housing and Urban Affairs since 10 June 2024 — would represent India at the G20 Energy Abundance Ministerial in Houston. India's dated ministerial engagement on energy and security this week is with a framework whose pillars are energy security, permitting and critical minerals, and which contains no climate pillar.",
+          "source": { "title": "Union Minister Manohar Lal to participate in G20 energy abundance ministerial meeting in US", "url": "https://aninews.in/news/national/general-news/union-minister-manohar-lal-to-participate-in-g20-energy-abundance-ministerial-meeting-in-us20260911092221/", "publisher": "ANI", "date": "2026-09-11" }
+        },
+        {
+          "label": "gap",
+          "actor_type": "government",
+          "text": "Re-checked: still no Indian security or defence document naming climate change. The `india-security-doc-climate` thread is unchanged. The contrast noted last week persists — India ran a military-logistical response across a border for a climate-driven disaster, and has no doctrinal text that describes what it was doing."
+        },
+        {
+          "label": "gap",
+          "actor_type": "defence",
+          "text": "No Indian defence-side climate output dated in the window. India's Nepal relief posture — MEA control room, Indian Air Force transport on standby, embassy helplines — is documented from late August and was not renewed or formalised by any instrument inside 7-13 September."
+        },
+        {
+          "label": "gap",
+          "actor_type": "private_sector",
+          "text": "No Indian private-sector climate-security signal found in the window."
+        },
+        {
+          "label": "gap",
+          "actor_type": "public_opinion",
+          "text": "No Indian climate polling in the window. A 2024 civil-society declaration on Himalayan disasters as policy-induced ('People for Himalaya') surfaced in searching and was checked and set aside: it is dated February 2024 and is not a current signal."
+        }
+      ]
+    },
+    {
+      "jurisdiction": "Multilateral",
+      "direction": "mixed",
+      "direction_note": "The secretariat escalated its language and the Council's agenda did not move. Both are real and they point in opposite directions, which is what 'mixed' is for.",
+      "rests_on": ["D1", "D3", "D5"],
+      "claims": [
+        {
+          "label": "evidence",
+          "actor_type": "government",
+          "text": "UNFCCC's executive secretary used the strongest security formulation of his tenure on 10 September, in the economic register (B1, D1). A secretariat with structural reasons for caution about security language chose to escalate, and chose which security to escalate into.",
+          "source": { "title": "UN Climate Chief: \"the climate crisis is now a continent-wide economic security emergency\"", "url": "https://unfccc.int/news/un-climate-chief-the-climate-crisis-is-now-a-continent-wide-economic-security-emergency", "publisher": "UNFCCC", "date": "2026-09-10" }
+        },
+        {
+          "label": "gap",
+          "actor_type": "government",
+          "text": "The Security Council's September programme of work under the French presidency contains no climate, water, food-security or environment item. A UNHCR briefing on forced displacement is the closest adjacency and is not climate-framed. Set against UNGA81's inclusion of climate among six priorities, the split between the two organs is the current institutional position and it did not move this week.",
+          "source": { "title": "September 2026 Monthly Forecast", "url": "https://www.securitycouncilreport.org/monthly-forecast/2026-09/", "publisher": "Security Council Report", "date": "2026-09" }
+        },
+        {
+          "label": "evidence",
+          "actor_type": "other",
+          "text": "The Loss and Damage Fund is being asked to respond to an event that the attribution community has publicly declined to attribute (B3, B5, D3). Whatever it decides establishes an evidentiary standard by practice, and it will do so before any methodology for attributing rock-ice avalanches exists."
+        },
+        {
+          "label": "evidence",
+          "actor_type": "government",
+          "text": "The AOSIS chair, sought and not established in the 2026-09-06 digest, is now identified: H.E. Ms Ilana Victorya Seid, Permanent Representative of Palau to the United Nations since 2021, chairing AOSIS for 2025-2026. This resolves the highest-value unfilled slot on the watchlist and gives the bloc that refused the overshoot frame a nameable principal for the UNGA81 and COP31 weeks.",
+          "source": { "title": "Chair of AOSIS", "url": "https://aosis.org/chair/", "publisher": "Alliance of Small Island States", "date": "2026-09-13" }
+        },
+        {
+          "label": "gap",
+          "actor_type": "private_sector",
+          "text": "No private-sector engagement with the multilateral climate-security machinery found in the window. The Climate Security Mechanism produced no output between 7 and 13 September; its Phase III structure through 2028 is documented, its financial volumes still are not."
+        },
+        {
+          "label": "gap",
+          "actor_type": "defence",
+          "text": "NATO has still not published a Climate Change and Security Impact Assessment since July 2024 — two annual cycles now missed. See D5."
+        }
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "n": 1,
+      "id": "unfccc-economic-security-frame",
+      "title": "The UNFCCC secretariat borrows economic security rather than climate security",
+      "actor": "UN Framework Convention on Climate Change secretariat; Executive Secretary Simon Stiell",
+      "date": "2026-09-10",
+      "place": "European Parliament, Brussels",
+      "body": "Stiell — UNFCCC Executive Secretary, a role re-confirmed this week against UNFCCC and UN News coverage of the appearance itself; the term dates in `routine/watchlist.md` are from August 2022 and a June 2025 reappointment, verified in August 2026 and not re-checked this week — appeared before the European Parliament's ENVI committee and made the most security-inflected argument of his tenure, in an economic register. He told members that climate has become a continent-wide economic security emergency, that treating it as partisan territory in culture wars is palpably false, and that being soft on climate action means being soft on inflation, cost of living, sovereignty, security and growth. He carried a €180 billion figure for the summer's European losses and a warning about the coming winter's fuel costs, and he named forced migration, Himalayan floods and North African outages in the same breath. He did not use the word overshoot, and he made no claim about conflict.",
+      "stated_rationale": "That Europe's economic exposure to climate impacts is now large enough to be a first-order political fact, that the costs are traceable to fossil-fuel dependency, and that the clean energy transition is the route out. His supporting energy figures — a share of European power now met by renewables, and savings on avoided gas imports — appear only in search-returned coverage and are not repeated here.",
+      "inference": "The secretariat's traditional audience is a party to the convention. Its largest historical interlocutor withdrew from the convention and from the IPCC on 7 January 2026. Arguing in Brussels, in economic terms, to a regulatory committee, is what is left: the security urgency is borrowed because the convention's own leverage has thinned, and the economic register is borrowed because the military-security register in the transatlantic space is currently occupied by an energy agenda with no climate referent. This is an inference about strategy, not a claim about motive, and the secretariat has said nothing that confirms it.",
+      "verdict": "too_early",
+      "confidence": "medium",
+      "locations": [
+        { "name": "European Parliament, Brussels", "lat": 50.84666667, "lon": 4.3525, "kind": "institution", "precision": "settlement", "icon": "statement" }
+      ],
+      "sources": [
+        { "title": "UN climate chief warns political division is undermining fight against 'economic security emergency'", "url": "https://news.un.org/en/story/2026/09/1168311", "publisher": "UN News", "date": "2026-09-10" }
+      ]
+    },
+    {
+      "n": 2,
+      "id": "nl-delta-two-percent",
+      "title": "The Dutch delta commissioner puts adaptation on a percent-of-GDP footing, and concedes unpreventable damage",
+      "actor": "Deltacommissaris Co Verdaas, in office since 1 December 2023; delivered to Vincent Karremans, Minister of Infrastructure and Water Management",
+      "date": "2026-09-07",
+      "place": "The Hague",
+      "body": "Verdaas handed the second six-yearly review of the National Deltaprogramma to Karremans on 7 September, eight days before Prinsjesdag and the publication of the Deltaprogramma 2027 that the review underpins. Two things were done at once. Financially, the ask was stated as a share of national output for the first time in this office's public argument: from about 1 per cent of GDP to at least 2 per cent, doubling roughly €11 billion a year. Politically, the review conceded that technical measures cannot prevent all consequences of drought, salinisation and water excess, that society must prepare for disruption and damage, and that not everything can be done everywhere and always. Preparation for a new generation of Deltaworks — replacement of the Maeslantkering, decisions on the Rhine-Maas estuary, new pumping capacity at IJmuiden and possibly the Afsluitdijk — is said to have to start now.",
+      "stated_rationale": "That climate change, salinisation and rising water demand are outpacing the programme's planning assumptions, that continuing on the current course is not an option, and that spatial adaptation and freshwater security are the two underfunded priorities.",
+      "inference": "Conceding unpreventable damage is the expensive half of this move and it is what makes the fiscal ask credible rather than routine. A water authority that says it can hold the line has to be funded to hold the line; one that says the line will be crossed in places is asking to be funded for something harder to audit. Choosing a percent-of-GDP denominator eight days before the budget puts the number into the frame in which Dutch spending arguments are currently conducted. Whether that was the intent is not established by any source read here.",
+      "verdict": "too_early",
+      "confidence": "high",
+      "locations": [
+        { "name": "The Hague", "lat": 52.08, "lon": 4.31, "kind": "institution", "precision": "settlement", "icon": "government" }
+      ],
+      "sources": [
+        { "title": "Miljarden extra nodig voor wateraanpak, maar zelfs dan niet alle schade te voorkomen", "url": "https://nos.nl/artikel/2630054-miljarden-extra-nodig-voor-wateraanpak-maar-zelfs-dan-niet-alle-schade-te-voorkomen", "publisher": "NOS", "date": "2026-09-07" },
+        { "title": "Nieuwe Deltawerken nodig: Nederland moet nu al voorbereidingen treffen", "url": "https://www.infrasite.nl/waterbouw-deltas/2026/09/08/nieuwe-deltawerken-nodig-nederland-moet-nu-al-voorbereidingen-treffen/", "publisher": "Infrasite", "date": "2026-09-08" }
+      ]
+    },
+    {
+      "n": 3,
+      "id": "nepal-loss-damage-claim",
+      "title": "Nepal converts a disaster into a multilateral claim, having already closed the bilateral route",
+      "actor": "Government of Nepal: Prime Minister Balendra Shah; Foreign Minister Shisir Khanal; Finance Minister Swarnim Wagle; foreign ministry spokesperson Lok Bahadur Chhetri",
+      "date": "2026-09-08 to 2026-09-12",
+      "place": "Kathmandu",
+      "body": "Across five days Nepal assembled a position. On 8 September the financing debate went public: grants preferred, loans probably unavoidable, a post-disaster needs assessment expected within five weeks, and the Loss and Damage Fund named as a route whose value officials themselves described as potentially symbolic but precedent-setting. On 11 September the foreign ministry put the reconstruction bill at $4.78 billion. Shah is expected to take the case to the General Assembly during high-level week. The move was set up the week before, when Khanal clarified on 3 September that Nepal was not demanding compensation from India, China or the United States and would work through the UNFCCC and Paris Agreement instead — closing the bilateral door before opening the multilateral one.",
+      "stated_rationale": "That a country contributing little to climate change should not bear alone the cost of a disaster of this scale, and that the multilateral machinery rather than individual emitters is the appropriate venue.",
+      "inference": "Two readings, and they are not exclusive. Sequencing the bilateral disavowal before the multilateral claim protects the relationships with the two neighbours Nepal cannot afford to antagonise, one of which holds the hydrological data it wants. And describing the expected sum as symbolic while pursuing it anyway indicates the target is the precedent — a fund disbursement for an event with no attribution study would set a standard of evidence that every subsequent claimant could use. That would be a considerable prize for a small state to win from a bad month, and it is the only reading under which the effort makes sense against the size of the likely cheque.",
+      "verdict": "too_early",
+      "confidence": "medium",
+      "locations": [
+        { "name": "Kathmandu", "lat": 27.71, "lon": 85.32, "kind": "institution", "precision": "settlement", "icon": "government" }
+      ],
+      "sources": [
+        { "title": "Nepal looks for grants for flood recovery, but loans may be unavoidable", "url": "https://kathmandupost.com/national/2026/09/08/nepal-looks-for-grants-for-flood-recovery-but-loans-may-be-unavoidable", "publisher": "The Kathmandu Post", "date": "2026-09-08" },
+        { "title": "Nepal estimates reconstruction after deadly floods to cost nearly $7 billion", "url": "https://www.abc.net.au/news/2026-09-12/nepal-flood-reconstruction-cost-billions/107145518", "publisher": "ABC News (Australia)", "date": "2026-09-12" }
+      ]
+    },
+    {
+      "n": 4,
+      "id": "us-epa-power-plant-rescission",
+      "title": "The EPA times a carbon rescission to a ministerial branded on energy abundance",
+      "actor": "US Environmental Protection Agency, under the G20 presidency's energy programme",
+      "date": "2026-09-13",
+      "place": "Washington DC, for announcement at Houston",
+      "body": "Reported on 13 September: the EPA is poised to rescind carbon standards for coal- and gas-fired power plants as soon as 14 September, alongside a separate proposal to repeal the finding that power-plant greenhouse gases pose a threat. The announcement was expected on the sidelines of the G20 energy ministerial in Houston, 14-16 September, which the United States hosts under the title *Energy Abundance* and runs on three pillars: energy security and affordable baseload; permitting and regulatory efficiency; and critical minerals and resilient supply chains. Attendance was being confirmed through the week, including India's power minister on 11 September and a Russian representative.",
+      "stated_rationale": "Cost savings and regulatory relief; the administration's stated position is that the standards were economically burdensome. No climate-security rationale is offered, and none is implied by the ministerial's framing.",
+      "inference": "The choreography is the finding rather than the rescission, which has been signalled since the FY2026 budget. Announcing a domestic deregulatory act at a multilateral energy meeting the United States is chairing converts a national rollback into an international framing exercise: it presents the removal of a carbon constraint as an energy-security measure to an audience of energy ministries. The security vocabulary is not being abandoned; it is being re-anchored. This is an inference from the timing and branding, not from any statement of intent.",
+      "verdict": "too_early",
+      "confidence": "medium",
+      "locations": [
+        { "name": "EPA headquarters, Washington DC", "lat": 38.8939, "lon": -77.0289, "kind": "institution", "precision": "point", "icon": "government" },
+        { "name": "Houston", "lat": 29.75666667, "lon": -95.36527778, "kind": "event", "precision": "settlement", "icon": "summit" }
+      ],
+      "sources": [
+        { "title": "EPA poised to repeal carbon standards for coal, gas power plants", "url": "https://www.spokesman.com/stories/2026/sep/13/epa-poised-to-repeal-carbon-standards-for-coal-gas/", "publisher": "The Spokesman-Review, citing Bloomberg", "date": "2026-09-13" }
+      ]
+    },
+    {
+      "n": 5,
+      "id": "nato-ccsia-lapse",
+      "title": "NATO's annual climate security assessment has now missed two cycles, without a word",
+      "actor": "NATO; the office of the Secretary-General",
+      "place": "NATO Headquarters, Brussels",
+      "body": "This is the week's quiet move and it is an absence. NATO's Climate Change and Security Impact Assessment is described on NATO's own topic page as the Secretary-General's annual assessment, and it ran annually from 2021: action plan 14 June 2021, assessments 28 June 2022, 11 July 2023, 9 July 2024. Re-checked this week against the topic page: there is no 2025 edition and no 2026 edition, and the page's most recent news item is the July 2024 Washington summit. Two annual cycles have now passed. The nearest substitute is the Science and Technology Organization's SAS-182 final report *The Effects of Climate Change on Security*, published January 2026 — a research task group output that recommends the Climate Change and Security Action Plan be modified to turn knowledge into action. It is not a Secretary-General's assessment and does not replace one. The IMCCS pattern runs parallel: no World Climate and Security Report since the 2024 edition, and the most recent item on the council's own site is an open letter of 23 October 2025.",
+      "stated_rationale": "None has been given. No NATO statement announcing discontinuation, suspension, replacement or delay could be found. That is the substance of the finding: an annual instrument stopped without an announcement, which is the form institutional de-prioritisation usually takes.",
+      "inference": "One cycle missed is a scheduling problem; two is a decision, taken somewhere, by someone. The most economical reading is that the assessment's continuation was contingent on a political consensus that no longer holds among allies, and that the STO route — a technical report from a research task group, which requires no Secretary-General's signature — is where the analytical work has been allowed to continue. This is inference and the confidence below reflects it: nothing found this week establishes that any decision was taken at all, and an instrument can lapse through neglect as easily as through choice.",
+      "verdict": "landed",
+      "confidence": "low",
+      "locations": [
+        { "name": "NATO Headquarters, Brussels", "lat": 50.84666667, "lon": 4.3525, "kind": "institution", "precision": "settlement", "icon": "shield", "note": "Coordinate is the city of Brussels; the headquarters' own coordinate was not retrieved this week." }
+      ],
+      "sources": [
+        { "title": "Environment, climate change and security", "url": "https://www.nato.int/en/what-we-do/wider-activities/environment-climate-change-and-security", "publisher": "NATO", "date": "2026-09-13" },
+        { "title": "The Effects of Climate Change on Security [Report]", "url": "https://www.sto.nato.int/document/the-effects-of-climate-change-on-security-report", "publisher": "NATO Science and Technology Organization", "date": "2026-01" },
+        { "title": "International Military Council on Climate and Security", "url": "https://imccs.org/", "publisher": "IMCCS", "date": "2026-09-13" }
+      ]
+    }
+  ],
+  "roster_silences": "**NATO and IMCCS** are this week's loudest silences and have been promoted out of this section into D5, because two missed annual cycles is no longer a gap in publication — it is the state of the instrument.\n\n**Clingendael and the Planetary Security Initiative:** nothing in the window. clingendael.org returned HTTP 403 to direct retrieval this week, so this rests on search rather than on the publications page, which is weaker than the rest of this digest. The PSI funding position is unchanged: the only publicly datable phase announcement remains Clingendael's of 9 December 2019. One observation to carry rather than act on: the PSI site describes Louise van Schaik as Project Manager of PSI and Head of the Clingendael International Sustainability Centre, while Clingendael's own materials describe her as Head of Unit EU & Global Affairs and Programme Lead Critical Resources. Two institutional descriptions of the same person that do not match, on a platform whose funding status has been unstated for seven years, is worth a check next week rather than a conclusion this week. Her role is not in question.\n\n**HCSS:** nothing in the 7-13 September window, but a correction to the standing Dutch note in `routine/watchlist.md`, which said HCSS's most recent substantial climate-security output was the June 2025 police-commissioned report. It is not. Patrick Willemsen published *Klimaat als strategische factor: Nederlandse Defensie zet koers in onzeker vaarwater* on 16 July 2026, a critique of the Ministry of Defence's July 2026 climate strategy. The watchlist's underlying argument — that Dutch climate-security research demand which actually pays has been domestic-order demand rather than defence demand — needs qualifying rather than deleting: a defence strategy now exists, HCSS has engaged it, and whether the engagement is commissioned or unsolicited is the open question. `routine/watchlist.md` has been amended.\n\n**The Center for Climate and Security is not silent, and last week's reading of its venue needs correcting.** climateandsecurity.org's blog shows nothing since April 2026, which in isolation reads as a shutdown. It is a move: CCS output now appears on the parent Council on Strategic Risks site, which published two CCS-branded items across 1 and 10 September. The `csr-ccs-staffing` thread stays open on funding and staffing, but the activity question is answered.\n\n**adelphi:** nothing in the window; the Berlin Climate and Security Conference remains scheduled for 6 October.\n\n**SIPRI:** no climate-security publication datable to 7-13 September found.\n\n**World Weather Attribution:** nothing published in the window; its most recent study remains 28 August 2026 on Caribbean drought. Added to the roster last week precisely because attribution institutions now set the terms of argument faster than security institutions respond, WWA's first recorded week of silence coincides with the week the attribution question became the central political fact of the Nepal file. That is not a criticism of WWA — B3 explains why the hazard class may be beyond rapid methods — but it is the sharpest available illustration of the limit.\n\n**UN Climate Security Mechanism:** no output in the window. **ICIMOD** was the week's most active roster member (B4) and the **Pacific Islands Forum Secretariat** produced nothing after last week's Belau declaration. **No move from the Gulf states or the African Union.** AOSIS produced no statement in the window, but its chair is now identified for the first time (see Multilateral).",
+  "watch": [
+    {
+      "title": "Prinsjesdag: what the cabinet does with a two-per-cent ask",
+      "note": "15 September, two days after this week closes, and three things resolve on the day. Whether the Deltaprogramma 2027 and the accompanying budget documents acknowledge any part of Verdaas's 1-to-2-per-cent-of-GDP ask, or restate the Deltafonds as planned. Whether the €5 million structural line for the *Defensiestrategie voor Klimaatverandering en Veiligheid – Klimaatparaat* survives into the 2027 Defensiebegroting and whether it grows. And whether the action plan that the July strategy promised — concrete measures, responsibilities, timelines — has appeared or slipped again. The first Prinsjesdag of the Jetten cabinet makes all three readable as priority-setting rather than continuity.",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Whether the Loss and Damage Fund answers an unattributed event",
+      "note": "The general debate opens 22 September and the high-level meeting on climate action and just transition falls on 23 September. Two datable questions. Whether Balendra Shah puts the $4.78 billion figure and a Loss and Damage Fund claim on the General Assembly floor, and whether the fund's board convenes the extraordinary meeting its members were reported to be seeking on 2 September. The second is the real test: a disbursement for an event with no attribution study, or a refusal on those grounds, sets the evidentiary standard by practice for every claim after it. Watch also whether 'overshoot' appears in the Climate Summit's framing — the tell for D1 of the 2026-09-06 digest, which has not yet fired.",
+      "date": "2026-09-23"
+    },
+    {
+      "title": "Whether the EPA rescission lands at Houston, and what the ministerial communiqué says",
+      "note": "The rescission was expected on 14 September and the G20 energy ministerial ran 14-16 September. Three checkable outcomes: whether the rescission was in fact announced and on what date; whether the separate proposal against the power-plant endangerment finding followed; and whether any ministerial outcome document mentions climate at all, given three pillars that name energy security, permitting and critical minerals and do not name it. A communiqué that discusses supply-chain resilience without a climate referent would confirm the substitution this digest describes in B6 rather than leaving it as a reading of branding.",
+      "date": "2026-09-16"
+    }
+  ],
+  "continuity": {
+    "literature_covered": [
+      { "author": "Richard H. Ullman", "year": 1983, "title": "Redefining Security", "venue": "International Security", "locator": "8(1), 129-153", "verification": "verified" },
+      { "author": "Anselm Vogler", "year": 2026, "title": "A mundane challenge of menacing proportions?", "venue": "Environment and Security", "locator": "4(2), 151-178", "verification": "verified" },
+      { "author": "Jessica Tuchman Mathews", "year": 1989, "title": "Redefining Security", "venue": "Foreign Affairs", "locator": "68(2), 162-177", "verification": "verified" },
+      { "author": "Daniel H. Deudney", "year": 1990, "title": "The Case Against Linking Environmental Degradation and National Security", "venue": "Millennium: Journal of International Studies", "locator": "19(3), 461-476", "doi": "10.1177/03058298900190031001", "verification": "verified" },
+      { "author": "Tyler Bagwell, Sylvia Dee and Frederi Viens", "year": 2026, "title": "Global and regional climate modes modulate armed conflict risk", "venue": "Proceedings of the National Academy of Sciences", "doi": "10.1073/pnas.2532935123", "verification": "verified" },
+      { "author": "Richard H. Ullman", "year": 1983, "title": "Redefining Security", "venue": "International Security", "locator": "8(1), Summer 1983, 129-153", "verification": "verified", "verification_note": "Second appearance on the site, by intent: the curriculum was reset to its first item on 2026-09-07 and this is the first digest to start from the reset." },
+      { "author": "Corinne Lamain", "year": 2026, "title": "'When the military finds a new territory, it will never leave': 'Vital climate infrastructures' as new climate militarisation strategy? Observations from Nepal", "venue": "Environment and Security", "locator": "4(1), 92-114", "doi": "10.1177/27538796251368712", "verification": "verified", "verification_note": "Verified against the Crossref record. Full text not read: SAGE returned HTTP 403." }
+    ],
+    "next_reading": [
+      {
+        "author": "Jessica Tuchman Mathews",
+        "year": 1989,
+        "title": "Redefining Security",
+        "venue": "Foreign Affairs",
+        "locator": "68(2), 162-177",
+        "verification": "verified",
+        "verification_note": "Phase 1, second item, following the reset. Verified 2026-09-06 against the JSTOR record and the Spring 1989 issue index; re-verification not required. Must be read in the same week as Deudney 1990 — the curriculum's read-the-critique rule, which it explicitly forbids deferring. Expect three items in that digest, per the standing cadence note."
+      },
+      {
+        "author": "Daniel H. Deudney",
+        "year": 1990,
+        "title": "The Case Against Linking Environmental Degradation and National Security",
+        "venue": "Millennium: Journal of International Studies",
+        "locator": "19(3), 461-476",
+        "doi": "10.1177/03058298900190031001",
+        "verification": "verified",
+        "verification_note": "Read as a pair with Mathews, in the same week, not after it. Widely reprinted with different pagination: a page range cited against the Millennium venue that is not 461-476 is probably a reprint's. Levy 1995 closes the phase after these two."
+      }
+    ],
+    "active_trends": [
+      { "id": "us-vehicle-removal", "text": "US removal of climate from security *vehicles*, not just language. This week adds the inverse operation and it may be the more durable one: the security vocabulary retained with the climate referent removed, as at the G20 'Energy Abundance' ministerial.", "first_raised": "2026-08-31" },
+      { "id": "us-adaptation-as-disaster-ops", "text": "US adaptation surviving only where reframed as disaster operations.", "first_raised": "2026-08-31" },
+      { "id": "unsc-natural-resource-frame", "text": "UNSC shift from \"climate security\" to \"natural resource governance\". September's programme of work under the French presidency contains neither.", "first_raised": "2026-08-31" },
+      { "id": "retreat-from-binding-instruments", "text": "Retreat from binding multilateral environmental instruments (UNCCD drought, twice). Per the 2026-09-06 pushback, do not extend this trend to cover institutional candour about overshoot; the two are different acts and merging them makes the trend unfalsifiable.", "first_raised": "2026-08-31" },
+      { "id": "nl-institution-without-money", "text": "Dutch institutional creation with fiscal non-commitment. Note a counter-instance this week: the deltacommissaris named the money before the budget rather than after it. The defence side still fits the trend — a strategy with €5m structural and no action plan two months on.", "first_raised": "2026-08-31" },
+      { "id": "nl-opinion-decline", "text": "Dutch public-opinion decline against the international average. Carried forward but not re-verified for three consecutive weeks; treat as stale until refreshed.", "first_raised": "2026-08-31" },
+      { "id": "overshoot-as-planning-premise", "text": "Overshoot moving from a risk to a planning premise. No security institution adopted the term this week, and the UNFCCC's own executive secretary did not use it in his most security-framed speech to date. The tell has not fired.", "first_raised": "2026-09-06" },
+      { "id": "highmountain-warning-mismatch", "text": "High-mountain hazard migrating from the glacial-lake-outburst mode that monitoring was built for to ice-and-rock slope failure that it was not, across borders where no data-sharing mechanism exists. ICIMOD now states the planning-doctrine half of this directly: hazard-specific disaster planning is obsolete.", "first_raised": "2026-09-06" },
+      { "id": "attribution-ceiling-finance-floor", "text": "The widening gap between what event attribution will certify and what climate finance is being asked to pay for. Rock-ice avalanches may be permanently outside single-event attribution while being exactly the hazard class generating the largest new loss-and-damage claims. Watch which gives first: the methods, the standard of evidence, or the claim.", "first_raised": "2026-09-13" },
+      { "id": "security-register-substitution", "text": "Climate argued in whichever security register is locally unoccupied — economic security in Europe, energy security in the US — rather than in the field's own. Counting the first as a win and the second as a loss measures nothing; the question is which referent the security vocabulary is attached to.", "first_raised": "2026-09-13" }
+    ],
+    "open_threads": [
+      { "id": "psi-funding-phase", "text": "PSI's current funding phase. Unchanged: the only publicly datable phase announcement remains Clingendael's of 9 December 2019, with no renewal announced in the seven years since. Re-check weakened this week — clingendael.org returned HTTP 403 to direct retrieval, so this rests on search. Added: the PSI site and Clingendael describe van Schaik's role differently, which is worth resolving alongside this.", "status": "open", "first_raised": "2026-08-31" },
+      { "id": "nato-ccsia-4th-edition", "text": "Whether NATO published a 4th Climate Change and Security Impact Assessment. Re-checked against NATO's own topic page this week: nothing. The series ran 2022, 2023, 2024 and has now missed two annual cycles, with no announcement of discontinuation, suspension or replacement. Promoted to a move this week (D5). The thread stays open because what is missing is not the document but any NATO statement about it.", "status": "open", "first_raised": "2026-08-31" },
+      { "id": "imccs-wcsr-lapsed", "text": "Whether the IMCCS World Climate and Security Report has formally lapsed. Re-checked against imccs.org: no report since the 2024 edition, and the most recent item of any kind on the site is an open letter of 23 October 2025 on clean energy investment in NATO spending targets. Same shape as the NATO thread and probably the same cause.", "status": "open", "first_raised": "2026-08-31" },
+      { "id": "csm-funding", "text": "CSM funding trajectory. Not advanced this week; no CSM output in the window and the annual financial report was not retrieved. Structure is documented through 2028, volumes are not, and the volumes are the part that would show a trajectory.", "status": "open", "first_raised": "2026-08-31" },
+      { "id": "mff-climate-security-line", "text": "MFF 2028-2034 climate/security line. New this week and not yet readable: a European Parliament Think Tank study, ECTI_STU(2026)780419, *Impacts of the 2028-2034 MFF proposals on climate and environment*, commissioned by the ENVI committee. The catalogue entry exists; the page returned empty content and could not be read. Retrieve it next week — it is the most likely single source for whether any security-tagged climate earmark exists.", "status": "open", "first_raised": "2026-08-31" },
+      { "id": "china-2026-defence-climate", "text": "Chinese 2026 defence doctrine on climate — gap. Re-checked; unchanged. The Chinese observable remains negative and specific: no transboundary hydrological data agreement on the Nepal border, on a file where China already shares data year-round with five Mekong states. Capability is not the constraint.", "status": "open", "first_raised": "2026-08-31" },
+      { "id": "india-security-doc-climate", "text": "Any Indian security document on climate — gap. Re-checked; unchanged. India's one dated ministerial engagement on energy and security this week was with the US-hosted G20 'Energy Abundance' ministerial, which has no climate pillar.", "status": "open", "first_raised": "2026-08-31" },
+      { "id": "swiss-re-sigma-424bn", "text": "Swiss Re sigma citation for the $424bn 2025 protection gap. Resolved this week now that the retrieval constraint has lifted enough to pursue it.", "status": "resolved", "first_raised": "2026-08-31", "resolved_on": "2026-09-13", "resolution": "The citation is **sigma 1/2026**, *Natural catastrophes in 2025: the persistent rise of wildfire and storm risk*, Swiss Re Institute. The protection gap of $424 billion for 2025, up from $395 billion in 2024, with the natural catastrophe resilience index broadly stable at 27.3 per cent, comes from the Institute's Natural Catastrophe Insurance Resilience Index and is expressed in premium-equivalent terms. Caveat on strength: swissre.com returned HTTP 403 and the mirrored PDF's text could not be extracted, so the sigma number and figures are corroborated across Swiss Re's own social post and several independent trade reports rather than read off the document. The number may now be cited with the sigma reference." },
+      { "id": "langtang-attribution", "text": "Whether any event attribution study of the 26 August Langtang-Lirung cascade appears. Substantially advanced this week and the answer is harder than the question assumed. Carbon Brief's Q&A of 8 September, drawing on seven named scientists, records that no rapid or formal study exists and that a definitive single-event attribution of a rock-ice avalanche may not be achievable at all, citing the 2021 Chamoli precedent. The ice-and-rock-avalanche account has prevailed over the earlier glacial-lake-drainage account. Still open on whether anyone attempts a study; newly open on whether the hazard class is permanently outside rapid attribution's reach, which is the more consequential question.", "status": "open", "first_raised": "2026-09-06" },
+      { "id": "hirisk-consortium-identity", "text": "What the HiRISK consortium is: membership, funding, institutional home.", "status": "resolved", "first_raised": "2026-09-06", "resolved_on": "2026-09-13", "resolution": "Resolved from hirisk.org, which was opened and read this week. HiRISK describes itself as 'a loose consortium of experts from High Mountain Asia and beyond', producing open risk datasets, dashboards, an expert database, risk assessments and peer-reviewed papers. Its member organisations are listed by country and include the Indian Institute of Technology Roorkee, the University of Central Asia in Tajikistan, a research group in Pakistan, a mountain-hazards institute in China, a hydrological institute in Bhutan, and two regional agencies — the Aga Khan Agency for Habitat among them. Its stated support comes from Geo Mountains and from the Glacier and Permafrost Hazards in Mountains standing group of the International Association of Cryospheric Sciences and the International Permafrost Association. Funding amounts and sources are not disclosed, no individuals are named on the site, and the site is labelled a beta version. Verdict for citation purposes: a real, regionally-rooted, multi-institution network — and one that includes a Chinese institute, which matters on a file whose central problem is a closed border — but informal, unfunded so far as the public record shows, and not an authority in the sense a named institution would be. Cite it as a consortium finding, attribute it to the consortium, and do not upgrade it to institutional authority. Two member labels on the site could not be expanded against any independent source and are therefore described generically above rather than spelled out." },
+      { "id": "loss-damage-evidence-standard", "text": "What standard of evidence the Loss and Damage Fund applies to a claim arising from an event that has no attribution study and may never get one. Nepal's $4.78 billion reconstruction bill and its stated intention to approach the fund make this the first live test. The answer will be established by practice — a disbursement, a refusal, or a silence — before any methodology for attributing rock-ice avalanches exists. Watch the board's handling of the extraordinary meeting its members were reported to be seeking on 2 September.", "status": "open", "first_raised": "2026-09-13" },
+      { "id": "nl-two-percent-ask", "text": "Whether any part of the deltacommissaris's ask — 1 per cent of GDP to at least 2, roughly €11 billion a year to roughly €22 billion — survives into a government commitment, and whether the review's concession that some damage will not be prevented is adopted in cabinet language or quietly dropped from it. Prinsjesdag on 15 September is the first datable checkpoint; the cabinet's formal reaction to the Deltaprogramma 2027 is the second.", "status": "open", "first_raised": "2026-09-13" }
+    ],
+    "open_moves": [
+      { "id": "dk-unsc-food-security", "text": "Denmark's UNSC food-security debate, outcome document unconfirmed. Unchanged this week; September's Council programme of work under the French presidency carries no food-security item.", "status": "open", "opened": "2026-08-25" },
+      { "id": "csr-ccs-staffing", "text": "CSR/CCS philanthropic-funding bet. Partial finding this week: CCS is producing, but on the parent Council on Strategic Risks site (two items, 1 and 10 September) rather than on climateandsecurity.org, whose blog has shown nothing since April 2026. The venue question is answered; staffing and funding are not.", "status": "open", "opened": "2026-08-26" },
+      { "id": "nupi-sipri-abyei", "text": "NUPI/SIPRI Abyei report and the next UNISFA renewal. Unchanged; no SIPRI climate-security output in the window.", "status": "open", "opened": "2026-08-01" },
+      { "id": "pif-security-declaration", "text": "PIF security-declaration merger.", "status": "resolved", "opened": "2026-08-31" },
+      { "id": "eu-climate-resilience-framework", "text": "EU integrated framework for climate resilience. Re-checked against the Commission's own page, last updated 19 May 2026: still 'expected to be adopted during the second half of 2026'. No slippage confirmed and no draft published. Secondary sources describing a move to the fourth quarter could not be verified against a Commission document and are not relied on. The standing date correction holds: the call for evidence closed 4 September **2025**, not 2026.", "status": "open", "opened": "2026-08-31" },
+      { "id": "unsg-succession", "text": "UNSG succession, finalisation Aug-Oct 2026. Straw polls held 30 July and 21 August, Guyana's Carolyn Rodrigues Birkett leading the second on eight 'encourage' votes, with Rebeca Grynspan and Rafael Grossi on seven each. Further rounds expected in September under the French presidency but not during high-level week; colour-coded ballots expected later in the process. Guterres's term ends 31 December 2026. Nothing found on what any candidate has said about Council competence over climate — that remains the highest-value unanswered question here.", "status": "open", "opened": "2026-08-31" },
+      { "id": "cop31-antalya", "text": "COP31 Antalya, 9-20 Nov 2026. Unchanged.", "status": "open", "opened": "2026-08-31" },
+      { "id": "unep-overshoot-concession", "text": "Whether 'overshoot' is adopted as a planning premise by security institutions or stays inside the climate-policy system. Negative evidence this week and it is informative: the UNFCCC's executive secretary made his most security-framed intervention to date and did not use the term. The tell has not fired.", "status": "open", "opened": "2026-09-02" },
+      { "id": "aosis-overshoot-refusal", "text": "Whether AOSIS's legal-character defence of 1.5°C holds through UNGA81 and COP31. Substance unchanged; no AOSIS statement in the window. The bloc now has a nameable principal for the first time in this digest: H.E. Ms Ilana Victorya Seid, Permanent Representative of Palau to the UN since 2021, AOSIS chair for 2025-2026.", "status": "open", "opened": "2026-09-03" },
+      { "id": "hirisk-nepal-preevent", "text": "Whether the pre-event-indications finding produces a funded glacier-hazard early-warning programme, and whether it can survive the China-Nepal data-sharing wall. Provenance now established (see the resolved `hirisk-consortium-identity` thread): a real multi-institution network, informal and with no disclosed funding. Outcome still open, and no funded programme appeared this week.", "status": "open", "opened": "2026-09-01" },
+      { "id": "nepal-assistance-limits", "text": "Whether Nepal's restriction of foreign search-and-rescue becomes a precedent or an episode. The file has turned: Nepal's active demand is now inward — a real-time data-sharing agreement with China at ten-minute intervals, on the model of its arrangement with India — rather than a restriction on inbound assistance. Still open on whether any transboundary early-warning mechanism emerges.", "status": "open", "opened": "2026-09-04" },
+      { "id": "unfccc-economic-security-frame", "text": "Whether the UNFCCC secretariat's economic-security framing is picked up by anyone outside the climate-policy system, and in particular whether any EU security institution — the EEAS, a Commission DG on the defence side, or a member-state ministry — adopts the formulation. If it stays inside ENVI and the climate press, it was a rhetorical escalation; if a security institution repeats it, the register shift is real.", "status": "open", "opened": "2026-09-10" },
+      { "id": "nl-delta-two-percent", "text": "Whether the deltacommissaris's two-per-cent-of-GDP ask converts into any government commitment, and whether the concession that some damage cannot be prevented survives into cabinet language. First checkpoint Prinsjesdag, 15 September.", "status": "open", "opened": "2026-09-07" },
+      { "id": "nepal-loss-damage-claim", "text": "Whether Nepal's $4.78 billion bill produces a Loss and Damage Fund response, and on what evidentiary basis given that no attribution study exists. Also whether the grants-versus-loans argument resolves towards debt, which would make the climate-justice framing politically necessary rather than optional.", "status": "open", "opened": "2026-09-08" },
+      { "id": "us-epa-power-plant-rescission", "text": "Whether the rescission was announced as expected on 14 September, whether the separate proposal against the power-plant endangerment finding follows, and whether the Houston ministerial's outcome document mentions climate at all.", "status": "open", "opened": "2026-09-13" },
+      { "id": "nato-ccsia-lapse", "text": "Whether NATO ever states what happened to the Secretary-General's annual Climate Change and Security Impact Assessment, now two cycles missed without announcement, and whether the STO's SAS-182 route becomes the permanent home of the analytical work. A statement either way would close this; continued silence is itself the finding and should be re-recorded each week rather than assumed.", "status": "open", "opened": "2026-09-13" }
+    ]
+  }
+}
