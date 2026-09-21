@@ -8,8 +8,12 @@ it standing next to the corrected fact.
 
 ## Institutional agenda-setters
 
-**Erin Sikorsky** *(verified Aug 2026)* — Director, Center for Climate and Security and
-the International Military Council on Climate and Security. Previously Deputy Director
+**Erin Sikorsky** *(verified 2026-09-20)* — Director, Center for Climate and Security and
+the International Military Council on Climate and Security. Both directorships re-confirmed
+this week against councilonstrategicrisks.org/ccs/, which also gives **Tom Ellison** as
+deputy director of CCS, **John Conger** as director emeritus, and **Noah Fritzhand** and
+**Katherine Yusko** as research fellows, alongside roughly twenty-five non-resident
+fellows. Previously Deputy Director
 of the Strategic Futures Group at the US National Intelligence Council, where she led
 the intelligence community's climate analysis and co-authored *Global Trends*; founding
 chair of the Congressionally mandated Climate Security Advisory Council. Writes *Hot
@@ -25,6 +29,18 @@ manufacturing authority that did not exist and handing policymakers a vocabulary
 think-tank critique of an omission is demand-side, into a space that has already closed.
 One created an agenda; the other documents the removal of one. Do not carry the metaphor
 forward; it overstates the critique's leverage.
+
+*Added 2026-09-20:* the more useful thing to track about this institute is now **who it
+writes for**. Its most regular climate-security product is a state-level briefer series —
+South Carolina (May 2025), Colorado, Hawaiʻi and Washington (December 2025), Ohio
+(18 September 2026, by Madelyn MacMurray and Caroline Mallory) — addressing extreme
+weather threats to installations, infrastructure and local economies. That is the
+disaster-operations register with a statehouse reader, and it is what an institute does
+when its federal security customer closes. Two questions to work each week: whether the
+series continues and adds states with large installations, and whether any state
+government is ever named as commissioner or partner. No client is stated on any of the
+five. A second US institute writing for statehouses would make this a field-level shift
+rather than one organisation's strategy.
 
 **Louise van Schaik** *(verified Aug 2026)* — Clingendael: Head of Unit EU & Global
 Affairs, Programme Lead Critical Resources, project lead of the Planetary Security
@@ -85,10 +101,24 @@ School of International and Public Affairs. Her ministry's climate foreign polic
 strategy is now a legacy document under a different government; whether it survived the
 transition is the analytically interesting question.
 
-**Tom Middendorp** *(unverified)* — former Chief of Defence of the Netherlands, IMCCS
-chair, senior research associate at Clingendael. The Dutch instance of a recurring
-pattern: a retired flag officer carrying credibility into a defence ministry that a
-civilian researcher cannot.
+**Tom Middendorp** *(partly verified 2026-09-20)* — **IMCCS chair confirmed** against
+imccs.org, which lists him as General Tom Middendorp, Chief of Defence of the Netherlands
+(Ret), and as chair of the council. His Clingendael association is **not** verified and
+should not be stated: clingendael.org has refused retrieval on 2026-09-13 and 2026-09-20.
+Name the chairmanship, which is sourced, and the institute rather than the individual for
+anything Dutch. The Dutch instance of a recurring pattern: a retired flag officer carrying
+credibility into a defence ministry that a civilian researcher cannot.
+
+**Laura Birkman** *(verified 2026-09-20)* — Director of HCSS's Climate, Water and Food
+Security Programme, a role held since January 2025, having joined the centre in 2019 as a
+senior strategic analyst; she oversees the Water, Peace and Security partnership and is a
+member of the IMCCS. Confirmed against hcss.nl's own expert and news pages. Added because
+she is the most useful single Dutch point of contact between the water file and the
+security file, and because the centre's climate output now runs through her programme —
+she is credited as a contributor on its 14 September 2026 study arguing development
+cooperation as raw-materials security. Her IMCCS membership alongside Middendorp's
+chairmanship means the Dutch presence in that council is now two named people, which is
+worth knowing when the council's own output has been dormant since October 2025.
 
 **Sherri Goodman** *(unverified)* — widely credited with originating "threat multiplier"
 as US Deputy Under Secretary of Defense (Environmental Security) and later at CNA;
@@ -109,6 +139,28 @@ the person to quote when that character is under pressure — and the overshoot 
 recorded in the 2026-09-06 digest can now be attributed to a principal rather than only
 to the institution. Two dates make the chair worth tracking closely: the chairmanship
 runs out at the end of 2026, and COP31 at Antalya falls inside it.
+
+**The Loss and Damage Fund co-chairs** *(verified 2026-09-20)* — **Camila Minerva
+Rodriguez Tavarez** and **Georg Børsting**, co-chairs of the board of the Fund for
+responding to Loss and Damage, identified from the Kathmandu Post's reporting of their
+reply to Nepal's emergency request. Added because they are the two people who decide
+whether the board meets between scheduled sessions, which is now the operative question on
+the field's biggest live test. Two dates to hold: the tenth board meeting is reported as
+expected before 10 December 2026 in Manila, and the eleventh for 17–19 March 2027 in
+**Kathmandu** — a venue choice worth noting on its own. Verify both co-chairs against
+frld.org rather than against press reporting before quoting them; that site has not yet
+been opened by this routine.
+
+**Swarnim Wagle** *(verified 2026-09-20)* — Finance Minister of Nepal, confirmed through
+the Kathmandu Post's and ANI's reporting of his 18 September meeting with India's finance
+minister. The most useful single actor for the loss-and-damage-in-practice file, because he
+is taking one argument to several institutions on a published schedule and each stop
+produces a dated answer: AIIB governors, Doha, 28–29 September 2026; IMF and World Bank
+annual meetings, Bangkok, 12–18 October 2026; possible New York and Washington meetings
+unconfirmed. Note the trap in reading him: every venue on that list is a **lender**, so a
+successful climate-justice argument there can still arrive as debt. Track the grant-to-loan
+ratio of whatever emerges, against India's 2015 earthquake precedent of $250m grant to
+$750m concessional loan.
 
 **ICIMOD** *(verified 2026-09-06)* — the International Centre for Integrated Mountain
 Development is now a standing entry, not an occasional source. Its specialists **Saswata
@@ -166,7 +218,21 @@ Checking note, 2026-09-13, on where to look rather than whether to look:
   Clingendael's own materials describe her as Head of Unit EU & Global Affairs and
   Programme Lead Critical Resources. Her role is not in question; which description is
   current is. Resolve when clingendael.org is reachable — it returned HTTP 403 on
-  2026-09-13.
+  2026-09-13 and again on 2026-09-20. Two consecutive refusals means this will not resolve
+  by retrying the same page; try the institute's staff page via a search-engine cache, or
+  a conference programme or co-authored publication from 2026 that states her title.
+- **adelphi.** Correction, 2026-09-20: the 2026-09-13 note gave the Berlin Climate and
+  Security Conference as scheduled for 6 October 2026. That date could not be confirmed
+  against anything opened this week — adelphi's publications index shows a documented 2025
+  edition and no 2026 date. Do not restate 6 October without a source. The conference is
+  the single most useful dated European climate-security event of the year and its 2026
+  status is now an open question rather than a known fixture.
+- **SIPRI.** Where to look is the climate-change-and-security publications list, not the
+  front page: *Beyond the Blue Line: Tackling Climate, Peace, and Security Challenges in
+  Abyei*, by Katongo Seyuba (SIPRI climate change and risk programme) and Andrew E. Yaw
+  Tchie (NUPI), published Stockholm, August 2026, appears there and was missed for a month
+  by checking elsewhere. A *Climate, Peace and Security Fact Sheet: Lake Chad (2026)* is
+  also listed and has not yet been read.
 
 Added 2026-09-06: **ICIMOD**, **World Weather Attribution** and the **Pacific Islands
 Forum Secretariat**. The first two because attribution and monitoring institutions now
@@ -175,6 +241,46 @@ set the terms of argument about events faster than security institutions respond
 unattributed, and the asymmetry is itself a finding. The third because the Forum is the
 one venue that produces a dated, checkable answer each year on whether climate-as-security
 language survives contact with great-power competition.
+
+*Correction, 2026-09-20, and it is the important one on this page.* The instruction above
+this list says "Silence is a finding" without qualification, and on 2026-09-13 that rule
+was applied to World Weather Attribution: its failure to publish on the Himalayan cascade
+was recorded as the sharpest available illustration of the limits of rapid attribution
+methods. **That was wrong.** On 17 September 2026 WWA published *Rapid Warming in the
+Himalaya Exacerbates Geohazard Cascades Beyond Adaptation Limits*, with contributors in
+ten countries. The silence had been a three-week study in preparation.
+
+So the rule needs splitting, and the split is about whether the institution has published
+a schedule:
+
+- **Silence from a body with a standing publication cycle is evidence**, because the
+  schedule is the commitment. NATO's missed Climate Change and Security Impact
+  Assessments are the type case: an annual instrument that ran 2022, 2023 and 2024 and
+  has now missed two cycles without any statement tells you something about NATO's
+  priorities. Keep scoring that every week.
+- **Silence from a research network between events is evidence about nothing** except how
+  long the work takes. The question to ask of an attribution network is not "did it
+  publish this week" but **"has it declined a case it was asked to take"** — a stated
+  refusal, or a published case selection that passes over an event. Absence of output is
+  not a refusal.
+
+Apply the same distinction to ICIMOD and to any academic centre added later. It does not
+apply to the Forum Secretariat, which has an annual leaders' meeting and communiqué and
+therefore belongs in the first category.
+
+Also, do not describe WWA as unable to serve slope-failure hazards. That was the reading
+carried into 2026-09-13 and the study refutes it: what WWA declined was the **event-level
+counterfactual** ("we have not assessed whether this specific rock-ice avalanche would
+have occurred in the absence of human-induced climate change"), while attributing the
+hazard environment — roughly +1.5°C on July–August temperatures, about +2°C annually, the
+0°C isotherm rising about 100 m per decade — and concluding the event exceeded the limits
+of existing risk reduction and early warning. The method exists for this hazard class; it
+answers a different question than the field assumed it would.
+
+*Added 2026-09-20:* the outstanding gap on this roster is a **Turkish** entry. COP31 is
+at Antalya, 9–20 November 2026, under a Türkiye–Australia presidency, and this list has
+no named contact in either presidency. Fill it before November; whoever holds the Turkish
+COP31 file is the highest-value unfilled slot here now that the AOSIS chair is known.
 
 Dutch note, 2026-09-06, **corrected and qualified 2026-09-13**: the claim used to be
 that HCSS's most recent substantial climate-security output was *Veiligheid in een
@@ -197,3 +303,23 @@ now exists, carries €5 million structural from 2027, and HCSS has engaged it. 
 that engagement is commissioned or unsolicited is unresolved and is the thing to check.
 The standing instruction survives in its narrow form: **do not describe HCSS climate
 output as defence-commissioned without checking the client.**
+
+*Updated 2026-09-20.* The €5 million structural line survived into the 2027 Defence
+budget presented on Prinsjesdag, 15 September, and the **action plan has still not
+appeared** — two and a half months after the July strategy promised concrete measures,
+responsibilities and timelines. What the budget's policy-priorities chapter does contain
+is the doctrinal sentence, which is worth keeping to hand because it is the ministry's own
+formulation: *"Klimaatverandering heeft impact op de krijgsmacht. Het is mission critical,
+ten behoeve van de zelfvoorzienendheid, dat Defensie zich voorbereidt op en aanpast aan de
+veiligheidsgevolgen van klimaatverandering."* Note what is quantified alongside it and what
+is not: sustainable-fuel shares, a smart-grid trial on compounds, and €50 million as a
+first tranche for PFAS remediation at thirteen locations are costed; the security-adaptation
+work is not. When reporting the Dutch defence lane, distinguish **greening spend** from
+**climate-security spend** — the budget has the first and the €5 million line, and nothing
+else. Check rijksfinancien.nl's Defence policy-priorities chapter each budget cycle; the
+ministry's own press release does not carry this.
+
+The standing instruction on checking the client also applies to the centre's 14 September
+2026 study on development cooperation as a strategic investment in European raw-material
+chains (Irina Patrahau, Fiona De Cuyper, Isis Ketelaar, with Laura Birkman and Emma Bokel).
+No client is stated on it.

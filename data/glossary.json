@@ -7,9 +7,19 @@
       "gloss": "The negotiating bloc of low-lying and island states. Its leverage rests almost entirely on 1.5°C being a commitment rather than a target, which is why it fights framing changes to that number.",
       "wikipedia": "Alliance of Small Island States"
     },
+    "AIIB": {
+      "expansion": "Asian Infrastructure Investment Bank",
+      "gloss": "The Beijing-headquartered multilateral development bank. A lender, which matters when a climate-justice argument is taken to it.",
+      "wikipedia": "Asian Infrastructure Investment Bank"
+    },
     "AU": {
       "expansion": "African Union",
       "wikipedia": "African Union"
+    },
+    "BIM": {
+      "expansion": "Barbados Implementation Modalities",
+      "gloss": "The Loss and Damage Fund's interim route to money, financing country-led projects of $5 to $20 million while the fund tests approaches for its longer-term operations. Not a response mechanism for a specific disaster.",
+      "wikipedia": false
     },
     "BRI": {
       "expansion": "Belt and Road Initiative",
@@ -129,6 +139,11 @@
       "gloss": "The US disaster response and mitigation agency.",
       "wikipedia": "Federal Emergency Management Agency"
     },
+    "FRLD": {
+      "expansion": "Fund for responding to Loss and Damage",
+      "gloss": "The fund's own name for itself, usually called the Loss and Damage Fund. Its board is where a claim arising from a specific disaster is decided.",
+      "wikipedia": "Loss and Damage Fund"
+    },
     "GHACOF": {
       "expansion": "Greater Horn of Africa Climate Outlook Forum",
       "gloss": "The regional seasonal-forecast forum, numbered by session."
@@ -149,6 +164,11 @@
     },
     "IMCCS": {
       "expansion": "International Military Council on Climate and Security"
+    },
+    "IenW": {
+      "expansion": "Infrastructuur en Waterstaat",
+      "gloss": "The Dutch Ministry of Infrastructure and Water Management, which holds the water file and the Deltafonds.",
+      "wikipedia": "Ministry of Infrastructure and Water Management"
     },
     "IMD": {
       "expansion": "India Meteorological Department",
@@ -194,6 +214,11 @@
     "NATO": {
       "expansion": "North Atlantic Treaty Organization",
       "wikipedia": "NATO"
+    },
+    "NASEM": {
+      "expansion": "National Academies of Sciences, Engineering, and Medicine",
+      "gloss": "The US academies' advisory body. Its consensus study reports are about as authoritative as a scientific review gets, which makes the questions they decline to take up consequential.",
+      "wikipedia": "National Academies of Sciences, Engineering, and Medicine"
     },
     "NDC": {
       "expansion": "Nationally Determined Contribution",
@@ -260,6 +285,10 @@
       "gloss": "NATO's communications arm, and the office to ask when a NATO publication quietly stops appearing.",
       "wikipedia": false
     },
+    "PDNA": {
+      "expansion": "Post-Disaster Needs Assessment",
+      "gloss": "The standard consolidated assessment of a disaster's physical, economic and human toll and the recovery it requires. Donors routinely make their decisions conditional on it, so its publication date is when the money becomes discussable."
+    },
     "PGA80": {
       "expansion": "President of the 80th session of the UN General Assembly",
       "wikipedia": "President of the United Nations General Assembly"
@@ -282,10 +311,19 @@
       "expansion": "Planetary Security Initiative",
       "gloss": "The Dutch-founded climate-security platform hosted at Clingendael."
     },
+    "RDNA": {
+      "expansion": "Rapid Disaster Needs Assessment",
+      "gloss": "The fast, preliminary version of a post-disaster assessment, produced within weeks. Its figures are the ones quoted while the fuller assessment is still being written, and they move."
+    },
     "SAS-182": {
       "expansion": "Systems Analysis and Studies research task group 182",
       "gloss": "The NATO Science and Technology Organization group behind The Effects of Climate Change on Security, January 2026.",
       "wikipedia": false
+    },
+    "SCP": {
+      "expansion": "Sociaal en Cultureel Planbureau",
+      "gloss": "The Netherlands Institute for Social Research, the government's own social research agency and the best source on Dutch climate opinion. Not to be confused with SCR below, which is an NGO tracking the UN Security Council.",
+      "wikipedia": "The Netherlands Institute for Social Research"
     },
     "SCR": {
       "expansion": "Security Council Report",
