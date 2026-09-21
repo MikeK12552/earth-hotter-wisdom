@@ -20,14 +20,22 @@ digest's verification note.
   2026-09-13 against the Project MUSE record and issue index for International Security
   8(1), Summer 1983. The file had this right, including the pagination.*
 - Mathews, "Redefining Security", *Foreign Affairs*, 1989, 68(2), 162-177. *Verified
-  2026-09-06 against the JSTOR record and the Spring 1989 issue index.*
+  2026-09-06 against the JSTOR record and the Spring 1989 issue index; re-verified
+  2026-09-20 against Crossref, doi 10.2307/20043906, which confirms volume, issue, first
+  page and year. Crossref carries only the opening page, so 177 rests on the issue index.*
 - Deudney, "The Case Against Linking Environmental Degradation and National Security",
   *Millennium*, 1990, 19(3), 461-476, doi 10.1177/03058298900190031001. Read immediately
-  after Mathews, in the same week. *Verified 2026-09-06 against the SAGE DOI record.*
+  after Mathews, in the same week. *Verified 2026-09-06 against the SAGE DOI record and
+  re-verified 2026-09-20 against Crossref: Millennium: Journal of International Studies
+  19(3), 461-476, December 1990. Crossref gives the author as **Daniel Deudney**, no
+  middle initial — earlier site entries said "Daniel H. Deudney" and were wrong.*
   Widely reprinted with different pagination: a page range cited against the *Millennium*
   venue that is not 461-476 is probably a reprint's.
 - Levy, "Is the Environment a National Security Issue?", *International Security*, 1995,
   20(2), 35-62. *Verified 2026-09-06 against JSTOR and the Project MUSE issue index.*
+  **Next up** as of 2026-09-20. This file gives the surname only; the author is Marc A.
+  Levy, and that given name has not been verified against a record — do it before
+  presenting him.
   Closes the phase: Levy argues the Mathews-Deudney exchange is largely about rhetoric
   and that the substantive question is one of comparable magnitude. Read it as the
   phase's verdict, not as a fourth position.
@@ -35,7 +43,10 @@ digest's verification note.
 ## Phase 2 — Scarcity and the first empirical wave (1990–2005)
 
 - Homer-Dixon, "Environmental Scarcities and Violent Conflict: Evidence from Cases",
-  *International Security*, 1994.
+  *International Security*, 1994. *Unverified as of 2026-09-20: no volume, issue or
+  pagination here, and the file's own warning about years being off by one applies.
+  Verify before presenting and correct this entry. Thomas F. Homer-Dixon is the author's
+  full name, itself unverified against a record.*
 - Gleditsch, "Armed Conflict and the Environment: A Critique of the Literature",
   *Journal of Peace Research*, 1998.
 - Buzan, Wæver and de Wilde, *Security: A New Framework for Analysis*, 1998. The
@@ -98,6 +109,20 @@ preserved below for the record; it is history, not position.*
   as new climate militarisation strategy? Observations from Nepal" — week ending
   2026-09-13. Chosen because section B ran on Nepal; the full text could not be read
   (SAGE returned 403) and the summary rests on the publisher's abstract.
+- Phase 1, Mathews 1989 — week ending 2026-09-20. *Re-verified against the Crossref
+  record, doi 10.2307/20043906: Foreign Affairs 68(2), first page 162, 1989. Crossref
+  records only the opening page, so the closing page 177 still rests on the issue index.*
+- Phase 1, Deudney 1990 (critique, read as a pair with Mathews) — week ending 2026-09-20.
+  *Re-verified against the Crossref DOI record. One correction to this file and to the
+  digests: Crossref gives the author as **Daniel Deudney**, without the middle initial.
+  Earlier entries on the site carry "Daniel H. Deudney". Use the shorter form.*
+- Outside the sequence, National Academies of Sciences, Engineering, and Medicine 2026,
+  *Attribution of Extreme Weather and Climate Events and Their Impacts*, consensus study
+  report, The National Academies Press, 15 July 2026, doi 10.17226/28590 — week ending
+  2026-09-20. Chosen because section B ran on the Himalaya attribution study; the report
+  names compounding, cascading and record-breaking events as the hard cases two months
+  before one of them had to be handled, and puts liability and damages explicitly outside
+  its scope. Full text and committee roster not read.
 
 ### Before the reset (2026-08-31 to 2026-09-06)
 

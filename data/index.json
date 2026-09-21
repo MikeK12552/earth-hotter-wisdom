@@ -1,7 +1,19 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-14T04:35:45.939Z",
+  "generated": "2026-09-21T04:34:28.676Z",
   "digests": [
+    {
+      "id": "2026-09-20",
+      "week_start": "2026-09-14",
+      "week_end": "2026-09-20",
+      "week_number": 4,
+      "standfirst": "The attribution scientists who spent three weeks declining to say whether warming caused the Himalayan disaster published on 17 September and did something neither side of that argument expected: they refused the event-level question, attributed the conditions that produced it, and declared the event past the limits of what adaptation could have prevented. Within twenty-four hours Nepal's finance minister was in New Delhi using the finding. Meanwhile the Dutch budget answered a request to double water spending by funding the one thing the request said was already funded, and the United States finalised the repeal of its power-plant carbon rules on the floor of a G20 energy meeting whose only outcome document does not contain the word climate.",
+      "counts": {
+        "developments": 7,
+        "moves": 5,
+        "open_threads": 11
+      }
+    },
     {
       "id": "2026-09-13",
       "week_start": "2026-09-07",
