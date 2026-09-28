@@ -42,11 +42,25 @@ government is ever named as commissioner or partner. No client is stated on any 
 five. A second US institute writing for statehouses would make this a field-level shift
 rather than one organisation's strategy.
 
-**Louise van Schaik** *(verified Aug 2026)* — Clingendael: Head of Unit EU & Global
-Affairs, Programme Lead Critical Resources, project lead of the Planetary Security
-Initiative; visiting professor at the College of Europe. Current statement: *The
-Resilience Agenda*, with Hannah Lentschig (Systemiq with the University of Oxford and
-Clingendael, 5 February 2026).
+**Louise van Schaik** *(verified 2026-09-27)* — **Senior Research Fellow and PSI
+Coordinator**, per the Planetary Security Initiative's own team page, which opened on
+2026-09-27 after clingendael.org refused retrieval for a third consecutive week. The same
+page gives **Hannah Lentschig** as **PSI Project Leader**, which is the role this file
+and the PSI site previously attached to van Schaik. Also listed there: **Tobias von
+Lossow**, **Emil Marc Havstrup** and **Jos Meester** (Conflict Research Unit) as research
+fellows, **Floor Stoelinga** as researcher. She is a visiting professor at the College of
+Europe. Current statement: *The Resilience Agenda*, with Hannah Lentschig (Systemiq with
+the University of Oxford and Clingendael, 5 February 2026).
+
+*Correction, 2026-09-27, replacing the checking note that used to sit at the bottom of
+this file.* The unresolved discrepancy — PSI describing her as Project Manager of PSI and
+Head of the Clingendael International Sustainability Centre, against Clingendael's Head of
+Unit EU & Global Affairs and Programme Lead Critical Resources — is resolved on the PSI
+side and only there. PSI now says Senior Research Fellow and PSI Coordinator, and names a
+separate project leader. That is the current description from the platform she runs, so it
+is the one to use. It does **not** confirm or deny the Clingendael unit-head titles, which
+still rest on August sourcing and on pages that will not open. When naming her, name the
+PSI role.
 
 *Note on PSI, 2026-09-06:* the only publicly datable announcement of a PSI funding phase
 that can be surfaced is Clingendael's *A new 3-year phase for the Planetary Security
@@ -70,9 +84,23 @@ competitiveness politics: he bundles climate, energy security and strategic inde
 into a single argument, which is either the frame's greatest institutional success or
 its dilution into industrial policy.
 
-**Simon Stiell** *(verified 2026-09-13)* — UNFCCC Executive Secretary since August 2022,
-reappointed for a second three-year term in June 2025. Role re-confirmed this week
-against UNFCCC and UN News coverage of his 10 September appearance.
+**Simon Stiell** *(verified 2026-09-27)* — UNFCCC Executive Secretary since August 2022,
+reappointed for a second three-year term in June 2025. Role re-confirmed against UNFCCC's
+own news pages and September 2026 coverage of both his 10 September appearance before the
+European Parliament's environment committee and his 9 September opening of Baku Climate
+Week.
+
+*The standing question worked again, 2026-09-27.* Asked which register he reaches for
+rather than how much security language he uses, the answer at New York Climate Week on 22
+September was energy-supply security: electrification frames countries, families and
+businesses as shielded from fossil-fuel supply shocks, and the formulation was "a
+development strategy, an industrial strategy, a health strategy, and a security strategy"
+— security fourth, and meaning supply security. Two weeks, two appearances, two
+substitutions, zero uses of this field's own vocabulary. Treat that as settled and stop
+re-testing it weekly; the thing still worth watching is whether anyone outside the
+climate-policy system picks his formulation up, which they did not this week — the
+European institution that did adopt a security framing on 24 September used *national
+security risk*, the field's own term, not his.
 
 *Correction, 2026-09-13:* this entry used to say "watch how much security language he
 does and does not use; the secretariat has structural reasons for caution". That is the
@@ -101,13 +129,15 @@ School of International and Public Affairs. Her ministry's climate foreign polic
 strategy is now a legacy document under a different government; whether it survived the
 transition is the analytically interesting question.
 
-**Tom Middendorp** *(partly verified 2026-09-20)* — **IMCCS chair confirmed** against
-imccs.org, which lists him as General Tom Middendorp, Chief of Defence of the Netherlands
-(Ret), and as chair of the council. His Clingendael association is **not** verified and
-should not be stated: clingendael.org has refused retrieval on 2026-09-13 and 2026-09-20.
-Name the chairmanship, which is sourced, and the institute rather than the individual for
-anything Dutch. The Dutch instance of a recurring pattern: a retired flag officer carrying
-credibility into a defence ministry that a civilian researcher cannot.
+**Tom Middendorp** *(verified 2026-09-27)* — **IMCCS chair** confirmed against imccs.org
+across four consecutive weeks: General Tom Middendorp, Chief of Defence of the Netherlands
+(Ret), chair of the council. **The Clingendael association is now verified and may be
+stated**: the Planetary Security Initiative's team page, which opened on 2026-09-27, lists
+him as **Senior Research Associate** there and as chairman of the IMCCS. Two previous weeks
+of this file said the association was unverified and should not be stated; that
+instruction is withdrawn, and the reason it stood for three weeks was that only
+clingendael.org was being tried. The Dutch instance of a recurring pattern: a retired flag
+officer carrying credibility into a defence ministry that a civilian researcher cannot.
 
 **Laura Birkman** *(verified 2026-09-20)* — Director of HCSS's Climate, Water and Food
 Security Programme, a role held since January 2025, having joined the centre in 2019 as a
@@ -120,10 +150,70 @@ cooperation as raw-materials security. Her IMCCS membership alongside Middendorp
 chairmanship means the Dutch presence in that council is now two named people, which is
 worth knowing when the council's own output has been dormant since October 2025.
 
-**Sherri Goodman** *(unverified)* — widely credited with originating "threat multiplier"
-as US Deputy Under Secretary of Defense (Environmental Security) and later at CNA;
-author of a 2024 memoir of that title. Verify the coinage attribution before repeating
-it.
+**Sherri Goodman** *(partly verified 2026-09-27)* — **Secretary General of the IMCCS**,
+listed as such on imccs.org alongside the chairmanship, and described there as former US
+Deputy Under Secretary of Defense (Environmental Security). Both the current role and the
+former one are therefore sourced. What remains **unverified** is the thing this entry
+exists for: the attribution to her of the coinage "threat multiplier". She is widely
+credited with it and is the author of a 2024 memoir of that title; no primary source for
+the coinage has been checked. Do not repeat the coinage claim as fact. Note also what her
+role implies about the council's dormancy: a body with a named chair and a named secretary
+general has published nothing since October 2025, which is a choice rather than a
+capacity problem.
+
+**Ed Miliband** *(verified 2026-09-27)* — **UK Foreign Secretary**, confirmed against
+gov.uk's own publication of his New York Climate Week opening keynote of 21 September
+2026, *What climate security means now*. Added because the United Kingdom became, in one
+week, the most active state actor in this field: the keynote asked for climate and nature
+to be embedded in national security systems, threat assessments and contingency planning
+and addressed itself to the security community and the generals rather than the activist
+community and the green campaigners; he then co-hosted the UNGA foreign ministers'
+dialogue on climate change and ecosystem degradation as national security risks on 24
+September with Kaja Kallas and Kenya's Musalia Mudavadi; and on 25 September the FCDO
+announced £331 million for climate-driven instability. **Read the money before the
+speech.** The £331 million is £330 million to the Global Environment Facility and £1
+million to the UN Climate Security Mechanism — three tenths of one per cent to the only
+machinery that does what the package is named after, and to a pooled fund the UK already
+supports. The rhetoric is the field's own, the analysis is competent, and the resource
+commitment is a rounding error; all three are true and the field will report the first
+two. The standing question here is whether the proportion is a one-off or the going rate.
+
+Note the British institutional base, because it is more than one minister: a **UK Climate
+Security Taskforce** was launched on 26 June 2026 by Climate Minister Katie White, with an
+initial membership including Gen. Richard Nugee (non-executive director for climate change
+and sustainability at the Ministry of Defence), Janani Vivekananda (adelphi), Olivia Lazard
+(Berggruen Institute), Tim Benton, Nick Bridge, Duncan de Pledge, Bassam Fattouh and
+Nathalie Pettorelli. *Membership taken from contemporaneous reporting of the launch, not
+from gov.uk; verify against the department before quoting any individual.* When the
+taskforce reports, that is the document to read.
+
+**Kaja Kallas** *(verified 2026-09-27)* — High Representative of the Union for Foreign
+Affairs and Security Policy and Vice-President of the European Commission, title as given
+in the co-hosts' own statement of 24 September 2026. Added for a specific reason: this is
+the Union's **security** principal, not its climate commissioner, co-hosting on climate as
+a national security risk. For two years this digest has recorded European climate arguments
+migrating into economic-security and energy-security language because the field's own
+register was unavailable; this is the counter-instance, and it suggests the migration was
+tactical. Watch whether anything follows from the EEAS itself.
+
+**Musalia Mudavadi** *(verified 2026-09-27)* — Prime Cabinet Secretary and Cabinet
+Secretary for Foreign and Diaspora Affairs of Kenya, title as given in the same statement.
+The load-bearing part of that dialogue's design: a Northern-convened climate-security
+plurilateral with no African co-host is answerable to the standing G77 objection that the
+whole frame is Northern securitisation, and with one it is not. He is also the first
+African principal on this roster, which is overdue.
+
+**Chris Barrie** *(partly verified 2026-09-27)* — former Chief of the Australian Defence
+Force, speaking for the **Australian Security Leaders Climate Group**. Added because he is
+doing something new with the retired-flag-officer role this file has tracked in three
+countries. On 21-22 September he used it *against* his own government: if the prime
+minister is going to New York to say climate security is national security, he said,
+Australians are entitled to ask a very simple question — where is the plan — and pointed at
+continuing coal and gas expansion. The 2007 pattern was retired officers manufacturing an
+agenda; this is retired officers auditing one politicians have already adopted, which is
+what a matured frame looks like and also its most dangerous moment. *His current
+affiliation and the group's standing rest on a single press report and should be checked
+against the group's own material.*
 
 **To add:** the head of the UN Climate Security Mechanism, NATO's climate and security
 officials, whoever holds the EEAS climate-security file, the Pacific Islands Forum
@@ -203,32 +293,69 @@ China, the Gulf states, the African Union, AOSIS, India.
 
 Checking note, 2026-09-13, on where to look rather than whether to look:
 
-- **NATO.** The Secretary-General's annual Climate Change and Security Impact Assessment
-  ran 2022, 2023, 2024 and has now missed two cycles with no announcement of
-  discontinuation, suspension or replacement. Check NATO's own environment and climate
-  topic page each week, not the press releases; the topic page is where the series is
-  listed and where its absence is legible. The Science and Technology Organization's
-  SAS-182 report (January 2026) is a research-task-group output and does not substitute.
+- **NATO. Rewritten 2026-09-27, and this is the important correction on this page.** The
+  instruction above used to be: check the environment and climate topic page each week,
+  because that is where the lapsed annual assessment's absence is legible. Following that
+  instruction and nothing else produced a wrong finding. On **15 September 2026** NATO
+  issued the **2026 Resilience Baseline Requirements** — the first substantial revision of
+  the seven baseline requirements since Warsaw 2016, and the first time they have been
+  released publicly — and announced them on 17 September. The digest for the week ending
+  2026-09-20 recorded NATO's continued silence instead.
+
+  What the document does is the finding, and it is only visible if you read the text
+  against the announcement. The text names *"extreme weather, natural disasters, space
+  weather and changing environmental conditions, which inflict increasing strain on
+  resilience across the Euro-Atlantic area"* among the additional cross-cutting risks;
+  widens requirement 4 from contamination to all threats and hazards, obliging allies to
+  hold *"comprehensive contingency plans — regularly exercised nationally and/or with
+  other Allies — to secure food and water supply, particularly during crisis and
+  conflict"*; and widens the energy requirement to mitigation plans for the full spectrum
+  of risks including cascading impacts. **The phrase "climate change" does not appear
+  anywhere in it.** The announcement mentions neither climate nor extreme weather at all
+  and frames the release around hybrid attack and the 1.5-per-cent-of-GDP civil
+  preparedness commitment. This is the same operation the US Department of Defense
+  performed by memorandum on 17 March 2025 — remove references to climate change from
+  planning documents, expressly preserve the hardening of installations against extreme
+  weather.
+
+  So: check **official texts**, not only the topic page and not only press releases. The
+  climate work has not stopped; it has changed vehicles and lost its name, and the vehicle
+  it moved into is binding on allies where an annual report never was. The assessment
+  series is still listed for 2022, 2023 and 2024 with nothing since, and no statement
+  about it has ever been made. One caution about the topic page itself: a read on
+  2026-09-13 reported its most recent item as June 2025 and a read on 2026-09-27 reported
+  the page as last updated July 2024. One of those is wrong; do not cite either date. The
+  Science and Technology Organization's SAS-182 report (January 2026) remains a
+  research-task-group output and does not substitute for anything.
 - **Center for Climate and Security.** Its output is no longer at climateandsecurity.org,
   whose blog has shown nothing since April 2026. CCS-branded items now appear on the
   parent site, councilonstrategicrisks.org. Checking only the old domain would have
   scored an active institute as silent — it was nearly scored that way on 2026-09-13.
-- **Louise van Schaik.** Unresolved discrepancy: the PSI site describes her as Project
-  Manager of PSI and Head of the Clingendael International Sustainability Centre, while
-  Clingendael's own materials describe her as Head of Unit EU & Global Affairs and
-  Programme Lead Critical Resources. Her role is not in question; which description is
-  current is. Resolve when clingendael.org is reachable — it returned HTTP 403 on
-  2026-09-13 and again on 2026-09-20. Two consecutive refusals means this will not resolve
-  by retrying the same page; try the institute's staff page via a search-engine cache, or
-  a conference programme or co-authored publication from 2026 that states her title.
-- **adelphi.** Correction, 2026-09-20: the 2026-09-13 note gave the Berlin Climate and
-  Security Conference as scheduled for 6 October 2026. That date could not be confirmed
-  against anything opened this week — adelphi's publications index shows a documented 2025
-  edition and no 2026 date. Do not restate 6 October without a source. The conference is
-  the single most useful dated European climate-security event of the year and its 2026
-  status is now an open question rather than a known fixture.
-- **SIPRI.** Where to look is the climate-change-and-security publications list, not the
-  front page: *Beyond the Blue Line: Tackling Climate, Peace, and Security Challenges in
+- **Clingendael, and the lesson from the van Schaik discrepancy.** clingendael.org refused
+  retrieval on 2026-09-13, 2026-09-20 and 2026-09-27. Three refusals means the institute's
+  own silence **cannot be assessed at all** — that is a hole in the method, not a finding
+  about the institute, and it should be recorded as a third category every week it
+  happens, separately from silence-that-is-evidence and silence-that-is-only-lead-time.
+  The job-title discrepancy that sat here for three weeks was resolved on 2026-09-27 not by
+  retrying that domain but by opening **planetarysecurityinitiative.org/team**, which is a
+  different host. See the van Schaik and Middendorp entries above. The general instruction:
+  when a domain refuses three times, stop treating the fourth attempt as the plan and go
+  looking for the sister site, the co-hosted platform or the conference programme.
+- **adelphi.** Correction, 2026-09-20, re-checked 2026-09-27 and unchanged: the
+  2026-09-13 note gave the Berlin Climate and Security Conference as scheduled for 6
+  October 2026. That date has now failed to confirm against adelphi's own publications
+  index on three consecutive checks, which shows a documented 2025 edition and no 2026
+  date. **Do not restate 6 October.** For an annual fixture, three weeks of absence with
+  the nominal date less than two weeks away is itself evidence, and the likeliest reading
+  is that there is no 2026 edition. adelphi's only item in the week to 2026-09-27 was an
+  account of its own Berlin convening of German and American experts on US energy dynamics
+  below the federal level, 22 September, co-hosted with Atlantik-Brücke — worth noting
+  against the state-level question in the Sikorsky entry, but it contains no security
+  content and does not answer it.
+- **SIPRI.** *Re-checked 2026-09-27: the climate-change-and-security publications list
+  ends at the August Abyei study and carries nothing for September. Under the split rule
+  below that is silence-as-lead-time and not a finding.* Where to look is the
+  climate-change-and-security publications list, not the front page: *Beyond the Blue Line: Tackling Climate, Peace, and Security Challenges in
   Abyei*, by Katongo Seyuba (SIPRI climate change and risk programme) and Andrew E. Yaw
   Tchie (NUPI), published Stockholm, August 2026, appears there and was missed for a month
   by checking elsewhere. A *Climate, Peace and Security Fact Sheet: Lake Chad (2026)* is
@@ -276,6 +403,38 @@ hazard environment — roughly +1.5°C on July–August temperatures, about +2°
 0°C isotherm rising about 100 m per decade — and concluding the event exceeded the limits
 of existing risk reduction and early warning. The method exists for this hazard class; it
 answers a different question than the field assumed it would.
+
+*Added 2026-09-27, on the multilateral machinery.* The **UN Climate Security Mechanism**
+is no longer an undocumented question mark. Its own programme pages give an extended
+**Phase III running 2026-2028**, **ten advisers** deployed to UN missions and regional
+organisations — the most recent a climate, peace and security adviser to the **Pacific
+Islands Forum**, onboarded June 2026 at the request of Pacific states — and **fourteen
+contributing governments** as of January 2026 (Austria, Canada, Czechia, Denmark, France,
+Germany, Ireland, Norway, Portugal, Slovenia, Sweden, Switzerland, the UAE and the UK),
+funded through a UN multi-partner trust fund. The UK added **£1 million** on 25 September
+2026. Two consequences for how this is tracked. First, the unit is not being wound down,
+so stop asking whether it survives. Second, the funding *trajectory* is still unknown and
+the route to it is now identified: the trust fund publishes a consolidated annual report
+and a consolidated financial report per year, and the 2025 pair is listed. The figures did
+not render for the routine on 2026-09-27; open them properly and the funding question
+closes.
+
+*Added 2026-09-27, on the Fund for responding to Loss and Damage.* **frld.org refused
+retrieval** (403) on 2026-09-27, the first time this routine has tried it, so the
+instruction in the co-chairs entry above — verify them against frld.org rather than press
+reporting — could not be carried out and the co-chairs and board dates still rest on the
+Kathmandu Post. Try a different route: the fund's board documents are also posted through
+the UNFCCC and the board meeting reports carry the co-chairs' names on the cover.
+
+*Added 2026-09-27, on where the field's output actually appeared this week.* Four of the
+five moves in the digest for the week ending 2026-09-27 came from **governments**, not
+from anything on this roster: a British foreign secretary, a European High Representative,
+a Kenyan foreign minister, a Nepali prime minister, an Australian prime minister, and
+NATO's own drafters. The institutes produced one analysis between them. That is worth a
+standing note rather than a one-off observation: this roster was built when the institutes
+led and the governments followed, and for at least one week it was the other way round. If
+that repeats, the roster needs a **principals** tier that is checked before the institutes
+tier, not after.
 
 *Added 2026-09-20:* the outstanding gap on this roster is a **Turkish** entry. COP31 is
 at Antalya, 9–20 November 2026, under a Türkiye–Australia presidency, and this list has

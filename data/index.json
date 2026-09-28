@@ -1,7 +1,19 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-21T04:34:28.676Z",
+  "generated": "2026-09-28T05:18:09.819Z",
   "digests": [
+    {
+      "id": "2026-09-27",
+      "week_start": "2026-09-21",
+      "week_end": "2026-09-27",
+      "week_number": 5,
+      "standfirst": "For the first time the whole United Nations membership has agreed that a state does not stop being a state when its territory goes under water, and that its ocean boundaries hold where its coastline does not — and the United States did not block it. In the same week NATO published the first revision of its resilience baseline in a decade, with extreme weather written in and the words climate change written out, while a British foreign secretary told the security community that climate belongs in threat assessments and then routed £1 million of a £331 million package to the only standing multilateral machinery the field has. Somalia's government and the United Nations asked for money to act on a flood forecast that is about as close to certain as forecasts get, and did not get it.",
+      "counts": {
+        "developments": 7,
+        "moves": 5,
+        "open_threads": 15
+      }
+    },
     {
       "id": "2026-09-20",
       "week_start": "2026-09-14",

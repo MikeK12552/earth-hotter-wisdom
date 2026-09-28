@@ -32,23 +32,37 @@ digest's verification note.
   Widely reprinted with different pagination: a page range cited against the *Millennium*
   venue that is not 461-476 is probably a reprint's.
 - Levy, "Is the Environment a National Security Issue?", *International Security*, 1995,
-  20(2), 35-62. *Verified 2026-09-06 against JSTOR and the Project MUSE issue index.*
-  **Next up** as of 2026-09-20. This file gives the surname only; the author is Marc A.
-  Levy, and that given name has not been verified against a record — do it before
-  presenting him.
+  20(2), 35-62, doi 10.2307/2539228. *Verified 2026-09-06 against JSTOR and the Project
+  MUSE issue index; re-verified 2026-09-27 against Crossref, which confirms the author as
+  **Marc A. Levy** — the given name this file previously gave only as a surname and
+  flagged as unchecked. Crossref records volume 20, issue 2, 1995, first page 35, and as
+  with the rest of this phase records only the opening page, so 62 rests on the issue
+  index, which independently gives Fall 1995, 35-62.* **Read** in the week ending
+  2026-09-27.
   Closes the phase: Levy argues the Mathews-Deudney exchange is largely about rhetoric
   and that the substantive question is one of comparable magnitude. Read it as the
   phase's verdict, not as a fourth position.
+  *Note for anyone re-reading it: no copy reachable from the routine's network would open
+  on 2026-09-27 — JSTOR, Project MUSE, ResearchGate and the author's own deposits all
+  refused. The digest's account of the three-way taxonomy (existential, physical,
+  political) rests on secondary summaries and should be checked against the original
+  before the taxonomy is quoted as Levy's own wording.*
 
 ## Phase 2 — Scarcity and the first empirical wave (1990–2005)
 
 - Homer-Dixon, "Environmental Scarcities and Violent Conflict: Evidence from Cases",
-  *International Security*, 1994. *Unverified as of 2026-09-20: no volume, issue or
-  pagination here, and the file's own warning about years being off by one applies.
-  Verify before presenting and correct this entry. Thomas F. Homer-Dixon is the author's
-  full name, itself unverified against a record.*
+  *International Security*, 1994, 19(1), 5-40, doi 10.2307/2539147. **Next up** as of
+  2026-09-27. *Verified 2026-09-27 against Crossref, which gives **Thomas F.
+  Homer-Dixon**, International Security 19(1), 1994, first page 5; the issue record gives
+  Summer 1994, 5-40. This entry previously carried no volume, issue or pagination and the
+  author's full name was unverified. The year was right.*
 - Gleditsch, "Armed Conflict and the Environment: A Critique of the Literature",
-  *Journal of Peace Research*, 1998.
+  *Journal of Peace Research*, 1998, 35(3), 381-400, doi 10.1177/0022343398035003007.
+  The critique to Homer-Dixon; read in the same week, per the rule above. *Verified
+  2026-09-27 against Crossref: **Nils Petter Gleditsch**, Journal of Peace Research
+  35(3), 1998, 381-400. Do not restate a publisher for this one — the Crossref record's
+  publisher field and the DOI prefix disagree, which is an artefact of the journal
+  changing hands and is not worth resolving.*
 - Buzan, Wæver and de Wilde, *Security: A New Framework for Analysis*, 1998. The
   environmental sector chapter plus the general theory of securitisation.
 - Then Bächler 1999 (ENCOP), Le Billon 2001, Kahl 2006.
@@ -116,6 +130,19 @@ preserved below for the record; it is history, not position.*
   *Re-verified against the Crossref DOI record. One correction to this file and to the
   digests: Crossref gives the author as **Daniel Deudney**, without the middle initial.
   Earlier entries on the site carry "Daniel H. Deudney". Use the shorter form.*
+- Phase 1, Levy 1995 — week ending 2026-09-27. Closes phase 1. *Given name verified as
+  Marc A. Levy against Crossref; see the corrected entry above. Full text could not be
+  opened from the routine's network, so the summary published that week is reconstructed
+  from secondary accounts and says so.*
+- Outside the sequence, Strauss 2026, *Journal on the Use of Force and International
+  Law*, "Challenges to peace arising from the reconfiguration of state territory amid the
+  sea level rise", published online 18 March 2026, 1-15, doi
+  10.1080/20531702.2026.2646034 — week ending 2026-09-27. Chosen because section B ran on
+  the first UN declaration on sea-level rise and this is the most recent peer-reviewed
+  treatment of the same problem from the use-of-force side. Author affiliations from
+  Crossref: Centre d'Etudes Diplomatiques et Stratégiques, Paris, and Université
+  Catholique de Lille. Volume and issue not yet assigned; the publisher's page returned
+  403 and the reading rests on the abstract.
 - Outside the sequence, National Academies of Sciences, Engineering, and Medicine 2026,
   *Attribution of Extreme Weather and Climate Events and Their Impacts*, consensus study
   report, The National Academies Press, 15 July 2026, doi 10.17226/28590 — week ending
@@ -143,3 +170,7 @@ rule costs a third item in any week where a curriculum pair falls due, because t
 empirical slot still has to be filled. That is the right trade — deferring the critique is
 the one thing this file forbids — but expect it at Mathews/Deudney, at
 Homer-Dixon/Gleditsch, at Hsiang-Burke-Miguel/Buhaug, and at Kelley/Selby.
+
+*Due now:* Homer-Dixon 1994 and Gleditsch 1998 are the next pair, so the week that takes
+them needs three section A items. Both are verified as of 2026-09-27 precisely so that
+week does not spend its verification budget on citations.
