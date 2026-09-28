@@ -115,6 +115,11 @@
       "expansion": "Democratic Republic of the Congo",
       "wikipedia": "Democratic Republic of the Congo"
     },
+    "EAM": {
+      "expansion": "External Affairs Minister",
+      "gloss": "India's foreign minister \u2014 the office, not the ministry. MEA in these digests is the ministry itself; EAM is the person who runs it.",
+      "wikipedia": "Minister of External Affairs (India)"
+    },
     "EEAS": {
       "expansion": "European External Action Service",
       "gloss": "The EU's diplomatic service, and where its climate-security file sits.",
@@ -156,6 +161,11 @@
     "HCSS": {
       "expansion": "The Hague Centre for Strategic Studies",
       "wikipedia": "The Hague Centre for Strategic Studies"
+    },
+    "HiRISK": {
+      "expansion": "High Mountain Asia risk consortium",
+      "gloss": "A self-described loose consortium of High Mountain Asia risk experts producing open datasets, dashboards and risk assessments. Not an institute, not a funded programme, and not the initials of a longer official name \u2014 which is why establishing its membership and funding took two weeks.",
+      "wikipedia": false
     },
     "ICIMOD": {
       "expansion": "International Centre for Integrated Mountain Development",
