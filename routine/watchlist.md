@@ -42,6 +42,28 @@ government is ever named as commissioner or partner. No client is stated on any 
 five. A second US institute writing for statehouses would make this a field-level shift
 rather than one organisation's strategy.
 
+*Updated 2026-10-04, and the state-level reading needs demoting.* No new state briefer has
+appeared since the Ohio one of 18 September — two consecutive weeks — while the institute's
+only climate item between 28 September and 4 October was the announcement, on 2 October, of
+a **private tabletop exercise with Reflective** on the security dynamics of a fictional
+2030 **stratospheric aerosol injection** deployment to slow Arctic warming, scheduled for
+14 October alongside the Montréal Climate Security Summit, with no participants named and
+no output document. Three registers in three weeks — statehouse briefers, an analysis of
+NATO's new resilience requirements, now a great-power geoengineering scenario — which reads
+as several simultaneous bets rather than a relocation. **Treat the statehouse series as one
+bet among several, not as the institute's strategy.**
+
+The SRM indicator flagged above has landed, and the format is the finding. A tabletop
+produces no citable document, has no named participants and leaves nothing anyone can
+dispute, which makes it the instrument of choice for a subject too radioactive to publish
+on. Whether it surfaces risks or normalises the premise cannot be determined from outside
+and will not be determinable afterwards either. Two things to watch after 16 October:
+whether anything citable emerges, and whether any state or alliance body is revealed to
+have taken part. And one caution on reading the scenario's own framing, which concerns how
+different deployment designs would affect sea ice: that is a question of physical efficacy
+that a geopolitical tabletop cannot answer and in which the co-convening research
+organisation has a direct interest.
+
 **Louise van Schaik** *(verified 2026-09-27)* — **Senior Research Fellow and PSI
 Coordinator**, per the Planetary Security Initiative's own team page, which opened on
 2026-09-27 after clingendael.org refused retrieval for a third consecutive week. The same
@@ -161,6 +183,18 @@ role implies about the council's dormancy: a body with a named chair and a named
 general has published nothing since October 2025, which is a choice rather than a
 capacity problem.
 
+*Re-checked 2026-10-04, fifth consecutive week of silence, and the week supplied the test
+the dormancy fails.* The council's most recent item of any kind is still the open letter of
+**23 October 2025** calling for clean energy investment to be counted inside NATO's 1.5 per
+cent non-core defence spending target, and there is still no World Climate and Security
+Report after the 2024 edition. In the same month, the alliance's own Climate Change and
+Security Centre of Excellence is convening a summit on climate-smart defence investment *on
+the road to 5 per cent* — which is, almost exactly, the argument the council made a year
+ago and then stopped making. A body with a named chair, a named secretary general and a
+standing report series has gone quiet in the month its own position became somebody else's
+agenda. That is now the sharpest available statement of the dormancy and it should be
+carried as such rather than as a running tally of weeks.
+
 **Ed Miliband** *(verified 2026-09-27)* — **UK Foreign Secretary**, confirmed against
 gov.uk's own publication of his New York Climate Week opening keynote of 21 September
 2026, *What climate security means now*. Added because the United Kingdom became, in one
@@ -229,6 +263,39 @@ the person to quote when that character is under pressure — and the overshoot 
 recorded in the 2026-09-06 digest can now be attributed to a principal rather than only
 to the institution. Two dates make the chair worth tracking closely: the chairmanship
 runs out at the end of 2026, and COP31 at Antalya falls inside it.
+
+*Note added 2026-10-04 on where the small-island argument has actually gone.* The alliance's
+own pages were **not** tried on 2026-10-04, and the position that week was carried by Fiji
+rather than by the alliance — so verify Seid afresh before quoting her, and read the two
+Fijian entries below as the live source. More importantly, the **argument has changed
+shape** and the entry above now mis-describes it. The defence of 1.5°C being carried into
+the pre-COP31 talks is not about the threshold's legal character at all; it is a procedural
+defence of the **IPCC as the reference body**. Ask about the certifier, not the number.
+
+**Sivendra Michael** *(verified 2026-10-04)* — **Permanent Secretary for Environment and
+Climate Change, Fiji**, and Fiji's **chief negotiator**; also co-chair of the Strategic
+Climate Fund trust fund committee for recipient countries and a co-facilitator of the
+UNFCCC ocean and climate change dialogue for 2026. Added because on **29 September 2026**
+he set out Fiji's four pillars for Pre-COP31 — hold the line on science and 1.5°C, climate
+finance, oceans, Pacific leadership — and because of the reason he gave for the first one,
+which is the most useful single sentence a small-state negotiator has produced in this
+digest's run: some countries want scientific bodies other than the IPCC to guide decisions,
+and *"that limits participation of small countries like Pacific because we don't have such
+kind of scientific bodies like a NASA."* He cites the ICJ's treatment of the IPCC as the
+authoritative science. On finance: *"It shouldn't take you 18 months to disperse a fund
+when a community is waiting for another 18 months."* **He is the person to work for the
+IPCC-authority question**, which is now a tracked thread. Pre-COP31 ran 5–8 October 2026 at
+Nadi, with a limited delegation continuing to Tuvalu.
+
+**Lynda Tabuya** *(verified 2026-10-04)* — **Minister for Environment and Climate Change,
+Fiji**, and additionally **Chair of the Pacific Small Island Developing States** and
+**Political Champion for Climate Finance**. She opened the Pre-COP31 talks on 5 October with
+three messages: keep 1.5°C within reach, make finance reach the communities that need it,
+give the ocean its rightful place in the climate regime. The PSIDS chairmanship is the part
+to note: it means the Pacific negotiating bloc's chair and the host ministry are the same
+person during the run-up to Antalya, which concentrates a lot of the small-island position
+in one office. Added alongside Michael because between them they are the two most quotable
+Pacific principals for the next two months, and this roster has been short of them.
 
 **The Loss and Damage Fund co-chairs** *(verified 2026-09-20)* — **Camila Minerva
 Rodriguez Tavarez** and **Georg Børsting**, co-chairs of the board of the Fund for
@@ -327,12 +394,31 @@ Checking note, 2026-09-13, on where to look rather than whether to look:
   the page as last updated July 2024. One of those is wrong; do not cite either date. The
   Science and Technology Organization's SAS-182 report (January 2026) remains a
   research-task-group output and does not substitute for anything.
+
+  *Added 2026-10-04, and this is where to look next.* The alliance's own **Climate Change
+  and Security Centre of Excellence (CCASCOE)**, in **Montréal**, is a distinct body from
+  NATO HQ and the STO and has not been on this roster. It is convening, with the Conference
+  of Defence Associations Institute, the **Montréal Climate Security Summit 2026** on **15
+  and 16 October**, titled *Resilient Defence: Climate-Smart Investments on the Road to
+  5%* — the road being the alliance's Hague commitment of 5 per cent of GDP by 2035, of
+  which 1.5 points are defence- and security-related including resilience. Nine thematic
+  tracks: climate-resilience metrics for procurement, financing climate-smart defence,
+  climate intelligence in planning, defence industrial strategies, critical-minerals supply
+  chains, resilient infrastructure, personnel readiness, operational energy, public-private
+  partnerships. Speakers include Maj.-Gen. J.J.L.N. Pilon (Canadian Armed Forces),
+  Ambassador Hanne Ulrichsen (Norway to Canada) and Brigadier Tim Symonds (British Army);
+  by invitation only. **Check ccascoe.org each week, separately from nato.int.** The
+  analytical value is specific: if the centre of excellence says *climate* freely while the
+  binding baseline requirements of 15 September do not, then the removal of the referent
+  from those requirements was a drafting discipline applied to instruments that bind, not a
+  change in what the alliance thinks. That is a narrower and far more testable finding than
+  the one currently carried, and the summit is the test.
 - **Center for Climate and Security.** Its output is no longer at climateandsecurity.org,
   whose blog has shown nothing since April 2026. CCS-branded items now appear on the
   parent site, councilonstrategicrisks.org. Checking only the old domain would have
   scored an active institute as silent — it was nearly scored that way on 2026-09-13.
 - **Clingendael, and the lesson from the van Schaik discrepancy.** clingendael.org refused
-  retrieval on 2026-09-13, 2026-09-20 and 2026-09-27. Three refusals means the institute's
+  retrieval on 2026-09-13, 2026-09-20, 2026-09-27 and 2026-10-04. Four refusals means the institute's
   own silence **cannot be assessed at all** — that is a hole in the method, not a finding
   about the institute, and it should be recorded as a third category every week it
   happens, separately from silence-that-is-evidence and silence-that-is-only-lead-time.
@@ -341,20 +427,53 @@ Checking note, 2026-09-13, on where to look rather than whether to look:
   different host. See the van Schaik and Middendorp entries above. The general instruction:
   when a domain refuses three times, stop treating the fourth attempt as the plan and go
   looking for the sister site, the co-hosted platform or the conference programme.
-- **adelphi.** Correction, 2026-09-20, re-checked 2026-09-27 and unchanged: the
-  2026-09-13 note gave the Berlin Climate and Security Conference as scheduled for 6
-  October 2026. That date has now failed to confirm against adelphi's own publications
-  index on three consecutive checks, which shows a documented 2025 edition and no 2026
-  date. **Do not restate 6 October.** For an annual fixture, three weeks of absence with
-  the nominal date less than two weeks away is itself evidence, and the likeliest reading
-  is that there is no 2026 edition. adelphi's only item in the week to 2026-09-27 was an
-  account of its own Berlin convening of German and American experts on US energy dynamics
-  below the federal level, 22 September, co-hosted with Atlantik-Brücke — worth noting
-  against the state-level question in the Sikorsky entry, but it contains no security
-  content and does not answer it.
-- **SIPRI.** *Re-checked 2026-09-27: the climate-change-and-security publications list
-  ends at the August Abyei study and carries nothing for September. Under the split rule
-  below that is silence-as-lead-time and not a finding.* Where to look is the
+  *2026-10-04: the sister site was checked as instructed and carries, as expected, curated
+  work by other institutions rather than the institute's own — in that week an argument
+  that the Security Council is deadlocked on climate and that incoming members have a path
+  forward, which the Council's October programme of work does not support. Nothing on PSI's
+  own funding. Do not read that feed as Clingendael output.*
+- **adelphi. Rewritten 2026-10-04, and this is the important correction on this page.**
+  The instruction that stood here for three weeks — "Do not restate 6 October", with the
+  reading that there was probably no 2026 edition of the Berlin Climate and Security
+  Conference — was **wrong**, and the argument that justified it has been deleted rather
+  than qualified. The conference is held on **6 October 2026**, hosted by the German
+  Federal Foreign Office with adelphi, theme *A climate for security, freedom and
+  prosperity*, in person by invitation and streamed, with side events alongside the Climate
+  for Peace Initiative and the Climate Security Expert Network. Confirmed 2026-10-04
+  against the conference's **own site**, berlin-climate-security-conference.de, which is a
+  different host from adelphi's publications index.
+
+  Two instructions follow, and they generalise beyond this institute.
+
+  **For a dated fixture, score only a disconfirmation.** An annual convening is neither a
+  publication cycle nor a research network, so neither half of the split rule below covers
+  it. A host that intends to hold a conference may confirm late, may confirm only to
+  invitees, may confirm on a microsite. A host that has cancelled one says so, because
+  people have booked flights. Non-confirmation is evidence about where announcements are
+  posted, not about whether the event is happening. Record "the host has not yet said, as
+  of this date, on this page" and nothing stronger.
+
+  **Three checks of the same page are one observation, not three.** The non-confirmation
+  was an artefact of holding the method constant. The existing instruction for a domain
+  that refuses retrieval — stop retrying, go find the sister site — applies equally to a
+  page that loads and says nothing. And note which way the error ran: a quietly cancelled
+  European convening would have confirmed the trend this routine has been documenting all
+  year, which is exactly when a negative finding needs more scepticism rather than less.
+
+  adelphi's other recent item of note remains its Berlin convening of German and American
+  experts on US energy dynamics below the federal level, 22 September, co-hosted with
+  Atlantik-Brücke — worth holding against the state-level question in the Sikorsky entry,
+  but it contains no security content and does not answer it.
+- **SIPRI.** *Re-checked 2026-10-04: the climate-change-and-security publications list
+  still ends at the August Abyei study, with nothing for September or October, and the
+  programme's own news stream has nothing after January 2026. Under the split rule below
+  that is silence-as-lead-time and not a finding. One thing to establish rather than
+  assume: the 2026 Yearbook's chapter list, as given on sipri.org, runs to seventeen
+  chapters with no standalone climate chapter, while the June summary's framing names
+  climate-change-driven insecurity. Whether climate has a chapter, a section or only
+  framing language in the field's flagship annual security reference is worth settling
+  properly — and the Yearbook's publication date through Oxford University Press was not
+  established on 2026-10-04, so do not state one.* Where to look is the
   climate-change-and-security publications list, not the front page: *Beyond the Blue Line: Tackling Climate, Peace, and Security Challenges in
   Abyei*, by Katongo Seyuba (SIPRI climate change and risk programme) and Andrew E. Yaw
   Tchie (NUPI), published Stockholm, August 2026, appears there and was missed for a month
@@ -404,6 +523,68 @@ hazard environment — roughly +1.5°C on July–August temperatures, about +2°
 of existing risk reduction and early warning. The method exists for this hazard class; it
 answers a different question than the field assumed it would.
 
+*Re-checked 2026-10-04:* WWA's studies index shows nothing after 28 August, so the 17
+September Himalaya report is not listed there and the index is not the whole output —
+check both. Nothing on Europe's 2026 heat season and nothing on Nepal's late-September
+landslides. Under the split rule that is lead time, not a finding. ICIMOD likewise
+published nothing on the events in its own region that week.
+
+*Added 2026-10-04: two new institutions to work every week, both of which produce the
+field's inputs rather than its arguments.*
+
+- **ITU and WMO, on the observing system.** On **28 September 2026** the two
+  Secretaries-General — **Doreen Bogdan-Martin** (ITU) and **Celeste Saulo** (WMO) —
+  issued a joint appeal to governments, regulators and meteorological services to protect
+  the radio-frequency bands that weather and climate observation depends on, at the opening
+  of a global ITU-WMO seminar on spectrum use for meteorology in Geneva, 28–30 September,
+  pointing at **WRC-27**. The dependent systems named: satellite sensors measuring
+  naturally occurring atmospheric signals, weather radar, lightning location, aircraft and
+  marine observations, hydrological monitoring. Saulo's formulation is the one to keep:
+  the spectrum is a finite natural resource and *"meteorology relies on specific bands —
+  determined not by choice, but by the physical properties of the atmosphere itself."*
+  That non-substitutability is why this is a security question and not a regulatory one: a
+  band reallocated to a commercial service is not a band meteorology can trade out of.
+  **What to establish, and nobody has published it:** how much protected meteorological
+  spectrum is actually under live reallocation pressure on the WRC-27 agenda. Without that
+  figure the appeal cannot be weighed. **Second thing to watch:** whether any defence
+  ministry or alliance body ever treats the observing system as an asset to defend —
+  military meteorology runs on the same bands and allied early warning on the same
+  satellites, and nothing was found.
+- **Allianz, and the private pricing of climate damage.** The **Allianz Climate Economics
+  Report** launched as an annual flagship on **24 September 2026** (lead authors Ludovic
+  Subran, Katharina Utermöhl, Hazem Krichene, Patrick Hoffmann), using a proprietary
+  platform, *ClimRad*, that combines climate data with in-house damage functions to
+  estimate GDP and inflation effects beyond insurance claims. Headline figures: 2026
+  European heatwaves at about **€113 billion** of annual output across 30 countries, around
+  0.46 per cent of combined projected GDP, Italy, Germany and France nearly two-thirds,
+  Cyprus worst proportionally at 1.74 percentage points; a developing strong El Niño at
+  about **USD 451 billion** globally concentrated in 2027, with China, the US and India at
+  147, 91 and 50 billion. **Handle exactly as the €180 billion Triodos figure in the Stiell
+  entry above:** these are modelled estimates from an interested commercial party, not
+  peer-reviewed research and not attribution, and they are the *only* numbers of their kind
+  in circulation, which is why they will end up in European policy documents. The useful
+  standing question is not whether the figures are right but **whether any public
+  institution ever produces a competing estimate** — the statistical office, the
+  environment agency and the national meteorological services hold the inputs and none has
+  converted them into a growth figure. If the EU's climate insurance alliance launches on
+  28 October without an independent basis for loss estimation, the private number becomes
+  the official one by default.
+
+*Added 2026-10-04, on the China–India expert mechanism, because it is now the better
+instrument than any Chinese or Indian doctrine document.* The **Expert Level Mechanism on
+Trans-Border Rivers**, set up in 2006 and nominally annual, handles flood-season
+hydrological data provision on the Brahmaputra/Yarlung Tsangpo and Sutlej. China's own
+foreign ministry text of the **25 August 2026** boundary talks committed both sides to
+holding the next ELM meeting **in September**, with hydrological data sharing and renewal
+of the relevant memoranda on the agenda; India had pressed for an early convening at the
+35th border-affairs consultation in Beijing in May and again in August. **Checked
+2026-10-04: no meeting found, from either foreign ministry, either water ministry, or
+reporting in either country.** A dated, specific, bilateral undertaking on exactly the
+transboundary water question the Himalayan hazard file turns on, unfulfilled. Seven weeks
+of looking for a Chinese or Indian security document on climate has produced nothing; six
+weeks of watching this mechanism has produced a commitment and a missed deadline, which is
+a real observable. Work the mechanism.
+
 *Added 2026-09-27, on the multilateral machinery.* The **UN Climate Security Mechanism**
 is no longer an undocumented question mark. Its own programme pages give an extended
 **Phase III running 2026-2028**, **ten advisers** deployed to UN missions and regional
@@ -418,6 +599,36 @@ the route to it is now identified: the trust fund publishes a consolidated annua
 and a consolidated financial report per year, and the 2025 pair is listed. The figures did
 not render for the routine on 2026-09-27; open them properly and the funding question
 closes.
+
+*Answered 2026-10-04, in magnitude, and the dashboard was the wrong route all along.* The
+fund page's figures failed to render for a third consecutive week. The number is in a
+**printed** portfolio report instead — MPTFO, *Delivering Results for People and Planet:
+Climate and Environment*, September 2025, Fig. 4, "Cumulative Deposits by Fund (USD M),
+2016-2024". **Cumulative deposits to the JP Climate Security Mechanism, 2016-2024: USD
+18.27 million.** In the same table the Central African Forest Initiative has 808.89, a
+single-country local-government climate initiative 27.23, a humanitarian-energy fund
+22.21: the climate-security unit is **thirteenth of fifteen** funds in that portfolio, at
+roughly 2 per cent of the largest and about USD 2 million a year. The report's narrative
+also records the UAE's USD 4.1 million for the period against this programme **jointly
+with** UNITLIFE, so the attributable share cannot be separated.
+
+Three instructions follow. **One:** when a dashboard will not render, go to the printed
+annual or portfolio report; this one was reachable in a single fetch and three weeks were
+spent on the dashboard instead. **Two:** state the UK's £1 million of 25 September against
+the right denominator. Against the £331 million package it is three tenths of one per
+cent, which is how this routine reported it and which is true but useless; against the
+recipient it is on the order of **5 per cent of everything that programme has ever
+received**. Use the second, or both. **Three:** the trajectory is still open and the
+requirement is still unstated. A figure of USD 52.4 million required since 2018 with 27.5
+million mobilised by June 2025 circulates in secondary summaries and **could not be
+confirmed against any institutional document** on 2026-10-04 — do not repeat it until it
+is. The consolidated annual and financial reports for 2025 remain unopened and are the
+route.
+
+One thing worth stating plainly because it bears on the Dutch entries above: eleven of the
+fourteen contributing governments are European and **the Netherlands is not among them**.
+For a country that supplies so much of this field's vocabulary and personnel, that is a
+specific, cheap, checkable thing to ask about.
 
 *Added 2026-09-27, on the Fund for responding to Loss and Damage.* **frld.org refused
 retrieval** (403) on 2026-09-27, the first time this routine has tried it, so the
@@ -436,10 +647,42 @@ led and the governments followed, and for at least one week it was the other way
 that repeats, the roster needs a **principals** tier that is checked before the institutes
 tier, not after.
 
-*Added 2026-09-20:* the outstanding gap on this roster is a **Turkish** entry. COP31 is
-at Antalya, 9–20 November 2026, under a Türkiye–Australia presidency, and this list has
-no named contact in either presidency. Fill it before November; whoever holds the Turkish
-COP31 file is the highest-value unfilled slot here now that the AOSIS chair is known.
+*It repeated, 2026-10-04, so do it.* Of that week's four moves, three came from
+governments and ministries — Fiji's environment ministry, Greece's Council presidency,
+the German foreign ministry — and one from an institute. Six weeks in, the pattern is
+consistent enough to act on rather than to keep noting: **work the principals tier first
+each week, then the institutes.** The principals tier is now populated well enough to be
+worth the time (Miliband, Kallas, Mudavadi, Tabuya, Kurum, Balta for the month, the
+Secretary-General candidates), and the institutes tier is where the silences are. One
+qualification that keeps the institutes tier worth checking at all: the single institute
+move that week — an unminuted Arctic geoengineering tabletop — was also the most
+informative item in the digest, because it showed where the frame travels next. Principals
+tell you what has happened; institutes tell you what is being prepared.
+
+*Added 2026-09-20, **filled 2026-10-04**: the **Turkish** COP31 entry.* **Murat Kurum**
+*(verified 2026-10-04)* — Türkiye's Minister of Environment, Urbanisation and Climate
+Change and **COP31 President-designate**, with Australia's climate minister **Chris
+Bowen** as **President of Negotiations** under the split agreed at COP30: Türkiye shapes
+the public programme and hosts, Australia runs the agenda, texts and decisions. COP31 is
+at the Antalya EXPO Center, Aksu, 9–20 November 2026. Kurum launched two presidency
+pledges from UN headquarters on **21 September 2026**: a **35-by-35** global
+electrification pledge (electricity to 35 per cent of global final energy consumption by
+2035, with building energy-use intensity down at least 25 per cent by 2035) and an
+**Antalya AI Pledge** on how artificial intelligence is designed, procured, powered and
+managed in support of climate objectives, **developed with the ITU**. Two things to track.
+First, the division of labour is contested: Türkiye said in September that it has the
+"final decision" at COP31 despite the Australian negotiating role, and a presidency that
+disagrees with itself in public is a presidency whose outcome text is hard to predict.
+Second, note the institutional coincidence, because it is the kind this routine exists to
+catch: the ITU is simultaneously the COP31 presidency's partner on a technology pledge and
+the forum in which the frequency bands meteorological observation depends on will be
+fought over at WRC-27. Nothing improper in that; it does mean the same body is being asked
+to carry the climate agenda and to adjudicate against its instruments.
+
+*Still unfilled, 2026-10-04:* a named contact in the **Pacific Islands Forum
+Secretariat** itself, as against the Fijian ministers below, and the **head of the UN
+Climate Security Mechanism**, which is now the highest-value gap given what its funding
+figure turns out to be.
 
 Dutch note, 2026-09-06, **corrected and qualified 2026-09-13**: the claim used to be
 that HCSS's most recent substantial climate-security output was *Veiligheid in een

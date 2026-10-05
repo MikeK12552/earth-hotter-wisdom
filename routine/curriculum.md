@@ -51,20 +51,52 @@ digest's verification note.
 ## Phase 2 — Scarcity and the first empirical wave (1990–2005)
 
 - Homer-Dixon, "Environmental Scarcities and Violent Conflict: Evidence from Cases",
-  *International Security*, 1994, 19(1), 5-40, doi 10.2307/2539147. **Next up** as of
-  2026-09-27. *Verified 2026-09-27 against Crossref, which gives **Thomas F.
-  Homer-Dixon**, International Security 19(1), 1994, first page 5; the issue record gives
-  Summer 1994, 5-40. This entry previously carried no volume, issue or pagination and the
-  author's full name was unverified. The year was right.*
+  *International Security*, 1994, 19(1), Summer 1994, 5-40, published by the MIT Press,
+  doi 10.2307/2539147. **Read** in the week ending 2026-10-04. *Verified 2026-09-27
+  against Crossref, which gives **Thomas F. Homer-Dixon**, International Security 19(1),
+  1994, first page 5; re-verified 2026-10-04 against the article's own first page, which
+  confirms the season, the full pagination and the MIT Press as publisher — Crossref's
+  publisher field names the archive instead, which is an artefact of the deposit. This
+  entry previously carried no volume, issue or pagination and the author's full name was
+  unverified. The year was right.*
+  *Where to read it: the journal archives all refused on 2026-10-04 (JSTOR, Project
+  MUSE). A complete scan with a usable text layer is held by the climate-change-and-
+  security research group at the University of Hamburg at
+  clisec.uni-hamburg.de/en/pdf/data/homer-dixon-1994-environmental-scarcities.pdf, and
+  that is where the week's summary was written from. Note for whoever reads it next: the
+  article's own first substantive finding is that renewable-resource scarcity does **not**
+  often cause interstate resource wars, and it tells rich-country policymakers they give
+  undue attention to climate change relative to land, water, forest and fishery
+  degradation. Both are the opposite of what the field tends to cite it for.*
 - Gleditsch, "Armed Conflict and the Environment: A Critique of the Literature",
   *Journal of Peace Research*, 1998, 35(3), 381-400, doi 10.1177/0022343398035003007.
-  The critique to Homer-Dixon; read in the same week, per the rule above. *Verified
-  2026-09-27 against Crossref: **Nils Petter Gleditsch**, Journal of Peace Research
-  35(3), 1998, 381-400. Do not restate a publisher for this one — the Crossref record's
-  publisher field and the DOI prefix disagree, which is an artefact of the journal
-  changing hands and is not worth resolving.*
-- Buzan, Wæver and de Wilde, *Security: A New Framework for Analysis*, 1998. The
-  environmental sector chapter plus the general theory of securitisation.
+  The critique to Homer-Dixon; **read** in the week ending 2026-10-04, in the same week,
+  per the rule above. *Verified 2026-09-27 against Crossref: **Nils Petter Gleditsch**,
+  Journal of Peace Research 35(3), May 1998, 381-400, his affiliation at the time the
+  Peace Research Institute Oslo and the Norwegian University of Science and Technology. Do
+  not restate a publisher for this one — the Crossref record's publisher field and the DOI
+  prefix disagree, which is an artefact of the journal changing hands and is not worth
+  resolving.*
+  *The original would not open on 2026-10-04 from any route tried. Two usable substitutes,
+  both primary enough for the structure of the argument. The nine-point critique is
+  reprinted verbatim as a background box alongside the Toronto group's published reply —
+  Schwartz, Deligiannis and Homer-Dixon, "The Environment and Violent Conflict: A Response
+  to Gleditsch's Critique and Some Suggestions for Future Research", *Environmental Change
+  and Security Project Report* issue 6, Summer 2000, 77ff, at
+  homerdixon.com/wp-content/uploads/2017/05/Response-to-Gleditsch.pdf — which also quotes
+  him directly and is itself worth reading as the other half of the exchange. That reply
+  was drawn from Diehl and Gleditsch, eds., *Environmental Conflict*, Westview Press,
+  November 2000, in which both parties have chapters. Read the pair together: the field
+  adopted Gleditsch's list of defects almost wholesale and rejected his definitional
+  proposal, and that asymmetry is the phase's real lesson.*
+- Buzan, Wæver and de Wilde, *Security: A New Framework for Analysis*, Lynne Rienner
+  Publishers, Boulder, Colorado, 1998. The environmental sector chapter plus the general
+  theory of securitisation. **Next up** as of 2026-10-04. *Authors, title and publisher
+  verified 2026-10-04 against library catalogue records, which list editions in both 1997
+  and 1998; the field cites 1998 and that is the year to carry. This entry previously gave
+  no publisher. No pagination or chapter numbering is asserted ahead of reading. No
+  critique pair falls due with it, so the week that takes it needs the usual two section A
+  items rather than three.*
 - Then Bächler 1999 (ENCOP), Le Billon 2001, Kahl 2006.
 
 ## Phase 3 — Climate arrives (2003–2015)
@@ -150,6 +182,20 @@ preserved below for the record; it is history, not position.*
   names compounding, cascading and record-breaking events as the hard cases two months
   before one of them had to be handled, and puts liability and damages explicitly outside
   its scope. Full text and committee roster not read.
+- Phase 2, Homer-Dixon 1994 — week ending 2026-10-04. Opens phase 2. *Full text read from
+  the Hamburg research group's archived scan after the journal archives refused; the first
+  page confirms season, pagination and the MIT Press as publisher.*
+- Phase 2, Gleditsch 1998 (critique, read as a pair with Homer-Dixon) — week ending
+  2026-10-04. *The original would not open; the nine-point structure is taken from the
+  verbatim reprint in the Toronto group's published reply, ECSP Report issue 6, Summer
+  2000, which was also read in full.*
+- Outside the sequence, Böhmelt and Bakaki 2026, *Environment and Security* 4(3), 249-269,
+  "Peace treaties' environmental provisions and conflict recurrence", doi
+  10.1177/27538796251412932 — week ending 2026-10-04. Chosen deliberately as the modern
+  counterpart to the Homer-Dixon/Gleditsch pair: the same question asked from the
+  conflict-resolution end, with the large-N design Gleditsch spent 1998 demanding. Both
+  authors at the University of Essex per Crossref; published online 24 January 2026, print
+  issue September 2026. Abstract read, full text not opened.
 
 ### Before the reset (2026-08-31 to 2026-09-06)
 
@@ -171,6 +217,13 @@ empirical slot still has to be filled. That is the right trade — deferring the
 the one thing this file forbids — but expect it at Mathews/Deudney, at
 Homer-Dixon/Gleditsch, at Hsiang-Burke-Miguel/Buhaug, and at Kelley/Selby.
 
-*Due now:* Homer-Dixon 1994 and Gleditsch 1998 are the next pair, so the week that takes
-them needs three section A items. Both are verified as of 2026-09-27 precisely so that
-week does not spend its verification budget on citations.
+*Consumed 2026-10-04.* Homer-Dixon 1994 and Gleditsch 1998 were read together in the week
+ending 2026-10-04, with Böhmelt and Bakaki 2026 as the third item. Verifying both ahead of
+time worked exactly as intended: the week's verification effort went into opening the texts
+rather than into confirming the citations, which is why the full 1994 article was read
+rather than summarised at second hand.
+
+*Due next:* Buzan, Wæver and de Wilde 1998 is a single item with no critique pair, so the
+week that takes it needs the usual two section A items. The next pair after that is
+Hsiang, Burke and Miguel 2013 against Buhaug et al. 2014 in phase 3; verify both early, on
+the same principle.

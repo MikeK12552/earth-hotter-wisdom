@@ -1,7 +1,19 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-28T05:18:09.819Z",
+  "generated": "2026-10-05T05:45:33.659Z",
   "digests": [
+    {
+      "id": "2026-10-04",
+      "week_start": "2026-09-28",
+      "week_end": "2026-10-04",
+      "week_number": 6,
+      "standfirst": "Three of this week's developments were not about a hazard but about the instruments the field measures hazards with. Two United Nations agencies told governments that the radio spectrum weather satellites physically depend on is being competed away; Fiji went into the pre-conference talks defending the climate panel's standing as the reference science against states that would prefer another body; and the only price yet put on Europe's lethal summer came from a credit insurer's proprietary model rather than from any journal. Against that, the sole standing United Nations machinery for climate and security turns out to have received $18.27 million in nine years, and in Nepal a flood warning that reached close to a million telephones was followed by forty-three deaths, almost all of them in landslides.",
+      "counts": {
+        "developments": 7,
+        "moves": 4,
+        "open_threads": 19
+      }
+    },
     {
       "id": "2026-09-27",
       "week_start": "2026-09-21",
