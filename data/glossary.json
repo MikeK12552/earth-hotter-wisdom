@@ -117,7 +117,7 @@
     },
     "EAM": {
       "expansion": "External Affairs Minister",
-      "gloss": "India's foreign minister \u2014 the office, not the ministry. MEA in these digests is the ministry itself; EAM is the person who runs it.",
+      "gloss": "India's foreign minister — the office, not the ministry. MEA in these digests is the ministry itself; EAM is the person who runs it.",
       "wikipedia": "Minister of External Affairs (India)"
     },
     "EEAS": {
@@ -164,7 +164,7 @@
     },
     "HiRISK": {
       "expansion": "High Mountain Asia risk consortium",
-      "gloss": "A self-described loose consortium of High Mountain Asia risk experts producing open datasets, dashboards and risk assessments. Not an institute, not a funded programme, and not the initials of a longer official name \u2014 which is why establishing its membership and funding took two weeks.",
+      "gloss": "A self-described loose consortium of High Mountain Asia risk experts producing open datasets, dashboards and risk assessments. Not an institute, not a funded programme, and not the initials of a longer official name — which is why establishing its membership and funding took two weeks.",
       "wikipedia": false
     },
     "ICIMOD": {
@@ -424,6 +424,36 @@
       "expansion": "Volkspartij voor Vrijheid en Democratie",
       "gloss": "Dutch conservative-liberal party.",
       "wikipedia": "People's Party for Freedom and Democracy"
+    },
+    "ITU": {
+      "expansion": "International Telecommunication Union",
+      "gloss": "The UN agency that allocates radio spectrum and sets telecommunication standards. In these digests it appears twice over and in tension with itself: as the forum where the frequency bands weather satellites depend on are contested, and as the COP31 presidency's partner on an artificial-intelligence pledge.",
+      "wikipedia": "International Telecommunication Union"
+    },
+    "WRC-27": {
+      "expansion": "World Radiocommunication Conference 2027",
+      "gloss": "The treaty conference that revises the international radio regulations, including the bands protected for meteorological observation. Held roughly every four years.",
+      "wikipedia": "World Radiocommunication Conference"
+    },
+    "SAI": {
+      "expansion": "stratospheric aerosol injection",
+      "gloss": "The most-discussed form of solar radiation modification: injecting reflective particles into the stratosphere to reduce incoming sunlight. Not deployed anywhere.",
+      "wikipedia": "Stratospheric aerosol injection"
+    },
+    "CERF": {
+      "expansion": "Central Emergency Response Fund",
+      "gloss": "The UN's central pooled humanitarian fund, which since 2020 also pre-approves money for anticipatory action against a forecast rather than an observed disaster. Not a country-level pooled fund, which is a different instrument.",
+      "wikipedia": "Central Emergency Response Fund"
+    },
+    "IEA": {
+      "expansion": "International Energy Agency",
+      "gloss": "The Paris-based energy body of the OECD. Not the Institute of Economic Affairs, which shares the initials and appears in British debate on the same subjects.",
+      "wikipedia": "International Energy Agency"
+    },
+    "ELM": {
+      "expansion": "Expert Level Mechanism",
+      "gloss": "Specifically the India-China Expert Level Mechanism on Trans-Border Rivers, set up in 2006, which handles flood-season hydrological data sharing on the Brahmaputra and Sutlej. A generic-sounding name for the only standing bilateral channel on Himalayan river data.",
+      "wikipedia": false
     }
   }
 }

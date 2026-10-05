@@ -5,7 +5,7 @@
     "lat": 52.095,
     "lon": 4.297,
     "role": "Dutch flagship climate-security platform",
-    "note": "clingendael.org refused retrieval on 2026-09-13, 2026-09-20 and 2026-09-27, so whether the institute published is unknown rather than negative. The platform's own team page did open on 2026-09-27 and gives Louise van Schaik as Senior Research Fellow and PSI Coordinator, Hannah Lentschig as PSI Project Leader, and Gen. Tom Middendorp (ret.) as Senior Research Associate and chair of the IMCCS — which resolves a three-week job-title discrepancy and an affiliation previously recorded as unverified. No funding information on it: the last publicly datable PSI funding phase is still December 2019."
+    "note": "clingendael.org refused retrieval on 2026-09-13, 2026-09-20, 2026-09-27 and 2026-10-04. Four refusals means whether the institute published is unknown rather than negative — a hole in the observation, not a finding. The standing instruction was followed again on 2026-10-04 and the platform's own site opened: it carries curated work by other institutions, including an argument that the Security Council is deadlocked on climate and that incoming members have a route forward, which the Council's October programme of work does not support. Team details as confirmed on 2026-09-27 stand: Louise van Schaik as Senior Research Fellow and PSI Coordinator, Hannah Lentschig as PSI Project Leader, Gen. Tom Middendorp (ret.) as Senior Research Associate and chair of the IMCCS. No funding information on it; the last publicly datable PSI funding phase is still December 2019."
   },
   {
     "name": "HCSS",
@@ -37,7 +37,7 @@
     "lat": 51.499,
     "lon": -0.175,
     "role": "Rapid event attribution",
-    "note": "Published nothing after 17 September 2026, including nothing on the record-breaking rainfall Typhoon Dujuan brought to eastern Japan on 21-22 September. Under the rule corrected on 2026-09-20 that is evidence about how long the work takes and nothing else; the question to ask is whether it has declined a case, and no refusal was found. The 17 September Himalaya study attributed the hazard environment — about +1.5C on July-August temperatures, the freezing line rising about 100 m per decade — while stating it had not assessed whether the specific avalanche would have occurred without warming, and concluded the event exceeded the limits of existing early warning and adaptation."
+    "note": "Re-checked 2026-10-04. The studies index shows nothing after 28 August, which means the 17 September Himalaya report is not listed there and the index is not the whole output — check both. Nothing on Europe's 2026 heat season and nothing on Nepal's late-September landslides, in a week when 304 landslides killed 20 people and an insurer put a price on the European summer that no attribution study supports. Under the rule corrected on 2026-09-20 that is evidence about how long the work takes and nothing else; the question to ask of an attribution network is whether it has declined a case it was asked to take, and nothing suggests it has."
   },
   {
     "name": "adelphi",
@@ -45,7 +45,7 @@
     "lat": 52.52,
     "lon": 13.405,
     "role": "Climate diplomacy and security",
-    "note": "Do not restate 6 October 2026 for the Berlin Climate and Security Conference: the date has failed to confirm against adelphi's own publications index on three consecutive checks to 2026-09-27, which shows a documented 2025 edition and no 2026 date. For an annual fixture that is now evidence rather than an unknown. Its only item in the week to 2026-09-27 was an account of a Berlin convening with Atlantik-Brücke on 22 September, on how state governments, regional markets and utilities shape US energy policy — sub-federal, and with no security content."
+    "note": "Correction, 2026-10-04, and it reverses what this file said for three weeks. The Berlin Climate and Security Conference does have a 2026 edition: 6 October 2026, hosted by the German Federal Foreign Office with adelphi, theme 'A climate for security, freedom and prosperity', in person by invitation and streamed, with side events alongside the Climate for Peace Initiative and the Climate Security Expert Network. Confirmed against the conference's own site, which is a different host from adelphi's publications index — and the three checks of that index that produced the earlier conclusion were one observation repeated, not three pieces of evidence. The rule that follows: for a dated fixture, score only a disconfirmation."
   },
   {
     "name": "MERICS",
@@ -61,7 +61,7 @@
     "lat": 59.348,
     "lon": 18.07,
     "role": "Climate, peace and security research",
-    "note": "Check the climate-change-and-security publications list, not the front page. It runs to Beyond the Blue Line (Seyuba and Yaw Tchie, August 2026) on Abyei and UNISFA, and carries nothing for September 2026. A Climate, Peace and Security Fact Sheet on Lake Chad is listed and has still not been read."
+    "note": "Re-checked 2026-10-04: the climate-change-and-security publications list still ends at the August 2026 Abyei study, with nothing for September or October, and the programme's own news stream has nothing after January 2026. Lead time, not a finding. One thing to settle properly rather than assume: the 2026 Yearbook's chapter list as given on sipri.org runs to seventeen chapters with no standalone climate chapter, while the June summary's framing names climate-change-driven insecurity. The Yearbook's publication date through Oxford University Press was not established, so do not state one."
   },
   {
     "name": "NUPI",
@@ -101,7 +101,7 @@
     "lat": 38.907,
     "lon": -77.037,
     "role": "Military and advocacy climate-security research",
-    "note": "No World Climate and Security Report since 2024 and nothing on imccs.org since an open letter of 23 October 2025, re-checked weekly to 2026-09-27. The council's own site names Gen. Tom Middendorp (ret.), former Chief of Defence of the Netherlands, as chair and Sherri Goodman, former US Deputy Under Secretary of Defense for Environmental Security, as Secretary General — a body with named officers and eleven months of silence. Erin Sikorsky directs both the council and the Center. CCS output is on the parent domain, not climateandsecurity.org, whose blog has been static since April 2026. In the week to 2026-09-27 its only climate item was an analysis of NATO's new resilience requirements by Sikorsky and Noah Fritzhand, 21 September, and no new state-level briefer appeared."
+    "note": "Two institutions at one address, moving in opposite directions. The military council is silent for a fifth consecutive week: no World Climate and Security Report since the 2024 edition and no item of any kind since the open letter of 23 October 2025, which argued for clean energy investment inside NATO's 1.5 per cent non-core defence spending target — almost exactly the argument the alliance's own centre of excellence is now convening a summit around. The climate-security centre published one climate item between 28 September and 4 October: the announcement, on 2 October, of a private tabletop exercise with Reflective on the security dynamics of a fictional 2030 stratospheric aerosol injection deployment to slow Arctic warming, for 14 October in Montréal, with no participants named and no output document. No new state-level briefer since the Ohio one of 18 September."
   },
   {
     "name": "UN Climate Security Mechanism",
@@ -150,5 +150,21 @@
     "lon": -0.128,
     "role": "State climate-security agenda-setter",
     "note": "Added 2026-09-27 because the UK became, in one week, the most active state actor in this field. Foreign Secretary Ed Miliband's New York Climate Week keynote of 21 September asked for climate and nature to be embedded in national security systems, threat assessments and contingency planning; he co-hosted the UNGA foreign ministers' dialogue on climate as a national security risk on 24 September; and on 25 September the department announced £331 million for climate-driven instability — £330 million of it to the Global Environment Facility and £1 million to the UN Climate Security Mechanism. A UK Climate Security Taskforce was launched on 26 June 2026 to advise on national security risks from climate and nature loss; its membership is known only from launch reporting and should be verified before anyone on it is quoted. Coordinates are the London city centroid, not the department's building."
+  },
+  {
+    "name": "NATO Climate Change and Security Centre of Excellence",
+    "city": "Montréal",
+    "lat": 45.50888889,
+    "lon": -73.55416667,
+    "role": "Alliance climate-security centre of excellence; a distinct body from NATO HQ and the Science and Technology Organization",
+    "note": "Added 2026-10-04 because it is where the alliance's climate work is visible while the alliance's own binding instruments have stopped naming it. With the Conference of Defence Associations Institute it convenes the Montréal Climate Security Summit 2026 on 15 and 16 October, titled 'Resilient Defence: Climate-Smart Investments on the Road to 5%' — the Hague commitment of 5 per cent of GDP by 2035, of which 1.5 points are defence- and security-related including resilience. Nine tracks including procurement resilience metrics, climate intelligence in planning, critical-minerals supply chains and operational energy; serving officers and ambassadors speaking; by invitation. The test it sets: if the centre of excellence says climate freely while the baseline requirements of 15 September do not, the removal of the referent was a drafting discipline for instruments that bind rather than a change of mind. Check ccascoe.org separately from nato.int."
+  },
+  {
+    "name": "ITU",
+    "city": "Geneva",
+    "lat": 46.20166667,
+    "lon": 6.14694444,
+    "role": "Spectrum allocation; the forum in which the observing system's frequency bands are contested",
+    "note": "Added 2026-10-04. On 28 September the ITU and WMO Secretaries-General, Doreen Bogdan-Martin and Celeste Saulo, issued a joint appeal to protect the radio-frequency bands weather and climate observation depends on — satellite sounding, weather radar, lightning location, aircraft and marine observations, hydrological monitoring — at a joint seminar in Geneva, 28 to 30 September, pointing at the 2027 World Radiocommunication Conference. Saulo's point is why it belongs here: the bands are fixed by atmospheric physics rather than chosen, so meteorology cannot trade out of them. Note the institutional coincidence: the ITU is also the COP31 presidency's partner on the Antalya artificial-intelligence pledge of 21 September."
   }
 ]
