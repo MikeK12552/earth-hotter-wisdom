@@ -454,6 +454,44 @@
       "expansion": "Expert Level Mechanism",
       "gloss": "Specifically the India-China Expert Level Mechanism on Trans-Border Rivers, set up in 2006, which handles flood-season hydrological data sharing on the Brahmaputra and Sutlej. A generic-sounding name for the only standing bilateral channel on Himalayan river data.",
       "wikipedia": false
+    },
+    "IPCC": {
+      "expansion": "Intergovernmental Panel on Climate Change",
+      "gloss": "The UN body that assesses published climate science rather than conducting it. These digests usually call it the climate panel; the abbreviation appears in citations. Not to be confused with the IPC below, which is a food-security scale.",
+      "wikipedia": "Intergovernmental Panel on Climate Change"
+    },
+    "AR7": {
+      "expansion": "Seventh Assessment Report",
+      "gloss": "The climate panel's next full assessment cycle, whose timetable is the thing five of its plenary sessions have failed to agree. The three working-group reports and the synthesis report are separately scheduled, and only the working-group reports are in dispute."
+    },
+    "IPC": {
+      "expansion": "Integrated Food Security Phase Classification",
+      "gloss": "The five-phase scale on which food crises are classified, Phase 5 being Famine at area level and Catastrophe at household level. A different thing from the IPCC above, and from the patent and industrial-computing classifications that share the letters.",
+      "wikipedia": "Integrated Food Security Phase Classification"
+    },
+    "FAO": {
+      "expansion": "Food and Agriculture Organization",
+      "gloss": "The UN agency, Rome. Its Somalia water and land unit, SWALIM below, is the source of the seasonal flood probabilities in these pages.",
+      "wikipedia": "Food and Agriculture Organization"
+    },
+    "SWALIM": {
+      "expansion": "Somalia Water and Land Information Management",
+      "gloss": "FAO's Somalia water and land monitoring unit, which issues the river-basin and seasonal rainfall assessments the Deyr flood forecasts rest on.",
+      "wikipedia": false
+    },
+    "UNIDIR": {
+      "expansion": "UN Institute for Disarmament Research",
+      "wikipedia": "United Nations Institute for Disarmament Research"
+    },
+    "BCSC": {
+      "expansion": "Berlin Climate and Security Conference",
+      "gloss": "The German Federal Foreign Office's annual climate-security convening, held with adelphi since 2019. It has no standing output document.",
+      "wikipedia": false
+    },
+    "ENCOP": {
+      "expansion": "Environment and Conflicts Project",
+      "gloss": "A 1990s joint project of the Swiss Peace Foundation and the Zurich federal technical university, led by Günther Bächler with Kurt Spillmann, whose final report was published in 1996. Frequently cited as shorthand for Bächler's 1999 monograph, which is a different publication by a different publisher.",
+      "wikipedia": false
     }
   }
 }
