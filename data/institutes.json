@@ -5,7 +5,7 @@
     "lat": 52.095,
     "lon": 4.297,
     "role": "Dutch flagship climate-security platform",
-    "note": "clingendael.org refused retrieval on 2026-09-13, 2026-09-20, 2026-09-27 and 2026-10-04. Four refusals means whether the institute published is unknown rather than negative — a hole in the observation, not a finding. The standing instruction was followed again on 2026-10-04 and the platform's own site opened: it carries curated work by other institutions, including an argument that the Security Council is deadlocked on climate and that incoming members have a route forward, which the Council's October programme of work does not support. Team details as confirmed on 2026-09-27 stand: Louise van Schaik as Senior Research Fellow and PSI Coordinator, Hannah Lentschig as PSI Project Leader, Gen. Tom Middendorp (ret.) as Senior Research Associate and chair of the IMCCS. No funding information on it; the last publicly datable PSI funding phase is still December 2019."
+    "note": "clingendael.org refused retrieval on 2026-09-13, 2026-09-20, 2026-09-27, 2026-10-04 and 2026-10-11. Five refusals means whether the institute published is unknown rather than negative — a hole in the observation, not a finding, and recorded as a third category separately from silence-as-evidence and silence-as-lead-time. The platform's own separate site opened again on 2026-10-11 and carries curated work by other institutions rather than the institute's own; nothing on its funding. Team details as confirmed on 2026-09-27 stand: Louise van Schaik as Senior Research Fellow and PSI Coordinator, Hannah Lentschig as PSI Project Leader, Gen. Tom Middendorp (ret.) as Senior Research Associate and chair of the IMCCS. The last publicly datable PSI funding phase is still December 2019."
   },
   {
     "name": "HCSS",
@@ -13,7 +13,7 @@
     "lat": 52.079,
     "lon": 4.312,
     "role": "Strategic studies centre",
-    "note": "Still publishing on climate security. In the week to 2026-09-27 its output went to the North Sea: an episode of its strategy series on 21 September asking whether critical infrastructure at sea can be protected without damaging nature, after one on 14 September on using the North Sea strategically. Laura Birkman, director of its climate, water and food security programme since January 2025 and an IMCCS member, spoke on water security and strategic stability at the Bled Strategic Forum on 15 September. Earlier: Willemsen's 16 July 2026 critique of the Ministry of Defence's July climate strategy, and a 14 September study arguing development cooperation as raw-materials security. The June 2025 report was police-commissioned; check the client before calling any of it defence-commissioned, and no client is stated on the September study."
+    "note": "Still publishing, and not on climate. In the week to 2026-10-11 its output was a paper arguing Europe needs a credible alternative when the alliance cannot act (8 October), a policy brief on polysilicon supply chains by Ron Stoop and Irina Patrahau (6 October), and a podcast on Chinese development cooperation (5 October) co-hosted by Laura Birkman, director of its climate, water and food security programme. Under the split rule that is lead time from a research institute rather than a finding about priorities — but what it did publish is itself a priority signal, and it is raw materials and alliance contingency. One correction made 2026-10-11: the July 2026 analysis of the Dutch defence climate strategy is by Birkman, dated 15 July, not by another researcher on the 16th, and its load-bearing point is that the strategy has no plan for the climate, weather and ocean data infrastructure anticipation depends on."
   },
   {
     "name": "KNMI",
@@ -101,7 +101,7 @@
     "lat": 38.907,
     "lon": -77.037,
     "role": "Military and advocacy climate-security research",
-    "note": "Two institutions at one address, moving in opposite directions. The military council is silent for a fifth consecutive week: no World Climate and Security Report since the 2024 edition and no item of any kind since the open letter of 23 October 2025, which argued for clean energy investment inside NATO's 1.5 per cent non-core defence spending target — almost exactly the argument the alliance's own centre of excellence is now convening a summit around. The climate-security centre published one climate item between 28 September and 4 October: the announcement, on 2 October, of a private tabletop exercise with Reflective on the security dynamics of a fictional 2030 stratospheric aerosol injection deployment to slow Arctic warming, for 14 October in Montréal, with no participants named and no output document. No new state-level briefer since the Ohio one of 18 September."
+    "note": "Checked 2026-10-11 on councilonstrategicrisks.org, not on the old climateandsecurity.org domain. No climate research published in the week: a September media round-up (9 October) and an event recap of New York Climate Week and the General Assembly (6 October). What the parent organisation launched was a second cohort of an AI and National Security Convergence Fellowship, applications open 5 October and due 20 October. Three consecutive weeks with no state-level climate briefer since Ohio on 18 September, and no state government ever named as commissioner or partner on any of the five. The institute's private tabletop with a solar-geoengineering research organisation on a fictional 2030 stratospheric aerosol deployment runs 14 October, unminuted and with no participants named. The military council it houses has been silent for twelve months: no World Climate and Security Report since 2024 and no item of any kind since an open letter of 23 October 2025."
   },
   {
     "name": "UN Climate Security Mechanism",
@@ -157,7 +157,7 @@
     "lat": 45.50888889,
     "lon": -73.55416667,
     "role": "Alliance climate-security centre of excellence; a distinct body from NATO HQ and the Science and Technology Organization",
-    "note": "Added 2026-10-04 because it is where the alliance's climate work is visible while the alliance's own binding instruments have stopped naming it. With the Conference of Defence Associations Institute it convenes the Montréal Climate Security Summit 2026 on 15 and 16 October, titled 'Resilient Defence: Climate-Smart Investments on the Road to 5%' — the Hague commitment of 5 per cent of GDP by 2035, of which 1.5 points are defence- and security-related including resilience. Nine tracks including procurement resilience metrics, climate intelligence in planning, critical-minerals supply chains and operational energy; serving officers and ambassadors speaking; by invitation. The test it sets: if the centre of excellence says climate freely while the baseline requirements of 15 September do not, the removal of the referent was a drafting discipline for instruments that bind rather than a change of mind. Check ccascoe.org separately from nato.int."
+    "note": "Checked 2026-10-11. The only item in the week was a welcome to its 2026 cohort of fellows on 6 October, with no fellows named and no programme described; no publications. A Nordic resilience and infrastructure workshop is listed for 14 October in Montréal and the Montréal Climate Security Summit for 15 and 16 October, titled 'Resilient Defence: Climate-Smart Investments on the Road to 5%', with nine thematic tracks and by invitation. Its news stream posts around its own events and not otherwise. The summit is the test of whether the alliance's centre names climate freely while the binding resilience baseline requirements of 15 September do not — which would make that removal a drafting discipline for instruments that bind rather than a change of position."
   },
   {
     "name": "ITU",
@@ -166,5 +166,21 @@
     "lon": 6.14694444,
     "role": "Spectrum allocation; the forum in which the observing system's frequency bands are contested",
     "note": "Added 2026-10-04. On 28 September the ITU and WMO Secretaries-General, Doreen Bogdan-Martin and Celeste Saulo, issued a joint appeal to protect the radio-frequency bands weather and climate observation depends on — satellite sounding, weather radar, lightning location, aircraft and marine observations, hydrological monitoring — at a joint seminar in Geneva, 28 to 30 September, pointing at the 2027 World Radiocommunication Conference. Saulo's point is why it belongs here: the bands are fixed by atmospheric physics rather than chosen, so meteorology cannot trade out of them. Note the institutional coincidence: the ITU is also the COP31 presidency's partner on the Antalya artificial-intelligence pledge of 21 September."
+  },
+  {
+    "name": "FEWS NET",
+    "city": "Washington DC",
+    "lat": 38.9047,
+    "lon": -77.0164,
+    "role": "Famine early warning; produces the field's inputs rather than its arguments",
+    "note": "Added 2026-10-11. The Famine Early Warning Systems Network published a global special report on the food security impacts of the 2026-27 El Niño on 6 October 2026, naming unimodal East Africa and Southern Africa at highest concern. In the week the strongest El Niño on record was put on the record, this network and three UN agencies made the argument and no ministry, alliance body or council said anything about it. Two findings in its own report cut against the alarm around it: global maize, wheat and rice output has changed little on balance across strong and very strong El Niño years, and the severe outcomes arrive in the following lean season rather than during the rains — which is the whole case for anticipatory action and the whole reason it keeps failing. Check the global special reports index and the country outlook pages separately."
+  },
+  {
+    "name": "WMO",
+    "city": "Geneva",
+    "lat": 46.2017,
+    "lon": 6.1469,
+    "role": "World Meteorological Organization; the observing system, and host of the climate panel's secretariat",
+    "note": "Added 2026-10-11 to close a drift: the standing roster has tracked the telecommunications union and the meteorological organization together since their joint appeal of 28 September 2026 on the radio-frequency bands weather and climate observation depends on, but only the union was on this layer. Celeste Saulo's formulation is the one to keep — the spectrum is a finite natural resource and meteorology relies on specific bands determined not by choice but by the physical properties of the atmosphere. Geneva is also where the climate panel's secretariat sits, which is where its 9 October 2026 advisory for the Addis Ababa plenary came from. Nothing from any defence ministry or alliance body has engaged the observing system as an asset to defend."
   }
 ]

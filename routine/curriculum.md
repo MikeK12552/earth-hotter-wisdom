@@ -90,14 +90,48 @@ digest's verification note.
   adopted Gleditsch's list of defects almost wholesale and rejected his definitional
   proposal, and that asymmetry is the phase's real lesson.*
 - Buzan, Wæver and de Wilde, *Security: A New Framework for Analysis*, Lynne Rienner
-  Publishers, Boulder, Colorado, 1998. The environmental sector chapter plus the general
-  theory of securitisation. **Next up** as of 2026-10-04. *Authors, title and publisher
-  verified 2026-10-04 against library catalogue records, which list editions in both 1997
-  and 1998; the field cites 1998 and that is the year to carry. This entry previously gave
-  no publisher. No pagination or chapter numbering is asserted ahead of reading. No
-  critique pair falls due with it, so the week that takes it needs the usual two section A
-  items rather than three.*
-- Then Bächler 1999 (ENCOP), Le Billon 2001, Kahl 2006.
+  Publishers, Boulder, Colorado, 1998, viii + 239 pp. The environmental sector is chapter
+  4, from p. 71; read with the general theory of securitisation. **Read** in the week
+  ending 2026-10-11. *Authors, title, publisher and place verified 2026-10-04 and again
+  2026-10-11 against catalogue records, which list editions in both 1997 and 1998 under
+  ISBNs 1-55587-603-X and 1-55587-784-2 and give the collation as viii, 239 pages; the
+  field cites 1998 and that is the year to carry. The chapter number and opening page come
+  from the published contents and were added 2026-10-11. The closing page of the chapter is
+  still not asserted.*
+  *Where to read it: nowhere reachable. The book is in copyright and no library copy,
+  publisher e-book or legitimate scan would open on 2026-10-11 — the national library
+  catalogue record itself was behind bot protection. The digest's account of securitisation
+  and of the environmental sector therefore rests on the published contents, on the book's
+  reception, and on David Skidmore's 1999 review in the American Political Science Review,
+  and it says so. **Nothing in it is quoted as the authors' own wording, and nobody should
+  quote the terminology from this digest without opening the book first.** The one claim a
+  reader of the secondary literature is most likely to get wrong: the environmental sector
+  chapter is not an argument that the environment should be securitised. Note for whoever
+  next has library access — settle the chapter's page range and whether the two-agendas
+  distinction (scientific and political) is the authors' own framing or a later gloss.*
+- Bächler, Günther, *Violence Through Environmental Discrimination: Causes, Rwanda Arena,
+  and Conflict Model*, Kluwer Academic Publishers, Dordrecht, 1999, Social Indicators
+  Research Series vol. 2. **Next up** as of 2026-10-11. *Verified 2026-10-11 against
+  several independent academic reference lists, which agree on author, year, title,
+  subtitle, publisher, place and series; no publisher or catalogue record was opened, so
+  pagination is not asserted, and the surname appears in the literature as both Bächler
+  and Baechler.*
+  ***Correction, 2026-10-11, and it would have produced a wrong citation.*** *This entry
+  previously read "Then Bächler 1999 (ENCOP)", which conflates two different publications.
+  ENCOP — the Environment and Conflicts Project — was a 1990s joint undertaking of the
+  Swiss Peace Foundation and ETH Zurich, led by Bächler with Kurt R. Spillmann, and its
+  final report was published in 1996 by Verlag Rüegger in several volumes, under the title
+  Abschlussbericht des/Final Report of the Environment and Conflict Project ENCOP, with
+  volume III collecting country studies by external experts. The 1999 Kluwer monograph is a
+  later single-author synthesis drawing on that project. **Anyone citing "the ENCOP report"
+  and dating it 1999 is citing neither.** Decide before reading which of the two is wanted:
+  the 1996 report is the empirical corpus, the 1999 book is the conflict model. The entry
+  above carries the 1999 book because that is what the field cites for the model. Do not
+  restate a publisher for the project's own series without checking it. Also distinguish
+  ECOMAN, a related Horn of Africa project whose revised final report appeared in 2002,
+  which is a third thing.* No critique pair falls due with it, so the week that takes it
+  needs the usual two section A items.
+- Then Le Billon 2001, Kahl 2006.
 
 ## Phase 3 — Climate arrives (2003–2015)
 
@@ -189,6 +223,21 @@ preserved below for the record; it is history, not position.*
   2026-10-04. *The original would not open; the nine-point structure is taken from the
   verbatim reprint in the Toronto group's published reply, ECSP Report issue 6, Summer
   2000, which was also read in full.*
+- Phase 2, Buzan, Wæver and de Wilde 1998 — week ending 2026-10-11. Third item of phase 2,
+  no critique pair, so the week took the usual two items. *The book could not be opened at
+  all; see the entry above, which records what rests on secondary sources and what the next
+  reader should settle.* Chosen against the recent item deliberately: the framework asks how
+  something becomes a security issue, and the recent item below studies an institution that
+  has already decided it is one.
+- Outside the sequence, McDonald 2026, *Contemporary Security Policy* 47(1), 9-25, "Defence
+  and climate change: An introduction", doi 10.1080/13523260.2025.2583233 — week ending
+  2026-10-11. Nearest to phase 4. *Verified against Crossref: Matt McDonald, University of
+  Queensland; online 17 November 2025, print issue 2 January 2026, which is why reference
+  lists give both years. The publisher's full text refused retrieval and the account rests
+  on the abstract and the issue's contents listing.* One article from the same issue was
+  identified and is worth reading next: Narayanan, Jayaram and Bharadwaj, 47(1), 108-138,
+  on militaries in the Bay of Bengal and climatisation through humanitarian assistance and
+  disaster relief — useful because it is not Atlantic, which this subfield mostly is.
 - Outside the sequence, Böhmelt and Bakaki 2026, *Environment and Security* 4(3), 249-269,
   "Peace treaties' environmental provisions and conflict recurrence", doi
   10.1177/27538796251412932 — week ending 2026-10-04. Chosen deliberately as the modern
@@ -223,7 +272,17 @@ time worked exactly as intended: the week's verification effort went into openin
 rather than into confirming the citations, which is why the full 1994 article was read
 rather than summarised at second hand.
 
-*Due next:* Buzan, Wæver and de Wilde 1998 is a single item with no critique pair, so the
-week that takes it needs the usual two section A items. The next pair after that is
-Hsiang, Burke and Miguel 2013 against Buhaug et al. 2014 in phase 3; verify both early, on
-the same principle.
+*Consumed 2026-10-11.* Buzan, Wæver and de Wilde 1998 was taken as a single item with
+McDonald 2026 as the recent one, two items as predicted. The lesson of the week is about a
+different cost than cadence: the citation was verified three times over two weeks and the
+text still could not be opened, so verification effort and reading access are separate
+problems and only the first is solved by verifying early. Where the text is a
+copyrighted book rather than a journal article, assume no access and plan the week's
+section A around what can honestly be said without it — or route the slot to something
+openable and come back to the book when someone has a library.
+
+*Due next:* Bächler 1999 is also a single item with no critique pair, so the week that
+takes it needs the usual two section A items, and it carries the same access risk as Buzan
+— a 1999 Kluwer monograph. The next pair after that is Hsiang, Burke and Miguel 2013
+against Buhaug et al. 2014 in phase 3; verify both early, on the same principle, and check
+access at the same time as the citation rather than a week later.

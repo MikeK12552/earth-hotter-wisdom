@@ -1,7 +1,19 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-05T05:45:33.659Z",
+  "generated": "2026-10-12T05:07:32.574Z",
   "digests": [
+    {
+      "id": "2026-10-11",
+      "week_start": "2026-10-05",
+      "week_end": "2026-10-11",
+      "week_number": 7,
+      "standfirst": "The strongest El Niño yet measured is being managed, for now, by the institutions that forecast it rather than by the ones that would have to respond: a famine early-warning system put the whole 2026–27 event on the record in one global report, and the Horn of Africa's famine risk changed its driver from drought to flood without changing magnitude. In the same week the presidency of November's climate conference answered a finance shortfall by reaching into the defence budget — \"what does it mean to spend 5% for defense if you don't have a country to live on?\" — while a draft of the European Union's own negotiating position said there is no scope for new climate finance at all.",
+      "counts": {
+        "developments": 7,
+        "moves": 5,
+        "open_threads": 26
+      }
+    },
     {
       "id": "2026-10-04",
       "week_start": "2026-09-28",

@@ -140,9 +140,26 @@ Note on the number: the €180 billion he carried is from *Hot Summer Economics*
 Bank modelling study of August 2026, not from peer-reviewed work or from an attribution
 study. Do not cite it as either.
 
-**The UN Secretary-General succession** *(verified Aug 2026)* — António Guterres's term
+**The UN Secretary-General succession** *(verified 2026-10-11)* — António Guterres's term
 ends 31 December 2026. What the candidates say about climate, and about Security Council
 competence over it, is among the highest-value things to track this year.
+
+*State of play, 2026-10-11.* Five straw polls so far — 30 July, 21 August, 18 September,
+29 September and **7 October** — with **seven candidates** and none withdrawn since
+Michelle Bachelet's withdrawal on 20 September: **Ivonne A-Baki** and **María Fernanda
+Espinosa Garcés** (Ecuador), **Rafael Mariano Grossi** (Argentina), **Rebeca Grynspan**
+(Costa Rica), **Olara Otunnu** (Uganda), **Carolyn Rodrigues Birkett** (Guyana) and
+**Macky Sall** (Senegal). Results are leaked rather than released. The fifth poll is
+reported as Grynspan 9 encourage / 6 discourage / 0 no opinion, down from 10 encourage;
+Grossi 6 / 7 / 2, down from 8 encourage; Rodrigues Birkett 5 / 9 / 1, her worst of the
+five. **Four of seven lost ground**, which is a Council testing veto exposure rather than
+choosing. A sixth poll is set for **16 October** and Council diplomats say it may be
+colour-coded, separating the P5 ballots from the rest without naming states — asked for when
+members suspect the discouragement sits with a permanent member. **Nothing has been found on
+any candidate's position on climate, or on Council competence over it, through five polls** —
+not from the Council, not from the Assembly's dialogues, not from the candidates' own
+material. Eleven weeks to the handover. The office inherits the only standing multilateral
+climate-security machinery (US$18.27m in nine years) and the vetoed 2021 draft resolution.
 
 **Annalena Baerbock** *(verified Aug 2026)* — German Foreign Minister December 2021 to
 May 2025, succeeded by Johann Wadephul; President of the 80th UN General Assembly since
@@ -249,10 +266,87 @@ what a matured frame looks like and also its most dangerous moment. *His current
 affiliation and the group's standing rest on a single press report and should be checked
 against the group's own material.*
 
+**Johann Wadephul** *(verified 2026-10-11)* — **German Federal Foreign Minister**, in
+office since May 2025, confirmed against his ministry's own publication of his speech
+opening the **eighth Berlin Climate and Security Conference** on 6 October 2026. Added
+because he said the newest thing anyone said this week, and it is a departure from the
+field's own vocabulary: actors are **using the impacts of climate change as a weapon**, and
+doing so is perfidious. Note what that formulation does. *Threat multiplier* names a
+condition and assigns no agency; *weaponisation* supplies an adversary. The published text
+names no actor as the weaponiser, which is why this is positioning rather than a finding —
+but it is the first time in this routine's run that the climate-security argument has
+acquired a perpetrator, and it is the register in which a German foreign ministry can speak
+to a coalition that does not lead with climate.
+
+The rest of the speech is supply chains rather than conflict data: drought in Sudan and
+falling Nile levels, reduced Panama Canal transits cutting daily traffic and vessel draft,
+El Niño threatening rice, palm oil, coffee and maize harvests in Asia, the Strait of Hormuz
+situation feeding into fertiliser supply and energy prices — and Sudan and the Panama Canal
+12,000 km apart, which is the point he is making. None of that chain is an attributed
+finding and the Hormuz link is not a climate link at all; expect it to be cited as though
+both were. He also said climate mitigation investment is security investment, and that
+decentralised renewables could be vital to survival if Russia strikes Ukraine's energy
+infrastructure again this winter.
+
+**Three things to track from him.** First, the **Group of Friends on Climate and Security
+at 81 members**, co-chaired with Nauru — the only countable institutional indicator this
+field produced in the week, in either direction, and worth re-reading each time he speaks
+because a membership number is a trend line. It binds nobody and spends nothing. Second,
+**what he put his ministry's name to, which is all pre-existing and all small**: the UN
+Climate Security Mechanism (US$18.27m in nine years, Germany a contributor and
+co-founder), the **Nairobi Toolkit** with Kenya inside the **Global Counterterrorism
+Forum**, the **Weathering Risk** initiative, **CERF's Climate Action Account**, and
+cross-border adaptation-and-peacebuilding work in Ethiopia, Kenya and Somalia. No new money
+and no new machinery was announced. Third, **climate-resilient reconstruction in Syria**,
+discussed with Syrian representatives present — the first instance this routine has
+recorded of climate adaptation entering a post-conflict reconstruction agenda at
+ministerial level, and the sort of unglamorous item that becomes durable practice.
+**And the standing question:** whether any *defence* ministry, German or otherwise, ever
+repeats the weaponisation claim. Nothing was found this week, including from his own
+government's.
+
+**Rachael Kyte** *(verified 2026-10-11)* — **UK climate special representative**, named as
+such in Fijian reporting of her announcement of **£10 million to the Pacific Resilience
+Facility** at a Pre-COP31 panel on 7 October 2026. Added for the arithmetic rather than the
+office. Two weeks earlier the FCDO's £331 million climate-instability package gave **£1
+million** to the UN Climate Security Mechanism; here the same government gives **ten times
+that** to a fund Pacific states control, at a venue they convened. So the £1 million was
+never the going rate for British climate money — it was the going rate for *multilateral
+climate-security machinery specifically*. That is a narrower and more interesting finding
+than the one this file carried, and it sharpens the standing question: **why do those two
+numbers differ by an order of magnitude?** Verify her title against gov.uk before quoting
+it; it currently rests on Fijian press reporting. *Caution on the figure: one Fijian outlet
+renders the £10 million as US$25.24 million and others as about US$13 million. The sterling
+figure is consistent; the conversion is not. Use sterling.*
+
+*Added 2026-10-11, on the Council of the European Union as a tracked actor in its own
+right, not only via the Commission and the EEAS.* A **draft of the Union's negotiating
+position for COP31**, reported on 6 October from a copy seen by Bloomberg, says there is
+**"no scope"** for new climate finance commitments at the conference, emphasises
+implementing existing decisions, seeks the **Mitigation Work Programme** extended past its
+COP31 expiry to **at least 2040**, and seeks the 2028 Global Stocktake set up. Environment
+ministers were to approve conclusions on the Union's negotiating positions for COP31 and
+COP17 in **Luxembourg on 12 October**, alongside the proposed ETS review. **Read it with
+the resilience framework of 28 October, not alone.** An instrument built on a 3°C reference
+trajectory, named risk owners, member-state resilience plans conditioning access to Union
+funding, and an insurance alliance, launched in the same month as a pre-emptive refusal of
+new international finance, describes a bloc managing climate risk by **domestic allocation
+and insurance** rather than by international transfer. That is the clearest answer this
+routine has to the standing question of which register European climate policy is written
+in: not security, not solidarity, but risk management. **Two things to check:** whether the
+phrase survives into the adopted conclusions, and whether the Mitigation Work Programme
+extension is what it is traded for. Note also the agenda separation visible in the Council's
+own 9 October forward look — the **European Council of 15–16 October** carries European
+defence and security with no climate item, while climate sits in a separate council three
+days earlier. Agenda separation is a weaker observable than a deleted referent; record it as
+the weaker thing.
+
 **To add:** the head of the UN Climate Security Mechanism, NATO's climate and security
 officials, whoever holds the EEAS climate-security file, the Pacific Islands Forum
 Secretary-General, and the equivalent figures in the African Union, Indian and Brazilian
-systems.
+systems. The Council of the EU entry above is a partial
+start on the EEAS/Commission gap; it is not a named official, and the EEAS climate-security
+file holder remains unidentified after eight weeks.
 
 **Ilana Victorya Seid** *(verified 2026-09-13)* — Permanent Representative of Palau to
 the United Nations since 2021, and **Chair of AOSIS for 2025-2026**, confirmed against
@@ -270,7 +364,24 @@ rather than by the alliance — so verify Seid afresh before quoting her, and re
 Fijian entries below as the live source. More importantly, the **argument has changed
 shape** and the entry above now mis-describes it. The defence of 1.5°C being carried into
 the pre-COP31 talks is not about the threshold's legal character at all; it is a procedural
-defence of the **IPCC as the reference body**. Ask about the certifier, not the number.
+defence of the **IPCC as the reference body**.
+
+***Corrected again 2026-10-11, and this one is the important correction on this page.***
+The instruction added a week earlier — "ask about the certifier, not the number" — was also
+wrong, and wrong in the same way: it adopted a sympathetic actor's framing as a description
+of the mechanism. **Nobody is proposing a substitute certifier.** No state tabled an
+alternative scientific body in any forum. What is contested is the **date**: five
+consecutive IPCC plenaries have failed to decide whether AR7's working-group reports land
+before the second global stocktake closes in 2028 or in 2029, four proposals remain, and
+the stocktake's political phase ends in 2028, so a 2029 report cannot inform it. And the
+states pressing for the later timetable — China, India, Kenya, Russia and Saudi Arabia per
+reporting of the plenaries — give **developing-country review and approval capacity** as
+their ground, which is the same register as the small-state objection above. One
+constituency invokes capacity to keep the panel central; another invokes it to slow the
+panel down. **Ask about the calendar, not the certifier.** And when a negotiator supplies a
+quotable formulation, establish what it is a formulation of before building a thread on it.
+Michael's sentence about scientific bodies remains worth quoting as an argument about
+participation; it is not a description of what is happening.
 
 **Sivendra Michael** *(verified 2026-10-04)* — **Permanent Secretary for Environment and
 Climate Change, Fiji**, and Fiji's **chief negotiator**; also co-chair of the Strategic
@@ -287,8 +398,17 @@ when a community is waiting for another 18 months."* **He is the person to work 
 IPCC-authority question**, which is now a tracked thread. Pre-COP31 ran 5–8 October 2026 at
 Nadi, with a limited delegation continuing to Tuvalu.
 
-**Lynda Tabuya** *(verified 2026-10-04)* — **Minister for Environment and Climate Change,
-Fiji**, and additionally **Chair of the Pacific Small Island Developing States** and
+*Outcome, 2026-10-11, and his role was not re-verified this week — do that before quoting
+him.* Of the four pillars, finance and oceans were transacted and the science pillar was
+not: no outcome text, chair's summary or ministerial statement naming the IPCC as the
+reference science could be found. That is consistent with the correction above. The pillar
+was aimed at a substitution nobody is attempting, while the decision that actually bears on
+the panel's standing sat in its own plenary four days later. **Reframe the question put to
+him:** not whether other bodies should guide decisions, but what a two-year gap in assessed
+science does to the ICJ standard he himself cites.
+
+**Lynda Tabuya** *(verified 2026-10-11)* — **Minister for Information, Environment and
+Climate Change, Fiji**, and additionally **Chair of the Pacific Small Island Developing States** and
 **Political Champion for Climate Finance**. She opened the Pre-COP31 talks on 5 October with
 three messages: keep 1.5°C within reach, make finance reach the communities that need it,
 give the ocean its rightful place in the climate regime. The PSIDS chairmanship is the part
@@ -296,6 +416,27 @@ to note: it means the Pacific negotiating bloc's chair and the host ministry are
 person during the run-up to Antalya, which concentrates a lot of the small-island position
 in one office. Added alongside Michael because between them they are the two most quotable
 Pacific principals for the next two months, and this roster has been short of them.
+
+*Updated 2026-10-11. Portfolio corrected and the outcome recorded.* Reporting of the talks
+gives her title as **minister for information, environment and climate change** — the
+information portfolio was not on this file and should not have been left off, because a
+minister who also holds communications is a different kind of interlocutor. She closed the
+talks on 8 October saying the meeting showed where progress was possible and where more
+political courage was needed, that a pre-COP cannot deliver the decisions the Pacific
+seeks, and that the Pacific wants the ocean given its rightful place; she also said the
+Pacific will hold COP31 to US$1.5 billion. **What she actually delivered is the thing to
+score:** new pledges into the **Pacific Resilience Facility** — Fiji US$10 million from
+Prime Minister **Sitiveni Rabuka** (as reported; verify the spelling and the office before
+quoting), the UK £10 million announced by its climate special representative **Rachael
+Kyte**, Denmark US$2.3 million, **the Netherlands US$1 million**, and Ireland doubling an
+earlier €3 million — taking the fund to about **US$190 million against a US$500 million
+initial target** and US$1.5 billion long term. Two instructions. **Work the facility as a
+tracked instrument**, because it is the clearest available test of whether a fund recipients
+control attracts money faster than one they petition: five donors and the host in one week
+at a venue the region convened moved the total by roughly ten million dollars. And **note
+the Dutch number against the Dutch entries below**: US$1 million is the smallest of the
+five, two tenths of one per cent of the facility's first target, from the country that is
+also absent from the fourteen governments funding the UN climate security mechanism.
 
 **The Loss and Damage Fund co-chairs** *(verified 2026-09-20)* — **Camila Minerva
 Rodriguez Tavarez** and **Georg Børsting**, co-chairs of the board of the Fund for
@@ -407,7 +548,14 @@ Checking note, 2026-09-13, on where to look rather than whether to look:
   chains, resilient infrastructure, personnel readiness, operational energy, public-private
   partnerships. Speakers include Maj.-Gen. J.J.L.N. Pilon (Canadian Armed Forces),
   Ambassador Hanne Ulrichsen (Norway to Canada) and Brigadier Tim Symonds (British Army);
-  by invitation only. **Check ccascoe.org each week, separately from nato.int.** The
+  by invitation only. **Check ccascoe.org each week, separately from nato.int.** *Checked 2026-10-11: the only
+  item in the week was a welcome to its **2026 cohort of fellows** on 6 October, with no
+  fellows named and no programme described, and no publications. A **Nordic resilience and
+  infrastructure workshop** is listed for 14 October in Montréal alongside the summit. The
+  centre's news stream runs Oct 2025, May 2026, Oct 2026 — it posts around its own events
+  and not otherwise, so between them the absence is lead time. Note it attended the Berlin
+  climate security conference in 2025 and no 2026 equivalent note has appeared, which is
+  worth one check after the Berlin conference of 6 October 2026.* The
   analytical value is specific: if the centre of excellence says *climate* freely while the
   binding baseline requirements of 15 September do not, then the removal of the referent
   from those requirements was a drafting discipline applied to instruments that bind, not a
@@ -417,8 +565,21 @@ Checking note, 2026-09-13, on where to look rather than whether to look:
   whose blog has shown nothing since April 2026. CCS-branded items now appear on the
   parent site, councilonstrategicrisks.org. Checking only the old domain would have
   scored an active institute as silent — it was nearly scored that way on 2026-09-13.
+
+  *Checked 2026-10-11, and the week answers the state-level question in the negative.* In
+  the week to 11 October the institute published **no climate research at all**: a
+  September media round-up (9 October) and an event recap of New York Climate Week and
+  UNGA (6 October). What the **parent** organisation launched was a second cohort of its
+  **AI and National Security Convergence Fellowship**, applications opened 5 October and
+  due 20 October, run out of the Converging Risks Lab. That is **three consecutive weeks
+  with no state-level briefer** since Ohio on 18 September. **Instruction: stop treating
+  the statehouse series as a strategy and start tracking where the new programme capacity
+  goes.** A philanthropically funded institute follows available money, and the available
+  money is on convergence with artificial intelligence. An institute that publishes nothing
+  has lead time; an institute whose new programme line goes somewhere else has made a
+  choice, and this one has.
 - **Clingendael, and the lesson from the van Schaik discrepancy.** clingendael.org refused
-  retrieval on 2026-09-13, 2026-09-20, 2026-09-27 and 2026-10-04. Four refusals means the institute's
+  retrieval on 2026-09-13, 2026-09-20, 2026-09-27, 2026-10-04 and 2026-10-11. Five refusals means the institute's
   own silence **cannot be assessed at all** — that is a hole in the method, not a finding
   about the institute, and it should be recorded as a third category every week it
   happens, separately from silence-that-is-evidence and silence-that-is-only-lead-time.
@@ -477,8 +638,12 @@ Checking note, 2026-09-13, on where to look rather than whether to look:
   climate-change-and-security publications list, not the front page: *Beyond the Blue Line: Tackling Climate, Peace, and Security Challenges in
   Abyei*, by Katongo Seyuba (SIPRI climate change and risk programme) and Andrew E. Yaw
   Tchie (NUPI), published Stockholm, August 2026, appears there and was missed for a month
-  by checking elsewhere. A *Climate, Peace and Security Fact Sheet: Lake Chad (2026)* is
-  also listed and has not yet been read.
+  by checking elsewhere. A *Climate, Peace and Security Fact Sheet: Lake Chad* is
+  also listed and has not yet been read; it is dated **June 2026**, which this file
+  previously left as an undated 2026 item (corrected 2026-10-11). *Re-checked 2026-10-11:
+  the climate-change-and-security publications list still ends at the August Abyei study,
+  with nothing for September or October. Under the split rule that remains
+  silence-as-lead-time and not a finding.*
 
 Added 2026-09-06: **ICIMOD**, **World Weather Attribution** and the **Pacific Islands
 Forum Secretariat**. The first two because attribution and monitoring institutions now
@@ -570,6 +735,53 @@ field's inputs rather than its arguments.*
   28 October without an independent basis for loss estimation, the private number becomes
   the official one by default.
 
+*Added 2026-10-11: two more institutions that produce the field's inputs rather than its
+arguments, and the reason they belong on the principals-first roster rather than in the
+institutes tier.* In the week to 11 October the climate-security argument about the
+strongest El Niño on record was made entirely by forecasting and classification bodies. No
+ministry, alliance body or council said anything about it at all.
+
+- **FEWS NET**, the Famine Early Warning Systems Network. Published a **global special
+  report** on the food security impacts of the 2026–27 El Niño on **6 October 2026** —
+  unimodal East Africa (Ethiopia, South Sudan, Sudan, Karamoja) and Southern Africa
+  (Angola, Lesotho, Madagascar, Malawi, Mozambique, Zambia, Zimbabwe) at highest concern;
+  bimodal East Africa including Kenya and Somalia moderate to high; West Africa, parts of
+  Latin America and the Caribbean, and Pakistan moderate. **Two things in it are worth more
+  than the headline.** First, its own finding on global supply runs against the alarm:
+  across strong and very strong El Niño years global maize, wheat and rice output has
+  changed little on balance, and USDA projects 2026/27 output 2.7 per cent below last year
+  and still the second largest on record — the hazard is distributional, not a global
+  shortfall. Second, the operational core is a **lag**: the most severe outcomes emerge in
+  the *following* lean season, not during the rains. That lag is the entire case for
+  anticipatory action and the entire reason it keeps failing. **Where to look:** the global
+  special reports index and the per-country outlook pages separately; Somalia's country page
+  lists the global report alongside country products, and that country's most recent own
+  product was a September key message update.
+- **FAO SWALIM**, FAO's Somalia Water and Land Information Management unit. The source of
+  the Deyr flood probabilities: more than **90 per cent** probability of seasonal rainfall
+  above 300 mm in parts of southern and central Somalia, earlier-than-average onset, risk
+  concentrated in the **Jubba and Shabelle** catchments, 1997 and 2023 as analogues. Keep
+  its lead meteorologist **Bethwell Mutai**'s formulation, because it is the standard this
+  routine should hold institutions to: the resemblance to those years *"does not mean
+  flooding is certain, but it tells us that we must use the lead time available to act
+  before impacts occur."* An institution that distinguishes a probability from a prediction
+  while asking for money on it is a reliable one.
+
+**The standing question for both, and nobody keeps the answer.** There is no published
+figure anywhere for how much anticipatory money has **disbursed** against this event, as
+against pledged. Three weeks of looking has produced appeal totals, pledge tallies and
+emergency-fund allocations and no count of transfers. Until that number exists in public,
+every claim that forecast-based financing works is a claim about intentions. **Second
+question:** the collective flood anticipatory-action framework for Somalia and its trigger
+protocols are reported still unfinalised eight weeks from the peak, and no district-level
+plans with named responsibilities, budgets and timelines could be found — a framework
+without a trigger is a statement of intent. **Third, and generalisable:** Somalia's
+early-warning and financing apparatus was rebuilt twice around rainfall *failure*, and the
+thing now forecast to produce famine is rainfall *excess*. That is the same
+warning-mismatch this routine recorded in the Himalaya in September, in a different hazard
+class on a different continent. Expect it wherever an early-warning system was designed
+around one mechanism and the mechanism has moved.
+
 *Added 2026-10-04, on the China–India expert mechanism, because it is now the better
 instrument than any Chinese or Indian doctrine document.* The **Expert Level Mechanism on
 Trans-Border Rivers**, set up in 2006 and nominally annual, handles flood-season
@@ -583,7 +795,44 @@ reporting in either country.** A dated, specific, bilateral undertaking on exact
 transboundary water question the Himalayan hazard file turns on, unfulfilled. Seven weeks
 of looking for a Chinese or Indian security document on climate has produced nothing; six
 weeks of watching this mechanism has produced a commitment and a missed deadline, which is
-a real observable. Work the mechanism.
+a real observable. Work the mechanism. *Re-checked 2026-10-11: still no meeting found, from
+either foreign ministry, either water ministry, or reporting in either country. Two months
+past a dated bilateral undertaking.*
+
+*Added 2026-10-11, and it is now the strongest dated instrument on the Indian file.* The
+**India–Bangladesh Ganges Water Treaty of 1996 expires in December 2026** — sources give
+**12 December** and **31 December** and do not agree, which is itself the first thing to
+settle. The treaty sets dry-season sharing at Farakka: an even split at high flows, a fixed
+35,000 cusecs to India at lower flows, and three alternating ten-day periods between 11
+March and 10 May in which both sides are guaranteed 35,000 cusecs. India's MEA says all
+issues on Ganges water and other common rivers will be handled through the **Joint Rivers
+Commission** — whose 90th meeting was in May 2026 and included a joint inspection at the
+Farakka barrage — and says technical-level meetings have continued. Bangladesh's water
+resources minister **Shahiduddin Chowdhury Anee** has said Dhaka wants a **new** treaty
+with guarantee clauses on dry-season flow rather than a renewal, and Dhaka is reviewing 101
+agreements and memoranda signed with India under the previous government. **West Bengal**
+has objected to the centre proceeding without the state, having blocked a comparable
+arrangement before, so this has a federal veto point as well as a bilateral one. Live
+disagreements: dry-season allocation, treaty duration, measurement method, and whether to
+move towards basin-wide governance. *All of the above is from reporting and analysis up to
+late September 2026; nothing dated inside the week to 11 October was found, which is why it
+is carried as an instrument to work rather than as a movement.*
+
+Three reasons to work it weekly. It is the largest dated transboundary water decision in
+this field's calendar and the first to fall due inside a quarter. It is a **climate-stressed
+treaty renegotiation with a hard deadline**, which the water-conflict literature in phase 5
+of the reading list keeps saying is the rare and instructive case — so whatever happens is
+evidence either way. And it sits on the Indian file this routine has failed to make legible
+for eight weeks: a security document was the wrong instrument, and this is a right one.
+**Where to look:** Joint Rivers Commission meeting records, India's MEA weekly briefings,
+Bangladesh's water resources ministry, and West Bengal's correspondence with Delhi. Do not
+take the expiry date from secondary reporting; find the treaty text.
+
+**One naming trap to avoid before it reaches a digest.** In this file **JRC** means the
+India–Bangladesh Joint Rivers Commission. In European documents the same letters are the
+European Commission's Joint Research Centre, which this digest also has cause to cite.
+Spell it out in reader-facing prose rather than relying on the abbreviation, and if it ever
+does get abbreviated in a digest, add it to the glossary with both meanings.
 
 *Added 2026-09-27, on the multilateral machinery.* The **UN Climate Security Mechanism**
 is no longer an undocumented question mark. Its own programme pages give an extended
@@ -679,6 +928,29 @@ the forum in which the frequency bands meteorological observation depends on wil
 fought over at WRC-27. Nothing improper in that; it does mean the same body is being asked
 to carry the climate agenda and to adjudicate against its instruments.
 
+*Updated 2026-10-11, and this is now the most interesting thing he has done.* At the close
+of the Nadi pre-COP on **8 October** he priced the climate finance ask against the
+alliance's defence commitment, telling reporters that governments should show the same
+commitment to climate action as to defence and asking: *"What does it mean to spend 5% for
+defense if you don't have a country to live on?"* — the 5 per cent being NATO's Hague
+commitment of 3.5 per cent of GDP on core defence by 2035 plus 1.5 points on
+defence- and security-related areas. His formulation of the ask: *"The same responsibility,
+same determination, we expect each and every country to show in climate action."* The
+collective finance goal he set it against is US$1.3 trillion a year by 2035. He also said
+1.5°C is survival, and he and **Chris Bowen** visited Tuvalu on 6 October with the heads of
+the Asian Development Bank and the Green Climate Fund.
+
+**Why this matters more than the two pledges above.** For two months this routine has
+recorded climate arguments borrowing other security registers because the field's own was
+unavailable. This runs the other way: a COP presidency reaching into the defence budget, and
+specifically into the one number every allied treasury has already conceded. It is an
+argument from demonstrated political capacity rather than from threat, and it is available
+to anyone. **The risk to watch, and it is specific:** a finance ask framed against a defence
+benchmark invites the answer that climate money should come out of the 1.5 points — which is
+exactly what CCASCOE's Montréal summit of 15–16 October is convening about, and exactly what
+the IMCCS argued in October 2025 before going silent for a year. Check whether anyone takes
+the comparison up, and on which side.
+
 *Still unfilled, 2026-10-04:* a named contact in the **Pacific Islands Forum
 Secretariat** itself, as against the Fijian ministers below, and the **head of the UN
 Climate Security Mechanism**, which is now the highest-value gap given what its funding
@@ -691,14 +963,32 @@ Verhitte Wereld* (Birkman, De Cuyper and Jeuken, June 2025), commissioned by the
 climate-security research demand which actually pays is therefore domestic-order demand
 rather than defence demand.
 
-The first half is out of date. HCSS has published on climate security since: Patrick
-Willemsen, *Klimaat als strategische factor: Nederlandse Defensie zet koers in onzeker
-vaarwater*, 16 July 2026 — a critique of the Ministry of Defence's *Defensiestrategie
-voor Klimaatverandering en Veiligheid – Klimaatparaat* (3 July 2026), arguing the
-strategy is substantively sound but lacks a national anchor, operationalisation, and any
-treatment of climate as a strategic opportunity rather than only a threat. Earlier 2026
-HCSS climate work includes Govaerts on the Nile basin (28 May) and on long-run climate
-trends (26 May), and Willemsen on climate stress and EU cohesion (24 March).
+The first half is out of date. HCSS has published on climate security since:
+**Laura Birkman**, *Klimaat als strategische factor: Nederlandse Defensie zet koers in
+onzeker vaarwater*, **15 July 2026** — a critique of the Ministry of Defence's
+*Defensiestrategie voor Klimaatverandering en Veiligheid – Klimaatparaat* (3 July 2026),
+arguing the strategy is substantively sound but lacks a national anchor, lacks any plan for
+the climate, weather and ocean **data infrastructure** that anticipation depends on, and
+asks for hard milestones in the action plan. Earlier 2026 HCSS climate work includes
+Govaerts on the Nile basin (28 May) and on long-run climate trends (26 May), and Patrick
+Willemsen on climate stress and EU cohesion (24 March).
+
+*Correction, 2026-10-11.* This entry attributed the July analysis to Patrick Willemsen and
+dated it 16 July. It is by **Laura Birkman**, director of the centre's climate, water and
+food security programme — the same person this file tracks two entries above — and it is
+dated **15 July 2026**. Verified against the centre's own page for the piece. Two
+consequences. First, the Dutch defence-strategy critique and the IMCCS seat and the Water,
+Peace and Security partnership are all held by one person, which concentrates the Dutch
+civilian climate-security interface further than this file has been recording. Second, her
+**data-infrastructure** point is the thing to carry forward and this file missed it: she
+names reliable climate, weather and ocean data as a dependency the strategy barely
+addresses, and points at cuts to American observing systems. That is a defence-adjacent
+institution naming the observing system as a vulnerability in **July**, two and a half
+months before the telecommunications and meteorological agencies escalated on spectrum.
+It is the only thing found so far on the question of whether any security-side actor
+treats the observing system as an asset to defend. **Work her as the Dutch entry point on
+the measurement question, not only on the water file.** No client is stated on the piece,
+so the standing instruction below still applies.
 
 The second half needs qualifying rather than deleting. A Dutch defence climate strategy
 now exists, carries €5 million structural from 2027, and HCSS has engaged it. Whether
