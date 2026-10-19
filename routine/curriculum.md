@@ -111,11 +111,34 @@ digest's verification note.
   distinction (scientific and political) is the authors' own framing or a later gloss.*
 - Bächler, Günther, *Violence Through Environmental Discrimination: Causes, Rwanda Arena,
   and Conflict Model*, Kluwer Academic Publishers, Dordrecht, 1999, Social Indicators
-  Research Series vol. 2. **Next up** as of 2026-10-11. *Verified 2026-10-11 against
-  several independent academic reference lists, which agree on author, year, title,
-  subtitle, publisher, place and series; no publisher or catalogue record was opened, so
-  pagination is not asserted, and the surname appears in the literature as both Bächler
-  and Baechler.*
+  Research Series vol. 2. **Read** in the week ending 2026-10-18. *Verified 2026-10-11
+  against several independent academic reference lists, and re-verified 2026-10-18 against
+  the publisher's own deposited record (Crossref, doi 10.1007/978-94-015-9175-1), which
+  settles three things this file left open. The surname, as the publisher prints it, is
+  **Baechler** without the umlaut; the literature uses both and the publisher's form is
+  the one to carry in a citation. The imprint in the deposited record is **Springer
+  Netherlands, Dordrecht**, because the Kluwer academic list was later absorbed — the 1999
+  book was a Kluwer title and both forms are defensible, so say Kluwer with the date and
+  do not "correct" a Springer attribution to it. And the pagination, previously not
+  asserted at all, is now established from the chapter-level records: Introduction 1-19,
+  Discussion 21-54, Correlations 55-83, Typology 85-112, Case Study 113-166, Model 167-185,
+  Empirical Evidence 187-220, Outlook 221-242, Appendix 243-275, Glossary 277-285,
+  Bibliography 287-319. ISBNs 978-90-481-5144-8 and 978-94-015-9175-1; which is print and
+  which electronic was not established.*
+  *Where to read it: nowhere, and this was foreseen. The book is in copyright and the
+  publisher's platform refused on 2026-10-18 as it did for Buzan the week before. **The
+  route that worked, and the one to use again:** Baechler's own synthesis of the same
+  project and the same model, "Why Environmental Transformation Causes Violence: A
+  Synthesis", *Environmental Change and Security Project Report*, issue 4, Spring 1998,
+  24-44, is openly available from the Wilson Center and was read in full. It carries the
+  ENCOP definition of environmental conflict, the environmental-discrimination
+  formulation, the six crisis-area types, the seven ideal types of conflict and the
+  conclusions, which is everything the digest needed. What it does **not** carry is the
+  Rwanda case study — the book's second half, one paragraph in the article — so nobody
+  should characterise the case work from the 1998 piece. Note for whoever next has library
+  access: settle whether the book's conflict model differs from the 1998 synthesis in any
+  substantive respect, because this site has now summarised the model from the article and
+  said so.*
   ***Correction, 2026-10-11, and it would have produced a wrong citation.*** *This entry
   previously read "Then Bächler 1999 (ENCOP)", which conflates two different publications.
   ENCOP — the Environment and Conflicts Project — was a 1990s joint undertaking of the
@@ -131,7 +154,23 @@ digest's verification note.
   ECOMAN, a related Horn of Africa project whose revised final report appeared in 2002,
   which is a third thing.* No critique pair falls due with it, so the week that takes it
   needs the usual two section A items.
-- Then Le Billon 2001, Kahl 2006.
+  *Critiques used in the week ending 2026-10-18, both checkable and neither requiring the
+  book: Gleditsch 1998, which explicitly declines to engage ENCOP's findings on
+  methodological grounds; and Peluso and Watts, eds., *Violent Environments*, Cornell
+  University Press, 2001, 453pp., which names Baechler with Kaplan and Homer-Dixon as the
+  three neo-Malthusians it targets. The most useful handle on that volume is **Colin
+  Kahl's review, *Environmental Change and Security Project Report* issue 8, 135-142**,
+  which was read in full, states the charge and the carve-out for Baechler specifically,
+  and is openly available. Kahl 2006 closes this phase, so the phase ends with a reader of
+  its own quarrel — use the review when you get to him.*
+- Le Billon, Philippe, "The political ecology of war: natural resources and armed
+  conflicts", *Political Geography*, 2001, 20(5), June 2001, 561-584, doi
+  10.1016/S0962-6298(01)00015-4. **Next up** as of 2026-10-18. *Verified 2026-10-18 ahead
+  of time against Crossref, which gives Philippe Le Billon, Political Geography 20(5),
+  June 2001, 561-584, Elsevier. This entry previously carried only "Le Billon 2001". Access
+  was **not** tested, which is the one thing the last two weeks say to do at the same time
+  as the citation.*
+- Then Kahl 2006, which closes the phase.
 
 ## Phase 3 — Climate arrives (2003–2015)
 
@@ -246,6 +285,28 @@ preserved below for the record; it is history, not position.*
   authors at the University of Essex per Crossref; published online 24 January 2026, print
   issue September 2026. Abstract read, full text not opened.
 
+- Phase 2, Baechler 1999 — week ending 2026-10-18. Fourth item of phase 2, no critique pair,
+  so the week took the usual two items. *The book could not be opened; the summary was
+  written from the author's own 1998 synthesis in ECSP Report issue 4, which was read in
+  full, and the digest says so and quotes nothing from the book. Pagination and the
+  publisher's form of the surname established this week — see the corrected entry above.*
+  Unusually live against section B: Baechler's conclusion is that interstate war between
+  riparians of one basin stays exceptional *because of* intensified treaty-making, and the
+  week's section B carried the Ganges treaty's expiry date being settled at 12 December
+  2026 from the treaty text.
+- Outside the sequence, Alessi, Phillips, Merner, Callahan, Kimutai, Walker-Crawford, Reyes
+  and Spanger 2026, *npj Climate Action* 5(1), article 84, "The next phase of climate
+  attribution", doi 10.1038/s44168-026-00432-9 — week ending 2026-10-18. Nearest phase 5.
+  *Verified against Crossref and read in full; online 25 September 2026; a Comment rather
+  than research, which the digest states. Four of the eight authors are at the Union of
+  Concerned Scientists, which the digest also states, because the piece proposes shifting
+  the default so that climate influence is presumed for well-evidenced hazard classes
+  unless disproved — a normative rather than a statistical move. One author, Joyce Kimutai,
+  argued three weeks later at the suspended climate-panel plenary that a fast process would
+  not be an inclusive one; the tension is the field's and is worth keeping.* Chosen before
+  the week's events made it unavoidable: the hazard classes it brackets are exactly the
+  cascading cryospheric ones the week's two Himalayan items fall into.
+
 ### Before the reset (2026-08-31 to 2026-09-06)
 
 Kept so the sequence's first pass stays visible, and so a later reader can see that
@@ -281,8 +342,21 @@ copyrighted book rather than a journal article, assume no access and plan the we
 section A around what can honestly be said without it — or route the slot to something
 openable and come back to the book when someone has a library.
 
-*Due next:* Bächler 1999 is also a single item with no critique pair, so the week that
-takes it needs the usual two section A items, and it carries the same access risk as Buzan
-— a 1999 Kluwer monograph. The next pair after that is Hsiang, Burke and Miguel 2013
-against Buhaug et al. 2014 in phase 3; verify both early, on the same principle, and check
-access at the same time as the citation rather than a week later.
+*Consumed 2026-10-18.* Baechler 1999 was taken as a single item with the npj Climate
+Action comment as the recent one, two items as predicted, and the access risk flagged for
+it materialised exactly as flagged: a 1999 copyrighted monograph, no openable copy. The
+lesson is the one the Buzan week pointed at and did not act on — **plan the section A slot
+around what can honestly be said without the text, and find the openable primary statement
+of the same argument before the week starts.** For Baechler that was his own 1998 synthesis
+of the same project, openly available, which carries the definition, the typology and the
+conclusions. Most of this literature's canonical mid-career books have an article-length
+statement of the same argument in a journal or report series; look for it first and the
+access problem mostly disappears.
+
+*Due next:* Le Billon 2001 is a journal article with a verified citation (see the corrected
+entry in phase 2) and **access untested** — test it before the week that takes it. Then Kahl
+2006 closes the phase; his 2001 review of *Violent Environments* has already been read for
+this week's critiques and is the obvious way in. The next pair after that is Hsiang, Burke
+and Miguel 2013 against Buhaug et al. 2014 in phase 3; verify both early, check access at
+the same time as the citation, and look for the openable statement of each argument in the
+same pass.

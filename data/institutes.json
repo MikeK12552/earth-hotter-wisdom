@@ -182,5 +182,21 @@
     "lon": 6.1469,
     "role": "World Meteorological Organization; the observing system, and host of the climate panel's secretariat",
     "note": "Added 2026-10-11 to close a drift: the standing roster has tracked the telecommunications union and the meteorological organization together since their joint appeal of 28 September 2026 on the radio-frequency bands weather and climate observation depends on, but only the union was on this layer. Celeste Saulo's formulation is the one to keep — the spectrum is a finite natural resource and meteorology relies on specific bands determined not by choice but by the physical properties of the atmosphere. Geneva is also where the climate panel's secretariat sits, which is where its 9 October 2026 advisory for the Addis Ababa plenary came from. Nothing from any defence ministry or alliance body has engaged the observing system as an asset to defend."
+  },
+  {
+    "name": "Anticipation Hub",
+    "city": "Berlin",
+    "lat": 52.52,
+    "lon": 13.405,
+    "role": "Anticipatory action community of practice; holds the only public annual count of the field's central operational doctrine",
+    "note": "Hosted by the German Red Cross with the international federation and the Red Cross Red Crescent climate centre as co-initiators, its coordination team drawn from all three and its primary office in Berlin. Added to the roster 2026-10-18 after its annual global overview was found to contain the anticipatory-disbursement figure this routine had reported for three weeks as not existing in public: for 2025, 146 activations across 54 countries, almost US$120 million released and 9.6 million people reached."
+  },
+  {
+    "name": "Conference of Defence Associations Institute",
+    "city": "Ottawa",
+    "lat": 45.42472,
+    "lon": -75.695,
+    "role": "Canadian defence research institute; co-host of the Montreal climate security summit with the alliance's climate centre",
+    "note": "Added to the roster 2026-10-18. Its published summit speaker list is currently the most complete public map of who works on defence and climate across the alliance, and is the route by which the 2026 edition's participation was established when neither host published an account of it. Treat titles on that list as the host's own rather than as verified: it gives the European external action service's climate envoy a role title no European source confirms."
   }
 ]
