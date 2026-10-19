@@ -1,7 +1,19 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-12T05:07:32.574Z",
+  "generated": "2026-10-19T05:27:14.125Z",
   "digests": [
+    {
+      "id": "2026-10-18",
+      "week_start": "2026-10-12",
+      "week_end": "2026-10-18",
+      "week_number": 8,
+      "standfirst": "The body that certifies what governments are allowed to call the best available science spent a week in Addis Ababa and decided neither when its next assessment arrives nor how next year is paid for; its chair suspended the session rather than put it to a room the poorest delegations had already left. In the same week a Himalayan research centre published a reconstruction of August's cross-border disaster showing the slope had been moving measurably for forty-eight days before it failed — which is close to the opposite of the conclusion an attribution study drew a month earlier about what could have been foreseen, and which lands six days before a climate fund's board meets in emergency session, for the first time in its existence, to consider paying for it.",
+      "counts": {
+        "developments": 8,
+        "moves": 5,
+        "open_threads": 28
+      }
+    },
     {
       "id": "2026-10-11",
       "week_start": "2026-10-05",

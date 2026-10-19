@@ -492,6 +492,28 @@
       "expansion": "Environment and Conflicts Project",
       "gloss": "A 1990s joint project of the Swiss Peace Foundation and the Zurich federal technical university, led by Günther Bächler with Kurt Spillmann, whose final report was published in 1996. Frequently cited as shorthand for Bächler's 1999 monograph, which is a different publication by a different publisher.",
       "wikipedia": false
+    },
+    "NCQG": {
+      "expansion": "New Collective Quantified Goal on Climate Finance",
+      "gloss": "The post-2025 climate finance goal agreed at Baku in 2024: at least US$300 billion a year by 2035, inside a wider call to mobilise US$1.3 trillion a year. \"Quantified\" refers to the collective goal, not to any country's share of it."
+    },
+    "InSAR": {
+      "expansion": "interferometric synthetic-aperture radar",
+      "wikipedia": "Interferometric synthetic-aperture radar",
+      "gloss": "Comparing successive satellite radar passes to measure ground movement to centimetre precision. It measures displacement along the satellite's line of sight rather than true three-dimensional motion — which is why the Himalayan slope figure is quoted as line-of-sight movement."
+    },
+    "CELAC": {
+      "expansion": "Community of Latin American and Caribbean States",
+      "wikipedia": "Community of Latin American and Caribbean States"
+    },
+    "IPCS": {
+      "expansion": "Institute of Peace and Conflict Studies, New Delhi",
+      "gloss": "An Indian research institute. Not the climate panel (IPCC) and not the food-security classification scale (IPC), both of which also appear in these digests and neither of which it is."
+    },
+    "LDCs": {
+      "expansion": "least developed countries",
+      "wikipedia": "Least developed countries",
+      "gloss": "The UN's formal category of forty-odd states on defined income, human-asset and vulnerability criteria — a negotiating bloc as well as a classification, and in climate texts usually paired with the small island states as the group entitled to particular treatment."
     }
   }
 }

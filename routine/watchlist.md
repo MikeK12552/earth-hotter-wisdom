@@ -22,6 +22,49 @@ person for the US trajectory, especially its reversals. Her May 2026 turn to sol
 radiation modification governance, with Shuchi Talati in Lawfare, is an early indicator
 of where the security frame travels next.
 
+*Updated 2026-10-18, and this corrects a reading this file and the digest both carried.*
+Her SRM turn did not stay in commentary. **CSR published, in February 2026, *Climate
+Intervention at High Latitudes: A 2030 Security Scenario*, by Sikorsky with Julia
+Greensfelder and Hannah Lyons**, storymap by Tom Ellison, built on desk research, expert
+interviews and a **tabletop exercise held during New York Climate Week in September 2025**
+with more than twenty-five foreign and security policy experts from several countries, the
+simulator supplied by **Reflective**. Its fictional scenario: a Canada- and UK-led
+public-private consortium injecting **3 Tg of SO2 a year over the Arctic at 60°N from 2035
+to 2040**, rising to a global peak of 14 Tg by 2100, to hold 1.5°C under SSP2-4.5, with
+Mt Pinatubo's 10.4-15.5 Tg as the comparison. No team played the United States, which was
+written as a country in political flux and excluded from the analysis. Participants are not
+named. **Why this matters for method:** the digest described the institute's 14 October 2026
+Arctic tabletop as a format "designed not to produce a record", on the strength of there
+being no output. That was wrong — the series does produce a record, with named authors, a
+specified scenario and a named technical partner, eight months before the routine went
+looking. What the format withholds is the participant list, which is a narrower and more
+defensible finding. **Instruction: when an institute runs an unminuted exercise, check its
+publications for an earlier exercise in the same series before characterising the format.**
+The report's own conclusions are the thing to watch for adoption, because they are the
+first security-institution positions on SRM this file has: that states will default to
+geopolitical instinct rather than to science; that Russia is the central risk, through
+Arctic militarisation, interference, sabotage and disinformation framing the consortium as
+neo-colonial; that China may oppose publicly while benefiting privately; that the African
+Union and Mexico will press equity, representation and precipitation effects; that the EU
+and Norway will want a multilateral scientific assessment; and that trust-building has to
+start before any deployment proposal exists, because "Once a deployment proposal is on the
+table, states will become more defensive and less open to persuasion."
+
+*Checked 2026-10-18, and the register has now changed rather than the volume.* In the week
+to 18 October the institute published **no climate research**. Its one new item, posted 15
+October, is an event for **27 October: "Charging Forward: Electric Vehicles as Defense
+Technology"**, moderated by Sikorsky with non-resident fellows **Joshua Busby** (LBJ School,
+UT Austin) and **Greg Pollock** (Georgetown; OSD roles 2010-2025, most recently acting
+Deputy Assistant Secretary of Defense for Arctic and Global Resilience Policy), arguing that
+advanced batteries are "a chokepoint technology on par with semiconductors", that China
+dominates the supply chain, that defence procurement alone cannot sustain a competitive US
+battery industry, and that without a domestic EV market the US risks "ceding a technology
+central to its future military capability". **There is no climate content in the framing.**
+Fourth consecutive week with no state-level briefer. **Instruction: stop tracking whether
+this institute publishes and start tracking which register it publishes in.** On this
+month's evidence the register is technology and supply-chain competition with China, and
+the statehouse bet is closed — the digest resolved that thread on 2026-10-18.
+
 *Correction, 2026-08-31:* an earlier version of this file called her March 2026 piece on
 climate's omission from the 2026 US Annual Threat Assessment "the mirror image of the
 2007 CNA moment". It is not. CNA 2007 was supply-side: retired flag officers
@@ -161,6 +204,27 @@ not from the Council, not from the Assembly's dialogues, not from the candidates
 material. Eleven weeks to the handover. The office inherits the only standing multilateral
 climate-security machinery (US$18.27m in nine years) and the vetoed 2021 draft resolution.
 
+*State of play, 2026-10-18.* The **sixth poll was held on Friday 16 October** and was the
+**first colour-coded ballot in the process's history**: red for the five permanent members,
+white for the ten elected, each listing the candidates against "encouraged", "discouraged"
+and "no opinion expressed". **China and the United States** were appointed tellers on 14
+October. Reported results: **Grynspan 9 encourage / 5 discourage, opposed by two permanent
+members; Grossi 8 / 6, opposed by two; Rodrigues-Birkett 8 / 6, opposed by two; A-Baki
+discouraged by all five.** The threshold is nine encourage with no permanent-member
+discouragement. Nobody withdrew and nobody new entered. **Minh-Thu Pham** of the Starling
+Institute called the gap between the top three "very, very slim" and the result "a split
+decision with no P5 convergence"; US ambassador **Mike Waltz** said the priority was "the
+best candidate" rather than regional rotation or gender and is reported to believe the
+Council can finish before the end of 2026. Sources disagree on whether a seventh poll is
+scheduled — one listing gives 23 October, another says no date is set — so **do not state a
+date for the next poll.** New input on 13 October: a **CELAC letter** arguing that "the time
+has come for a national of Latin America and the Caribbean" and asking the Council and the
+Assembly to give the region's position due consideration, which is a claim about geography
+and not about any policy. **For this file the finding is unchanged through six polls and it
+is the only one that matters here: no candidate has been asked a public question about
+climate, or about Council competence over it, by the Council, by the Assembly's dialogues,
+or in their own material.** Ten weeks to the end of the term.
+
 **Annalena Baerbock** *(verified Aug 2026)* — German Foreign Minister December 2021 to
 May 2025, succeeded by Johann Wadephul; President of the 80th UN General Assembly since
 9 September 2025, term ending 8 September 2026, then a professorship at Columbia's
@@ -189,6 +253,20 @@ cooperation as raw-materials security. Her IMCCS membership alongside Middendorp
 chairmanship means the Dutch presence in that council is now two named people, which is
 worth knowing when the council's own output has been dormant since October 2025.
 
+*Checked 2026-10-18, and this is the first week her programme's silence is worth recording
+as a finding rather than as lead time.* In the week to 16 October the centre published six
+dated items and **none from the climate, water and food security programme**: a study on
+Dutch exposure in semiconductor chokepoints (12 October), a piece on critical minerals
+between Canada and Europe (15 October), a satellites podcast (12 October), a media round-up
+and a guest-lecture note (both 16 October), and a conference notice (15 October). Its
+October output to date is semiconductors, polysilicon, critical minerals and alliance
+contingency planning. Three months and two weeks after her July critique asked the defence
+ministry for hard milestones and named climate, weather and ocean **data infrastructure** as
+an unaddressed dependency, that argument has had no follow-up from the institution that made
+it — in a month when the only pre-event evidence about the field's most-cited disaster turned
+out to come from a European observation satellite. **Her data-infrastructure point is now
+the strongest unworked line in the Dutch file and nobody is working it, including her.**
+
 **Sherri Goodman** *(partly verified 2026-09-27)* — **Secretary General of the IMCCS**,
 listed as such on imccs.org alongside the chairmanship, and described there as former US
 Deputy Under Secretary of Defense (Environmental Security). Both the current role and the
@@ -211,6 +289,18 @@ ago and then stopped making. A body with a named chair, a named secretary genera
 standing report series has gone quiet in the month its own position became somebody else's
 agenda. That is now the sharpest available statement of the dormancy and it should be
 carried as such rather than as a running tally of weeks.
+
+*Re-checked 2026-10-18, seventh consecutive week, and the position has now travelled
+without the body.* **Goodman appears on the published speaker list of the alliance centre's
+Montréal Climate Security Summit of 15 and 16 October**, as Secretary General of the IMCCS
+— at the event whose subject is the argument her council's open letter of 23 October 2025
+made. So the council's people are in the room and the council publishes nothing. Two
+further details established this week, both about where **not** to look: imccs.org's
+**publications index ends at a February 2024 event summary** and does **not list the
+2023-24 World Climate and Security Report at all**, although that report exists and is
+hosted as a PDF on clingendael.org; its **media index ends in June 2023**. Neither index is
+a reliable guide to the council's output, which is itself worth knowing before scoring any
+future silence from it. Twelve months without an item of any kind.
 
 **Ed Miliband** *(verified 2026-09-27)* — **UK Foreign Secretary**, confirmed against
 gov.uk's own publication of his New York Climate Week opening keynote of 21 September
@@ -561,6 +651,47 @@ Checking note, 2026-09-13, on where to look rather than whether to look:
   from those requirements was a drafting discipline applied to instruments that bind, not a
   change in what the alliance thinks. That is a narrower and far more testable finding than
   the one currently carried, and the summit is the test.
+
+  *Checked 2026-10-18, and the test returned a split answer.* The summit was carried on both
+  hosts' own pages for **15 and 16 October**, by invitation, titled *Resilient Defence:
+  Climate-Smart Investments on the Road to 5%*, with nine tracks naming climate throughout,
+  and a **Nordic resilience and infrastructure workshop on 14 October** alongside it. So the
+  centre does say climate freely while the binding requirements do not, which is the finding
+  this entry predicted. But **neither host has published anything from it as of 19 October**,
+  against recaps of the 2024 edition on **30 October 2024** and of the 2025 edition on **15
+  October 2025** — same-period in both cases. The centre's whole 2026 news stream is two
+  items: a spring course in May and the welcome to its fellows on 6 October. So the free use
+  of the word currently exists on a programme page and nowhere else, which weakens the
+  finding rather than confirming it. Under the dated-fixture rule this is **not** scored as a
+  disconfirmation: both hosts carried the event, and an invitation-only summit about how to
+  spend a defence budget may simply be less publishable than one about dialogue.
+  **Where the value is instead: the published speaker list, which is the most complete public
+  map this file has of who works on defence and climate across the alliance.** Maj.-Gen.
+  J.J.L.N. Pilon (Chief of Staff Infrastructure and Environment, Canadian Armed Forces);
+  Brigadier Tim Symonds (Head Productivity and Sustainability, British Army); Gregory W. Ivey
+  (NATO Defence Industry, Innovation and Armaments Division) and Paul Rushton (NATO Defence
+  Policy and Planning); Amb. Hanne Ulrichsen (Norway to Canada); **Sherri Goodman**
+  (Secretary General, IMCCS); **Louise van Schaik** (Head of Unit, EU & Global Affairs,
+  Clingendael); **John Conger** (Director Emeritus, Center for Climate and Security) and
+  **Caroline Baxter** (Director, Converging Risks Lab); **Anthony Agotha** for the EEAS;
+  Heather Grabbe (Bruegel); James Panther (Defence Science and Technology Laboratory);
+  Christine Nam (Climate Service Center Germany); Jose Antonio Coll and Olivier Chalvet
+  (Airbus Defence and Space); Bastien Alex (Office of the Vice Chief of the Defence Staff);
+  and Lennard de Klerk (Initiative on GHG accounting of war). **One caution before quoting
+  any of it:** the list gives Agotha as "Special Envoy for Climate and Energy Security,
+  EEAS", and **no European source found on 2026-10-18 confirms that title** — recent
+  listings give Special Envoy for Climate and Environment, and the Munich Security
+  Conference's 2026 participant list gives Special Envoy for Climate and Environment
+  Diplomacy. Name the institution and the function, not the title, until the service's own
+  page is read, and treat every title on a host's speaker list as the host's claim.
+  *The analytical reading to carry forward:* the alliance's climate work is now conducted
+  where it is least legible — not in the annual public assessment, which stopped after 2024,
+  nor in the baseline requirements, from which the referent was removed, but in an
+  invitation-only room whose subject is **procurement metrics**. Climate-resilience metrics
+  for defence procurement is exactly the instrument that would let a treasury book
+  resilience spending against both the climate and the defence ledger, which is the
+  counter-move to a COP presidency's "spend on climate like you spend on defence". Watch for
+  metrics, not for communiqués.
 - **Center for Climate and Security.** Its output is no longer at climateandsecurity.org,
   whose blog has shown nothing since April 2026. CCS-branded items now appear on the
   parent site, councilonstrategicrisks.org. Checking only the old domain would have
@@ -593,6 +724,30 @@ Checking note, 2026-09-13, on where to look rather than whether to look:
   that the Security Council is deadlocked on climate and that incoming members have a path
   forward, which the Council's October programme of work does not support. Nothing on PSI's
   own funding. Do not read that feed as Clingendael output.*
+  *Rewritten 2026-10-18, and this is the correction to carry.* clingendael.org refused for a
+  **sixth** consecutive week. The instruction that followed from the refusals — record it as
+  a hole in the method, a third category separate from silence-as-evidence and
+  silence-as-lead-time — was right about the retrieval and **wrong about what it implied**,
+  and the implication is what reached the digest. Scoring the institute as unassessable
+  understated how much was being missed. Two items found this week, neither through its own
+  domain. **On 12 October the institute co-published, with the Institute of Peace and
+  Conflict Studies in New Delhi, IPCS Special Report 227, *Shared Vulnerability, Divided
+  Action: South Asia's Climate Paradox***, from a track 1.5 workshop at Kochi in May 2026
+  with a simulation exercise, foreword by IPCS director **Ruhee Neog**, distilled by Ashutosh
+  Nagda, Fiona Raval, Muneer Ahmed, Prerana Priyadarshi and Tapan Bharadwaj; no individual
+  Dutch authors are named and the Dutch side is described as a project partner. Its argument
+  — that shared climate vulnerability in South Asia does not produce collective action,
+  because governance stays national and siloed and proposals get designed for political
+  feasibility rather than for the risk — is the best explanation this routine has found for
+  the Indian file's emptiness. **And Louise van Schaik is on the Montréal summit speaker
+  list**, as Head of Unit for EU and Global Affairs. The institute is active on both of the
+  files this routine has found hardest to work. **Revised instruction: the sister-site rule
+  is not only for retrieval failures — it is a rule about where an institute's output is
+  indexed.** Check planetarysecurityinitiative.org/news weekly as a primary route rather
+  than a fallback, and distinguish the institute's own co-publications from the curated
+  external items by looking at whose name is on the report. The 2026-10-04 instruction is
+  therefore narrowed: do not read *other institutions'* items in that feed as Clingendael
+  output.*
 - **adelphi. Rewritten 2026-10-04, and this is the important correction on this page.**
   The instruction that stood here for three weeks — "Do not restate 6 October", with the
   reading that there was probably no 2026 edition of the Berlin Climate and Security
@@ -767,12 +922,59 @@ ministry, alliance body or council said anything about it at all.
   before impacts occur."* An institution that distinguishes a probability from a prediction
   while asking for money on it is a reliable one.
 
-**The standing question for both, and nobody keeps the answer.** There is no published
-figure anywhere for how much anticipatory money has **disbursed** against this event, as
-against pledged. Three weeks of looking has produced appeal totals, pledge tallies and
-emergency-fund allocations and no count of transfers. Until that number exists in public,
-every claim that forecast-based financing works is a claim about intentions. **Second
-question:** the collective flood anticipatory-action framework for Somalia and its trigger
+**The standing question for both, rewritten 2026-10-18 because the version that stood here
+was wrong.** It used to read: *there is no published figure anywhere for how much
+anticipatory money has disbursed, as against pledged.* There is one. It is annual rather
+than per-event, which is the distinction this file collapsed, and it is set out in the
+correction immediately below. **The question that survives is about lead time rather than
+amount:** nobody publishes how far ahead of impact anticipatory money actually moves, which
+is the whole claim forecast-based financing makes for itself.
+
+***The correction, 2026-10-18, and it is the most important one on this page.*** The claim
+rewritten above was carried into three consecutive digests as the load-bearing hole in
+anticipatory action's case for itself. **An annual public figure exists.** The **Anticipation Hub** — hosted by the German Red Cross,
+with the IFRC and the Red Cross Red Crescent Climate Centre as co-initiators, its
+coordination team drawn from all three and its primary office in Berlin — publishes an
+annual global overview of anticipatory action with FAO, OCHA, the Start Network, WFP and
+Welthungerhilfe, financially supported by the German Federal Foreign Office. The fourth
+edition, *Anticipatory Action in 2025: A Global Overview*, launched **28 May 2026** at the
+IFRC secretariat, joint heads **Dr Nikolas Scherer** and **Stefanie Lux**. For 2025: **146
+activations across 54 countries, almost US$120 million released, 9.6 million people directly
+reached, 262 active frameworks** against 154 in 2024, **205 further frameworks in
+development across 71 countries**, and 57 countries institutionalising the approach. Most
+frameworks cover floods, droughts and tropical storms; Bangladesh has the most, then the
+Philippines, Nepal, Guatemala and Pakistan. Commonest actions: cash and vouchers, early
+warnings, health measures. Germany and the EU are the largest contributors among donors who
+supplied data, and the report separates "fuel" funding (acting before a hazard) from "build"
+funding (the systems that act).
+
+**Add the Anticipation Hub to the standing roster and work it.** Three instructions follow,
+and the third generalises.
+
+**One.** The figure is kept by the practitioner community that does the triggering, in its
+own annual count, and this routine looked for it in appeals, fund dashboards and donor
+announcements — the places where money is requested and promised. That is a bad search, not
+a missing number, and it is the second time in three weeks that this routine has mistaken a
+failed route for an absent destination. When a figure is about what practitioners did, look
+for the practitioners' own series before concluding nobody keeps it.
+
+**Two.** State the figure against the right denominators, because they are what make it
+informative: almost US$120 million worldwide in a year is about **US$12.50 per person
+reached**, and roughly **nine thousandths of one per cent** of the US$1.3 trillion a year by
+2035 that COP31 will argue about. One year of the entire world's anticipatory disbursement
+would not cover one season in Somalia, where the disaster agency's planning figure is 2.5
+to 3.5 million people exposed and about a million expected to be displaced.
+
+**Three, and this is the question to carry forward.** "Released" is the report's own verb,
+self-reported by the implementing organisations, with no independent audit, no counterfactual
+and **no breakdown of how far ahead of impact the money moved** — which is the whole claim of
+forecast-based financing. The successor question is therefore **lead time, not amount**, and
+the Somali Deyr is the natural experiment: probabilities published in August, the Shabelle
+above its high flood-risk level on 13 October. Note alongside it that the evidence base on
+whether anticipatory transfers reduce loss is a handful of quasi-experimental studies in
+Bangladesh and one or two working papers, which is thin for a doctrine this widely invoked.
+
+**Second question, unchanged and still open:** the collective flood anticipatory-action framework for Somalia and its trigger
 protocols are reported still unfinalised eight weeks from the peak, and no district-level
 plans with named responsibilities, budgets and timelines could be found — a framework
 without a trigger is a statement of intent. **Third, and generalisable:** Somalia's
@@ -781,6 +983,31 @@ thing now forecast to produce famine is rainfall *excess*. That is the same
 warning-mismatch this routine recorded in the Himalaya in September, in a different hazard
 class on a different continent. Expect it wherever an early-warning system was designed
 around one mechanism and the mechanism has moved.
+
+*Added 2026-10-18: two more bodies to the roster, both found through the week's own
+material rather than by looking for them.*
+
+- **The Institute of Peace and Conflict Studies, New Delhi.** Director **Ruhee Neog**.
+  Co-published Special Report 227 with Clingendael on 12 October 2026 (see the Clingendael
+  entry above), from a workshop at Kochi in May 2026. It belongs on the roster for one
+  reason: this routine has spent nine weeks failing to find an Indian security document on
+  climate, and this is an Indian institute producing an argument about why regional climate
+  cooperation in South Asia does not happen — which is the thing the missing document would
+  have been evidence about. **Where to look:** ipcs.org's issue listing, which carries the
+  special reports with numbers and dates. **One naming trap, and it is a bad one:** in this
+  file **IPCS** is this institute. **IPCC** is the climate panel and **IPC** is the
+  food-security classification scale, and all three now appear in the same digests. Spell
+  the institute out in reader-facing prose.
+- **The Conference of Defence Associations Institute, Ottawa.** Co-host with the alliance's
+  climate centre of the Montréal climate security summit. It belongs on the roster not for
+  its own analysis but because **its published speaker list is currently the most complete
+  public map of who works on defence and climate across the alliance**, and because in 2026
+  it was the only route by which the summit's participation could be established at all,
+  neither host having published an account of the event. **Treat titles on it as the host's
+  claim rather than as verified** — it gives the European external action service's climate
+  envoy a role title no European source confirms. **Where to look:** cdainstitute.ca's
+  events pages, and the Canadian public-affairs broadcaster's record, which has carried
+  panels from earlier editions.
 
 *Added 2026-10-04, on the China–India expert mechanism, because it is now the better
 instrument than any Chinese or Indian doctrine document.* The **Expert Level Mechanism on
@@ -798,6 +1025,15 @@ weeks of watching this mechanism has produced a commitment and a missed deadline
 a real observable. Work the mechanism. *Re-checked 2026-10-11: still no meeting found, from
 either foreign ministry, either water ministry, or reporting in either country. Two months
 past a dated bilateral undertaking.*
+*Re-checked 2026-10-18: still no meeting, third consecutive week of checking and two months
+past the undertaking.* One thing to establish rather than repeat: reporting indicates the
+Brahmaputra hydrological-data memorandum **expired on 5 June 2023** and has been described
+as under renewal since, and that the flood-season provision runs **15 May to 15 October**
+each year — so the 2026 window closed inside the week to 18 October with no meeting held and
+no renewal found. Both of those come from secondary reporting of an expired instrument and
+**neither should be stated as current treaty practice** until a ministry document is read.
+That is the next thing to find on this file: the text or the renewal status of the
+memorandum, from either water ministry.*
 
 *Added 2026-10-11, and it is now the strongest dated instrument on the Indian file.* The
 **India–Bangladesh Ganges Water Treaty of 1996 expires in December 2026** — sources give
@@ -827,6 +1063,50 @@ for eight weeks: a security document was the wrong instrument, and this is a rig
 **Where to look:** Joint Rivers Commission meeting records, India's MEA weekly briefings,
 Bangladesh's water resources ministry, and West Bengal's correspondence with Delhi. Do not
 take the expiry date from secondary reporting; find the treaty text.
+
+***Settled 2026-10-18, from the treaty text, and it corrects this entry.*** The treaty was
+**done at New Delhi on 12 December 1996**, signed by Sheikh Hasina and H. D. Deve Gowda, and
+**Article XII** reads in full: *"This Treaty shall enter into force upon signature and shall
+remain in force for a period of thirty years and it shall be renewable on the basis of
+mutual consent."* So it expires on **12 December 2026**; the 31 December date in circulation
+is wrong and the disagreement is closed. Two further corrections to what this entry said,
+both from Annexure I and Article II of the text rather than from summaries of it. The
+formula is: at **70,000 cusecs or less** at Farakka, a **50/50 split**; between **70,000 and
+75,000**, **Bangladesh takes 35,000 and India the balance of flow**; at **75,000 or more**,
+**India takes 40,000 and Bangladesh the balance** — subject to each side receiving a
+guaranteed 35,000 cusecs in alternate three ten-day periods between **11 March and 10 May**.
+This entry previously described the 35,000 as *"a fixed 35,000 cusecs to India at lower
+flows"*, which inverts it: in that band the 35,000 is Bangladesh's. And the emergency
+mechanism is **Article II(iii)**: if flow at Farakka falls below **50,000 cusecs** in any
+ten-day period, the two governments *"will enter into immediate consultations to make
+adjustments on an emergency basis, in accordance with the principles of equity, fair play
+and no harm to either party"* — note what that is not, which is arbitration. Article II(ii)
+bases the indicative schedule on forty years of ten-day averages, 1949-1988, with the upper
+riparian to make every effort to protect flows at that level; Article III caps India's
+reasonable uses below Farakka at 200 cusecs. The text is openly available from a development
+bank's law and policy library and from India's own water resources ministry, so this never
+needed to rest on reporting.
+
+*Also settled 2026-10-18:* the Bangladeshi minister's name, which this file gave as
+**Shahiduddin Chowdhury Anee** and which appears in the reporting also as Shahid Uddin
+Chowdhury Annee and as Md Shahiduddin Chowdhury Anee. Use **Md Shahiduddin Chowdhury Anee**,
+which is the form in the analysis cited next, and do not assert a spelling as official
+until a ministry page is read. *One analytical source worth keeping, dated inside the week
+to 18 October:* **Amit Ranjan**, Research Fellow at the Institute of South Asian Studies,
+National University of Singapore, "The Ganga Waters Treaty: Uncertain Prospects for
+Renewal", ISAS, 12 October 2026, republished 14 October. It compares the 1996 treaty with
+the **1977 agreement** (signed 5 November 1977 under Ziaur Rahman, by Surjit Singh Barnala
+and Rear Admiral Musharraf Hussain Khan, with a floor of 80 per cent of the scheduled value
+for Bangladesh in any ten-day period January to May, based on 75 per cent availability from
+1948-73 data) and with the **1982 memorandum** in which Bangladesh agreed to delete what is
+read as the guarantee clause. It carries named criticism on both sides — Manjur Chowdhury of
+Bangladesh's river conservation commission calling the treaty "three decades old and
+flawed"; Farooq Sobhan, the Bangladeshi foreign secretary who negotiated it, on the missing
+arbitration clause and on a promised Padma barrage that "was not built"; Sanjay Kumar Jha of
+JD(U) calling for fresh negotiations. **What it does not discuss, and what this file should
+stop assuming it will find in such analyses: climate stress, basin-wide governance, China's
+upstream works, or any security framing.** The climate-stressed-renegotiation framing is
+this digest's, not the literature's, and should be carried as the digest's own.
 
 **One naming trap to avoid before it reaches a digest.** In this file **JRC** means the
 India–Bangladesh Joint Rivers Commission. In European documents the same letters are the
@@ -885,6 +1165,24 @@ instruction in the co-chairs entry above — verify them against frld.org rather
 reporting — could not be carried out and the co-chairs and board dates still rest on the
 Kathmandu Post. Try a different route: the fund's board documents are also posted through
 the UNFCCC and the board meeting reports carry the co-chairs' names on the cover.
+
+*Updated 2026-10-18, and a third route worked where the first two were not tried.* The
+fund's first-ever **extraordinary board meeting** is set for **22 October 2026**, on a draft
+decision that would provisionally set aside **US$20 million** for Nepal — one Kathmandu
+outlet gives US$21.6 million including US$1.6 million of oversight fees, and the difference
+was not confirmed — and invite Nepal to submit a proposal for approval at a regular meeting,
+**piloting a route for requests outside the fund's regular call for proposals**. The motion
+was drafted jointly by board members from developed and developing constituencies and took
+about **forty-five days** to organise from the ministers' letter of 31 August. Scale, from
+the same reporting: the fund has run **one** call for proposals, launched at Belém in
+November 2025 with a six-month window; it is considering **180 proposals costing about
+US$2.8 billion** against **about US$350 million** available; and it has **disbursed nothing**
+since being agreed in 2022. **The route that produced all of that was a specialist climate
+wire reading the draft decision, not frld.org and not the convention's document server.**
+Instruction: for this fund, read the specialist wires first and treat frld.org as
+unavailable; and watch the 22 October decision text for the one thing the draft is reported
+not to contain, which is any statement of the standard of evidence a claim from an
+unattributed event has to meet.
 
 *Added 2026-09-27, on where the field's output actually appeared this week.* Four of the
 five moves in the digest for the week ending 2026-09-27 came from **governments**, not
