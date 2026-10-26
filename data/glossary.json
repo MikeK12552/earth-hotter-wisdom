@@ -514,6 +514,25 @@
       "expansion": "least developed countries",
       "wikipedia": "Least developed countries",
       "gloss": "The UN's formal category of forty-odd states on defined income, human-asset and vulnerability criteria — a negotiating bloc as well as a classification, and in climate texts usually paired with the small island states as the group entitled to particular treatment."
+    },
+    "AUPSC": {
+      "expansion": "African Union Peace and Security Council",
+      "gloss": "The African Union's standing security organ. Elsewhere in these digests the same body is abbreviated PSC; both appear because sources use both.",
+      "wikipedia": "Peace and Security Council"
+    },
+    "CCASCOE": {
+      "expansion": "Climate Change and Security Centre of Excellence",
+      "gloss": "NATO's climate centre of excellence, in Montreal, with Canada as framework nation. A distinct body from NATO headquarters and from the alliance's Science and Technology Organization, and it publishes separately."
+    },
+    "IOM": {
+      "expansion": "International Organization for Migration",
+      "gloss": "The UN migration agency. Not to be confused with the Isle of Man, for which the same letters are the usual abbreviation.",
+      "wikipedia": "International Organization for Migration"
+    },
+    "NEMA": {
+      "expansion": "National Emergency Management Agency",
+      "gloss": "Nigeria's federal disaster agency, which publishes a public flood dashboard. Several other countries have a body of the same name and abbreviation.",
+      "wikipedia": "National Emergency Management Agency (Nigeria)"
     }
   }
 }

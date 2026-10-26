@@ -164,13 +164,50 @@ digest's verification note.
   and is openly available. Kahl 2006 closes this phase, so the phase ends with a reader of
   its own quarrel — use the review when you get to him.*
 - Le Billon, Philippe, "The political ecology of war: natural resources and armed
-  conflicts", *Political Geography*, 2001, 20(5), June 2001, 561-584, doi
-  10.1016/S0962-6298(01)00015-4. **Next up** as of 2026-10-18. *Verified 2026-10-18 ahead
-  of time against Crossref, which gives Philippe Le Billon, Political Geography 20(5),
-  June 2001, 561-584, Elsevier. This entry previously carried only "Le Billon 2001". Access
-  was **not** tested, which is the one thing the last two weeks say to do at the same time
-  as the citation.*
-- Then Kahl 2006, which closes the phase.
+  conflicts", *Political Geography*, 2001, 20(5), 561-584, doi
+  10.1016/S0962-6298(01)00015-4. **Read** in the week ending 2026-10-25. *Verified
+  2026-10-18 ahead of time against Crossref, which gives Philippe Le Billon, Political
+  Geography 20(5), June 2001, 561-584, Elsevier, and re-verified 2026-10-25 from the
+  article's own first page, which prints "Political Geography 20 (2001) 561-584" and the
+  Elsevier copyright line. This entry previously carried only "Le Billon 2001".*
+  *Three corrections and additions from the text itself.* The printed affiliation is the
+  **School of Geography, Mansfield Road, Oxford** — not the University of British Columbia
+  post he is better known for and which post-dates this article, so do not give a Canadian
+  affiliation for the 2001 paper. The acknowledgements credit research support from
+  **WIDER/UNU, Helsinki, and the Finnish government**, which is worth knowing before
+  quoting the passages on sanctions regimes. And the paper runs **24 pages** in the scan,
+  consistent with the pagination.
+  *Where to read it, and the access question is now answered.* The publisher's page
+  refused on 2026-10-25. A complete scan with a usable text layer is held by the
+  climate-change-and-security research group at the University of Hamburg at
+  clisec.uni-hamburg.de/en/pdf/data/le-billon-2001-political-ecology-of-war.pdf, and the
+  whole article was read from there. **That is the second canonical article in this phase
+  opened by the same route** — Homer-Dixon 1994 was the first. Treat that archive as the
+  first thing to try for any article in this literature, before the journal.
+  *The thing the field gets wrong about it, and the digest said so:* this is not a scarcity
+  argument. The abstract's own formulation is that it "stresses the vulnerability resulting
+  from resource dependence, rather than conventional notions of scarcity or abundance". The
+  load-bearing triad is dependence, conflictuality and **lootability**, and the two-by-two
+  (point/diffuse against proximate/distant) maps onto coup, secession, warlordism and
+  rebellion in Table 1, p. 573. Note also the closing argument, which is the live one:
+  the "criminal" character of these economies' inclusion in world commodity markets is
+  treated as a product of exclusionary globalisation rather than its cause, and sanctions
+  regimes "often extend criminalisation by making normal economic activities illicit". A
+  reader who cites Le Billon for resource determinism is citing a paper that says, on its
+  last page, that "there is no environmentally deterministic relation at hand".
+- Kahl, Colin H., *States, Scarcity, and Civil Strife in the Developing World*, Princeton
+  University Press, 2006, doi 10.1515/9780691188379. **Next up** as of 2026-10-25, and it
+  closes the phase. *Verified 2026-10-25 ahead of time against the publisher's deposited
+  record: Colin H. Kahl, Princeton University Press, identifiers 9780691138350 and
+  9780691188379, with a 2018 re-deposit of the same work that should not be mistaken for a
+  second edition. **Pagination is not established and must not be asserted.** Access was
+  not tested, but for once that matters less than usual: the standing lesson of the Buzan
+  and Baechler weeks — find the openable article-length statement of the same argument
+  before the week starts — is already satisfied, because Kahl's 2001 review of *Violent
+  Environments* in the Environmental Change and Security Project Report, issue 8, 135-142,
+  is openly available, was read in full for the week ending 2026-10-18, and states his
+  position on the neo-Malthusian charge. Use it as the way in and look for a journal-length
+  statement of the 2006 book's demographic-and-environmental-stress model in the same pass.*
 
 ## Phase 3 — Climate arrives (2003–2015)
 
@@ -307,6 +344,31 @@ preserved below for the record; it is history, not position.*
   the week's events made it unavoidable: the hazard classes it brackets are exactly the
   cascading cryospheric ones the week's two Himalayan items fall into.
 
+- Phase 2, Le Billon 2001 — week ending 2026-10-25. Fifth item of phase 2, no critique pair
+  falls due, so the week took the usual two items. *Read in full from the Hamburg research
+  group's archived scan after the publisher refused; first-page details, affiliation and
+  funding acknowledgement verified from the text and recorded in the corrected entry above.
+  Unusually live against section B: the Security Council and the African Union's Peace and
+  Security Council settled, on 22 October, on "illegal exploitation of natural resources" as
+  the only resource framing on their joint agenda, after the African side had proposed
+  resource *management* and Russia had proposed *root causes*. Le Billon's closing argument
+  is precisely that the criminality framing describes a symptom and is used as a theory of a
+  cause. Critiques used: Ross 2004 and Cramer 2002, both citations verified against Crossref
+  and **neither read this week**, which the digest states.*
+- Outside the sequence, Ide 2026, *Environmental Research Letters* 21(11), article 111002,
+  "The renewable energy transition, critical minerals, and conflict risks", doi
+  10.1088/1748-9326/ae6d1b — week ending 2026-10-25. Nearest phase 5, under energy and
+  materials. *Verified against Crossref: Tobias Ide, affiliated to TU Darmstadt, the Peace
+  Research Institute Frankfurt and Murdoch University; received 25 March 2026, accepted 13
+  May, published online 28 May 2026; open licence and **read in full**. It is a
+  **Perspective**, not a research article, and creates no new data, which the digest states
+  because the figures will travel: a conflict-event archive records 925 protests and riots
+  over transition minerals across 45 countries, 2018-2025, excluding Europe, North America
+  and Australasia for data reasons. Funded by the UK-funded Cross-Border Conflict Evidence,
+  Policy and Trends programme, which the digest also states. Chosen as the deliberate modern
+  counterpart to Le Billon: the same question, asked of the materials the energy transition
+  requires, with a dataset where the 2001 paper had a typology.*
+
 ### Before the reset (2026-08-31 to 2026-09-06)
 
 Kept so the sequence's first pass stays visible, and so a later reader can see that
@@ -353,10 +415,22 @@ conclusions. Most of this literature's canonical mid-career books have an articl
 statement of the same argument in a journal or report series; look for it first and the
 access problem mostly disappears.
 
-*Due next:* Le Billon 2001 is a journal article with a verified citation (see the corrected
-entry in phase 2) and **access untested** — test it before the week that takes it. Then Kahl
-2006 closes the phase; his 2001 review of *Violent Environments* has already been read for
-this week's critiques and is the obvious way in. The next pair after that is Hsiang, Burke
-and Miguel 2013 against Buhaug et al. 2014 in phase 3; verify both early, check access at
-the same time as the citation, and look for the openable statement of each argument in the
-same pass.
+*Consumed 2026-10-25.* Le Billon 2001 was taken as a single item with Ide 2026 as the
+recent one, two items as predicted, and the access instruction worked: the untested access
+was tested in the same pass as the re-verification, the publisher refused, and the Hamburg
+archive opened the whole article. **Generalise that.** Two of the last three canonical
+journal articles in this phase have been read in full from the same university research
+group's archive after the journal refused, and the two monographs that could not be read at
+all were books. So the rule now has two halves: for a journal article in this literature,
+try that archive first and expect to succeed; for a copyrighted monograph, assume no access
+and find the author's own article-length statement of the same argument before the week
+starts.
+
+*Due next:* Kahl 2006 closes phase 2 and its citation is verified ahead of time (see the
+entry in phase 2); it is a monograph, so the openable-substitute rule applies and the
+substitute is already in hand — his 2001 review of *Violent Environments*, read in full for
+the week ending 2026-10-18. What is still missing is a journal-length statement of the
+book's own model; look for one in the same pass. The next pair after that is Hsiang, Burke
+and Miguel 2013 against Buhaug et al. 2014 in phase 3, where the read-the-critique-in-the-
+same-week rule costs a third item; verify both early, test access at the same time as the
+citation, and look for the openable statement of each argument in the same pass.

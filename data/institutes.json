@@ -5,7 +5,7 @@
     "lat": 52.095,
     "lon": 4.297,
     "role": "Dutch flagship climate-security platform",
-    "note": "clingendael.org refused retrieval on 2026-09-13, 2026-09-20, 2026-09-27, 2026-10-04 and 2026-10-11. Five refusals means whether the institute published is unknown rather than negative — a hole in the observation, not a finding, and recorded as a third category separately from silence-as-evidence and silence-as-lead-time. The platform's own separate site opened again on 2026-10-11 and carries curated work by other institutions rather than the institute's own; nothing on its funding. Team details as confirmed on 2026-09-27 stand: Louise van Schaik as Senior Research Fellow and PSI Coordinator, Hannah Lentschig as PSI Project Leader, Gen. Tom Middendorp (ret.) as Senior Research Associate and chair of the IMCCS. The last publicly datable PSI funding phase is still December 2019."
+    "note": "clingendael.org refused retrieval for a seventh consecutive week on 2026-10-25, so whether the institute published is unknown rather than negative — a hole in the observation, not a finding. The sister-site route was worked as instructed: planetarysecurityinitiative.org/news carried two items in the week, a commentary on climate and Indian warfare (posted 19 October) and an American institute's report on Gulf energy infrastructure (posted 23 October), both other institutions' work, so neither counts as the institute's output. Its head of EU and global affairs, Louise van Schaik, was on the Montreal summit speaker list. Team details as confirmed on 2026-09-27 stand. The last publicly datable funding phase for the platform is still December 2019."
   },
   {
     "name": "HCSS",
@@ -20,8 +20,8 @@
     "city": "De Bilt",
     "lat": 52.101,
     "lon": 5.177,
-    "role": "Attribution capability; part of WWA's institutional base",
-    "note": "Dutch researchers sit in the WWA Caribbean drought team."
+    "role": "National meteorological institute; attribution capability, and now a seat in another state’s security machinery",
+    "note": "Dutch researchers sit in the attribution network's Caribbean drought team. Added 2026-10-25: the institute's director-general, Maarten van Aalst — in post since 1 February 2023 by the institute's own board page, also its Chief Science Officer, previously head of the Red Cross Red Crescent Climate Centre — is one of sixteen members of the British climate and nature security taskforce whose membership was published on 21 October 2026. The first person responsible for an operational observing system to hold a formal seat in a national security-risk body, which is the configuration the radio-spectrum question has been waiting for."
   },
   {
     "name": "Red Cross Red Crescent Climate Centre",
@@ -37,7 +37,7 @@
     "lat": 51.499,
     "lon": -0.175,
     "role": "Rapid event attribution",
-    "note": "Re-checked 2026-10-04. The studies index shows nothing after 28 August, which means the 17 September Himalaya report is not listed there and the index is not the whole output — check both. Nothing on Europe's 2026 heat season and nothing on Nepal's late-September landslides, in a week when 304 landslides killed 20 people and an insurer put a price on the European summer that no attribution study supports. Under the rule corrected on 2026-09-20 that is evidence about how long the work takes and nothing else; the question to ask of an attribution network is whether it has declined a case it was asked to take, and nothing suggests it has."
+    "note": "Re-checked 2026-10-25: the studies index still shows nothing after 28 August and the site's own most recent dated item is the 17 September Himalaya report, so the index is still not the whole output — check both. Nothing on the week's category-five Pacific typhoon, which would not be expected this soon. Under the rule corrected on 2026-09-20 that is evidence about how long the work takes and nothing else: the question to ask of an attribution network is whether it has declined a case it was asked to take, and nothing suggests it has."
   },
   {
     "name": "adelphi",
@@ -61,7 +61,7 @@
     "lat": 59.348,
     "lon": 18.07,
     "role": "Climate, peace and security research",
-    "note": "Re-checked 2026-10-04: the climate-change-and-security publications list still ends at the August 2026 Abyei study, with nothing for September or October, and the programme's own news stream has nothing after January 2026. Lead time, not a finding. One thing to settle properly rather than assume: the 2026 Yearbook's chapter list as given on sipri.org runs to seventeen chapters with no standalone climate chapter, while the June summary's framing names climate-change-driven insecurity. The Yearbook's publication date through Oxford University Press was not established, so do not state one."
+    "note": "Re-checked 2026-10-25, and this corrects the method rather than the fact. The climate-change-and-security publications list still ends at the August 2026 Abyei study, which would have been scored as a third month of lead time and would have been wrong: on 22 October the director of the institute's climate change and risk programme, Florian Krampe, published the week's sharpest institutional argument — that climate security has everyone's mandate and nobody's budget, that the threat-multiplier formulation names no mechanism, and that someone must own the gap between a forecast and the money — on a Washington research blog, with nothing about it on sipri.org. Check the people as well as the publications index. The Lake Chad climate, peace and security fact sheet of June 2026 is still unread."
   },
   {
     "name": "NUPI",
@@ -125,7 +125,7 @@
     "lat": -1.286,
     "lon": 36.817,
     "role": "UN Environment Programme",
-    "note": "Published Limiting Overshoot, 2 September 2026."
+    "note": "Published the Emissions Gap Report 2026, The Point of Return, on 21 October 2026, nineteen days before the Antalya conference: overshoot of 1.5C treated as virtually unavoidable, a lowest-overshoot peak of 1.7-1.8C around mid-century, about 2.8C under current policies. It completes the overshoot concession this routine first recorded in the programme's September spotlight report. Note two things for next time: none of the published readings record any treatment of adaptation, adaptation limits, loss and damage or security; and unep.org, its press releases and its document repository all refused retrieval on 2026-10-25, so the figures had to be taken from the UN news service and an independent analysis. Use those routes first."
   },
   {
     "name": "ICIMOD",
@@ -144,12 +144,12 @@
     "note": "Added 2026-09-13. Executive Secretary Simon Stiell argued climate as a 'continent-wide economic security emergency' to the European Parliament on 10 September — the economic register, not this field's. The US withdrew from the convention on 7 January 2026. Coordinate is the city of Bonn, not the UN Campus."
   },
   {
-    "name": "FCDO / UK Climate Security Taskforce",
+    "name": "UK Climate and Nature Security Taskforce",
     "city": "London",
     "lat": 51.507,
     "lon": -0.128,
-    "role": "State climate-security agenda-setter",
-    "note": "Added 2026-09-27 because the UK became, in one week, the most active state actor in this field. Foreign Secretary Ed Miliband's New York Climate Week keynote of 21 September asked for climate and nature to be embedded in national security systems, threat assessments and contingency planning; he co-hosted the UNGA foreign ministers' dialogue on climate as a national security risk on 24 September; and on 25 September the department announced £331 million for climate-driven instability — £330 million of it to the Global Environment Facility and £1 million to the UN Climate Security Mechanism. A UK Climate Security Taskforce was launched on 26 June 2026 to advise on national security risks from climate and nature loss; its membership is known only from launch reporting and should be verified before anyone on it is quoted. Coordinates are the London city centroid, not the department's building."
+    "role": "The only standing national ministerial climate-security body in the field",
+    "note": "Formally the National Security and Resilience Risks of a Changing Climate and Nature Loss Taskforce. Convened by the Department for Energy Security and Net Zero with the Cabinet Office; sixteen-member membership published 21 October 2026 and inaugural meeting held the same week, co-chaired by Katie White, Minister for Climate Transition, and Baroness Twycross. Its membership is the best public map of the field's usable expertise and much of it is not British: Erin Sikorsky of the Center for Climate and Security, Maarten van Aalst of the Royal Netherlands Meteorological Institute, Janani Vivekananda of adelphi, David Obura as IPBES chair, Comfort Ero of the International Crisis Group, Gen. Richard Nugee, and the Bank of England among others. Terms: identify key climate and nature risks to UK security and resilience, review and challenge the government's own work, recommend how to strengthen resilience and shape international outcomes. It has up to two meetings in 2026, no published reporting date, no budget and no measurable target. Score it on whether a recommendation of its reaches a spending document."
   },
   {
     "name": "NATO Climate Change and Security Centre of Excellence",
@@ -157,7 +157,7 @@
     "lat": 45.50888889,
     "lon": -73.55416667,
     "role": "Alliance climate-security centre of excellence; a distinct body from NATO HQ and the Science and Technology Organization",
-    "note": "Checked 2026-10-11. The only item in the week was a welcome to its 2026 cohort of fellows on 6 October, with no fellows named and no programme described; no publications. A Nordic resilience and infrastructure workshop is listed for 14 October in Montréal and the Montréal Climate Security Summit for 15 and 16 October, titled 'Resilient Defence: Climate-Smart Investments on the Road to 5%', with nine thematic tracks and by invitation. Its news stream posts around its own events and not otherwise. The summit is the test of whether the alliance's centre names climate freely while the binding resilience baseline requirements of 15 September do not — which would make that removal a drafting discipline for instruments that bind rather than a change of position."
+    "note": "Ten days after holding the fifth Montreal climate security summit on 15 and 16 October 2026 — Resilient Defence: Climate-Smart Investments on the Road to 5%, by invitation, nine tracks naming climate throughout — neither the centre nor its Canadian co-host had published any account of it. The centre's whole 2026 news stream is two items: a spring course in May and a welcome to its 2026 fellows on 6 October. The comparators found on 2026-10-25 make this a contrast rather than a silence: the 2024 edition produced a recap on 30 October 2024, the 2025 edition one on 15 October 2025, and the 2025 edition also produced a Canadian defence minister's speech published on canada.ca. Nothing equivalent exists for 2026. Watch for a climate-resilience metric for defence procurement, not for a communique."
   },
   {
     "name": "ITU",
@@ -198,5 +198,13 @@
     "lon": -75.695,
     "role": "Canadian defence research institute; co-host of the Montreal climate security summit with the alliance's climate centre",
     "note": "Added to the roster 2026-10-18. Its published summit speaker list is currently the most complete public map of who works on defence and climate across the alliance, and is the route by which the 2026 edition's participation was established when neither host published an account of it. Treat titles on that list as the host's own rather than as verified: it gives the European external action service's climate envoy a role title no European source confirms."
+  },
+  {
+    "name": "Institute of Peace and Conflict Studies",
+    "city": "New Delhi",
+    "lat": 28.6139,
+    "lon": 77.2089,
+    "role": "Indian security research institute; the route into the Indian file this routine spent nine weeks failing to find",
+    "note": "Director Ruhee Neog. Co-published Special Report 227, Shared Vulnerability, Divided Action: South Asia's Climate Paradox, with Clingendael on 12 October 2026, from a track 1.5 workshop at Kochi in May 2026. Its argument — that shared climate vulnerability in South Asia does not produce collective action, because governance stays national and siloed and proposals are designed for political feasibility rather than for the risk — is the best explanation this routine has found for the Indian file's emptiness. Naming trap: in these digests IPCS is this institute, IPCC is the climate panel and IPC is the food-security classification scale. Where to look: ipcs.org's issue listing."
   }
 ]
