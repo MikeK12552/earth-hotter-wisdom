@@ -1,7 +1,19 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-19T05:27:14.125Z",
+  "generated": "2026-10-26T04:56:33.744Z",
   "digests": [
+    {
+      "id": "2026-10-25",
+      "week_start": "2026-10-19",
+      "week_end": "2026-10-25",
+      "week_number": 9,
+      "standfirst": "Three years after it was agreed, and three weeks before the Antalya conference opens, the loss and damage fund made its first allocation for a specific disaster: twenty million dollars for Nepal, which is simultaneously the most it may give any single project and four tenths of one per cent of the recovery it is meant to pay for — and three of the governments that capitalised it spent the meeting insisting the decision sets no precedent. In the same week the meteorological agency said the El Niño now building may be unprecedented in the four decades it has kept records, and the environment programme's flagship pre-conference report conceded that one and a half degrees will be overshot and set out what coming back would cost.",
+      "counts": {
+        "developments": 8,
+        "moves": 5,
+        "open_threads": 33
+      }
+    },
     {
       "id": "2026-10-18",
       "week_start": "2026-10-12",
