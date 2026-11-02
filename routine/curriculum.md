@@ -208,6 +208,43 @@ digest's verification note.
   is openly available, was read in full for the week ending 2026-10-18, and states his
   position on the neo-Malthusian charge. Use it as the way in and look for a journal-length
   statement of the 2006 book's demographic-and-environmental-stress model in the same pass.*
+  **Read** in the week ending 2026-11-01, and it closed the phase. *Three things this file
+  can now assert that it could not before.* **Chapter 1 runs pages 1-27**, under the title
+  "Plight, Plunder, and Political Ecology"; the running heads and page markers in the text
+  establish it, and the book's pagination beyond that chapter is still not established.
+  **The publisher's deposit types the work as an edited book**; it is a single-author
+  monograph and the type field is a deposit artefact, so do not repeat it in a citation.
+  And the deposit returns only the electronic identifier 9780691188379 when queried
+  directly, so the print identifier this entry also carried should be treated as coming
+  from the catalogue rather than from the deposit.
+  *Where to read it, and the openable-substitute rule did not have to be used.* A complete
+  scan of chapter 1 with a usable text layer is openly posted by the New University in Exile
+  Consortium at newuniversityinexileconsortium.org (the file is named for a course week,
+  Week5), and the whole chapter was read from there. **The chapter is the journal-length
+  statement this file was looking for**: it contains "The Argument in Brief" — the composite
+  independent variable, the two pathways of state failure and state exploitation, the two
+  intervening variables of groupness and institutional inclusivity, the case selection and
+  the chapter plan — plus his survey and criticism of the neo-Malthusian, neoclassical and
+  political-ecology positions. Nobody needs the rest of the book to state the model
+  correctly, and nobody should characterise the Philippines or Kenya case work from it.
+  *The journal-length antecedent, if one is wanted anyway, is verified and is the Kenya
+  case:* Kahl, "Population Growth, Environmental Degradation, and State-Sponsored Violence:
+  The Case of Kenya, 1991-93", *International Security* 23(2), October 1998, 80-119, doi
+  10.1162/isec.23.2.80 — verified against Crossref 2026-11-01, which carries two deposits
+  for it, the archive's own (10.2307/2539380, first page only) and the publisher's (full
+  pagination). Access untested.
+  *The critique pair used in the week ending 2026-11-01, and one of them is a correction to
+  this file's phase 6 list.* Thomas Homer-Dixon's review of the book in *Population and
+  Development Review* 32(3), September 2006, 585-587, openly posted on the author's own site
+  and **read in full** — the phase closed with its own antagonist reviewing its closer, which
+  was the intention. And Benjaminsen, Alinon, Buhaug and Buseth, "Does climate change drive
+  land-use conflicts in the Sahel?", *Journal of Peace Research* 49(1), 2012, 97-111, doi
+  10.1177/0022343311427343, **verified against Crossref 2026-11-01 and not read this week**.
+  Note for phase 6, where that paper is listed: the file gives it as "Benjaminsen et al.
+  2012" with no further detail, and the full author list is Benjaminsen, Alinon, Buhaug and
+  Buseth, the volume 49(1) and the pagination 97-111. Note also that Buhaug is a co-author
+  of it, which matters because he is also the lead critic in the phase 3 pair immediately
+  ahead.
 
 ## Phase 3 — Climate arrives (2003–2015)
 
@@ -368,6 +405,29 @@ preserved below for the record; it is history, not position.*
   Policy and Trends programme, which the digest also states. Chosen as the deliberate modern
   counterpart to Le Billon: the same question, asked of the materials the energy transition
   requires, with a dataset where the 2001 paper had a typology.*
+- Phase 2, Kahl 2006 — week ending 2026-11-01. **Closes phase 2.** *Chapter 1 read in full
+  from an openly posted scan; pagination of that chapter established at 1-27 and recorded in
+  the corrected entry above. The critique pair was Homer-Dixon's own 2006 review of the book,
+  read in full, and Benjaminsen and others 2012, verified and not read. Unusually live
+  against the week's section C: the Commission's proposed resilience law would require every
+  member state to name a public authority responsible for each major climate risk, which is
+  a question about institutional inclusivity and accountability rather than about the
+  stressor — and Kahl's whole argument is that the intervening variables, not the stressor,
+  do the explanatory work. The digest said so and used it to explain why "threat multiplier"
+  names no mechanism.*
+- Outside the sequence, Sedhain, Kerle and van den Homberg 2026, *npj Natural Hazards*,
+  "Anticipatory action: design, implementation and evaluation", published 22 October 2026,
+  doi 10.1038/s44304-026-00276-7 — week ending 2026-11-01. Nearest phase 5. *Verified
+  against Crossref: three authors in that order, npj Natural Hazards, Springer, published 22
+  October 2026, open licence, **no volume, issue or article number in the deposit** and **no
+  affiliations in the deposit** — a repository listing gives the first two authors at the
+  University of Twente and describes the third as an independent researcher, which is a
+  host's claim and was recorded as such. **The full text would not open** despite the open
+  licence: nature.com redirects to an identity provider, and the alternative routes
+  (preventionweb, researchgate) refused. The summary therefore rests on the abstract and on
+  listing summaries, and the digest says so. Note for whoever opens it: the one thing to
+  extract is whether it reports lead-time distributions, because that is the standing open
+  question it was chosen to bear on.*
 
 ### Before the reset (2026-08-31 to 2026-09-06)
 
@@ -426,11 +486,32 @@ try that archive first and expect to succeed; for a copyrighted monograph, assum
 and find the author's own article-length statement of the same argument before the week
 starts.
 
-*Due next:* Kahl 2006 closes phase 2 and its citation is verified ahead of time (see the
-entry in phase 2); it is a monograph, so the openable-substitute rule applies and the
-substitute is already in hand — his 2001 review of *Violent Environments*, read in full for
-the week ending 2026-10-18. What is still missing is a journal-length statement of the
-book's own model; look for one in the same pass. The next pair after that is Hsiang, Burke
-and Miguel 2013 against Buhaug et al. 2014 in phase 3, where the read-the-critique-in-the-
-same-week rule costs a third item; verify both early, test access at the same time as the
-citation, and look for the openable statement of each argument in the same pass.
+*Consumed 2026-11-01.* Kahl 2006 closed phase 2 and the openable-substitute rule was not
+needed, because the book's own first chapter is openly posted and is itself the
+article-length statement of the model. **Add that to the access rule as a first step:**
+before looking for the author's separate article, check whether a chapter of the monograph
+is posted on its own, which university course pages and reading-list repositories do
+routinely for the chapter that states the argument. Two of this phase's three unreadable
+monographs might have come in that way. Second lesson, about phases rather than access: the
+phase closed with the closer's own antagonist reviewing him, which produced a better
+critique slot than a third-party critique would have, and the same move is available at the
+end of other phases — look for a review by the person the book is arguing with.
+
+*Due next:* phase 3, and it starts with the pair the read-the-critique-in-the-same-week rule
+makes expensive. Hsiang, Burke and Miguel 2013 in *Science* against Buhaug and others 2014
+in *Climatic Change*, both **unverified** as this file stands: author order, exact titles,
+volume, issue, article number, pagination and dates all need checking against the
+publisher's deposited records before either is presented, and Hsiang and others is one of
+the most-miscited papers in this literature. Verify both in one pass, test access in the
+same pass, and look for the openable statement of each argument at the same time — the
+Hamburg research group's archive has twice been the route that worked for journal articles
+in this literature, and for a *Science* paper expect the publisher to refuse. One thing to
+settle before the week: whether the pair is read as two section A items in one week, which
+is what the rule implies and what the Homer-Dixon and Gleditsch weeks did, or whether the
+critique takes the following week's conceptual slot. Note also that Buhaug co-authors the
+Sahel paper used as a critique in the week ending 2026-11-01, so the same critic now appears
+twice in the sequence; say so rather than presenting him as a fresh voice. The phase's third
+item, the 2007 military advisory board report, has an advantage worth exploiting: Kahl's
+chapter 1 already quotes the October 2003 report commissioned by the American defence
+office's net assessment shop urging that abrupt climate change be treated as a national
+security concern, so the demand side of phase 3 is already documented from inside phase 2.

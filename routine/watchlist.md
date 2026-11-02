@@ -52,6 +52,41 @@ to two meetings in 2026, no published reporting date, no budget and no measurabl
 so the appointment is worth more to the taskforce's credibility than to her leverage, until
 a recommendation of its reaches a spending document.
 
+***Updated 2026-11-01, and it answers the second half of that question and demotes the test
+in the sentence above.*** **The institute kept publishing, and the subject was European.** On
+**29 October 2026** the Council on Strategic Risks published, under the Center for Climate
+and Security's own tag, *Landscape Assessment: EU Food Security and Climate Resilience*, by
+**Tristan Norman**, described on the post as a visiting researcher and freelancer at the
+University of Hamburg's CLICCS cluster — a host's description of its own author, so treat
+the affiliation accordingly. It maps the Common Agricultural Policy, Farm to Fork, the food
+security crisis mechanism, the critical entities resilience directive, the stockpiling and
+preparedness strategies, the European Climate Law and the Union's own risk assessment;
+grades member states as leaders (**Finland, France, the Netherlands, Sweden**), emerging
+leaders (Austria, Germany, Hungary, Italy, Poland) and less resilient (Bulgaria, Cyprus,
+Greece, Malta, Romania); finds food processing, transport and distribution almost untouched
+by dedicated climate policy; reports **food security to be a fringe topic in EU-NATO
+dialogues, including at the 2026 Ankara summit**; and records the Commission's framework of
+27 October with its 3°C planning baseline.
+
+**Two instructions, replacing one.** **One: stop saying this institute's climate work has
+stopped.** This file and the digest both concluded in October that it had, on four weeks of
+an events-and-supply-chains register. The register observation was right and the conclusion
+was wrong: the climate work changed **customer**, not subject, and the customer is now
+European — which is where a statutory planning duty has just been created and therefore
+where the demand is. Track **who the reader is**, not whether the institute publishes and
+not only which register it publishes in. Two observables: whether a second European-subject
+product follows, and whether any European institution cites this one.
+
+**Two: the spending-document test in the paragraph above is demoted, not withdrawn.** It is
+the right test for an advisory body, which the taskforce is. It is the wrong test for an
+instrument that fixes a planning premise — the Commission's proposed reference path of 1.5°C
+by 2030, 2°C by 2050 and 3°C by 2100 commits more, and is harder to withdraw, than any
+budget line in this field, because it propagates into appraisal, design codes and
+insurability without an annual appropriation to defend. The pair of questions to ask of any
+new body or instrument from now on: **who is named accountable for which risk, and what
+number are they obliged to plan against.** Apply the money test to bodies that advise and
+the premise test to instruments that bind.
+
 *Updated 2026-10-18, and this corrects a reading this file and the digest both carried.*
 Her SRM turn did not stay in commentary. **CSR published, in February 2026, *Climate
 Intervention at High Latitudes: A 2030 Security Scenario*, by Sikorsky with Julia
@@ -645,6 +680,53 @@ Clingendael (Planetary Security Initiative), HCSS, adelphi, SIPRI, Council on St
 Risks / Center for Climate and Security, IMCCS, NATO, EEAS and relevant Commission DGs,
 the UN Climate Security Mechanism, relevant national ministries. Non-Western actors:
 China, the Gulf states, the African Union, AOSIS, India.
+
+Add to the roster, 2026-11-01: the **African Group of Negotiators**, chaired by **Ghana**,
+whose chair is given in reporting of 28 October 2026 as **Antwi-Boasiako Amoah** — a
+reporter's attribution of a role and not yet verified against an African Union or Ghanaian
+government source, so verify it before naming him again. The group wrote to the climate
+convention secretariat asking for three new conference agenda items, which makes it the
+actor currently doing most to change what the field's main annual venue can discuss. Also
+add the **African Union Peace and Security Council's own monthly programme of work**, which
+is published at the start of each month and which carried a climate, peace and security
+session for **11 November 2026**; the UN Security Council's programme has been checked every
+week and the continental council's has not.
+
+***Method correction, 2026-11-01, and it invalidates three weeks of this file's silence
+findings for one institution.*** This file and the digest have been reading **SIPRI's
+curated climate-change-and-security publications list** as the institute's output on the
+subject, and recording its stop at the August 2026 Abyei study as institutional silence.
+That is wrong. SIPRI published a commentary, **"Beyond a legacy of war: Integrating mine
+action into climate security", dated 6 October 2026**, which does **not** appear on that
+list and which surfaced only because the Planetary Security Initiative's feed carried it on
+28 October. **A curated topic list is a selection, not a census, and cannot be used to
+detect an institute's silence.** Two instructions. For SIPRI, check the main publications
+and commentary streams, not the topic page. And generally: **every absence this roster
+reports is an absence from a named route, so name the route** — "nothing on the climate
+topic page" and "nothing published" are different findings and only the first is usually
+checkable.
+
+Checks run 2026-11-01, recorded so the next run knows what was tried:
+
+- **Planetary Security Initiative.** Its own domain **loaded**, after seven consecutive
+  weeks of refused retrieval. It is a curation feed: all seven October items are other
+  institutions' work (SIPRI on mine action, CSIS on Gulf energy infrastructure, a UK
+  commentary site on Indian warfare, the IPCS-Clingendael South Asia report, Conflict and
+  Environment Observatory with Article 36, the NATO Energy Security Centre of Excellence on
+  radionuclides remobilised by wildfire and flood, Energy Peace Partners). The site states
+  **"PSI is powered by Clingendael Institute"** and gives a Clingendael address. **No funding
+  information anywhere on it**, so the open question about its current funding phase is
+  unchanged in substance and the route is no longer the obstacle.
+- **CCASCOE.** Checked; most recent item still the **6 October** welcome to its 2026 fellows,
+  and the whole 2026 stream still two items. Seventeen days after its own Montréal summit,
+  nothing.
+- **HCSS.** Checked; last climate-security research **15 July 2026**, last news item **15
+  September 2026**. Nothing in October.
+- **UN Climate Security Mechanism.** Checked; most recent item **15 October 2026** (UNOWAS on
+  water security and cooperation). Nothing since.
+- **Council on Strategic Risks / CCS.** Published **29 October**; see the Sikorsky entry.
+- **AOSIS.** Most recent statement found remains **21 September 2026**, delivered by Anne
+  Rasmussen at the conference action agenda launch. Nothing in October.
 
 Checking note, 2026-09-13, on where to look rather than whether to look:
 
