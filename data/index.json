@@ -1,7 +1,19 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-26T04:58:26.277Z",
+  "generated": "2026-11-02T04:52:56.410Z",
   "digests": [
+    {
+      "id": "2026-11-01",
+      "week_start": "2026-10-26",
+      "week_end": "2026-11-01",
+      "week_number": 10,
+      "standfirst": "The European Commission proposed a law that would oblige every member state to assess its climate risks against a common trajectory ending at three degrees of warming, and to name a public authority answerable for each major risk — with no money ring-fenced and the first national plans not due until the end of 2030. In the same week a decade-long audit of climate and health found the harms accelerating faster since the Paris Agreement than before it, and found governments, international organisations and companies less engaged with the subject than they were; and a glacial lake emptied in Bhutan, with the warning reaching two Indian states before the water did.",
+      "counts": {
+        "developments": 8,
+        "moves": 5,
+        "open_threads": 38
+      }
+    },
     {
       "id": "2026-10-25",
       "week_start": "2026-10-19",
