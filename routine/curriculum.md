@@ -248,12 +248,51 @@ digest's verification note.
 
 ## Phase 3 — Climate arrives (2003–2015)
 
+- Hsiang, Burke and Miguel, "Quantifying the Influence of Climate on Human Conflict",
+  *Science*, 2013, 341(6151), article 1235367, doi 10.1126/science.1235367, against
+  Buhaug and twenty-five others, "One effect to rule them all? A comment on climate and
+  conflict", *Climatic Change*, 2014, 127(3-4), 391-397, doi 10.1007/s10584-014-1266-1.
+  Read as a pair in the week ending 2026-11-08. *Both verified 2026-11-08 against the
+  publishers' deposited records. Three corrections this file needed. (1) The 2013 paper
+  has no page range: Science research articles of this type carry an article number, here
+  1235367, and the date is 13 September 2013. (2) "Buhaug et al." is twenty-six authors,
+  and the full list should be taken from the record rather than abbreviated — most of the
+  people whose studies the meta-analysis pooled are on it. (3) Access: the Science page
+  refused and the full text opened from a copy posted on the lead author's then-faculty
+  server; the published comment is open access under CC-BY but the publisher's download
+  redirected to an authorisation step, so the text read was the openly posted
+  working-paper version, which gives the figure under attack as 11.1 per cent where the
+  2013 paper's own summary gives 14 per cent as a median. Note the discrepancy if
+  quoting.*
 - CNA Military Advisory Board, *National Security and the Threat of Climate Change*, 2007.
-- Hsiang, Burke and Miguel, *Science*, 2013, against Buhaug et al., "One effect to rule
-  them all?", *Climatic Change*, 2014.
+  **Due next, as the phase's third item.** Still unverified. Read it against the October
+  2003 report commissioned by the American defence office's net assessment shop urging
+  that abrupt climate change be treated as a national security concern, which Kahl's
+  chapter 1 quotes — so the demand side of this document is already documented from
+  inside phase 2. A second and better pairing is now available: the 2013 coefficient has
+  been cut by about three quarters by its own authors (see the 2024 handbook chapter
+  below), so the board report can be read against what the number it helped make
+  respectable actually became.
 - Kelley et al., *PNAS*, 2015, against Selby, Dahi, Fröhlich and Hulme, "Climate change
-  and the Syrian civil war revisited", *Political Geography*, 2017.
+  and the Syrian civil war revisited", *Political Geography*, 2017. Both unverified; see
+  `next_reading` in the digest for the week ending 2026-11-08 for what has to be checked.
+  One difference from the pair just read, worth planning around: the 2014 comment attacked
+  a statistical aggregation, while the 2017 critique attacks a historical and empirical
+  account of one country. The openable-substitute habit matters less here; what the Syrian
+  drought and migration data actually show matters more.
 - Then WBGU 2007, Mach et al., *Nature*, 2019, Daoudy 2020.
+- **Added to the phase 2026-11-08, out of period and read in the same week as the 2013
+  pair:** Burke, Ferguson, Hsiang and Miguel, "New evidence on the economics of climate
+  and conflict", chapter 6 of the *Handbook of the Economics of Conflict*, Elsevier, 2024,
+  249-305, doi 10.1016/bs.hoec.2024.10.008, also NBER working paper 33040, October 2024.
+  *Verified 2026-11-08 against Crossref and read in full from the corresponding author's
+  posted copy.* It belongs recorded here rather than only in the digest because it
+  supersedes the phase's opening number: the usable study pool rises from 30 to 80,
+  pre-1960 historical studies are excluded, and a 1 sd temperature rise gives 2.5 per cent
+  for intergroup conflict and 1.9 per cent for interpersonal violence against 14 and 4 per
+  cent in 2013 — the authors' own comparison is three quarters and one fifth smaller. The
+  median across intergroup studies stays near 5 per cent. Any later item in this file that
+  quotes the 2013 figure is quoting a superseded estimate.
 
 ## Phase 4 — Institutionalisation (2007–present)
 
@@ -441,6 +480,20 @@ Ullman, Mathews and Deudney appear twice on the site by intent rather than by er
 - Outside the sequence, Bagwell, Dee and Viens 2026, *PNAS*, "Global and regional climate
   modes modulate armed conflict risk" — week ending 2026-09-06.
 
+- Phase 3, Hsiang, Burke and Miguel 2013 — week ending 2026-11-08. Opens phase 3. *Full
+  text read from the lead author's posted copy after the publisher refused; citation
+  verified against the deposited record, which gives an article number and no pagination.*
+- Phase 3, Buhaug and twenty-five others 2014 (critique, read as a pair with Hsiang) —
+  week ending 2026-11-08. *Read in the openly posted working-paper version; the published
+  article is open access but its publisher download redirected to an authorisation step.
+  The two versions state the figure under attack as different statistics.*
+- Outside the sequence, Burke, Ferguson, Hsiang and Miguel 2024, *Handbook of the
+  Economics of Conflict* chapter 6, 249-305, doi 10.1016/bs.hoec.2024.10.008 — week ending
+  2026-11-08. The recent item, and two years old rather than one, which is the outer edge
+  of that slot. Chosen because it is the same literature's own twelve-year audit of the
+  pair above and revises its headline coefficient downwards by about three quarters. *Read
+  in full from the corresponding author's posted copy.*
+
 ## Standing note on cadence
 
 Recorded 2026-09-06, unaffected by the reset. Honouring the read-the-critique-in-the-same-week
@@ -497,21 +550,46 @@ phase closed with the closer's own antagonist reviewing him, which produced a be
 critique slot than a third-party critique would have, and the same move is available at the
 end of other phases — look for a review by the person the book is arguing with.
 
-*Due next:* phase 3, and it starts with the pair the read-the-critique-in-the-same-week rule
-makes expensive. Hsiang, Burke and Miguel 2013 in *Science* against Buhaug and others 2014
-in *Climatic Change*, both **unverified** as this file stands: author order, exact titles,
-volume, issue, article number, pagination and dates all need checking against the
-publisher's deposited records before either is presented, and Hsiang and others is one of
-the most-miscited papers in this literature. Verify both in one pass, test access in the
-same pass, and look for the openable statement of each argument at the same time — the
-Hamburg research group's archive has twice been the route that worked for journal articles
-in this literature, and for a *Science* paper expect the publisher to refuse. One thing to
-settle before the week: whether the pair is read as two section A items in one week, which
-is what the rule implies and what the Homer-Dixon and Gleditsch weeks did, or whether the
-critique takes the following week's conceptual slot. Note also that Buhaug co-authors the
-Sahel paper used as a critique in the week ending 2026-11-01, so the same critic now appears
-twice in the sequence; say so rather than presenting him as a fresh voice. The phase's third
-item, the 2007 military advisory board report, has an advantage worth exploiting: Kahl's
-chapter 1 already quotes the October 2003 report commissioned by the American defence
-office's net assessment shop urging that abrupt climate change be treated as a national
-security concern, so the demand side of phase 3 is already documented from inside phase 2.
+*Consumed 2026-11-08.* The Hsiang/Buhaug pair was read in one week with the 2024 handbook
+chapter as the third item, exactly as this note predicted, and the week's section A ran to
+three items. Three lessons, in order of how much they will save the next run.
+
+**One, and it is new.** The pairing rule says read the critique with the claim. This week
+showed the rule has a better form where one exists: read the claim, the critique, **and the
+claim's own later revision**, because the revision is where the dispute is actually settled.
+The 2014 comment refused to produce a counter-number on principle, so on its own it leaves a
+policy reader with nothing; the 2024 chapter, by three of the original four authors, cuts the
+number by three quarters and keeps the qualitative claim. Only the three together say what
+the field now believes. **Before any future pair, check whether the original authors have
+published an update, and if they have, take it as the recent item.** It costs the recent slot
+and buys the whole argument.
+
+**Two, on access, and it generalises the rule this file has been refining for five weeks.**
+Four routes have now worked for this literature where publishers refused: a university
+research group's archive, a journal's own reprint of a reply, a chapter of a monograph posted
+on its own, and — this week, twice — **a copy posted by an author on their own or their
+institution's web space**. Add that fourth route and try it first for anything with a named
+living academic author, because it is the fastest of the four and it worked for both a
+*Science* paper and a book chapter. Note also a trap this week surfaced: an open-access
+article can still be unreadable, because the publisher's download may route through an
+authorisation step even under a CC-BY licence. Do not record "open access" as "openable".
+
+**Three, on the sociology, because it affects how much weight a critique carries.** Buhaug
+has now appeared three times in nine weeks — as co-author of the Sahel paper used as a
+critique in the week ending 2026-11-01, as lead author of the 2014 comment, and as a cited
+antagonist in the 2024 chapter — and five co-authors of the 2014 comment are at the Hamburg
+group whose archive supplied this literature's earlier texts. **Say so when it recurs
+rather than presenting the same people as independent confirmations of each other.**
+
+*Due next:* phase 3's second pair, Kelley and others 2015 in *PNAS* against Selby, Dahi,
+Fröhlich and Hulme 2017 in *Political Geography*, both **unverified** as this file stands:
+author lists, exact titles, volumes, issues, article numbers, pagination and dates all need
+checking against the publishers' deposited records before either is presented. Verify both in
+one pass and test access in the same pass. Two things to settle before that week. First,
+apply lesson one above: look for a later revision or retrospective by Kelley's authors or by
+Selby's, and if one exists make it the recent item. Second, expect this pair to behave
+differently from the one just read — the dispute is over the history and the data of one
+country rather than over an aggregation method, so the week's effort should go into the
+drought and migration figures themselves rather than into finding an openable statement of a
+method. Then the phase's third item, the 2007 military advisory board report, for which the
+preparation is described in the phase 3 list above.

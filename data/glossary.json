@@ -319,7 +319,7 @@
     },
     "PSC": {
       "expansion": "Peace and Security Council",
-      "gloss": "The African Union's standing decision-making organ for conflict prevention and response.",
+      "gloss": "In these digests the African Union's Peace and Security Council. The European Union's body of comparable standing is its Political and Security Committee, written out in full here to keep the two apart; both appear in the same joint communique this week.",
       "wikipedia": "Peace and Security Council"
     },
     "PSI": {
@@ -538,6 +538,50 @@
       "expansion": "National Emergency Management Agency",
       "gloss": "Nigeria's federal disaster agency, which publishes a public flood dashboard. Several other countries have a body of the same name and abbreviation.",
       "wikipedia": "National Emergency Management Agency (Nigeria)"
+    },
+    "GOOS": {
+      "expansion": "Global Ocean Observing System",
+      "gloss": "The UN-sponsored coordinating framework for sustained ocean observation, co-sponsored by UNESCO's oceanographic commission, the World Meteorological Organization, UNEP and the International Science Council.",
+      "wikipedia": "Global Ocean Observing System"
+    },
+    "IOC": {
+      "expansion": "Intergovernmental Oceanographic Commission",
+      "gloss": "UNESCO's ocean science body, and one of the ocean observing system's co-sponsors. Not the International Olympic Committee, which is what this abbreviation usually means.",
+      "wikipedia": "Intergovernmental Oceanographic Commission"
+    },
+    "ACLED": {
+      "expansion": "Armed Conflict Location & Event Data Project",
+      "gloss": "The subnational conflict event data set whose release in 2010 made the disaggregated climate-conflict studies of the last fifteen years possible.",
+      "wikipedia": "Armed Conflict Location and Event Data"
+    },
+    "PRIO": {
+      "expansion": "Peace Research Institute Oslo",
+      "gloss": "The Norwegian institute from which much of the sceptical wing of the climate-conflict literature is written; the lead author and several co-authors of the 2014 comment on the Hsiang meta-analysis are based there.",
+      "wikipedia": "Peace Research Institute Oslo"
+    },
+    "IDRC": {
+      "expansion": "International Development Research Centre",
+      "gloss": "Canada's public development research funder, and the employer of one of the two authors of this week's loss and damage reform argument, which discloses that it funded the cited research.",
+      "wikipedia": "International Development Research Centre"
+    },
+    "GGA": {
+      "expansion": "Global Goal on Adaptation",
+      "gloss": "The Paris Agreement's adaptation counterpart to its temperature goal. Its indicator set, cut from 100 to 59 at the last conference, is what India is arguing must stay voluntary so that it cannot condition access to finance."
+    },
+    "HWBP": {
+      "expansion": "Hoogwaterbeschermingsprogramma",
+      "gloss": "The Dutch flood-protection programme: the funded half of the asymmetry this digest tracks, against the freshwater and spatial-adaptation lines that were cut.",
+      "wikipedia": false
+    },
+    "COP30": {
+      "expansion": "30th Conference of the Parties to the UN climate convention",
+      "gloss": "Belem, 2025. Its outgoing presidency published the voluntary fossil fuel and deforestation roadmaps this week, and its agreement to at least triple adaptation finance by 2035 is the figure the 2026 adaptation assessment prices.",
+      "wikipedia": "2025 United Nations Climate Change Conference"
+    },
+    "EUPSC": {
+      "expansion": "European Union Political and Security Committee",
+      "gloss": "The Council's standing ambassadorial body for foreign and security policy — the Union's counterpart to the African Union's Peace and Security Council, with which it holds an annual joint consultative meeting. Not a council in its own right, and easily confused with the African body's abbreviation.",
+      "wikipedia": "Political and Security Committee"
     }
   }
 }
