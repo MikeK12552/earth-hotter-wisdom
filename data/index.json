@@ -1,7 +1,19 @@
 {
   "schema_version": 1,
-  "generated": "2026-11-02T04:52:56.410Z",
+  "generated": "2026-11-09T05:02:53.078Z",
   "digests": [
+    {
+      "id": "2026-11-08",
+      "week_start": "2026-11-02",
+      "week_end": "2026-11-08",
+      "week_number": 11,
+      "standfirst": "The week before the Antalya conference produced the two numbers that conference will argue about, and neither of them contains the word conflict: developing countries need about 305 billion dollars a year for adaptation by 2035 and received between 28 and 32 billion in 2024. In the same week a joint African Union and European Union security communique named climate change as a driver of insecurity in the Sahel and the Lake Chad basin, which is the Union's security side using a referent that the Union's own new climate law does not contain.",
+      "counts": {
+        "developments": 7,
+        "moves": 5,
+        "open_threads": 42
+      }
+    },
     {
       "id": "2026-11-01",
       "week_start": "2026-10-26",

@@ -684,7 +684,12 @@ China, the Gulf states, the African Union, AOSIS, India.
 Add to the roster, 2026-11-01: the **African Group of Negotiators**, chaired by **Ghana**,
 whose chair is given in reporting of 28 October 2026 as **Antwi-Boasiako Amoah** — a
 reporter's attribution of a role and not yet verified against an African Union or Ghanaian
-government source, so verify it before naming him again. The group wrote to the climate
+government source, so verify it before naming him again. *Checked 2026-11-08: a second
+independent outlet's pre-conference briefing of 5 November 2026 gives the same name and the
+same role, and quotes him on the tripling baseline. Two reporter attributions are not an
+official source, so the instruction stands unchanged — name the group, not the man, until a
+Ghanaian government or African Union page says it. Recording the second attribution anyway,
+because it makes a transcription error less likely than a role error.* The group wrote to the climate
 convention secretariat asking for three new conference agenda items, which makes it the
 actor currently doing most to change what the field's main annual venue can discuss. Also
 add the **African Union Peace and Security Council's own monthly programme of work**, which
@@ -1624,3 +1629,215 @@ own material.*
   the seasonal update series directly each month**, and read it against FEWS NET's global
   special reports and the Somalia water and land unit's probabilities, which is the only way
   to see the forecast, the food-security consequence and the operational trigger in one view.
+
+
+---
+
+## Checks and corrections, 2026-11-08
+
+Recorded so the next run knows what was tried, what is now verified from a primary document
+and what is still somebody's description of somebody else.
+
+### Roles verified this week from a primary document
+
+Read off the adopted joint communique of the **17th Annual Joint Consultative Meeting
+between the AU Peace and Security Council and the EU Political and Security Committee**,
+Addis Ababa, 6 November 2026, which names its own participants. This is the strongest
+sourcing this page gets, because the document is the institution speaking about itself.
+
+- **Ambassador Antonin B. Bieke** — Permanent Representative of Cote d'Ivoire to the African
+  Union and **chairperson of the AU Peace and Security Council for November 2026**;
+  co-chaired the meeting.
+- **Ambassador Lene Mandel Vensild** — **Permanent Chair of the European Union Political and
+  Security Committee**; co-chaired the meeting.
+- **Ambassador Bankole Adeoye** — AU Commissioner for Political Affairs, Peace and Security.
+- **Ambassador Liberata Mulamula** — AU Special Envoy for Women, Peace and Security.
+- **Patricia Llombart** — EEAS Managing Director for Africa.
+- **Johan Borgstam** — EU Special Representative for the Great Lakes region.
+
+### Added to the roster, 2026-11-08
+
+**The European Union Political and Security Committee.** It has never been on this page,
+which is an omission rather than an oversight with no consequences: this page and the digest
+have spent weeks concluding that the Union carries the climate referent in instruments that
+regulate risk and drops it in instruments that concern capability, and the body that would
+falsify that is the Council's own standing security committee. On 6 November it did. The
+adopted communique names *"the adverse impacts of climate change"* among the drivers of
+insecurity in the Sahel and commits both bodies to addressing them in the Lake Chad basin,
+*"linked to factors such as prolonged drought, desertification and shrinking of the Lake and
+in building resilience"*, with support for cross-border transhumance.
+
+**Two instructions follow.**
+
+**One: stop writing that the climate referent is absent from Union security language.** It is
+absent from Union security language *about Europe*. It is available, and was used twice in
+one document, about Africa. That is a sharper and more defensible finding than the one this
+page carried, and it has a testable consequence: watch whether any of the twenty-seven names
+a security, defence or interior body as a risk owner under the resilience law, and whether
+any Council security product ever names a European climate hazard as a security matter.
+**Two: check peaceau.org for these communiques.** The consilium and EEAS routes carried
+nothing by 8 November; the African Union's own peace and security department published the
+full text on the day.
+
+Also worth recording from the same meeting, because it bears on a standing question about the
+Security Council's resource framing: both sides **proposed and then dropped** an agenda item
+on *the role of natural resource exploitation in conflicts*, along with peace support
+operations and resolution 2719, Somalia and the Horn of Africa as separate items, and Ukraine
+as a standalone item — and the formulation appears in the final text anyway, in the eastern
+DRC paragraph. A frame that travels without an agenda item is a conflict-economy description,
+not a governance agenda. The preview that reported climate, environment, water and food
+security as absent from the agenda was right about the agenda and wrong about the outcome:
+**do not take a meeting preview as evidence about a communique.**
+
+### A method correction, and it cost a wrong finding
+
+**A publication catalogue date is not a release date.** This page and the digest concluded in
+the week to 1 November that the environment programme's 2026 adaptation assessment had been
+published on 28 October and buried without a launch, on three accurate observations: the
+listing carried that date, no launch materials existed, no coverage existed. The report had
+not been published. It launched on **4 November 2026** as *Ready? Not*, with a media
+statement from **Inger Andersen, UNEP Executive Director**, a UN News lead, a dedicated
+insights event and wide pickup, five days before the Antalya conference — the most prominent
+slot of the year.
+
+**Instruction.** The launched-or-dropped indicator stays; it is one of the few publication
+behaviours that separates an institution's stated priorities from its real ones. What changes
+is the inference rule: **do not read absent launch materials as burial until the listed date
+has passed by at least a week.** More generally, treating a retrieval failure as an
+institutional finding is the specific way an analytical habit turns into a talking point, and
+this page should flag it whenever it is tempted.
+
+### Roster checks run 2026-11-08
+
+- **Council on Strategic Risks / CCS.** Checked the institute's own **climate-change tag**,
+  which is the route its recent items have come through. Nothing since the EU food security
+  assessment of **29 October**; eleven days. Its homepage is reported to carry a **2 November**
+  blog post on artificial intelligence under the centre's heading, credited to the
+  **Converging Risks Lab** — not on the climate tag, so do not count it as climate research
+  without checking. No second European-subject product, and no European institution has cited
+  the first.
+- **SIPRI.** Publishing. **Climate, Peace and Security Fact Sheet: Somalia (2026)**, dated
+  **November 2026** with no day given on its page, by **Katongo Seyuba** (SIPRI Climate
+  Change and Risk Programme) and **Dr Thor Olav Iversen** (NUPI, Climate, Peace and Security
+  Risks project), with **Jules Duhamel** as cartographer and geospatial analyst — roles taken
+  from SIPRI's own page. It carries the strong El Nino forecast for the October-December 2026
+  deyr and the national drought emergency declared in November 2025 after four failed seasons.
+  Found under the institute's **publications** listing, which is the route the 2026-11-01
+  method correction said to use; the curated topic page remains unusable as a silence
+  detector.
+- **CCASCOE.** Nothing. Twenty-four days after its own Montreal summit; 2026 news stream
+  still two items.
+- **IMCCS.** Tenth week of silence on the World Climate and Security Report.
+- **HCSS.** Last climate-security research still **15 July 2026**. One finding arrived from
+  the parliamentary record rather than from the centre: its commentary *"Klimaat als
+  strategische factor: Nederlandse Defensie zet koers in onzeker vaarwater"*, by **Laura
+  Birkman**, described on HCSS's own page as **director of its Climate, Water and Food
+  Security Programme**, reads the Dutch defence climate strategy as an important step that
+  still lacks a firm national anchor, clear operational steps and explicit choices, and says
+  the real test is the action plan. The **defence committee asked the minister on 10
+  September 2026 to respond to that report by the end of September**. No response has been
+  found. That is a better-specified observable than "HCSS has published nothing": a dated
+  parliamentary request with a dated deadline, missed.
+- **UN Climate Security Mechanism.** Nothing since **15 October**; three and a half weeks.
+- **AOSIS.** No new statement; most recent still **21 September**. Notable in the week its
+  members' adaptation need was priced as 49-83 per cent coverable by the tripling they are
+  negotiating for.
+- **World Weather Attribution.** Nothing published. Event-papers listing is the route; most
+  recent entries 28 October (Typhoon Dujuan) and 15 October (Hurricane Polo). No study of the
+  Florida record of 2 November.
+- **African Union Peace and Security Council.** Checked for the first time as a standing
+  route. November 2026 programme: eight substantive sessions, climate, peace and security on
+  **11 November**, after a postponed September session. Amani Africa publishes the provisional
+  programme at the start of each month and is the usable route.
+
+### Roles reported but not verified against an institution's own page
+
+Carry these with the hedge attached, and verify before building an argument on any of them.
+
+- **Bhupender Yadav** — given in Indian reporting of 3 November 2026 as **Union Minister for
+  Environment, Forest and Climate Change**, setting India's conference position at a New
+  Delhi briefing. No official transcript found.
+- **Randhir Jaiswal** — given in reporting of 3 November 2026 as the Indian external affairs
+  ministry's **spokesperson**, saying an established water-sharing mechanism exists and that
+  Bangladesh's prime minister has been invited to New Delhi.
+- **Li Gao** — given in a specialist climate outlet of 29 October 2026 as a **vice-minister of
+  ecology and environment**, setting China's conference priorities. A photo caption in the
+  same piece names **Huang Runqiu** as Minister of Ecology and Environment; a caption is not
+  a source and that one is not carried.
+- **Sanita Pavļuta-Deslandes** — given in UN press material as Latvia's permanent
+  representative and **Security Council president for November 2026**. The programme itself is
+  sourced; the name is not re-verified.
+- **Maheshwar Dhakal** — given by a specialist outlet of 6 November 2026 as **chief of the
+  climate change management division** of Nepal's environment ministry, which the same report
+  calls the *"Ministry of Agriculture, Forests and Environment"*. **That ministry name does
+  not match the name under which Nepal's environment ministry otherwise appears, so do not
+  take the ministry's title from this report.** Name the government rather than the division.
+- **Hemant Ojha** (Australian National University and the Institute for Study and Development
+  Worldwide) and **Bhim Adhikari** (Canada's International Development Research Centre) —
+  authors of the 6 November loss and damage reform argument; roles and the funding disclosure
+  are the article's own.
+- **Celeste Saulo** (WMO Secretary-General) and **Vidar Helgesen** (IOC Executive Secretary) —
+  quoted in the meteorological organisation's own news item of 5 November, which is close to
+  primary for both.
+
+### The Dutch file, which moved this week and was partly misread last week
+
+- **Correction.** The infrastructure and water budget was debated on **28 and 29 October
+  2026**, not later in the autumn as the digest for the week ending 1 November said. Minister
+  **Vincent Karremans** and state secretary **Annet Bertram** attended. The dominant subject
+  was a planned cut of **284 million euros** to the delta programme's freshwater line, with
+  national co-financing for regional freshwater measures lapsing from 2027 — **Grinwis**
+  (ChristenUnie) calling that co-financing the thing that makes the difference, with
+  **Wiersma** (BBB), **Zalinyan** (PRO) and **Beckerman** (SP) pressing on drought and water
+  framework targets. The minister said the cut pains him and that regional projects can
+  proceed. About **250 million euros** of reprioritisation within the delta fund towards water
+  quality including PFAS was offered. Karremans and Bertram had informed the chamber of the
+  delta fund and mobility fund reprioritisation on **16 October**, with final decisions at the
+  2027 spring estimates. **Next dated checkpoint: the water legislative session on 23
+  November 2026.**
+- **The defence strategy, from the letter itself.** *Defensiestrategie voor
+  Klimaatverandering en Veiligheid – Klimaatparaat*, sent to the chamber **3 July 2026** as
+  Kamerstuk 33 470 V nr. 5, signed by the minister and state secretary of defence (rendered
+  by a parliamentary document mirror as **D. Yeşilgöz-Zegerius** and **D.G. Boswijk**; not
+  re-verified against a current government listing). Four tracks: anticipation, adaptation,
+  mitigation, cooperation. **Five million euros structural from 2027**, with any further
+  budget effects including those of the forthcoming action plan **to be absorbed within the
+  defence budget**. The action plan — concrete measures, assigned responsibilities, fixed
+  timelines — has not appeared, four months on. The letter names the strategy as the basis
+  for the **Klos motion (36 800-XXIII, nr. 22; modified text nr. 53, 3 March 2026)** asking
+  for a first national briefing on climate, nature and security with the national
+  counter-terrorism coordinator, experts and stakeholders, and says the cabinet will present
+  the **National Climate Adaptation Strategy 2026** and the **National Security Risk
+  Assessment 2026** later in the year. **Three documents promised for December; track all
+  three.**
+- **The climate budget debate of 4 and 5 November 2026** (minister **Stientje van
+  Veldhoven-van der Meer**, reported as holding the climate and green growth portfolio in the
+  Jetten cabinet since 23 February 2026; not re-verified this week). On the chamber's own
+  published summary of the first round, with sixteen speakers, **climate adaptation, water
+  safety, defence and climate security do not appear at all**. The reading rests on that
+  summary and not on the verbatim record, which was not read — a summary can omit a passing
+  mention, but not a subject a speaker leads on.
+- **The deltacommissaris.** Reported as **Co Verdaas**, asking the cabinet to move annual
+  water spending from about 1 per cent of national output to at least 2, against current
+  spending of about 11 billion euros a year and a stated need to 2050 of about 40 billion;
+  Karremans has announced a **third Deltacommissie** to work from 2027 covering water safety
+  and water shortages. Not re-verified this week; the cabinet's response sits inside the
+  Deltaprogramma 2027 document of September rather than in a separate letter.
+
+### Two things that are now the right questions
+
+- **The threat-multiplier number.** The 2013 meta-analysis figure of a 14 per cent rise in
+  intergroup conflict risk per standard deviation has been revised to **2.5 per cent** by
+  three of its own four authors in a 2024 handbook chapter, with the usable study pool raised
+  from 30 to 80 and pre-1960 studies excluded, while the qualitative claim was hardened. A
+  decade of defence and foreign-ministry documents rests on the older figure. **When this page
+  records any institution's threat-multiplier language from now on, check which number is
+  under it.** The African Union's commissioned study on climate-related security risks is the
+  first live test.
+- **Who owns the instruments.** The ocean observing system's own 2026 status report says
+  sustained implementation is concentrated among the G7 and Australia, with the thinnest
+  coverage over the Southern Ocean, the polar regions, the deep ocean and developing-country
+  and SIDS coasts, and frames it entirely as funding and governance. Together with the
+  meteorological radio spectrum before the 2027 radiocommunication conference, that is two
+  classes of indispensable observing asset underwritten by a handful of states with no
+  security institution claiming an interest in either. **Watch for the first one that does.**
